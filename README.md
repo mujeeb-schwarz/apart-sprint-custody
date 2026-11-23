@@ -4,6 +4,7 @@ This is the test bench behind a research sprint report written for Apart Researc
 In an AI-assisted visit the patient's words go out (transcript, note, record) and advice comes in (studies, an AI answer, the doctor's plan, a note for the patient). The bench builds a working copy of that chain, runs it on public clinical data with violations planted in it, and asks, for each of six rules a patient should be able to count on, which of three methods of checking is the least that is enough.
 The three methods are Promised (a review of the system's own log after the case), Monitored (a monitor that reads every handover, plus the review) and Checked (a gate at every handover with a tamper-evident record and a witness).
 Every AI answer used in the report is stored, so every reported number can be worked out again from the files with no AI call.
+The follow-on work, on auditable records of what AI agents did, is at https://github.com/mujeeb-schwarz/witnessed-agent-records.
 
 ## Layout
 
