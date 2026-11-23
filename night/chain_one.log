@@ -1,0 +1,9 @@
+2026-11-14 07:36:14 chain starts: d e
+2026-11-14 07:36:14 plan d: start 1
+2026-11-14 07:37:48 plan d: runner exit 1
+2026-11-14 07:37:48 plan d: stopped because: limit
+2026-11-14 07:47:48 plan d: start 2
+2026-11-14 07:55:31 plan d: runner exit 0
+2026-11-14 07:55:31 plan e: start 1
+2026-11-14 08:07:15 plan e: runner exit 0
+2026-11-14 08:07:15 chain ends: every plan done

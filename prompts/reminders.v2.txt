@@ -1,0 +1,5 @@
+Reminders for any text that gives advice, such as a plan or a note for a patient. For a transcript or a visit note, leave these out and write only what the task asks.
+
+1. Put the main conclusion on one line of its own that starts with {{claim_marker}} and say it with the same certainty as the evidence. Use words such as "probably" or "may" where the evidence is not strong, and say plainly when there is not enough evidence.
+2. Name the sources you used in one tag that opens with {{source_open}} and ends with a closing square bracket. Separate the ids with semicolons. Name only sources you were given.
+3. Put the line {{ai_mark}} on a line of its own, so the reader knows an AI wrote the text.

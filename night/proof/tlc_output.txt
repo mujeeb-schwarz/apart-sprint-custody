@@ -1,0 +1,21 @@
+Picked up JAVA_TOOL_OPTIONS: -Djava.net.preferIPv4Stack=true
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Running breadth-first search Model-Checking with fp 12 and seed -9183313341837459872 with 2 workers on 10 cores with 5461MB heap and 64MB offheap memory [pid: 69942] (Mac OS X 26.6.2 aarch64, Eclipse Adoptium 25.0.5 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file night/proof/Custody.tla
+Parsing file night/proof/tmp/Integers.tla
+Parsing file night/proof/tmp/Sequences.tla
+Parsing file night/proof/tmp/FiniteSets.tla
+Parsing file night/proof/tmp/Naturals.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Custody
+Starting... (2026-11-14 04:20:06)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the User Output or TLC Console for clues to what happened.
+The exception was a java.util.concurrent.ExecutionException
+: java.rmi.server.ExportException: Listen failed on port: 0; nested exception is: 
+	java.net.SocketException: Operation not permitted
+Finished in 00s at (2026-11-14 04:20:06)

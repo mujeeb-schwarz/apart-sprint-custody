@@ -1,0 +1,119 @@
+{
+ "what": "files whose MedEvidence study texts were withheld on Sun 22 Nov 2026, after the submission; tools/restore_study_texts.py puts them back",
+ "marker": "[study text withheld: <question_id> <source_id>]",
+ "data_set": "MedEvidence, data/raw/medEvidence.csv (see data/raw/README.md)",
+ "files": [
+  {
+   "path": "data/cases/exp2.jsonl",
+   "ensure_ascii": false,
+   "markers": 574,
+   "sha256_with_texts": "35a3b92813702b492f67e63e56a2dcbe9bac3915c5bdd4f623352f3484e2bd96",
+   "sha256_withheld": "a22d36995294154641ef1c79fe9b1a636944ea54910d3ebb6736444793524a95"
+  },
+  {
+   "path": "rejudge/calib/copy_canned/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 134,
+   "sha256_with_texts": "fba50ef76adfc013ea23b13ba81b5a2fe43d41b7d949bd5e5d91c337ec8f27df",
+   "sha256_withheld": "47544ecb1a08b537b1d700b98d0b4ffd198abf53023c30c8fd21659690302b36"
+  },
+  {
+   "path": "rejudge/calib/copy_canned_v2/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 134,
+   "sha256_with_texts": "fba50ef76adfc013ea23b13ba81b5a2fe43d41b7d949bd5e5d91c337ec8f27df",
+   "sha256_withheld": "47544ecb1a08b537b1d700b98d0b4ffd198abf53023c30c8fd21659690302b36"
+  },
+  {
+   "path": "rejudge/calib/copy_trial2/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 90,
+   "sha256_with_texts": "a061438e2205f1a73c4d4cafc60a30a70facec3dd6cc7af080ad21326823b743",
+   "sha256_withheld": "34565cfc040bcac7e416fe980f55781fe7a7366b1527cf96001319ab413b3377"
+  },
+  {
+   "path": "rejudge/calib/copy_trial2_v2/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 90,
+   "sha256_with_texts": "a061438e2205f1a73c4d4cafc60a30a70facec3dd6cc7af080ad21326823b743",
+   "sha256_withheld": "34565cfc040bcac7e416fe980f55781fe7a7366b1527cf96001319ab413b3377"
+  },
+  {
+   "path": "rejudge/calib/run_canned/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 134,
+   "sha256_with_texts": "fba50ef76adfc013ea23b13ba81b5a2fe43d41b7d949bd5e5d91c337ec8f27df",
+   "sha256_withheld": "47544ecb1a08b537b1d700b98d0b4ffd198abf53023c30c8fd21659690302b36"
+  },
+  {
+   "path": "runs/dry400/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 574,
+   "sha256_with_texts": "914f1adc1c0bea538e72b58a805dbebde1cc2f81f6384140de560c470563cbd2",
+   "sha256_withheld": "b9ab75777fd2a49741465bbf574bb6b984259996f2266e01d9ed0de1e44afa16"
+  },
+  {
+   "path": "runs/e2e/ai_calls.jsonl",
+   "ensure_ascii": false,
+   "markers": 160,
+   "sha256_with_texts": "abb733c54ac480b69df7b5f917c29f8969805becbd9e778ada0f3e251637fed7",
+   "sha256_withheld": "22a012463c6822212abaa5c5b244cca4aeff58796bd75f9a6de2000336f3007f"
+  },
+  {
+   "path": "runs/e2e/texts.jsonl",
+   "ensure_ascii": false,
+   "markers": 160,
+   "sha256_with_texts": "f38dc1819caca2b2368088a6f5af9a178d29030d9cb0a02612950dc47e0f482b",
+   "sha256_withheld": "83b92a5c6b76bdfda89ef9a1729ea548deb4f15f8d2232e8f592dbe12e74a56b"
+  },
+  {
+   "path": "runs/e2e/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 40,
+   "sha256_with_texts": "d9f4d6adf6d6a69034f6188f1dfb59643cc610d26a0fbf6c1b56874f08542c11",
+   "sha256_withheld": "6dd2761c07bdaae0d70acfd6eb4e149ec1f241c08b1103da06ac939668bbf68a"
+  },
+  {
+   "path": "runs/e2e_e2/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 14,
+   "sha256_with_texts": "d2c37c924b80bc03fad531eab9cc301bd4e3137bb4211d8124196030a5ba635d",
+   "sha256_withheld": "d827fb267427ee932e6e1803a6bdfc63746e66011d6f0274dc2fece05f8fedad"
+  },
+  {
+   "path": "runs/night_e2/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 1011,
+   "sha256_with_texts": "7ed01ef1c4289b13063175a57586056fe1ff07307542853ca353d5d9036513b9",
+   "sha256_withheld": "c986f2746669b5901b2100fa139c647fda7f1ca04a5f9354d3629a07c4a7493e"
+  },
+  {
+   "path": "runs/night_e2_second_pass/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 1011,
+   "sha256_with_texts": "7ed01ef1c4289b13063175a57586056fe1ff07307542853ca353d5d9036513b9",
+   "sha256_withheld": "c986f2746669b5901b2100fa139c647fda7f1ca04a5f9354d3629a07c4a7493e"
+  },
+  {
+   "path": "runs/round2_e2/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 705,
+   "sha256_with_texts": "52fbc1319109d1f3484db00454f057957e3ad88b5687d9ee86fb86900eff7300",
+   "sha256_withheld": "52ed1ae7bdd6e6267e193cc635d80907765807ecd18d745dc83119e2832fe065"
+  },
+  {
+   "path": "runs/round2_e2_second_pass/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 705,
+   "sha256_with_texts": "52fbc1319109d1f3484db00454f057957e3ad88b5687d9ee86fb86900eff7300",
+   "sha256_withheld": "52ed1ae7bdd6e6267e193cc635d80907765807ecd18d745dc83119e2832fe065"
+  },
+  {
+   "path": "runs/trial2_e2/visits.jsonl",
+   "ensure_ascii": false,
+   "markers": 90,
+   "sha256_with_texts": "a061438e2205f1a73c4d4cafc60a30a70facec3dd6cc7af080ad21326823b743",
+   "sha256_withheld": "34565cfc040bcac7e416fe980f55781fe7a7366b1527cf96001319ab413b3377"
+  }
+ ]
+}

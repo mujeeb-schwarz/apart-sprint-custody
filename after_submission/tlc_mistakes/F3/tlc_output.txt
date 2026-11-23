@@ -1,0 +1,211 @@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 76 and seed 7958083242732537527 with 1 worker on 10 cores with 6144MB heap and 64MB offheap memory [pid: 47050] (Mac OS X 26.6.2 aarch64, Eclipse Adoptium 25.0.5 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file <repo>/after_submission/tlc_mistakes/F3/Custody.tla
+Parsing file <temporary folder>/Integers.tla
+Parsing file <temporary folder>/Sequences.tla
+Parsing file <temporary folder>/FiniteSets.tla
+Parsing file <temporary folder>/Naturals.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Custody
+Starting... (2026-11-22 17:16:45)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-22 17:16:45.
+Error: Invariant P3 is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ handed = {}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 0
+/\ pc = 1
+/\ jr = {}
+/\ copies = {}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 2: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {}
+/\ rest = <<[place |-> "transcriber", kind |-> "transcript", t |-> "intake"]>>
+/\ used = {}
+/\ n = 0
+/\ pc = 2
+/\ jr = {}
+/\ copies = {}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 3: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 0
+/\ pc = 2
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 4: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {}
+/\ rest = << [ place |-> "transcriber",
+     t |-> "step",
+     id |-> "transcriber",
+     reads |-> {"transcript"},
+     makes |-> "" ] >>
+/\ used = {}
+/\ n = 0
+/\ pc = 3
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 5: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 0
+/\ pc = 3
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 1
+
+State 6: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {}
+/\ rest = << [ kind |-> "transcript",
+     t |-> "send",
+     move |-> "w2",
+     from |-> "transcriber",
+     to |-> "note_writer",
+     gated |-> TRUE,
+     need |-> "" ] >>
+/\ used = {}
+/\ n = 0
+/\ pc = 4
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 1
+
+State 7: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1]}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 1
+/\ pc = 4
+/\ jr = {1}
+/\ copies = { [place |-> "transcriber", kind |-> "transcript", arr |-> 0],
+  [place |-> "note_writer", kind |-> "transcript", arr |-> 2] }
+/\ ws = {1}
+/\ delivered = {"w2"}
+/\ clock = 2
+
+State 8: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1]}
+/\ rest = << [ place |-> "transcriber",
+     kind |-> "transcript",
+     t |-> "delete",
+     need |-> "w2" ] >>
+/\ used = {}
+/\ n = 1
+/\ pc = 5
+/\ jr = {1}
+/\ copies = { [place |-> "transcriber", kind |-> "transcript", arr |-> 0],
+  [place |-> "note_writer", kind |-> "transcript", arr |-> 2] }
+/\ ws = {1}
+/\ delivered = {"w2"}
+/\ clock = 2
+
+State 9: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1], [gated |-> TRUE, n |-> 2]}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 2
+/\ pc = 5
+/\ jr = {1, 2}
+/\ copies = {[place |-> "note_writer", kind |-> "transcript", arr |-> 2]}
+/\ ws = {1, 2}
+/\ delivered = {"w2"}
+/\ clock = 3
+
+State 10: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1], [gated |-> TRUE, n |-> 2]}
+/\ rest = << [ place |-> "note_writer",
+     t |-> "step",
+     id |-> "note_writer",
+     reads |-> {"transcript"},
+     makes |-> "note_draft" ] >>
+/\ used = {}
+/\ n = 2
+/\ pc = 6
+/\ jr = {1, 2}
+/\ copies = {[place |-> "note_writer", kind |-> "transcript", arr |-> 2]}
+/\ ws = {1, 2}
+/\ delivered = {"w2"}
+/\ clock = 3
+
+State 11: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1], [gated |-> TRUE, n |-> 2]}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 2
+/\ pc = 6
+/\ jr = {1, 2}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 2],
+  [place |-> "note_writer", kind |-> "note_draft", arr |-> 4] }
+/\ ws = {1, 2}
+/\ delivered = {"w2"}
+/\ clock = 4
+
+State 12: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1], [gated |-> TRUE, n |-> 2]}
+/\ rest = << [ kind |-> "note_draft",
+     t |-> "send",
+     move |-> "w3",
+     from |-> "note_writer",
+     to |-> "record",
+     gated |-> FALSE,
+     need |-> "" ] >>
+/\ used = {}
+/\ n = 2
+/\ pc = 7
+/\ jr = {1, 2}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 2],
+  [place |-> "note_writer", kind |-> "note_draft", arr |-> 4] }
+/\ ws = {1, 2}
+/\ delivered = {"w2"}
+/\ clock = 4
+
+State 13: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> FALSE, n |-> 3],
+  [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 3
+/\ pc = 7
+/\ jr = {1, 2}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 2],
+  [place |-> "note_writer", kind |-> "note_draft", arr |-> 4],
+  [place |-> "record", kind |-> "note_draft", arr |-> 5] }
+/\ ws = {1, 2}
+/\ delivered = {"w2", "w3"}
+/\ clock = 5
+
+32 states generated, 26 distinct states found, 3 states left on queue.
+The depth of the complete state graph search is 13.
+The average outdegree of the complete state graph is 1 (minimum is 1, the maximum 2 and the 95th percentile is 2).
+Finished in 00s at (2026-11-22 17:16:45)
+Picked up JAVA_TOOL_OPTIONS: -Djava.net.preferIPv4Stack=true

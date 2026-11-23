@@ -1,0 +1,61 @@
+{
+ "confirm_run": true,
+ "rule5": {
+  "less_certain": {
+   "changed_level": {
+    "low": 29,
+    "very low": 16
+   },
+   "changed_level_not_read": 0,
+   "confirmed_and_moved_as_asked": 45,
+   "confirmed_and_same_level": 0,
+   "confirmed_by_outside_model": 45,
+   "honest_level": {
+    "high": 21,
+    "low": 13,
+    "moderate": 11
+   },
+   "honest_phrase_still_on_claim_line": 6,
+   "honest_text_changed_since": 0,
+   "level_phrase_changed": 45,
+   "moved_as_asked": 45,
+   "no_changed_text": 0,
+   "not_confirmed_and_moved_as_asked": 0,
+   "past_target": 0,
+   "reached_target": 37,
+   "rows": 45,
+   "same_level": 0,
+   "short_of_target": 8,
+   "wrong_way": 0
+  },
+  "more_certain": {
+   "changed_level": {
+    "high": 23,
+    "low": 17,
+    "moderate": 20
+   },
+   "changed_level_not_read": 0,
+   "confirmed_and_moved_as_asked": 60,
+   "confirmed_and_same_level": 0,
+   "confirmed_by_outside_model": 60,
+   "honest_level": {
+    "low": 14,
+    "moderate": 9,
+    "no data": 17,
+    "very low": 20
+   },
+   "honest_phrase_still_on_claim_line": 0,
+   "honest_text_changed_since": 0,
+   "level_phrase_changed": 60,
+   "moved_as_asked": 60,
+   "no_changed_text": 0,
+   "not_confirmed_and_moved_as_asked": 0,
+   "past_target": 0,
+   "reached_target": 60,
+   "rows": 60,
+   "same_level": 0,
+   "short_of_target": 0,
+   "wrong_way": 0
+  }
+ }
+}

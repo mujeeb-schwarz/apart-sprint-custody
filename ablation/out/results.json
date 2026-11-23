@@ -1,0 +1,232 @@
+{
+  "what": "the witness test (ablation): three forgers by two checks on the rule 3 record edits under Checked",
+  "units_planted": 100,
+  "cases_clean": 157,
+  "crashed_runs": [],
+  "edits_by_kind": {
+    "entry_changed": 34,
+    "entry_added": 33,
+    "entry_removed": 33
+  },
+  "table": {
+    "careless": {
+      "chain_alone": {
+        "flagged": 100,
+        "missed": 0,
+        "by_edit": {
+          "entry_removed": {
+            "flagged": 33,
+            "missed": 0
+          },
+          "entry_changed": {
+            "flagged": 34,
+            "missed": 0
+          },
+          "entry_added": {
+            "flagged": 33,
+            "missed": 0
+          }
+        },
+        "problem_kinds": {
+          "record content does not match its fingerprint": 34,
+          "record does not link to the record before": 66,
+          "record sequence number does not follow": 50
+        },
+        "problem_parts": {
+          "chain": 150
+        },
+        "units_with_a_problem_of_part": {
+          "chain": 100
+        }
+      },
+      "chain_with_witness": {
+        "flagged": 100,
+        "missed": 0,
+        "by_edit": {
+          "entry_removed": {
+            "flagged": 33,
+            "missed": 0
+          },
+          "entry_changed": {
+            "flagged": 34,
+            "missed": 0
+          },
+          "entry_added": {
+            "flagged": 33,
+            "missed": 0
+          }
+        },
+        "problem_kinds": {
+          "receipt records differ from the journal": 100,
+          "receipt trail does not follow from the records": 89,
+          "record content does not match its fingerprint": 34,
+          "record does not link to the record before": 66,
+          "record sequence number does not follow": 50,
+          "witness holds no fingerprint for a record": 33
+        },
+        "problem_parts": {
+          "chain": 150,
+          "receipt": 189,
+          "witness": 33
+        },
+        "units_with_a_problem_of_part": {
+          "chain": 100,
+          "receipt": 100,
+          "witness": 33
+        }
+      }
+    },
+    "careful": {
+      "chain_alone": {
+        "flagged": 0,
+        "missed": 100,
+        "by_edit": {
+          "entry_removed": {
+            "flagged": 0,
+            "missed": 33
+          },
+          "entry_changed": {
+            "flagged": 0,
+            "missed": 34
+          },
+          "entry_added": {
+            "flagged": 0,
+            "missed": 33
+          }
+        },
+        "problem_kinds": {},
+        "problem_parts": {},
+        "units_with_a_problem_of_part": {}
+      },
+      "chain_with_witness": {
+        "flagged": 100,
+        "missed": 0,
+        "by_edit": {
+          "entry_removed": {
+            "flagged": 33,
+            "missed": 0
+          },
+          "entry_changed": {
+            "flagged": 34,
+            "missed": 0
+          },
+          "entry_added": {
+            "flagged": 33,
+            "missed": 0
+          }
+        },
+        "problem_kinds": {
+          "receipt journal head does not match": 100,
+          "receipt records differ from the journal": 100,
+          "receipt trail does not follow from the records": 89,
+          "witness holds no fingerprint for a record": 471
+        },
+        "problem_parts": {
+          "receipt": 289,
+          "witness": 471
+        },
+        "units_with_a_problem_of_part": {
+          "receipt": 100,
+          "witness": 100
+        }
+      }
+    },
+    "operator": {
+      "chain_alone": {
+        "flagged": 0,
+        "missed": 100,
+        "by_edit": {
+          "entry_removed": {
+            "flagged": 0,
+            "missed": 33
+          },
+          "entry_changed": {
+            "flagged": 0,
+            "missed": 34
+          },
+          "entry_added": {
+            "flagged": 0,
+            "missed": 33
+          }
+        },
+        "problem_kinds": {},
+        "problem_parts": {},
+        "units_with_a_problem_of_part": {}
+      },
+      "chain_with_witness": {
+        "flagged": 100,
+        "missed": 0,
+        "by_edit": {
+          "entry_removed": {
+            "flagged": 33,
+            "missed": 0
+          },
+          "entry_changed": {
+            "flagged": 34,
+            "missed": 0
+          },
+          "entry_added": {
+            "flagged": 33,
+            "missed": 0
+          }
+        },
+        "problem_kinds": {
+          "receipt journal head does not match": 100,
+          "receipt records differ from the journal": 100,
+          "receipt trail does not follow from the records": 89,
+          "receipt witness head does not match": 100
+        },
+        "problem_parts": {
+          "receipt": 389
+        },
+        "units_with_a_problem_of_part": {
+          "receipt": 100
+        }
+      }
+    }
+  },
+  "supplementary_operator_and_receipt": {
+    "note": "outside the decision: the operator also rebuilds the patient's receipt from the forged record",
+    "table": {
+      "chain_alone": {
+        "flagged": 0,
+        "missed": 100,
+        "problem_kinds": {}
+      },
+      "chain_with_witness": {
+        "flagged": 0,
+        "missed": 100,
+        "problem_kinds": {}
+      }
+    }
+  },
+  "clean": {
+    "cases": 157,
+    "with_problem": {
+      "chain_alone": 0,
+      "chain_with_witness": 0
+    },
+    "main_run_ledger_flags_on_these_cases": 0
+  },
+  "gate1": {
+    "units": 100,
+    "flagged_full_check": 100,
+    "flagged_main_run": 100,
+    "same_flag": 100,
+    "same_reasons": 100,
+    "journal_same_as_main_run": 100,
+    "journal_compared": 100,
+    "differences": [],
+    "held": true
+  },
+  "gate2": {
+    "cases": 157,
+    "with_problem": {
+      "chain_alone": 0,
+      "chain_with_witness": 0
+    },
+    "problems": [],
+    "main_run_ledger_flags": 0,
+    "held": true
+  }
+}

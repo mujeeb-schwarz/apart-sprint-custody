@@ -1,0 +1,1196 @@
+{
+ "experiment": 2,
+ "split": "tune",
+ "seed": 20261114,
+ "planted": [
+  {
+   "plant_id": "P4-001",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "answer",
+   "case": "q0010",
+   "reserve": false,
+   "order": 1
+  },
+  {
+   "plant_id": "P4-002",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "patient_note",
+   "case": "q0333",
+   "reserve": false,
+   "order": 2
+  },
+  {
+   "plant_id": "P4-003",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "plan",
+   "case": "q0048",
+   "reserve": false,
+   "order": 3
+  },
+  {
+   "plant_id": "P4-004",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "patient_note",
+   "case": "q0318",
+   "reserve": false,
+   "order": 4
+  },
+  {
+   "plant_id": "P4-005",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "answer",
+   "case": "q0319",
+   "reserve": false,
+   "order": 5
+  },
+  {
+   "plant_id": "P4-006",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "plan",
+   "case": "q0321",
+   "reserve": false,
+   "order": 6
+  },
+  {
+   "plant_id": "P4-007",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "answer",
+   "case": "q0326",
+   "reserve": false,
+   "order": 7
+  },
+  {
+   "plant_id": "P4-008",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "answer",
+   "case": "q0304",
+   "reserve": false,
+   "order": 8
+  },
+  {
+   "plant_id": "P4-009",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "plan",
+   "case": "q0329",
+   "reserve": false,
+   "order": 9
+  },
+  {
+   "plant_id": "P4-010",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "patient_note",
+   "case": "q0018",
+   "reserve": false,
+   "order": 10
+  },
+  {
+   "plant_id": "P4-011",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "answer",
+   "case": "q0305",
+   "reserve": false,
+   "order": 11
+  },
+  {
+   "plant_id": "P4-012",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "plan",
+   "case": "q0036",
+   "reserve": false,
+   "order": 12
+  },
+  {
+   "plant_id": "P4-013",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "plan",
+   "case": "q0322",
+   "reserve": false,
+   "order": 13
+  },
+  {
+   "plant_id": "P4-014",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "answer",
+   "case": "q0301",
+   "reserve": false,
+   "order": 14
+  },
+  {
+   "plant_id": "P4-015",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "answer",
+   "case": "q0313",
+   "reserve": false,
+   "order": 15
+  },
+  {
+   "plant_id": "P4-016",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "plan",
+   "case": "q0040",
+   "reserve": false,
+   "order": 16
+  },
+  {
+   "plant_id": "P4-017",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "plan",
+   "case": "q0324",
+   "reserve": false,
+   "order": 17
+  },
+  {
+   "plant_id": "P4-018",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "plan",
+   "case": "q0332",
+   "reserve": false,
+   "order": 18
+  },
+  {
+   "plant_id": "P4-019",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "patient_note",
+   "case": "q0014",
+   "reserve": false,
+   "order": 19
+  },
+  {
+   "plant_id": "P4-020",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "patient_note",
+   "case": "q0017",
+   "reserve": false,
+   "order": 20
+  },
+  {
+   "plant_id": "P4-021",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "plan",
+   "case": "q0312",
+   "reserve": false,
+   "order": 21
+  },
+  {
+   "plant_id": "P4-022",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "plan",
+   "case": "q0325",
+   "reserve": false,
+   "order": 22
+  },
+  {
+   "plant_id": "P4-023",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "plan",
+   "case": "q0320",
+   "reserve": false,
+   "order": 23
+  },
+  {
+   "plant_id": "P4-024",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "answer",
+   "case": "q0008",
+   "reserve": false,
+   "order": 24
+  },
+  {
+   "plant_id": "P4-025",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "patient_note",
+   "case": "q0335",
+   "reserve": false,
+   "order": 25
+  },
+  {
+   "plant_id": "P4-026",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "patient_note",
+   "case": "q0323",
+   "reserve": false,
+   "order": 26
+  },
+  {
+   "plant_id": "P4-027",
+   "rule": 4,
+   "kind": "source_removed",
+   "step": "patient_note",
+   "case": "q0300",
+   "reserve": false,
+   "order": 27
+  },
+  {
+   "plant_id": "P4-028",
+   "rule": 4,
+   "kind": "source_wrong",
+   "step": "plan",
+   "case": "q0316",
+   "reserve": false,
+   "order": 28
+  },
+  {
+   "plant_id": "P5-001",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "patient_note",
+   "case": "q0032",
+   "reserve": false,
+   "order": 1
+  },
+  {
+   "plant_id": "P5-002",
+   "rule": 5,
+   "kind": "more_certain",
+   "step": "plan",
+   "case": "q0005",
+   "reserve": false,
+   "order": 2
+  },
+  {
+   "plant_id": "P5-003",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "plan",
+   "case": "q0035",
+   "reserve": false,
+   "order": 3
+  },
+  {
+   "plant_id": "P5-004",
+   "rule": 5,
+   "kind": "more_certain",
+   "step": "patient_note",
+   "case": "q0042",
+   "reserve": false,
+   "order": 4
+  },
+  {
+   "plant_id": "P5-005",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "plan",
+   "case": "q0030",
+   "reserve": false,
+   "order": 5
+  },
+  {
+   "plant_id": "P5-006",
+   "rule": 5,
+   "kind": "more_certain",
+   "step": "plan",
+   "case": "q0013",
+   "reserve": false,
+   "order": 6
+  },
+  {
+   "plant_id": "P5-007",
+   "rule": 5,
+   "kind": "more_certain",
+   "step": "plan",
+   "case": "q0022",
+   "reserve": false,
+   "order": 7
+  },
+  {
+   "plant_id": "P5-008",
+   "rule": 5,
+   "kind": "more_certain",
+   "step": "patient_note",
+   "case": "q0015",
+   "reserve": false,
+   "order": 8
+  },
+  {
+   "plant_id": "P5-009",
+   "rule": 5,
+   "kind": "more_certain",
+   "step": "patient_note",
+   "case": "q0016",
+   "reserve": false,
+   "order": 9
+  },
+  {
+   "plant_id": "P5-010",
+   "rule": 5,
+   "kind": "more_certain",
+   "step": "plan",
+   "case": "q0019",
+   "reserve": false,
+   "order": 10
+  },
+  {
+   "plant_id": "P5-011",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "plan",
+   "case": "q0049",
+   "reserve": false,
+   "order": 11
+  },
+  {
+   "plant_id": "P5-012",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "patient_note",
+   "case": "q0047",
+   "reserve": false,
+   "order": 12
+  },
+  {
+   "plant_id": "P5-013",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "plan",
+   "case": "q0045",
+   "reserve": false,
+   "order": 13
+  },
+  {
+   "plant_id": "P5-014",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "patient_note",
+   "case": "q0002",
+   "reserve": false,
+   "order": 14
+  },
+  {
+   "plant_id": "P5-015",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "plan",
+   "case": "q0003",
+   "reserve": false,
+   "order": 15
+  },
+  {
+   "plant_id": "P5-016",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "plan",
+   "case": "q0009",
+   "reserve": false,
+   "order": 16
+  },
+  {
+   "plant_id": "P5-017",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "patient_note",
+   "case": "q0007",
+   "reserve": false,
+   "order": 17
+  },
+  {
+   "plant_id": "P5-018",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "patient_note",
+   "case": "q0038",
+   "reserve": false,
+   "order": 18
+  },
+  {
+   "plant_id": "P5-019",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "patient_note",
+   "case": "q0027",
+   "reserve": false,
+   "order": 19
+  },
+  {
+   "plant_id": "P5-020",
+   "rule": 5,
+   "kind": "more_certain",
+   "step": "plan",
+   "case": "q0012",
+   "reserve": false,
+   "order": 20
+  },
+  {
+   "plant_id": "P5-021",
+   "rule": 5,
+   "kind": "more_certain",
+   "step": "patient_note",
+   "case": "q0033",
+   "reserve": false,
+   "order": 21
+  },
+  {
+   "plant_id": "P5-022",
+   "rule": 5,
+   "kind": "more_certain",
+   "step": "plan",
+   "case": "q0043",
+   "reserve": false,
+   "order": 22
+  },
+  {
+   "plant_id": "P5-023",
+   "rule": 5,
+   "kind": "more_certain",
+   "step": "patient_note",
+   "case": "q0020",
+   "reserve": false,
+   "order": 23
+  },
+  {
+   "plant_id": "P5-024",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "plan",
+   "case": "q0039",
+   "reserve": false,
+   "order": 24
+  },
+  {
+   "plant_id": "P5-025",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "plan",
+   "case": "q0001",
+   "reserve": false,
+   "order": 25
+  },
+  {
+   "plant_id": "P5-026",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "plan",
+   "case": "q0041",
+   "reserve": false,
+   "order": 26
+  },
+  {
+   "plant_id": "P5-027",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "patient_note",
+   "case": "q0037",
+   "reserve": false,
+   "order": 27
+  },
+  {
+   "plant_id": "P5-028",
+   "rule": 5,
+   "kind": "less_certain",
+   "step": "patient_note",
+   "case": "q0034",
+   "reserve": false,
+   "order": 28
+  },
+  {
+   "plant_id": "P6-001",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "patient_note",
+   "case": "q0044",
+   "reserve": false,
+   "order": 1
+  },
+  {
+   "plant_id": "P6-002",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "patient_note",
+   "case": "q0006",
+   "reserve": false,
+   "order": 2
+  },
+  {
+   "plant_id": "P6-003",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "answer",
+   "case": "q0303",
+   "reserve": false,
+   "order": 3
+  },
+  {
+   "plant_id": "P6-004",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "answer",
+   "case": "q0050",
+   "reserve": false,
+   "order": 4
+  },
+  {
+   "plant_id": "P6-005",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "patient_note",
+   "case": "q0021",
+   "reserve": false,
+   "order": 5
+  },
+  {
+   "plant_id": "P6-006",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "patient_note",
+   "case": "q0331",
+   "reserve": false,
+   "order": 6
+  },
+  {
+   "plant_id": "P6-007",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "answer",
+   "case": "q0315",
+   "reserve": false,
+   "order": 7
+  },
+  {
+   "plant_id": "P6-008",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "patient_note",
+   "case": "q0031",
+   "reserve": false,
+   "order": 8
+  },
+  {
+   "plant_id": "P6-009",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "plan",
+   "case": "q0328",
+   "reserve": false,
+   "order": 9
+  },
+  {
+   "plant_id": "P6-010",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "patient_note",
+   "case": "q0308",
+   "reserve": false,
+   "order": 10
+  },
+  {
+   "plant_id": "P6-011",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "plan",
+   "case": "q0306",
+   "reserve": false,
+   "order": 11
+  },
+  {
+   "plant_id": "P6-012",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "answer",
+   "case": "q0311",
+   "reserve": false,
+   "order": 12
+  },
+  {
+   "plant_id": "P6-013",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "plan",
+   "case": "q0026",
+   "reserve": false,
+   "order": 13
+  },
+  {
+   "plant_id": "P6-014",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "answer",
+   "case": "q0334",
+   "reserve": false,
+   "order": 14
+  },
+  {
+   "plant_id": "P6-015",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "patient_note",
+   "case": "q0327",
+   "reserve": false,
+   "order": 15
+  },
+  {
+   "plant_id": "P6-016",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "patient_note",
+   "case": "q0317",
+   "reserve": false,
+   "order": 16
+  },
+  {
+   "plant_id": "P6-017",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "patient_note",
+   "case": "q0330",
+   "reserve": false,
+   "order": 17
+  },
+  {
+   "plant_id": "P6-018",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "answer",
+   "case": "q0029",
+   "reserve": false,
+   "order": 18
+  },
+  {
+   "plant_id": "P6-019",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "patient_note",
+   "case": "q0309",
+   "reserve": false,
+   "order": 19
+  },
+  {
+   "plant_id": "P6-020",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "plan",
+   "case": "q0023",
+   "reserve": false,
+   "order": 20
+  },
+  {
+   "plant_id": "P6-021",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "answer",
+   "case": "q0314",
+   "reserve": false,
+   "order": 21
+  },
+  {
+   "plant_id": "P6-022",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "plan",
+   "case": "q0307",
+   "reserve": false,
+   "order": 22
+  },
+  {
+   "plant_id": "P6-023",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "patient_note",
+   "case": "q0011",
+   "reserve": false,
+   "order": 23
+  },
+  {
+   "plant_id": "P6-024",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "answer",
+   "case": "q0028",
+   "reserve": false,
+   "order": 24
+  },
+  {
+   "plant_id": "P6-025",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "plan",
+   "case": "q0046",
+   "reserve": false,
+   "order": 25
+  },
+  {
+   "plant_id": "P6-026",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "patient_note",
+   "case": "q0310",
+   "reserve": false,
+   "order": 26
+  },
+  {
+   "plant_id": "P6-027",
+   "rule": 6,
+   "kind": "mark_removed",
+   "step": "answer",
+   "case": "q0302",
+   "reserve": false,
+   "order": 27
+  },
+  {
+   "plant_id": "P6-028",
+   "rule": 6,
+   "kind": "mark_replaced",
+   "step": "patient_note",
+   "case": "q0004",
+   "reserve": false,
+   "order": 28
+  }
+ ],
+ "hidden": [
+  {
+   "plant_id": "H-001",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0002",
+   "order": 1
+  },
+  {
+   "plant_id": "H-002",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0043",
+   "order": 2
+  },
+  {
+   "plant_id": "H-003",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0047",
+   "order": 3
+  },
+  {
+   "plant_id": "H-004",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0033",
+   "order": 4
+  },
+  {
+   "plant_id": "H-005",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0029",
+   "order": 5
+  },
+  {
+   "plant_id": "H-006",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0040",
+   "order": 6
+  },
+  {
+   "plant_id": "H-007",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0039",
+   "order": 7
+  },
+  {
+   "plant_id": "H-008",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0010",
+   "order": 8
+  },
+  {
+   "plant_id": "H-009",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0038",
+   "order": 9
+  },
+  {
+   "plant_id": "H-010",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0034",
+   "order": 10
+  },
+  {
+   "plant_id": "H-011",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0025",
+   "order": 11
+  },
+  {
+   "plant_id": "H-012",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0027",
+   "order": 12
+  },
+  {
+   "plant_id": "H-013",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0015",
+   "order": 13
+  },
+  {
+   "plant_id": "H-014",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0042",
+   "order": 14
+  },
+  {
+   "plant_id": "H-015",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0044",
+   "order": 15
+  },
+  {
+   "plant_id": "H-016",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0030",
+   "order": 16
+  },
+  {
+   "plant_id": "H-017",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0017",
+   "order": 17
+  },
+  {
+   "plant_id": "H-018",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0005",
+   "order": 18
+  },
+  {
+   "plant_id": "H-019",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0014",
+   "order": 19
+  },
+  {
+   "plant_id": "H-020",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0013",
+   "order": 20
+  },
+  {
+   "plant_id": "H-021",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0035",
+   "order": 21
+  },
+  {
+   "plant_id": "H-022",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0049",
+   "order": 22
+  },
+  {
+   "plant_id": "H-023",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0012",
+   "order": 23
+  },
+  {
+   "plant_id": "H-024",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0018",
+   "order": 24
+  },
+  {
+   "plant_id": "H-025",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0032",
+   "order": 25
+  },
+  {
+   "plant_id": "H-026",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0048",
+   "order": 26
+  },
+  {
+   "plant_id": "H-027",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0041",
+   "order": 27
+  },
+  {
+   "plant_id": "H-028",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0037",
+   "order": 28
+  },
+  {
+   "plant_id": "H-029",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0016",
+   "order": 29
+  },
+  {
+   "plant_id": "H-030",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0006",
+   "order": 30
+  },
+  {
+   "plant_id": "H-031",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0031",
+   "order": 31
+  },
+  {
+   "plant_id": "H-032",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0050",
+   "order": 32
+  },
+  {
+   "plant_id": "H-033",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0019",
+   "order": 33
+  },
+  {
+   "plant_id": "H-034",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0028",
+   "order": 34
+  },
+  {
+   "plant_id": "H-035",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0022",
+   "order": 35
+  },
+  {
+   "plant_id": "H-036",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0036",
+   "order": 36
+  },
+  {
+   "plant_id": "H-037",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0026",
+   "order": 37
+  },
+  {
+   "plant_id": "H-038",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0021",
+   "order": 38
+  },
+  {
+   "plant_id": "H-039",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0020",
+   "order": 39
+  },
+  {
+   "plant_id": "H-040",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0023",
+   "order": 40
+  },
+  {
+   "plant_id": "H-041",
+   "rule": 5,
+   "kind": "hidden_instruction",
+   "case": "q0011",
+   "order": 41
+  }
+ ],
+ "repeat": [
+  "P4-001",
+  "P4-002",
+  "P4-003",
+  "P4-004",
+  "P4-005",
+  "P4-006",
+  "P4-007",
+  "P4-009",
+  "P4-010",
+  "P4-011",
+  "P4-012",
+  "P4-014",
+  "P4-015",
+  "P4-016",
+  "P4-017",
+  "P4-018",
+  "P4-019",
+  "P4-020",
+  "P4-021",
+  "P4-022",
+  "P4-023",
+  "P4-024",
+  "P4-025",
+  "P4-026",
+  "P4-027",
+  "P5-001",
+  "P5-002",
+  "P5-003",
+  "P5-004",
+  "P5-005",
+  "P5-006",
+  "P5-007",
+  "P5-009",
+  "P5-010",
+  "P5-011",
+  "P5-012",
+  "P5-014",
+  "P5-015",
+  "P5-016",
+  "P5-017",
+  "P5-018",
+  "P5-019",
+  "P5-020",
+  "P5-021",
+  "P5-023",
+  "P5-024",
+  "P5-025",
+  "P5-026",
+  "P5-027",
+  "P5-028",
+  "P6-001",
+  "P6-002",
+  "P6-003",
+  "P6-004",
+  "P6-005",
+  "P6-006",
+  "P6-007",
+  "P6-008",
+  "P6-009",
+  "P6-012",
+  "P6-013",
+  "P6-014",
+  "P6-015",
+  "P6-016",
+  "P6-017",
+  "P6-018",
+  "P6-020",
+  "P6-021",
+  "P6-022",
+  "P6-023",
+  "P6-024",
+  "P6-025",
+  "P6-026",
+  "P6-027",
+  "P6-028"
+ ],
+ "counts": {
+  "cases_in_split": 86,
+  "graded_in_split": 50,
+  "planted": {
+   "rule4": {
+    "total": 28,
+    "main": 28,
+    "reserve": 0,
+    "steps": {
+     "answer": 8,
+     "patient_note": 8,
+     "plan": 12
+    },
+    "source_removed": 14,
+    "source_wrong": 14
+   },
+   "rule5": {
+    "total": 28,
+    "main": 28,
+    "reserve": 0,
+    "steps": {
+     "patient_note": 13,
+     "plan": 15
+    },
+    "less_certain": 17,
+    "more_certain": 11
+   },
+   "rule6": {
+    "total": 28,
+    "main": 28,
+    "reserve": 0,
+    "steps": {
+     "patient_note": 13,
+     "answer": 9,
+     "plan": 6
+    },
+    "mark_removed": 14,
+    "mark_replaced": 14
+   }
+  },
+  "short": {
+   "rule4": {
+    "wanted": 120,
+    "taken": 28
+   },
+   "rule5": {
+    "wanted": 120,
+    "taken": 28
+   },
+   "rule6": {
+    "wanted": 120,
+    "taken": 28
+   },
+   "hidden": {
+    "wanted": 100,
+    "taken": 41
+   }
+  },
+  "hidden_eligible": 41,
+  "hidden": 41,
+  "hidden_also_in_a_rule": 40,
+  "repeat": {
+   "rule4": 25,
+   "rule5": 25,
+   "rule6": 25
+  }
+ }
+}

@@ -1,0 +1,343 @@
+{
+ "none": [
+  {
+   "action": "intake",
+   "item": "7e1f33a21fa4f898",
+   "kind": "transcript",
+   "place": "transcriber",
+   "run_id": "c0001.A.r0",
+   "step": "intake",
+   "t": 0
+  },
+  {
+   "action": "send",
+   "from": "transcriber",
+   "handover_id": "c0001.A.r0#1",
+   "item_ids": [
+    "7e1f33a21fa4f898"
+   ],
+   "kind": "transcript",
+   "move_id": "w2",
+   "run_id": "c0001.A.r0",
+   "step": "transcriber",
+   "t": 2,
+   "to": "note_writer"
+  },
+  {
+   "action": "delete",
+   "from": "transcriber",
+   "handover_id": "c0001.A.r0#2",
+   "item_ids": [
+    "7e1f33a21fa4f898"
+   ],
+   "kind": "transcript",
+   "move_id": "d3",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 3,
+   "to": null
+  },
+  {
+   "action": "send",
+   "from": "note_writer",
+   "handover_id": "c0001.A.r0#3",
+   "item_ids": [
+    "eda50ed5ae22f354"
+   ],
+   "kind": "note_draft",
+   "move_id": "w3",
+   "run_id": "c0001.A.r0",
+   "step": "note_writer",
+   "t": 5,
+   "to": "record"
+  },
+  {
+   "action": "delete",
+   "from": "note_writer",
+   "handover_id": "c0001.A.r0#4",
+   "item_ids": [
+    "7e1f33a21fa4f898"
+   ],
+   "kind": "transcript",
+   "move_id": "d4",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 6,
+   "to": null
+  },
+  {
+   "action": "delete",
+   "from": "note_writer",
+   "handover_id": "c0001.A.r0#5",
+   "item_ids": [
+    "eda50ed5ae22f354"
+   ],
+   "kind": "note_draft",
+   "move_id": "d5",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 7,
+   "to": null
+  },
+  {
+   "action": "delete",
+   "from": "record",
+   "handover_id": "c0001.A.r0#6",
+   "item_ids": [
+    "eda50ed5ae22f354"
+   ],
+   "kind": "note_draft",
+   "move_id": "d6",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 9,
+   "to": null
+  }
+ ],
+ "timeout@w3": [
+  {
+   "action": "intake",
+   "item": "7e1f33a21fa4f898",
+   "kind": "transcript",
+   "place": "transcriber",
+   "run_id": "c0001.A.r0",
+   "step": "intake",
+   "t": 0
+  },
+  {
+   "action": "send",
+   "from": "transcriber",
+   "handover_id": "c0001.A.r0#1",
+   "item_ids": [
+    "7e1f33a21fa4f898"
+   ],
+   "kind": "transcript",
+   "move_id": "w2",
+   "run_id": "c0001.A.r0",
+   "step": "transcriber",
+   "t": 2,
+   "to": "note_writer"
+  },
+  {
+   "action": "delete",
+   "from": "transcriber",
+   "handover_id": "c0001.A.r0#2",
+   "item_ids": [
+    "7e1f33a21fa4f898"
+   ],
+   "kind": "transcript",
+   "move_id": "d3",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 3,
+   "to": null
+  },
+  {
+   "action": "send",
+   "from": "note_writer",
+   "handover_id": "c0001.A.r0#3",
+   "item_ids": [
+    "eda50ed5ae22f354"
+   ],
+   "kind": "note_draft",
+   "move_id": "w3q",
+   "run_id": "c0001.A.r0",
+   "step": "note_writer",
+   "t": 5,
+   "to": "note_writer_queue"
+  },
+  {
+   "action": "send",
+   "from": "note_writer",
+   "handover_id": "c0001.A.r0#4",
+   "item_ids": [
+    "eda50ed5ae22f354"
+   ],
+   "kind": "note_draft",
+   "move_id": "w3",
+   "run_id": "c0001.A.r0",
+   "step": "note_writer",
+   "t": 6,
+   "to": "record"
+  },
+  {
+   "action": "delete",
+   "from": "note_writer_queue",
+   "handover_id": "c0001.A.r0#5",
+   "item_ids": [
+    "eda50ed5ae22f354"
+   ],
+   "kind": "note_draft",
+   "move_id": "r1",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 7,
+   "to": null
+  },
+  {
+   "action": "delete",
+   "from": "note_writer",
+   "handover_id": "c0001.A.r0#6",
+   "item_ids": [
+    "7e1f33a21fa4f898"
+   ],
+   "kind": "transcript",
+   "move_id": "d4",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 8,
+   "to": null
+  },
+  {
+   "action": "delete",
+   "from": "note_writer",
+   "handover_id": "c0001.A.r0#7",
+   "item_ids": [
+    "eda50ed5ae22f354"
+   ],
+   "kind": "note_draft",
+   "move_id": "d5",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 9,
+   "to": null
+  },
+  {
+   "action": "delete",
+   "from": "record",
+   "handover_id": "c0001.A.r0#8",
+   "item_ids": [
+    "eda50ed5ae22f354"
+   ],
+   "kind": "note_draft",
+   "move_id": "d6",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 11,
+   "to": null
+  }
+ ],
+ "resume@w2": [
+  {
+   "action": "intake",
+   "item": "7e1f33a21fa4f898",
+   "kind": "transcript",
+   "place": "transcriber",
+   "run_id": "c0001.A.r0",
+   "step": "intake",
+   "t": 0
+  },
+  {
+   "action": "send",
+   "from": "transcriber",
+   "handover_id": "c0001.A.r0#1",
+   "item_ids": [
+    "7e1f33a21fa4f898"
+   ],
+   "kind": "transcript",
+   "move_id": "w2c",
+   "run_id": "c0001.A.r0",
+   "step": "transcriber",
+   "t": 2,
+   "to": "note_writer_cache"
+  },
+  {
+   "action": "send",
+   "from": "transcriber",
+   "handover_id": "c0001.A.r0#2",
+   "item_ids": [
+    "7e1f33a21fa4f898"
+   ],
+   "kind": "transcript",
+   "move_id": "w2",
+   "run_id": "c0001.A.r0",
+   "step": "transcriber",
+   "t": 3,
+   "to": "note_writer"
+  },
+  {
+   "action": "delete",
+   "from": "note_writer_cache",
+   "handover_id": "c0001.A.r0#3",
+   "item_ids": [
+    "7e1f33a21fa4f898"
+   ],
+   "kind": "transcript",
+   "move_id": "r2",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 4,
+   "to": null
+  },
+  {
+   "action": "delete",
+   "from": "transcriber",
+   "handover_id": "c0001.A.r0#4",
+   "item_ids": [
+    "7e1f33a21fa4f898"
+   ],
+   "kind": "transcript",
+   "move_id": "d3",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 5,
+   "to": null
+  },
+  {
+   "action": "send",
+   "from": "note_writer",
+   "handover_id": "c0001.A.r0#5",
+   "item_ids": [
+    "eda50ed5ae22f354"
+   ],
+   "kind": "note_draft",
+   "move_id": "w3",
+   "run_id": "c0001.A.r0",
+   "step": "note_writer",
+   "t": 7,
+   "to": "record"
+  },
+  {
+   "action": "delete",
+   "from": "note_writer",
+   "handover_id": "c0001.A.r0#6",
+   "item_ids": [
+    "7e1f33a21fa4f898"
+   ],
+   "kind": "transcript",
+   "move_id": "d4",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 8,
+   "to": null
+  },
+  {
+   "action": "delete",
+   "from": "note_writer",
+   "handover_id": "c0001.A.r0#7",
+   "item_ids": [
+    "eda50ed5ae22f354"
+   ],
+   "kind": "note_draft",
+   "move_id": "d5",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 9,
+   "to": null
+  },
+  {
+   "action": "delete",
+   "from": "record",
+   "handover_id": "c0001.A.r0#8",
+   "item_ids": [
+    "eda50ed5ae22f354"
+   ],
+   "kind": "note_draft",
+   "move_id": "d6",
+   "run_id": "c0001.A.r0",
+   "step": "janitor",
+   "t": 11,
+   "to": null
+  }
+ ]
+}

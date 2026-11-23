@@ -1,0 +1,10 @@
+{"fault":null,"visit_id":"q0001"}
+{"fault":null,"visit_id":"q0016"}
+{"fault":{"events":[],"fault_id":"F5","kind":"step","needs":{"expert_certainty_in":["no data","very low","low","moderate"]},"ops":[{"level":"high","mode":"set_level","op":"rewrite","step":"patient_note"}],"patch":[],"rule":5,"says":"The note for the patient states the claim with no qualifier, although the experts' grade is lower."},"visit_id":"q0021"}
+{"fault":{"events":[],"fault_id":"F12","kind":"step","needs":{},"ops":[{"field":"t","op":"edit_record","position":0,"value":999}],"patch":[],"rule":3,"says":"After the visit an insider changes the time on the first stored record."},"visit_id":"q0025"}
+{"fault":{"events":[],"fault_id":"F4","kind":"step","needs":{},"ops":[{"mode":"wrong_source","op":"rewrite","step":"plan"}],"patch":[],"rule":4,"says":"The plan names a source the evidence did not come from."},"visit_id":"q0033"}
+{"fault":{"events":[],"fault_id":"F6","kind":"step","needs":{},"ops":[{"mode":"drop_ai_mark","op":"rewrite","step":"patient_note"}],"patch":[],"rule":6,"says":"The note for the patient loses the mark that says AI wrote it."},"visit_id":"q0301"}
+{"fault":null,"visit_id":"q0317"}
+{"fault":null,"visit_id":"q0322"}
+{"fault":null,"visit_id":"q0025+twin"}
+{"fault":null,"visit_id":"q0301+twin"}

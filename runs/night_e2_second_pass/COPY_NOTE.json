@@ -1,0 +1,18 @@
+{
+ "made_from": "runs/night_e2",
+ "second_pass_rules": [
+  4,
+  6
+ ],
+ "prompt_id": "judge.v1+second_pass",
+ "left_out": [
+  "ai_calls.jsonl",
+  "judge_agreement.json",
+  "judge_sample.jsonl",
+  "receipts/",
+  "witness/",
+  "timing.jsonl",
+  "refusal_candidates.json",
+  "scores*.json"
+ ]
+}

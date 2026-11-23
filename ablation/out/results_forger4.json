@@ -1,0 +1,65 @@
+{
+  "note": "Added by the auditor after the first results were seen; not in the decision of 15:03 and no prediction was filed for it. The operator who also rebuilds the receipt with build_receipt.",
+  "units_planted": 100,
+  "forger4_operator_and_receipt": {
+    "chain_alone": {
+      "flagged": 0,
+      "missed": 100,
+      "by_edit": {
+        "entry_removed": {
+          "flagged": 0,
+          "missed": 33
+        },
+        "entry_changed": {
+          "flagged": 0,
+          "missed": 34
+        },
+        "entry_added": {
+          "flagged": 0,
+          "missed": 33
+        }
+      },
+      "problem_kinds": {}
+    },
+    "chain_with_witness": {
+      "flagged": 0,
+      "missed": 100,
+      "by_edit": {
+        "entry_removed": {
+          "flagged": 0,
+          "missed": 33
+        },
+        "entry_changed": {
+          "flagged": 0,
+          "missed": 34
+        },
+        "entry_added": {
+          "flagged": 0,
+          "missed": 33
+        }
+      },
+      "problem_kinds": {}
+    }
+  },
+  "rerun_of_builder_forgers_flagged": {
+    "careless": {
+      "chain_alone": 100,
+      "chain_with_witness": 100
+    },
+    "careful": {
+      "chain_alone": 0,
+      "chain_with_witness": 100
+    },
+    "operator": {
+      "chain_alone": 0,
+      "chain_with_witness": 100
+    }
+  },
+  "clean_rerun": {
+    "cases": 157,
+    "flagged": {
+      "chain_alone": 0,
+      "chain_with_witness": 0
+    }
+  }
+}

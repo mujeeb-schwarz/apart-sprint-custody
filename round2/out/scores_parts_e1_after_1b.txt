@@ -1,0 +1,2 @@
+parts scored apart: 300 hidden-instruction runs, 225 repeated units compared
+written to runs/night_e1/scores_parts.json

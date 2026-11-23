@@ -1,0 +1,585 @@
+{
+ "clean": {
+  "own_ok": true,
+  "z3": "unsat: no property breaks inside the bounds (a result from Z3, not from this file's author)"
+ },
+ "rows": [
+  {
+   "id": "F2",
+   "source": "config/design_choices.json",
+   "control": false,
+   "rule": 2,
+   "says": "When the draft send is retried after a timeout, the copy of the draft parked in the retry queue is never deleted.",
+   "patch": [
+    {
+     "op": "remove",
+     "path": "/plumbing/detours/r1/do/2"
+    }
+   ],
+   "events": [
+    {
+     "on": "timeout",
+     "at": "w3"
+    }
+   ],
+   "lane": "words",
+   "own": {
+    "found": true,
+    "violated": [
+     "P2"
+    ],
+    "states": 159,
+    "property": "P2",
+    "why": "note_draft is still at note_writer_queue at t10; it arrived at t5 and may stay 4 ticks",
+    "events_in_path": [
+     "-- rare event timeout@w3: detour r1 runs in place of move w3"
+    ],
+    "trace": [
+     "t0 intake: transcript at transcriber",
+     "t1 step transcriber",
+     "t2 send w2 transcript transcriber > note_writer (record 1 written first)",
+     "t3 delete d3: transcript at transcriber (record 2 written first)",
+     "t4 step note_writer makes note_draft",
+     "-- rare event timeout@w3: detour r1 runs in place of move w3",
+     "t5 send w3q note_draft note_writer > note_writer_queue (record 3 written first)",
+     "t6 send w3 note_draft note_writer > record (record 4 written first)",
+     "t7 delete d4: transcript at note_writer (record 5 written first)",
+     "t8 delete d5: note_draft at note_writer (record 6 written first)",
+     "t9 step record makes note",
+     "t10 delete d6: note_draft at record (record 7 written first)",
+     "BREAK P2: note_draft is still at note_writer_queue at t10; it arrived at t5 and may stay 4 ticks"
+    ]
+   },
+   "z3": "sat: a property can break. Events fired: ['timeout@w3']\n   P2 note_draft at note_writer_queue past its deadline"
+  },
+  {
+   "id": "F3",
+   "source": "config/design_choices.json",
+   "control": false,
+   "rule": 3,
+   "says": "The note draft reaches the chart by a path that skips the gate, so no record is written for that handover.",
+   "patch": [
+    {
+     "op": "replace",
+     "path": "/plumbing/moves/w3/via_gate",
+     "value": false
+    }
+   ],
+   "events": [],
+   "lane": "words",
+   "own": {
+    "found": true,
+    "violated": [
+     "P3",
+     "P4"
+    ],
+    "states": 28,
+    "property": "P3",
+    "why": "move w3 reaches record without passing the gate",
+    "events_in_path": [],
+    "trace": [
+     "t0 intake: transcript at transcriber",
+     "t1 step transcriber",
+     "t2 send w2 transcript transcriber > note_writer (record 1 written first)",
+     "t3 delete d3: transcript at transcriber (record 2 written first)",
+     "t4 step note_writer makes note_draft",
+     "t5 send w3 note_draft note_writer > record (NO RECORD: this move skips the gate)",
+     "BREAK P3: move w3 reaches record without passing the gate"
+    ]
+   },
+   "z3": "sat: a property can break. Events fired: ['timeout@w3']\n   P3 move w3 skips the gate\n   P4 move w3 has no journal record"
+  },
+  {
+   "id": "PF06",
+   "source": "faults/practice/practice_faults.json",
+   "control": false,
+   "rule": 1,
+   "says": "When the draft send times out, the retry copy of the note draft goes to a troubleshooting store instead of the retry queue.",
+   "patch": [
+    {
+     "op": "replace",
+     "path": "/plumbing/moves/w3q/to",
+     "value": "debug_bucket"
+    }
+   ],
+   "events": [
+    {
+     "on": "timeout",
+     "at": "w3"
+    }
+   ],
+   "lane": "words",
+   "own": {
+    "found": true,
+    "violated": [
+     "P1"
+    ],
+    "states": 150,
+    "property": "P1",
+    "why": "a copy of note_draft is asked to debug_bucket, which is not named or may not hold it",
+    "events_in_path": [
+     "-- rare event timeout@w3: detour r1 runs in place of move w3"
+    ],
+    "trace": [
+     "t0 intake: transcript at transcriber",
+     "t1 step transcriber",
+     "t2 send w2 transcript transcriber > note_writer (record 1 written first)",
+     "t3 delete d3: transcript at transcriber (record 2 written first)",
+     "t4 step note_writer makes note_draft",
+     "-- rare event timeout@w3: detour r1 runs in place of move w3",
+     "t5 send w3q note_draft note_writer > debug_bucket (record 3 written first)",
+     "BREAK P1: a copy of note_draft is asked to debug_bucket, which is not named or may not hold it"
+    ]
+   },
+   "z3": "sat: a property can break. Events fired: ['timeout@w3']\n   P1 send w3q to debug_bucket"
+  },
+  {
+   "id": "PF07",
+   "source": "faults/practice/practice_faults.json",
+   "control": false,
+   "rule": 1,
+   "says": "When the visit pauses and resumes, the cached transcript goes to a store of training examples by a side road that skips the gate and the log.",
+   "patch": [
+    {
+     "op": "replace",
+     "path": "/plumbing/moves/w2c/to",
+     "value": "training_store"
+    },
+    {
+     "op": "replace",
+     "path": "/plumbing/moves/w2c/via_gate",
+     "value": false
+    }
+   ],
+   "events": [
+    {
+     "on": "resume",
+     "at": "w2"
+    }
+   ],
+   "lane": "words",
+   "own": {
+    "found": true,
+    "violated": [
+     "P1",
+     "P3",
+     "P4"
+    ],
+    "states": 144,
+    "property": "P1",
+    "why": "a copy of transcript is asked to training_store, which is not named or may not hold it",
+    "events_in_path": [
+     "-- rare event resume@w2: detour r2 runs in place of move w2"
+    ],
+    "trace": [
+     "t0 intake: transcript at transcriber",
+     "t1 step transcriber",
+     "-- rare event resume@w2: detour r2 runs in place of move w2",
+     "t2 send w2c transcript transcriber > training_store (NO RECORD: this move skips the gate)",
+     "BREAK P1: a copy of transcript is asked to training_store, which is not named or may not hold it"
+    ]
+   },
+   "z3": "sat: a property can break. Events fired: ['resume@w2']\n   P1 send w2c to training_store\n   P3 move w2c skips the gate\n   P4 move w2c has no journal record"
+  },
+  {
+   "id": "PF10",
+   "source": "faults/practice/practice_faults.json",
+   "control": false,
+   "rule": 2,
+   "says": "When the visit pauses and resumes, the transcript parked in the note service's cache is never deleted.",
+   "patch": [
+    {
+     "op": "remove",
+     "path": "/plumbing/detours/r2/do/2"
+    }
+   ],
+   "events": [
+    {
+     "on": "resume",
+     "at": "w2"
+    }
+   ],
+   "lane": "words",
+   "own": {
+    "found": true,
+    "violated": [
+     "P2"
+    ],
+    "states": 153,
+    "property": "P2",
+    "why": "transcript is still at note_writer_cache at t7; it arrived at t2 and may stay 4 ticks",
+    "events_in_path": [
+     "-- rare event resume@w2: detour r2 runs in place of move w2"
+    ],
+    "trace": [
+     "t0 intake: transcript at transcriber",
+     "t1 step transcriber",
+     "-- rare event resume@w2: detour r2 runs in place of move w2",
+     "t2 send w2c transcript transcriber > note_writer_cache (record 1 written first)",
+     "t3 send w2 transcript transcriber > note_writer (record 2 written first)",
+     "t4 delete d3: transcript at transcriber (record 3 written first)",
+     "t5 step note_writer makes note_draft",
+     "t6 send w3 note_draft note_writer > record (record 4 written first)",
+     "t7 delete d4: transcript at note_writer (record 5 written first)",
+     "BREAK P2: transcript is still at note_writer_cache at t7; it arrived at t2 and may stay 4 ticks"
+    ]
+   },
+   "z3": "sat: a property can break. Events fired: ['resume@w2']\n   P2 transcript at note_writer_cache past its deadline"
+  },
+  {
+   "id": "PF11",
+   "source": "faults/practice/practice_faults.json",
+   "control": false,
+   "rule": 2,
+   "says": "When two visits overlap, the note service's deletion of the transcript does nothing at its time and happens only at close.",
+   "patch": [
+    {
+     "op": "remove",
+     "path": "/plumbing/detours/r4/do/0"
+    }
+   ],
+   "events": [
+    {
+     "on": "overlap",
+     "at": "d4"
+    }
+   ],
+   "lane": "words",
+   "own": {
+    "found": true,
+    "violated": [
+     "P2"
+    ],
+    "states": 172,
+    "property": "P2",
+    "why": "transcript is still at note_writer at t13; it arrived at t2 and may stay 10 ticks",
+    "events_in_path": [
+     "-- rare event overlap@d4: detour r4 runs in place of duty d4"
+    ],
+    "trace": [
+     "t0 intake: transcript at transcriber",
+     "t1 step transcriber",
+     "t2 send w2 transcript transcriber > note_writer (record 1 written first)",
+     "t3 delete d3: transcript at transcriber (record 2 written first)",
+     "t4 step note_writer makes note_draft",
+     "t5 send w3 note_draft note_writer > record (record 3 written first)",
+     "-- rare event overlap@d4: detour r4 runs in place of duty d4",
+     "t6 delete d5: note_draft at note_writer (record 4 written first)",
+     "t7 step record makes note",
+     "t8 delete d6: note_draft at record (record 5 written first)",
+     "t8 intake: question at clinician",
+     "t8 intake: answer at advice_tool",
+     "t9 step answer",
+     "t10 send a2 answer advice_tool > clinician (record 6 written first)",
+     "t11 delete d8: answer at advice_tool (record 7 written first)",
+     "t12 step plan makes plan",
+     "t13 send a3 plan clinician > summary_writer (record 8 written first)",
+     "BREAK P2: transcript is still at note_writer at t13; it arrived at t2 and may stay 10 ticks"
+    ]
+   },
+   "z3": "sat: a property can break. Events fired: ['overlap@d4']\n   P2 transcript at note_writer past its deadline"
+  },
+  {
+   "id": "PF12",
+   "source": "faults/practice/practice_faults.json",
+   "control": false,
+   "rule": 2,
+   "says": "The duty that deletes the patient note from the summary service's store is removed from the wiring.",
+   "patch": [
+    {
+     "op": "remove",
+     "path": "/plumbing/duties/d10"
+    }
+   ],
+   "events": [],
+   "lane": "advice",
+   "own": {
+    "found": true,
+    "violated": [
+     "P2"
+    ],
+    "states": 173,
+    "property": "P2",
+    "why": "patient_note is still at summary_writer at t29; it arrived at t15 and may stay 10 ticks",
+    "events_in_path": [],
+    "trace": [
+     "t0 intake: transcript at transcriber",
+     "t1 step transcriber",
+     "t2 send w2 transcript transcriber > note_writer (record 1 written first)",
+     "t3 delete d3: transcript at transcriber (record 2 written first)",
+     "t4 step note_writer makes note_draft",
+     "t5 send w3 note_draft note_writer > record (record 3 written first)",
+     "t6 delete d4: transcript at note_writer (record 4 written first)",
+     "t7 delete d5: note_draft at note_writer (record 5 written first)",
+     "t8 step record makes note",
+     "t9 delete d6: note_draft at record (record 6 written first)",
+     "t9 intake: question at clinician",
+     "t9 intake: answer at advice_tool",
+     "t10 step answer",
+     "t11 send a2 answer advice_tool > clinician (record 7 written first)",
+     "t12 delete d8: answer at advice_tool (record 8 written first)",
+     "t13 step plan makes plan",
+     "t14 send a3 plan clinician > summary_writer (record 9 written first)",
+     "t15 step patient_note makes patient_note",
+     "t16 send a4 patient_note summary_writer > patient (record 10 written first)",
+     "t17 delete d9: plan at summary_writer (record 11 written first)",
+     "t29 close: the clock passes every deadline",
+     "BREAK P2: patient_note is still at summary_writer at t29; it arrived at t15 and may stay 10 ticks"
+    ]
+   },
+   "z3": "sat: a property can break. Events fired: ['timeout@w3']\n   P2 patient_note at summary_writer past its deadline"
+  },
+  {
+   "id": "PF14",
+   "source": "faults/practice/practice_faults.json",
+   "control": false,
+   "rule": 2,
+   "says": "After a crash, the restart deletes the transcript at the note service's cache, where it never was, instead of at the scribe service, so the scribe service's copy waits until close.",
+   "patch": [
+    {
+     "op": "replace",
+     "path": "/plumbing/detours/r3/do/0",
+     "value": {
+      "delete": [
+       "transcript",
+       "note_writer_cache"
+      ]
+     }
+    }
+   ],
+   "events": [
+    {
+     "on": "crash",
+     "at": "d3"
+    }
+   ],
+   "lane": "words",
+   "own": {
+    "found": true,
+    "violated": [
+     "P2"
+    ],
+    "states": 169,
+    "property": "P2",
+    "why": "transcript is still at transcriber at t11; it arrived at t0 and may stay 10 ticks",
+    "events_in_path": [
+     "-- rare event crash@d3: detour r3 runs in place of duty d3"
+    ],
+    "trace": [
+     "t0 intake: transcript at transcriber",
+     "t1 step transcriber",
+     "t2 send w2 transcript transcriber > note_writer (record 1 written first)",
+     "-- rare event crash@d3: detour r3 runs in place of duty d3",
+     "t2 delete r3 finds no transcript at note_writer_cache",
+     "t3 step note_writer makes note_draft",
+     "t4 send w3 note_draft note_writer > record (record 2 written first)",
+     "t5 delete d4: transcript at note_writer (record 3 written first)",
+     "t6 delete d5: note_draft at note_writer (record 4 written first)",
+     "t7 step record makes note",
+     "t8 delete d6: note_draft at record (record 5 written first)",
+     "t8 intake: question at clinician",
+     "t8 intake: answer at advice_tool",
+     "t9 step answer",
+     "t10 send a2 answer advice_tool > clinician (record 6 written first)",
+     "t11 delete d8: answer at advice_tool (record 7 written first)",
+     "BREAK P2: transcript is still at transcriber at t11; it arrived at t0 and may stay 10 ticks"
+    ]
+   },
+   "z3": "sat: a property can break. Events fired: ['crash@d3']\n   P2 transcript at transcriber past its deadline"
+  },
+  {
+   "id": "PF16",
+   "source": "faults/practice/practice_faults.json",
+   "control": false,
+   "rule": 3,
+   "says": "The transcript reaches the note service by a path that skips the gate, so no record is written for that handover.",
+   "patch": [
+    {
+     "op": "replace",
+     "path": "/plumbing/moves/w2/via_gate",
+     "value": false
+    }
+   ],
+   "events": [],
+   "lane": "words",
+   "own": {
+    "found": true,
+    "violated": [
+     "P3",
+     "P4"
+    ],
+    "states": 8,
+    "property": "P3",
+    "why": "move w2 reaches note_writer without passing the gate",
+    "events_in_path": [],
+    "trace": [
+     "t0 intake: transcript at transcriber",
+     "t1 step transcriber",
+     "t2 send w2 transcript transcriber > note_writer (NO RECORD: this move skips the gate)",
+     "BREAK P3: move w2 reaches note_writer without passing the gate"
+    ]
+   },
+   "z3": "sat: a property can break. Events fired: ['timeout@w3']\n   P3 move w2 skips the gate\n   P4 move w2 has no journal record"
+  },
+  {
+   "id": "PF17",
+   "source": "faults/practice/practice_faults.json",
+   "control": false,
+   "rule": 3,
+   "says": "The note draft reaches the chart by a path that skips the gate, so no record is written for that handover.",
+   "patch": [
+    {
+     "op": "replace",
+     "path": "/plumbing/moves/w3/via_gate",
+     "value": false
+    }
+   ],
+   "events": [],
+   "lane": "words",
+   "own": {
+    "found": true,
+    "violated": [
+     "P3",
+     "P4"
+    ],
+    "states": 28,
+    "property": "P3",
+    "why": "move w3 reaches record without passing the gate",
+    "events_in_path": [],
+    "trace": [
+     "t0 intake: transcript at transcriber",
+     "t1 step transcriber",
+     "t2 send w2 transcript transcriber > note_writer (record 1 written first)",
+     "t3 delete d3: transcript at transcriber (record 2 written first)",
+     "t4 step note_writer makes note_draft",
+     "t5 send w3 note_draft note_writer > record (NO RECORD: this move skips the gate)",
+     "BREAK P3: move w3 reaches record without passing the gate"
+    ]
+   },
+   "z3": "sat: a property can break. Events fired: ['timeout@w3']\n   P3 move w3 skips the gate\n   P4 move w3 has no journal record"
+  },
+  {
+   "id": "PF18",
+   "source": "faults/practice/practice_faults.json",
+   "control": false,
+   "rule": 3,
+   "says": "The plan reaches the summary service by a path that skips the gate, so no record is written for that handover.",
+   "patch": [
+    {
+     "op": "replace",
+     "path": "/plumbing/moves/a3/via_gate",
+     "value": false
+    }
+   ],
+   "events": [],
+   "lane": "advice",
+   "own": {
+    "found": true,
+    "violated": [
+     "P3",
+     "P4"
+    ],
+    "states": 133,
+    "property": "P3",
+    "why": "move a3 reaches summary_writer without passing the gate",
+    "events_in_path": [],
+    "trace": [
+     "t0 intake: transcript at transcriber",
+     "t1 step transcriber",
+     "t2 send w2 transcript transcriber > note_writer (record 1 written first)",
+     "t3 delete d3: transcript at transcriber (record 2 written first)",
+     "t4 step note_writer makes note_draft",
+     "t5 send w3 note_draft note_writer > record (record 3 written first)",
+     "t6 delete d4: transcript at note_writer (record 4 written first)",
+     "t7 delete d5: note_draft at note_writer (record 5 written first)",
+     "t8 step record makes note",
+     "t9 delete d6: note_draft at record (record 6 written first)",
+     "t9 intake: question at clinician",
+     "t9 intake: answer at advice_tool",
+     "t10 step answer",
+     "t11 send a2 answer advice_tool > clinician (record 7 written first)",
+     "t12 delete d8: answer at advice_tool (record 8 written first)",
+     "t13 step plan makes plan",
+     "t14 send a3 plan clinician > summary_writer (NO RECORD: this move skips the gate)",
+     "BREAK P3: move a3 reaches summary_writer without passing the gate"
+    ]
+   },
+   "z3": "sat: a property can break. Events fired: ['timeout@w3']\n   P3 move a3 skips the gate\n   P4 move a3 has no journal record"
+  },
+  {
+   "id": "PC4",
+   "source": "faults/practice/practice_faults.json (clean_cases)",
+   "control": true,
+   "rule": 2,
+   "says": "The scribe service stops between sending the transcript and deleting its copy, and the restart deletes it.",
+   "patch": [],
+   "events": [
+    {
+     "on": "crash",
+     "at": "d3"
+    }
+   ],
+   "lane": "words",
+   "own": {
+    "found": false,
+    "violated": [],
+    "states": 183,
+    "property": null,
+    "why": null,
+    "events_in_path": [],
+    "trace": null
+   },
+   "z3": "unsat: no property breaks inside the bounds (a result from Z3, not from this file's author)"
+  },
+  {
+   "id": "PC5",
+   "source": "faults/practice/practice_faults.json (clean_cases)",
+   "control": true,
+   "rule": 2,
+   "says": "The draft send times out, so a copy of the note draft waits in the note service's retry queue and is cleared after the second send.",
+   "patch": [],
+   "events": [
+    {
+     "on": "timeout",
+     "at": "w3"
+    }
+   ],
+   "lane": "words",
+   "own": {
+    "found": false,
+    "violated": [],
+    "states": 183,
+    "property": null,
+    "why": null,
+    "events_in_path": [],
+    "trace": null
+   },
+   "z3": "unsat: no property breaks inside the bounds (a result from Z3, not from this file's author)"
+  },
+  {
+   "id": "PC6",
+   "source": "faults/practice/practice_faults.json (clean_cases)",
+   "control": true,
+   "rule": 2,
+   "says": "The visit pauses and resumes, so the transcript sits in the note service's cache and is cleared after the send.",
+   "patch": [],
+   "events": [
+    {
+     "on": "resume",
+     "at": "w2"
+    }
+   ],
+   "lane": "words",
+   "own": {
+    "found": false,
+    "violated": [],
+    "states": 183,
+    "property": null,
+    "why": null,
+    "events_in_path": [],
+    "trace": null
+   },
+   "z3": "unsat: no property breaks inside the bounds (a result from Z3, not from this file's author)"
+  }
+ ]
+}

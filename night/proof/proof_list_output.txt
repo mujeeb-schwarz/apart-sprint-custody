@@ -1,0 +1,102 @@
+== clean wiring: own search ok=True states=183 | Z3: unsat: no property breaks inside the bounds (a result from Z3, not from this file's author)
+== F2 (config/design_choices.json) rule 2
+   says: When the draft send is retried after a timeout, the copy of the draft parked in the retry queue is never deleted.
+   patch: [{'op': 'remove', 'path': '/plumbing/detours/r1/do/2'}] events: [{'on': 'timeout', 'at': 'w3'}]
+   own search: found=True property=P2 violated=['P2'] states=159
+   own why: note_draft is still at note_writer_queue at t10; it arrived at t5 and may stay 4 ticks | rare events on path: ['-- rare event timeout@w3: detour r1 runs in place of move w3']
+   Z3: sat: a property can break. Events fired: ['timeout@w3']
+          P2 note_draft at note_writer_queue past its deadline
+== F3 (config/design_choices.json) rule 3
+   says: The note draft reaches the chart by a path that skips the gate, so no record is written for that handover.
+   patch: [{'op': 'replace', 'path': '/plumbing/moves/w3/via_gate', 'value': False}] events: []
+   own search: found=True property=P3 violated=['P3', 'P4'] states=28
+   own why: move w3 reaches record without passing the gate | rare events on path: []
+   Z3: sat: a property can break. Events fired: ['timeout@w3']
+          P3 move w3 skips the gate
+          P4 move w3 has no journal record
+== PF06 (faults/practice/practice_faults.json) rule 1
+   says: When the draft send times out, the retry copy of the note draft goes to a troubleshooting store instead of the retry queue.
+   patch: [{'op': 'replace', 'path': '/plumbing/moves/w3q/to', 'value': 'debug_bucket'}] events: [{'on': 'timeout', 'at': 'w3'}]
+   own search: found=True property=P1 violated=['P1'] states=150
+   own why: a copy of note_draft is asked to debug_bucket, which is not named or may not hold it | rare events on path: ['-- rare event timeout@w3: detour r1 runs in place of move w3']
+   Z3: sat: a property can break. Events fired: ['timeout@w3']
+          P1 send w3q to debug_bucket
+== PF07 (faults/practice/practice_faults.json) rule 1
+   says: When the visit pauses and resumes, the cached transcript goes to a store of training examples by a side road that skips the gate and the log.
+   patch: [{'op': 'replace', 'path': '/plumbing/moves/w2c/to', 'value': 'training_store'}, {'op': 'replace', 'path': '/plumbing/moves/w2c/via_gate', 'value': False}] events: [{'on': 'resume', 'at': 'w2'}]
+   own search: found=True property=P1 violated=['P1', 'P3', 'P4'] states=144
+   own why: a copy of transcript is asked to training_store, which is not named or may not hold it | rare events on path: ['-- rare event resume@w2: detour r2 runs in place of move w2']
+   Z3: sat: a property can break. Events fired: ['resume@w2']
+          P1 send w2c to training_store
+          P3 move w2c skips the gate
+          P4 move w2c has no journal record
+== PF10 (faults/practice/practice_faults.json) rule 2
+   says: When the visit pauses and resumes, the transcript parked in the note service's cache is never deleted.
+   patch: [{'op': 'remove', 'path': '/plumbing/detours/r2/do/2'}] events: [{'on': 'resume', 'at': 'w2'}]
+   own search: found=True property=P2 violated=['P2'] states=153
+   own why: transcript is still at note_writer_cache at t7; it arrived at t2 and may stay 4 ticks | rare events on path: ['-- rare event resume@w2: detour r2 runs in place of move w2']
+   Z3: sat: a property can break. Events fired: ['resume@w2']
+          P2 transcript at note_writer_cache past its deadline
+== PF11 (faults/practice/practice_faults.json) rule 2
+   says: When two visits overlap, the note service's deletion of the transcript does nothing at its time and happens only at close.
+   patch: [{'op': 'remove', 'path': '/plumbing/detours/r4/do/0'}] events: [{'on': 'overlap', 'at': 'd4'}]
+   own search: found=True property=P2 violated=['P2'] states=172
+   own why: transcript is still at note_writer at t13; it arrived at t2 and may stay 10 ticks | rare events on path: ['-- rare event overlap@d4: detour r4 runs in place of duty d4']
+   Z3: sat: a property can break. Events fired: ['overlap@d4']
+          P2 transcript at note_writer past its deadline
+== PF12 (faults/practice/practice_faults.json) rule 2
+   says: The duty that deletes the patient note from the summary service's store is removed from the wiring.
+   patch: [{'op': 'remove', 'path': '/plumbing/duties/d10'}] events: []
+   own search: found=True property=P2 violated=['P2'] states=173
+   own why: patient_note is still at summary_writer at t29; it arrived at t15 and may stay 10 ticks | rare events on path: []
+   Z3: sat: a property can break. Events fired: ['timeout@w3']
+          P2 patient_note at summary_writer past its deadline
+== PF14 (faults/practice/practice_faults.json) rule 2
+   says: After a crash, the restart deletes the transcript at the note service's cache, where it never was, instead of at the scribe service, so the scribe service's copy waits until close.
+   patch: [{'op': 'replace', 'path': '/plumbing/detours/r3/do/0', 'value': {'delete': ['transcript', 'note_writer_cache']}}] events: [{'on': 'crash', 'at': 'd3'}]
+   own search: found=True property=P2 violated=['P2'] states=169
+   own why: transcript is still at transcriber at t11; it arrived at t0 and may stay 10 ticks | rare events on path: ['-- rare event crash@d3: detour r3 runs in place of duty d3']
+   Z3: sat: a property can break. Events fired: ['crash@d3']
+          P2 transcript at transcriber past its deadline
+== PF16 (faults/practice/practice_faults.json) rule 3
+   says: The transcript reaches the note service by a path that skips the gate, so no record is written for that handover.
+   patch: [{'op': 'replace', 'path': '/plumbing/moves/w2/via_gate', 'value': False}] events: []
+   own search: found=True property=P3 violated=['P3', 'P4'] states=8
+   own why: move w2 reaches note_writer without passing the gate | rare events on path: []
+   Z3: sat: a property can break. Events fired: ['timeout@w3']
+          P3 move w2 skips the gate
+          P4 move w2 has no journal record
+== PF17 (faults/practice/practice_faults.json) rule 3
+   says: The note draft reaches the chart by a path that skips the gate, so no record is written for that handover.
+   patch: [{'op': 'replace', 'path': '/plumbing/moves/w3/via_gate', 'value': False}] events: []
+   own search: found=True property=P3 violated=['P3', 'P4'] states=28
+   own why: move w3 reaches record without passing the gate | rare events on path: []
+   Z3: sat: a property can break. Events fired: ['timeout@w3']
+          P3 move w3 skips the gate
+          P4 move w3 has no journal record
+== PF18 (faults/practice/practice_faults.json) rule 3
+   says: The plan reaches the summary service by a path that skips the gate, so no record is written for that handover.
+   patch: [{'op': 'replace', 'path': '/plumbing/moves/a3/via_gate', 'value': False}] events: []
+   own search: found=True property=P3 violated=['P3', 'P4'] states=133
+   own why: move a3 reaches summary_writer without passing the gate | rare events on path: []
+   Z3: sat: a property can break. Events fired: ['timeout@w3']
+          P3 move a3 skips the gate
+          P4 move a3 has no journal record
+== PC4 (faults/practice/practice_faults.json (clean_cases)) rule 2
+   says: The scribe service stops between sending the transcript and deleting its copy, and the restart deletes it.
+   patch: [] events: [{'on': 'crash', 'at': 'd3'}]
+   own search: found=False property=None violated=[] states=183
+   own why: None | rare events on path: []
+   Z3: unsat: no property breaks inside the bounds (a result from Z3, not from this file's author)
+== PC5 (faults/practice/practice_faults.json (clean_cases)) rule 2
+   says: The draft send times out, so a copy of the note draft waits in the note service's retry queue and is cleared after the second send.
+   patch: [] events: [{'on': 'timeout', 'at': 'w3'}]
+   own search: found=False property=None violated=[] states=183
+   own why: None | rare events on path: []
+   Z3: unsat: no property breaks inside the bounds (a result from Z3, not from this file's author)
+== PC6 (faults/practice/practice_faults.json (clean_cases)) rule 2
+   says: The visit pauses and resumes, so the transcript sits in the note service's cache and is cleared after the send.
+   patch: [] events: [{'on': 'resume', 'at': 'w2'}]
+   own search: found=False property=None violated=[] states=183
+   own why: None | rare events on path: []
+   Z3: unsat: no property breaks inside the bounds (a result from Z3, not from this file's author)

@@ -1,0 +1,1013 @@
+[
+ {
+  "id": "F2",
+  "control": false,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 9,
+    "signal_t": 22,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 9,
+    "signal_t": 22,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 9,
+    "signal_t": 22,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "flagged",
+   "A+": "flagged",
+   "B": "flagged"
+  }
+ },
+ {
+  "id": "F3",
+  "control": false,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 3,
+    "outcome": "missed",
+    "break_t": 5,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 3,
+    "outcome": "missed",
+    "break_t": 5,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 3,
+    "outcome": "missed",
+    "break_t": 5,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "missed",
+   "A+": "missed",
+   "B": "missed"
+  }
+ },
+ {
+  "id": "PF06",
+  "control": false,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 1,
+    "outcome": "flagged",
+    "break_t": 5,
+    "signal_t": 22,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 1,
+    "outcome": "flagged",
+    "break_t": 5,
+    "signal_t": 5,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 1,
+    "outcome": "blocked",
+    "break_t": null,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "flagged",
+   "A+": "flagged",
+   "B": "blocked"
+  }
+ },
+ {
+  "id": "PF07",
+  "control": false,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 1,
+    "outcome": "missed",
+    "break_t": 2,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 1,
+    "outcome": "missed",
+    "break_t": 2,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 1,
+    "outcome": "missed",
+    "break_t": 2,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "missed",
+   "A+": "missed",
+   "B": "missed"
+  }
+ },
+ {
+  "id": "PF10",
+  "control": false,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 6,
+    "signal_t": 22,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 6,
+    "signal_t": 22,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 6,
+    "signal_t": 22,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "flagged",
+   "A+": "flagged",
+   "B": "flagged"
+  }
+ },
+ {
+  "id": "PF11",
+  "control": false,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 12,
+    "signal_t": 33,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 12,
+    "signal_t": 33,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 12,
+    "signal_t": 21,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "flagged",
+   "A+": "flagged",
+   "B": "flagged"
+  }
+ },
+ {
+  "id": "PF12",
+  "control": false,
+  "experiment": 2,
+  "case": "q0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 16,
+    "signal_t": 20,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 16,
+    "signal_t": 20,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 16,
+    "signal_t": 20,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "flagged",
+   "A+": "flagged",
+   "B": "flagged"
+  }
+ },
+ {
+  "id": "PF14",
+  "control": false,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 10,
+    "signal_t": 33,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 10,
+    "signal_t": 33,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 2,
+    "outcome": "flagged",
+    "break_t": 10,
+    "signal_t": 21,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection changed",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "flagged",
+   "A+": "flagged",
+   "B": "flagged"
+  }
+ },
+ {
+  "id": "PF16",
+  "control": false,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 3,
+    "outcome": "missed",
+    "break_t": 2,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 3,
+    "outcome": "missed",
+    "break_t": 2,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 3,
+    "outcome": "flagged",
+    "break_t": 2,
+    "signal_t": 5,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "missed",
+   "A+": "missed",
+   "B": "flagged"
+  }
+ },
+ {
+  "id": "PF17",
+  "control": false,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 3,
+    "outcome": "missed",
+    "break_t": 5,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 3,
+    "outcome": "missed",
+    "break_t": 5,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 3,
+    "outcome": "missed",
+    "break_t": 5,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "missed",
+   "A+": "missed",
+   "B": "missed"
+  }
+ },
+ {
+  "id": "PF18",
+  "control": false,
+  "experiment": 2,
+  "case": "q0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 3,
+    "outcome": "missed",
+    "break_t": 5,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 3,
+    "outcome": "missed",
+    "break_t": 5,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 3,
+    "outcome": "flagged",
+    "break_t": 5,
+    "signal_t": 7,
+    "flag_part": "program_only",
+    "part": "wiring",
+    "kind": "a connection skips the checker",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "missed",
+   "A+": "missed",
+   "B": "flagged"
+  }
+ },
+ {
+  "id": "PC4",
+  "control": true,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 2,
+    "outcome": "did_not_fire",
+    "break_t": null,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a rare path taken",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 2,
+    "outcome": "did_not_fire",
+    "break_t": null,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a rare path taken",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 2,
+    "outcome": "did_not_fire",
+    "break_t": null,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a rare path taken",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "did_not_fire",
+   "A+": "did_not_fire",
+   "B": "did_not_fire"
+  },
+  "signals": []
+ },
+ {
+  "id": "PC5",
+  "control": true,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 2,
+    "outcome": "did_not_fire",
+    "break_t": null,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a rare path taken",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 2,
+    "outcome": "did_not_fire",
+    "break_t": null,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a rare path taken",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 2,
+    "outcome": "did_not_fire",
+    "break_t": null,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a rare path taken",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "did_not_fire",
+   "A+": "did_not_fire",
+   "B": "did_not_fire"
+  },
+  "signals": []
+ },
+ {
+  "id": "PC6",
+  "control": true,
+  "experiment": 1,
+  "case": "c0001",
+  "split": "tune",
+  "crashed": [
+   false,
+   false,
+   false
+  ],
+  "attempts": [
+   {
+    "condition": "A",
+    "rule": 2,
+    "outcome": "did_not_fire",
+    "break_t": null,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a rare path taken",
+    "natural": false
+   },
+   {
+    "condition": "A+",
+    "rule": 2,
+    "outcome": "did_not_fire",
+    "break_t": null,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a rare path taken",
+    "natural": false
+   },
+   {
+    "condition": "B",
+    "rule": 2,
+    "outcome": "did_not_fire",
+    "break_t": null,
+    "signal_t": null,
+    "flag_part": null,
+    "part": "wiring",
+    "kind": "a rare path taken",
+    "natural": false
+   }
+  ],
+  "keys": [
+   "break_t",
+   "condition",
+   "conversation_id",
+   "fault_id",
+   "flag_part",
+   "group",
+   "kind",
+   "method",
+   "natural",
+   "outcome",
+   "paired",
+   "part",
+   "rule",
+   "run_id",
+   "signal_t",
+   "split",
+   "unpaired",
+   "visit_id"
+  ],
+  "outcome": {
+   "A": "did_not_fire",
+   "A+": "did_not_fire",
+   "B": "did_not_fire"
+  },
+  "signals": []
+ }
+]

@@ -1,0 +1,110 @@
+{
+  "_about": "The wiring of one AI-assisted doctor's visit: where data can sit, which moves are allowed, which deadlines apply and which places are named. This file is the single source for the running chain and for the formal model. docs/FRAME.md, section 4, explains the format. Keys that start with an underscore are notes for people; programs ignore them.",
+  "version": "0.2",
+
+  "kinds": ["transcript", "note_draft", "note", "question", "answer", "plan", "patient_note"],
+  "_kinds_note": "The data set holds transcripts and no audio, so the words flow starts at the transcript (version 2, 13 Nov). 'note_draft' is the AI's draft of the visit note; 'note' is the note as filed in the chart; 'patient_note' is the note for the patient. Version 3 (13 Nov): the kind 'evidence' is gone; the answer enters the advice flow ready-made, at the evidence tool.",
+
+  "promise": {
+    "_about": "What the patient is told. Rule 1 reads 'named' and 'may_hold'. Rule 2 reads the hold names; their lengths in ticks are in config/design_choices.json under 'holds', counted from the moment a copy comes to sit at the place. A hold of null means the copy may stay. No fault may change this part. A place that is not listed here is not named and may hold nothing.",
+    "_basis": "The named places and the deletions follow the strictest policy stated, line by line, in current scribe tools' own documents, as the project's review of 5 Nov 2026 extracted them: the transcript is discarded once the note exists, nothing is stored outside the medical record, and model providers are named and keep nothing. No single tool states all of it.",
+    "places": [
+      {"id": "transcriber", "named": true, "who": "the scribe service, which holds the transcript", "may_hold": {"transcript": "in_visit"}},
+      {"id": "note_writer", "named": true, "who": "the AI service that drafts the visit note", "may_hold": {"transcript": "in_visit", "note_draft": "in_visit"}},
+      {"id": "note_writer_cache", "named": true, "who": "the note-drafting service's cache for a visit that pauses and resumes", "may_hold": {"transcript": "side_store"}},
+      {"id": "note_writer_queue", "named": true, "who": "the note-drafting service's retry queue", "may_hold": {"note_draft": "side_store"}},
+      {"id": "record", "named": true, "who": "the practice's chart", "may_hold": {"note_draft": "in_visit", "note": null}},
+      {"id": "clinician", "named": true, "who": "the doctor's workspace", "may_hold": {"question": null, "answer": null, "plan": null}},
+      {"id": "advice_tool", "named": true, "who": "the AI evidence tool", "may_hold": {"answer": "in_visit"}},
+      {"id": "summary_writer", "named": true, "who": "the AI service that writes the note for the patient", "may_hold": {"plan": "in_visit", "patient_note": "in_visit"}},
+      {"id": "patient", "named": true, "who": "the patient's portal and own copy", "may_hold": {"patient_note": null}},
+      {"id": "analytics", "named": false, "who": "a product analytics store", "may_hold": {}},
+      {"id": "training_store", "named": false, "who": "a store of examples for model training", "may_hold": {}},
+      {"id": "outside_annotator", "named": false, "who": "an outside firm that reviews samples", "may_hold": {}},
+      {"id": "debug_bucket", "named": false, "who": "a troubleshooting store", "may_hold": {}}
+    ],
+    "_places_note": "The four places with named false are told to nobody. They exist so that a fault has somewhere to send things. No move leads to them."
+  },
+
+  "plumbing": {
+    "_about": "What runs. A wiring fault is a patch to this part.",
+
+    "intake": [
+      {"kind": "transcript", "place": "transcriber", "text": "visit.conversation", "source": "[visit.conversation_id]", "certainty": null, "ai_made": false},
+      {"kind": "question", "place": "clinician", "text": "visit.question", "source": "[visit.question_id]", "certainty": null, "ai_made": false},
+      {"kind": "answer", "place": "advice_tool", "text": "visit.answer_text: for a stored-answer question the stored answer, then the source tag naming the tool, then the AI mark; for a graded question the answer composed by a program from the experts' conclusion, their grade and the studies (config/design_choices.json: data.composed_answer)", "source": "the source ids of visit.evidence; or, for a stored answer, the one id that config/design_choices.json defines under data.source_ids.stored_tool_answer", "certainty": "visit.expert_certainty", "ai_made": true}
+    ],
+    "_intake_note": "The raw inputs of a visit and where each starts, at tick 0. 'text', 'source', 'certainty' and 'ai_made' say in words what the engine takes from the Visit; the last three are the facts handed to courier.admit. Version 3 (13 Nov): the question starts at the clinician as before; the answer starts at the evidence tool, ready-made, and no AI step writes it.",
+
+    "lanes": [
+      {"id": "words", "says": "Your words going out", "steps": ["transcriber", "note_writer", "record"]},
+      {"id": "advice", "says": "The advice coming in", "steps": ["answer", "plan", "patient_note"]}
+    ],
+
+    "steps": [
+      {"id": "transcriber", "lane": "words", "place": "transcriber", "reads": ["transcript"], "makes": null, "ai": false, "prompt": null, "says": "Holds the transcript and passes it on."},
+      {"id": "note_writer", "lane": "words", "place": "note_writer", "reads": ["transcript"], "makes": "note_draft", "ai": true, "prompt": "note_writer", "says": "Drafts the visit note from the transcript."},
+      {"id": "record", "lane": "words", "place": "record", "reads": ["note_draft"], "makes": "note", "ai": false, "prompt": null, "says": "Files the draft in the chart as the note."},
+      {"id": "answer", "lane": "advice", "place": "advice_tool", "reads": ["answer"], "makes": null, "ai": false, "prompt": null, "says": "Hands the tool's answer to the doctor."},
+      {"id": "plan", "lane": "advice", "place": "clinician", "reads": ["question", "answer"], "makes": "plan", "ai": true, "prompt": "plan", "says": "Turns the answer into a plan."},
+      {"id": "patient_note", "lane": "advice", "place": "summary_writer", "reads": ["plan"], "makes": "patient_note", "ai": true, "prompt": "patient_note", "says": "Writes the note for the patient from the plan."}
+    ],
+    "_steps_note": "'prompt' is a key of config/design_choices.json: prompts. A step with 'makes' null makes no new item; its move carries the copy it read. The step 'janitor' carries out duties and is not listed here, since it has no place of its own. A step with 'ai' false is a program: it passes its input text through unchanged under its new kind.",
+
+    "moves": [
+      {"id": "w2", "step": "transcriber", "kind": "transcript", "from": "transcriber", "to": "note_writer", "via_gate": true},
+      {"id": "w3", "step": "note_writer", "kind": "note_draft", "from": "note_writer", "to": "record", "via_gate": true},
+      {"id": "a2", "step": "answer", "kind": "answer", "from": "advice_tool", "to": "clinician", "via_gate": true},
+      {"id": "a3", "step": "plan", "kind": "plan", "from": "clinician", "to": "summary_writer", "via_gate": true},
+      {"id": "a4", "step": "patient_note", "kind": "patient_note", "from": "summary_writer", "to": "patient", "via_gate": true},
+      {"id": "w3q", "step": "note_writer", "kind": "note_draft", "from": "note_writer", "to": "note_writer_queue", "via_gate": true, "detour_only": true},
+      {"id": "w2c", "step": "transcriber", "kind": "transcript", "from": "transcriber", "to": "note_writer_cache", "via_gate": true, "detour_only": true}
+    ],
+    "_moves_note": "A move is one handover: after its step has run, the kind goes from one place to the next. The sender keeps its copy until a duty deletes it. 'via_gate' true means the handover passes the point where a method's watcher or gate sits; false is a path that skips it and leaves no line in the steps' own log. A move with 'detour_only' runs only inside a detour.",
+
+    "duties": [
+      {"id": "d3", "kind": "transcript", "place": "transcriber", "after": "w2"},
+      {"id": "d4", "kind": "transcript", "place": "note_writer", "after": "w3"},
+      {"id": "d5", "kind": "note_draft", "place": "note_writer", "after": "w3"},
+      {"id": "d6", "kind": "note_draft", "place": "record", "after_step": "record"},
+      {"id": "d8", "kind": "answer", "place": "advice_tool", "after": "a2"},
+      {"id": "d9", "kind": "plan", "place": "summary_writer", "after": "a4"},
+      {"id": "d10", "kind": "patient_note", "place": "summary_writer", "after": "a4"}
+    ],
+    "_duties_note": "A duty deletes every copy of a kind at a place. It names either 'after' (a move: the duty runs once that move has been delivered, whether plainly or inside a detour) or 'after_step' (a step: the duty runs once that step has run and made its item). Duties run in the order listed.",
+
+    "detours": [
+      {"id": "r1", "on": "timeout", "at": "w3", "says": "The first send of the draft gets no answer, so a copy of the draft waits in the note service's retry queue while the draft is sent again; then the queue is cleared.", "do": [{"send": "w3q"}, {"send": "w3"}, {"delete": ["note_draft", "note_writer_queue"]}]},
+      {"id": "r2", "on": "resume", "at": "w2", "says": "The visit pauses and resumes, so the transcript is cached while it is sent on; then the cache is cleared.", "do": [{"send": "w2c"}, {"send": "w2"}, {"delete": ["transcript", "note_writer_cache"]}]},
+      {"id": "r3", "on": "crash", "at": "d3", "says": "The scribe service stops between sending the transcript and deleting its copy; on restart the deletion runs.", "do": [{"delete": ["transcript", "transcriber"]}]},
+      {"id": "r4", "on": "overlap", "at": "d4", "says": "Two visits share the note-drafting service's store; each visit's deletion still runs.", "do": [{"delete": ["transcript", "note_writer"]}]}
+    ],
+    "_detours_note": "A detour is what the plumbing does when a rare event hits a move or a duty: its 'do' list runs in place of that move or duty, once. Each entry is {send: move id} or {delete: [kind, place]}. Most visits never take these paths, which is why a check at each handover can miss a fault that lives on one. A wiring fault usually changes a 'do' list or sets 'via_gate' to false. A position in a 'do' list counts from 0.",
+
+    "shared_places": ["note_writer", "note_writer_queue"],
+    "_shared_note": "For the formal model: two visits use these stores at the same time. The running chain runs one visit at a time and replays an overlap as an event.",
+
+    "final": {"note": "record", "patient_note": "patient"},
+    "_final_note": "Where the final text of each kind is read at the end of a visit (for the review and for 'produced'). The note ends in the chart (the place record), since the handover of the note to the patient was deleted on 13 Nov (version 3); the note for the patient ends at the patient.",
+
+    "close": {"wait": "the longest hold plus one tick", "late_pass": true},
+    "_close_note": "At the end of a visit the clock moves past every deadline, then each duty runs once more for copies that are still there. A deletion made in this late pass is late by design; it is how a delayed deletion and a copy stranded by a block show up."
+  },
+
+  "prove": {
+    "_about": "What the formal model must show from this file, for every order of events inside config/design_choices.json: model. MODEL builds it later; nothing here needs an install tonight.",
+    "components": ["gate", "journal (record first)", "one witness"],
+    "_components_note": "The model covers the gate, the journal that is written before each delivery, and one witness, as well as the places, holds and moves above.",
+    "properties": [
+      {"id": "P1", "rule": 1, "says": "No copy ever sits at a place that is not named, or that may not hold its kind."},
+      {"id": "P2", "rule": 2, "says": "Every copy at a place with a hold is deleted within that hold."},
+      {"id": "P3", "rule": 3, "says": "Every move passes the gate, so a record is written before it."},
+      {"id": "P4", "rule": 3, "says": "Every delivered handover has a journal record whose fingerprint the witness holds."}
+    ],
+    "assumes": [
+      "A step can ask only for what the gate lets through.",
+      "No step can change the gate, the witness or this file.",
+      "Only the listed rare events happen, within the bounds in config/design_choices.json: model."
+    ]
+  }
+}

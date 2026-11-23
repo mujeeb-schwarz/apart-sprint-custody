@@ -1,0 +1,636 @@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 95 and seed -2603695483896592905 with 1 worker on 10 cores with 6144MB heap and 64MB offheap memory [pid: 47061] (Mac OS X 26.6.2 aarch64, Eclipse Adoptium 25.0.5 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file <repo>/after_submission/tlc_mistakes/PF18/Custody.tla
+Parsing file <temporary folder>/Integers.tla
+Parsing file <temporary folder>/Sequences.tla
+Parsing file <temporary folder>/FiniteSets.tla
+Parsing file <temporary folder>/Naturals.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Custody
+Starting... (2026-11-22 17:16:50)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-22 17:16:50.
+Error: Invariant P3 is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ handed = {}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 0
+/\ pc = 1
+/\ jr = {}
+/\ copies = {}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 2: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {}
+/\ rest = <<[place |-> "transcriber", kind |-> "transcript", t |-> "intake"]>>
+/\ used = {}
+/\ n = 0
+/\ pc = 2
+/\ jr = {}
+/\ copies = {}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 3: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 0
+/\ pc = 2
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 4: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {}
+/\ rest = << [ place |-> "transcriber",
+     t |-> "step",
+     id |-> "transcriber",
+     reads |-> {"transcript"},
+     makes |-> "" ] >>
+/\ used = {}
+/\ n = 0
+/\ pc = 3
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 5: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 0
+/\ pc = 3
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 1
+
+State 6: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {}
+/\ rest = << [ kind |-> "transcript",
+     t |-> "send",
+     move |-> "w2",
+     from |-> "transcriber",
+     to |-> "note_writer",
+     gated |-> TRUE,
+     need |-> "" ] >>
+/\ used = {}
+/\ n = 0
+/\ pc = 4
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 1
+
+State 7: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1]}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 1
+/\ pc = 4
+/\ jr = {1}
+/\ copies = { [place |-> "transcriber", kind |-> "transcript", arr |-> 0],
+  [place |-> "note_writer", kind |-> "transcript", arr |-> 2] }
+/\ ws = {1}
+/\ delivered = {"w2"}
+/\ clock = 2
+
+State 8: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1]}
+/\ rest = << [ place |-> "transcriber",
+     kind |-> "transcript",
+     t |-> "delete",
+     need |-> "w2" ] >>
+/\ used = {}
+/\ n = 1
+/\ pc = 5
+/\ jr = {1}
+/\ copies = { [place |-> "transcriber", kind |-> "transcript", arr |-> 0],
+  [place |-> "note_writer", kind |-> "transcript", arr |-> 2] }
+/\ ws = {1}
+/\ delivered = {"w2"}
+/\ clock = 2
+
+State 9: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1], [gated |-> TRUE, n |-> 2]}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 2
+/\ pc = 5
+/\ jr = {1, 2}
+/\ copies = {[place |-> "note_writer", kind |-> "transcript", arr |-> 2]}
+/\ ws = {1, 2}
+/\ delivered = {"w2"}
+/\ clock = 3
+
+State 10: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1], [gated |-> TRUE, n |-> 2]}
+/\ rest = << [ place |-> "note_writer",
+     t |-> "step",
+     id |-> "note_writer",
+     reads |-> {"transcript"},
+     makes |-> "note_draft" ] >>
+/\ used = {}
+/\ n = 2
+/\ pc = 6
+/\ jr = {1, 2}
+/\ copies = {[place |-> "note_writer", kind |-> "transcript", arr |-> 2]}
+/\ ws = {1, 2}
+/\ delivered = {"w2"}
+/\ clock = 3
+
+State 11: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1], [gated |-> TRUE, n |-> 2]}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 2
+/\ pc = 6
+/\ jr = {1, 2}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 2],
+  [place |-> "note_writer", kind |-> "note_draft", arr |-> 4] }
+/\ ws = {1, 2}
+/\ delivered = {"w2"}
+/\ clock = 4
+
+State 12: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1], [gated |-> TRUE, n |-> 2]}
+/\ rest = << [ kind |-> "note_draft",
+     t |-> "send",
+     move |-> "w3",
+     from |-> "note_writer",
+     to |-> "record",
+     gated |-> TRUE,
+     need |-> "" ] >>
+/\ used = {}
+/\ n = 2
+/\ pc = 7
+/\ jr = {1, 2}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 2],
+  [place |-> "note_writer", kind |-> "note_draft", arr |-> 4] }
+/\ ws = {1, 2}
+/\ delivered = {"w2"}
+/\ clock = 4
+
+State 13: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 3
+/\ pc = 7
+/\ jr = {1, 2, 3}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 2],
+  [place |-> "note_writer", kind |-> "note_draft", arr |-> 4],
+  [place |-> "record", kind |-> "note_draft", arr |-> 5] }
+/\ ws = {1, 2, 3}
+/\ delivered = {"w2", "w3"}
+/\ clock = 5
+
+State 14: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3] }
+/\ rest = << [ place |-> "note_writer",
+     kind |-> "transcript",
+     t |-> "delete",
+     need |-> "w3" ] >>
+/\ used = {}
+/\ n = 3
+/\ pc = 8
+/\ jr = {1, 2, 3}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 2],
+  [place |-> "note_writer", kind |-> "note_draft", arr |-> 4],
+  [place |-> "record", kind |-> "note_draft", arr |-> 5] }
+/\ ws = {1, 2, 3}
+/\ delivered = {"w2", "w3"}
+/\ clock = 5
+
+State 15: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 4
+/\ pc = 8
+/\ jr = {1, 2, 3, 4}
+/\ copies = { [place |-> "note_writer", kind |-> "note_draft", arr |-> 4],
+  [place |-> "record", kind |-> "note_draft", arr |-> 5] }
+/\ ws = {1, 2, 3, 4}
+/\ delivered = {"w2", "w3"}
+/\ clock = 6
+
+State 16: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4] }
+/\ rest = << [ place |-> "note_writer",
+     kind |-> "note_draft",
+     t |-> "delete",
+     need |-> "w3" ] >>
+/\ used = {}
+/\ n = 4
+/\ pc = 9
+/\ jr = {1, 2, 3, 4}
+/\ copies = { [place |-> "note_writer", kind |-> "note_draft", arr |-> 4],
+  [place |-> "record", kind |-> "note_draft", arr |-> 5] }
+/\ ws = {1, 2, 3, 4}
+/\ delivered = {"w2", "w3"}
+/\ clock = 6
+
+State 17: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 5
+/\ pc = 9
+/\ jr = {1, 2, 3, 4, 5}
+/\ copies = {[place |-> "record", kind |-> "note_draft", arr |-> 5]}
+/\ ws = {1, 2, 3, 4, 5}
+/\ delivered = {"w2", "w3"}
+/\ clock = 7
+
+State 18: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5] }
+/\ rest = << [ place |-> "record",
+     t |-> "step",
+     id |-> "record",
+     reads |-> {"note_draft"},
+     makes |-> "note" ] >>
+/\ used = {}
+/\ n = 5
+/\ pc = 10
+/\ jr = {1, 2, 3, 4, 5}
+/\ copies = {[place |-> "record", kind |-> "note_draft", arr |-> 5]}
+/\ ws = {1, 2, 3, 4, 5}
+/\ delivered = {"w2", "w3"}
+/\ clock = 7
+
+State 19: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 5
+/\ pc = 10
+/\ jr = {1, 2, 3, 4, 5}
+/\ copies = { [place |-> "record", kind |-> "note_draft", arr |-> 5],
+  [place |-> "record", kind |-> "note", arr |-> 8] }
+/\ ws = {1, 2, 3, 4, 5}
+/\ delivered = {"w2", "w3"}
+/\ clock = 8
+
+State 20: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5] }
+/\ rest = <<[place |-> "record", kind |-> "note_draft", t |-> "delete", need |-> ""]>>
+/\ used = {}
+/\ n = 5
+/\ pc = 11
+/\ jr = {1, 2, 3, 4, 5}
+/\ copies = { [place |-> "record", kind |-> "note_draft", arr |-> 5],
+  [place |-> "record", kind |-> "note", arr |-> 8] }
+/\ ws = {1, 2, 3, 4, 5}
+/\ delivered = {"w2", "w3"}
+/\ clock = 8
+
+State 21: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 6
+/\ pc = 11
+/\ jr = {1, 2, 3, 4, 5, 6}
+/\ copies = {[place |-> "record", kind |-> "note", arr |-> 8]}
+/\ ws = {1, 2, 3, 4, 5, 6}
+/\ delivered = {"w2", "w3"}
+/\ clock = 9
+
+State 22: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6] }
+/\ rest = << [place |-> "clinician", kind |-> "question", t |-> "intake"],
+   [place |-> "advice_tool", kind |-> "answer", t |-> "intake"] >>
+/\ used = {}
+/\ n = 6
+/\ pc = 12
+/\ jr = {1, 2, 3, 4, 5, 6}
+/\ copies = {[place |-> "record", kind |-> "note", arr |-> 8]}
+/\ ws = {1, 2, 3, 4, 5, 6}
+/\ delivered = {"w2", "w3"}
+/\ clock = 9
+
+State 23: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6] }
+/\ rest = <<[place |-> "advice_tool", kind |-> "answer", t |-> "intake"]>>
+/\ used = {}
+/\ n = 6
+/\ pc = 12
+/\ jr = {1, 2, 3, 4, 5, 6}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9] }
+/\ ws = {1, 2, 3, 4, 5, 6}
+/\ delivered = {"w2", "w3"}
+/\ clock = 9
+
+State 24: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 6
+/\ pc = 12
+/\ jr = {1, 2, 3, 4, 5, 6}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9],
+  [place |-> "advice_tool", kind |-> "answer", arr |-> 9] }
+/\ ws = {1, 2, 3, 4, 5, 6}
+/\ delivered = {"w2", "w3"}
+/\ clock = 9
+
+State 25: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6] }
+/\ rest = << [ place |-> "advice_tool",
+     t |-> "step",
+     id |-> "answer",
+     reads |-> {"answer"},
+     makes |-> "" ] >>
+/\ used = {}
+/\ n = 6
+/\ pc = 13
+/\ jr = {1, 2, 3, 4, 5, 6}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9],
+  [place |-> "advice_tool", kind |-> "answer", arr |-> 9] }
+/\ ws = {1, 2, 3, 4, 5, 6}
+/\ delivered = {"w2", "w3"}
+/\ clock = 9
+
+State 26: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 6
+/\ pc = 13
+/\ jr = {1, 2, 3, 4, 5, 6}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9],
+  [place |-> "advice_tool", kind |-> "answer", arr |-> 9] }
+/\ ws = {1, 2, 3, 4, 5, 6}
+/\ delivered = {"w2", "w3"}
+/\ clock = 10
+
+State 27: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6] }
+/\ rest = << [ kind |-> "answer",
+     t |-> "send",
+     move |-> "a2",
+     from |-> "advice_tool",
+     to |-> "clinician",
+     gated |-> TRUE,
+     need |-> "" ] >>
+/\ used = {}
+/\ n = 6
+/\ pc = 14
+/\ jr = {1, 2, 3, 4, 5, 6}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9],
+  [place |-> "advice_tool", kind |-> "answer", arr |-> 9] }
+/\ ws = {1, 2, 3, 4, 5, 6}
+/\ delivered = {"w2", "w3"}
+/\ clock = 10
+
+State 28: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6],
+  [gated |-> TRUE, n |-> 7] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 7
+/\ pc = 14
+/\ jr = {1, 2, 3, 4, 5, 6, 7}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9],
+  [place |-> "clinician", kind |-> "answer", arr |-> 11],
+  [place |-> "advice_tool", kind |-> "answer", arr |-> 9] }
+/\ ws = {1, 2, 3, 4, 5, 6, 7}
+/\ delivered = {"w2", "w3", "a2"}
+/\ clock = 11
+
+State 29: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6],
+  [gated |-> TRUE, n |-> 7] }
+/\ rest = <<[place |-> "advice_tool", kind |-> "answer", t |-> "delete", need |-> "a2"]>>
+/\ used = {}
+/\ n = 7
+/\ pc = 15
+/\ jr = {1, 2, 3, 4, 5, 6, 7}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9],
+  [place |-> "clinician", kind |-> "answer", arr |-> 11],
+  [place |-> "advice_tool", kind |-> "answer", arr |-> 9] }
+/\ ws = {1, 2, 3, 4, 5, 6, 7}
+/\ delivered = {"w2", "w3", "a2"}
+/\ clock = 11
+
+State 30: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6],
+  [gated |-> TRUE, n |-> 7],
+  [gated |-> TRUE, n |-> 8] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 8
+/\ pc = 15
+/\ jr = {1, 2, 3, 4, 5, 6, 7, 8}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9],
+  [place |-> "clinician", kind |-> "answer", arr |-> 11] }
+/\ ws = {1, 2, 3, 4, 5, 6, 7, 8}
+/\ delivered = {"w2", "w3", "a2"}
+/\ clock = 12
+
+State 31: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6],
+  [gated |-> TRUE, n |-> 7],
+  [gated |-> TRUE, n |-> 8] }
+/\ rest = << [ place |-> "clinician",
+     t |-> "step",
+     id |-> "plan",
+     reads |-> {"question", "answer"},
+     makes |-> "plan" ] >>
+/\ used = {}
+/\ n = 8
+/\ pc = 16
+/\ jr = {1, 2, 3, 4, 5, 6, 7, 8}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9],
+  [place |-> "clinician", kind |-> "answer", arr |-> 11] }
+/\ ws = {1, 2, 3, 4, 5, 6, 7, 8}
+/\ delivered = {"w2", "w3", "a2"}
+/\ clock = 12
+
+State 32: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6],
+  [gated |-> TRUE, n |-> 7],
+  [gated |-> TRUE, n |-> 8] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 8
+/\ pc = 16
+/\ jr = {1, 2, 3, 4, 5, 6, 7, 8}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9],
+  [place |-> "clinician", kind |-> "answer", arr |-> 11],
+  [place |-> "clinician", kind |-> "plan", arr |-> 13] }
+/\ ws = {1, 2, 3, 4, 5, 6, 7, 8}
+/\ delivered = {"w2", "w3", "a2"}
+/\ clock = 13
+
+State 33: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6],
+  [gated |-> TRUE, n |-> 7],
+  [gated |-> TRUE, n |-> 8] }
+/\ rest = << [ kind |-> "plan",
+     t |-> "send",
+     move |-> "a3",
+     from |-> "clinician",
+     to |-> "summary_writer",
+     gated |-> FALSE,
+     need |-> "" ] >>
+/\ used = {}
+/\ n = 8
+/\ pc = 17
+/\ jr = {1, 2, 3, 4, 5, 6, 7, 8}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9],
+  [place |-> "clinician", kind |-> "answer", arr |-> 11],
+  [place |-> "clinician", kind |-> "plan", arr |-> 13] }
+/\ ws = {1, 2, 3, 4, 5, 6, 7, 8}
+/\ delivered = {"w2", "w3", "a2"}
+/\ clock = 13
+
+State 34: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> FALSE, n |-> 9],
+  [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5],
+  [gated |-> TRUE, n |-> 6],
+  [gated |-> TRUE, n |-> 7],
+  [gated |-> TRUE, n |-> 8] }
+/\ rest = <<>>
+/\ used = {}
+/\ n = 9
+/\ pc = 17
+/\ jr = {1, 2, 3, 4, 5, 6, 7, 8}
+/\ copies = { [place |-> "record", kind |-> "note", arr |-> 8],
+  [place |-> "clinician", kind |-> "question", arr |-> 9],
+  [place |-> "clinician", kind |-> "answer", arr |-> 11],
+  [place |-> "clinician", kind |-> "plan", arr |-> 13],
+  [place |-> "summary_writer", kind |-> "plan", arr |-> 14] }
+/\ ws = {1, 2, 3, 4, 5, 6, 7, 8}
+/\ delivered = {"w2", "w3", "a2", "a3"}
+/\ clock = 14
+
+146 states generated, 130 distinct states found, 4 states left on queue.
+The depth of the complete state graph search is 34.
+The average outdegree of the complete state graph is 1 (minimum is 1, the maximum 2 and the 95th percentile is 1).
+Finished in 00s at (2026-11-22 17:16:50)
+Picked up JAVA_TOOL_OPTIONS: -Djava.net.preferIPv4Stack=true

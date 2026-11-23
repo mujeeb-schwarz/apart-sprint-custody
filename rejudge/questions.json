@@ -1,0 +1,4 @@
+{
+ "4": "does this text name a true source? Count its source tag and its words alike. The answer is no when the text names no true source at all, and also when its source tag names an id that is not among the true sources.",
+ "6": "does this text say that AI wrote it? Count the line [AI-generated] and its words alike. The answer is no only when the text carries neither."
+}

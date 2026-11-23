@@ -1,0 +1,52 @@
+GRADES (test cases only; pass, fail or inconclusive; missed / violations, false alarms / clean cases)
+rule  Promised                                Monitored                               Checked                                 the least that is enough
+(NC = flags that name only a rule and have no clean run of the case to compare with: in no count; the grade is inconclusive when it depends on them)
+4     fail  9/98  fa 0/49                     pass  1/98  fa 0/49                     fail  42/98  fa 0/49                    Monitored
+5     pass  0/99  fa 0/207                    fail  0/99  fa 52/207                   fail  2/99  fa 52/207                   Promised
+6     inconclusive  0/0  fa 0/20              inconclusive  0/0  fa 0/20              inconclusive  0/0  fa 0/20              inconclusive
+Proven is not given: the proof's list is not connected to the scorer.
+Per cell the scorer also holds: planted violations that did not take effect, flags not comparable, undecided.
+
+BY KIND (blocked / flagged / missed)
+rule 4  source removed                                  Promised 0/47/0  Monitored 0/47/0  Checked 0/47/0
+rule 4  wrong source named                              Promised 0/42/9  Monitored 0/50/1  Checked 0/9/42
+rule 5  wording made less certain                       Promised 0/43/0  Monitored 0/43/0  Checked 0/41/2
+rule 5  wording made more certain                       Promised 0/56/0  Monitored 0/56/0  Checked 0/56/0
+
+FLAGS BY PART (violations flagged by: program only / AI only / both; false alarms the same)
+rule 4  Promised   flagged 69 / 0 / 20   false alarms 0 / 0 / 0
+rule 4  Monitored  flagged 10 / 1 / 86   false alarms 0 / 0 / 0
+rule 4  Checked    flagged 56 / 0 / 0   false alarms 0 / 0 / 0
+rule 5  Promised   flagged 0 / 99 / 0   false alarms 0 / 0 / 0
+rule 5  Monitored  flagged 0 / 0 / 99   false alarms 52 / 0 / 0
+rule 5  Checked    flagged 97 / 0 / 0   false alarms 52 / 0 / 0
+rule 6  Promised   flagged 0 / 0 / 0   false alarms 0 / 0 / 0
+rule 6  Monitored  flagged 0 / 0 / 0   false alarms 0 / 0 / 0
+rule 6  Checked    flagged 0 / 0 / 0   false alarms 0 / 0 / 0
+
+FALSE ALARMS (clean cases with a flag for a rule that was kept)
+rule 4  Promised 0 of 49   Monitored 0 of 49   Checked 0 of 49
+rule 5  Promised 0 of 207   Monitored 52 of 207   Checked 52 of 207
+rule 6  Promised 0 of 20   Monitored 0 of 20   Checked 0 of 20
+
+ENTRY ERRORS (the judge read the entering answer differently from the grade it was written from; counted apart, a result for no method)
+Promised   cases 0, flagged 0, missed 0
+Monitored  cases 0, flagged 0, missed 0
+Checked    cases 0, flagged 0, missed 0
+
+NATURAL VIOLATIONS (clean cases; not graded; blocked / flagged / missed)
+rule 4  Promised 0/48/370   Monitored 0/48/370   Checked 0/0/418
+rule 5  Promised 0/1/5   Monitored 0/4/2   Checked 0/4/2
+rule 6  Promised 0/0/393   Monitored 0/0/393   Checked 0/0/393
+
+CASES LEFT OUT: 0
+
+READER AGAINST JUDGE (texts)
+rule 4  same 608, reader missed 1050, reader overcalled 1, reader could not read 180, judge missing 0
+rule 5  same 861, reader missed 3, reader overcalled 101, reader could not read 55, judge missing 0
+rule 6  same 904, reader missed 895, reader overcalled 0, reader could not read 40, judge missing 0
+
+PRACTICE SET: NEVER COUNTED
+rule 4  Promised inconclusive   Monitored inconclusive   Checked inconclusive
+rule 5  Promised inconclusive   Monitored inconclusive   Checked inconclusive
+rule 6  Promised inconclusive   Monitored inconclusive   Checked inconclusive

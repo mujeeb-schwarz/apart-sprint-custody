@@ -1,0 +1,116 @@
+=== 2026-11-15 13:40:03 start make rule 5 texts (GPT-6.1) (try 1)
+rule 5 rows 120, rule 4 source_wrong rows 0 (dropped in round 1 52); to ask 105, no honest text 0, skipped 15
+  skipped, no target level above high: 15
+rows to ask 105: already done 0, made now 105, not parsed after a second try 0, no honest text 0, left 0. calls 19, tokens used 109102, failed calls 0
+=== 2026-11-15 13:49:28 end make rule 5 texts (GPT-6.1) exit 0
+=== 2026-11-15 13:49:28 start confirm (frozen) (try 1)
+rule 5 less_certain: made 45, confirmed 45, dropped 0
+rule 5 more_certain: made 60, confirmed 60, dropped 0
+confirmed texts: round2/out/confirmed.jsonl (105 rows, in the plan's order). calls 14, tokens used 77300, failed calls 0
+=== 2026-11-15 13:50:41 end confirm (frozen) exit 0
+=== 2026-11-15 13:50:41 start confirm rule 4 again (try 1)
+rule 4 wrong sources dropped in round 1: 52; confirmed again: 52; reasons: {'ok': 52}
+named in the changed tags: {'user-provided text': 36, 'wikipedia': 8, 'chatgpt': 8}
+=== 2026-11-15 13:50:44 end confirm rule 4 again exit 0
+=== 2026-11-15 13:50:44 start union (try 1)
+union: rule 4 from round 1 62, rule 4 from round 2 52, rule 5 from round 2 105; written to round2/out/confirmed_union.jsonl
+=== 2026-11-15 13:50:44 end union exit 0
+=== 2026-11-15 13:50:44 start faults (try 1)
+faults for Experiment 2: rule 4 100, rule 5 100 (confirmed rows read 219)
+=== 2026-11-15 13:50:45 end faults exit 0
+=== 2026-11-15 13:50:45 start check (try 1)
+rule 5 less_certain: rows 45, no changed text 0; reader: same level 0, moved as asked 45 (target reached 37, past 0, short 8), wrong way 0, not read 0; level phrase changed 45; confirmed by the outside model 45 (of them moved as asked 45, same level 0)
+rule 5 more_certain: rows 60, no changed text 0; reader: same level 0, moved as asked 60 (target reached 60, past 0, short 0), wrong way 0, not read 0; level phrase changed 60; confirmed by the outside model 60 (of them moved as asked 60, same level 0)
+counts written to round2/out/round2_check.json
+=== 2026-11-15 13:50:49 end check exit 0
+=== 2026-11-15 13:50:49 copy the live folder
+=== 2026-11-15 13:50:49 start exp2 clean part (try 1)
+finished after 0 rounds. Nothing is missing. Results: runs/round2_e2/scores.json (not shown here)
+=== 2026-11-15 13:51:29 end exp2 clean part exit 0
+=== 2026-11-15 13:51:29 start exp2 planted rule 5 (try 1)
+round 1: pending steps 48, methods 152, judge 0
+  answered 200 (methods 152, steps 48), failed 0; tokens in 400 (plus 449448 cached), out 71668
+    claude-haiku-5-5: in 96, cached 60071, out 20910; cost field 0.0225
+    claude-sonnet-5-5: in 304, cached 389377, out 50758; cost field 2.0657
+    (cost field: the program's own estimate; nothing is charged on a subscription)
+  refused at import: 0
+round 2: pending steps 0, methods 96, judge 0
+  answered 96 (methods 96), failed 0; tokens in 192 (plus 261462 cached), out 36061
+    claude-sonnet-5-5: in 192, cached 261462, out 36061; cost field 1.4068
+    (cost field: the program's own estimate; nothing is charged on a subscription)
+  refused at import: 0
+round 3: pending steps 0, methods 0, judge 444
+  answered 444 (judge 444), failed 0; tokens in 888 (plus 668443 cached), out 61686
+    claude-opus-5-5: in 888, cached 668443, out 61686; cost field 6.5848
+    (cost field: the program's own estimate; nothing is charged on a subscription)
+  refused at import: 0
+finished after 3 rounds. Nothing is missing. Results: runs/round2_e2/scores.json (not shown here)
+=== 2026-11-15 13:57:03 end exp2 planted rule 5 exit 0
+=== 2026-11-15 13:57:03 start exp2 planted rule 4 (try 1)
+round 1: pending steps 31, methods 59, judge 0
+  answered 90 (methods 59, steps 31), failed 0; tokens in 180 (plus 234359 cached), out 57491
+    claude-haiku-5-5: in 62, cached 53439, out 34025; cost field 0.0277
+    claude-sonnet-5-5: in 118, cached 180920, out 23466; cost field 0.9586
+    (cost field: the program's own estimate; nothing is charged on a subscription)
+  refused at import: 0
+round 2: pending steps 15, methods 47, judge 0
+  answered 62 (methods 47, steps 15), failed 0; tokens in 124 (plus 175064 cached), out 38095
+    claude-haiku-5-5: in 30, cached 22748, out 17240; cost field 0.0132
+    claude-sonnet-5-5: in 94, cached 152316, out 20855; cost field 0.8180
+    (cost field: the program's own estimate; nothing is charged on a subscription)
+  refused at import: 0
+round 3: pending steps 0, methods 30, judge 0
+  answered 30 (methods 30), failed 0; tokens in 60 (plus 103982 cached), out 13644
+    claude-sonnet-5-5: in 60, cached 103982, out 13644; cost field 0.5525
+    (cost field: the program's own estimate; nothing is charged on a subscription)
+  refused at import: 0
+round 4: pending steps 0, methods 0, judge 273
+  answered 273 (judge 273), failed 0; tokens in 546 (plus 483772 cached), out 36088
+    claude-opus-5-5: in 546, cached 483772, out 36088; cost field 4.5941
+    (cost field: the program's own estimate; nothing is charged on a subscription)
+  refused at import: 0
+finished after 4 rounds. Nothing is missing. Results: runs/round2_e2/scores.json (not shown here)
+=== 2026-11-15 14:01:10 end exp2 planted rule 4 exit 0
+=== 2026-11-15 14:01:10 start exp2 score (frozen key) (try 1)
+ai: live; answers fingerprint: cea560cd31a68dcb88b0b5ca5649cded1d45c03004e347740f7ce596c8ccb0d3; levels from: reader_first
+predictions filed: yes; scorer equals the filed one: yes
+=== 2026-11-15 14:01:12 end exp2 score (frozen key) exit 0
+=== 2026-11-15 14:01:12 copy the second pass
+=== 2026-11-15 14:01:12 start second pass build (try 1)
+texts 1839; prompts rule 4: 1839, rule 6: 1839; distinct prompts 3154
+=== 2026-11-15 14:01:14 end second pass build exit 0
+=== 2026-11-15 14:01:14 start second pass answer (try 1)
+login works (method: claude.ai)
+answered 478, failed 0, left pending 0 (of 478 asked); wall time 134.6 s
+  answered by set: judge 478
+  claude-opus-5-5: tokens in 956 (plus 776152 cached), out 9522
+  claude-opus-5-5: cost field 6.4035 (the program's own estimate; nothing is charged on a subscription)
+answers: rejudge/round2_pass/answers.jsonl (import with: python3 tools/run_advice.py import rejudge/round2_pass/answers.jsonl ...)
+pending 3154; stored now 3154 (new 478); left 0
+=== 2026-11-15 14:03:29 end second pass answer exit 0
+=== 2026-11-15 14:03:29 start second pass collect (try 1)
+second-pass rows 3678; unreadable (undecided) 0; missing 0; copy rows 5517
+clean units, verdicts by rule:
+  4 broken: 1
+  4 kept: 1238
+  6 kept: 1239
+clean units, verdicts by case kind:
+  4 graded kept: 639
+  4 stored broken: 1
+  4 stored kept: 599
+  6 graded kept: 639
+  6 stored kept: 600
+clean units, verdicts by kind of text:
+  4 answer kept: 413
+  4 patient_note broken: 1
+  4 patient_note kept: 412
+  4 plan kept: 413
+  6 answer kept: 413
+  6 patient_note kept: 413
+  6 plan kept: 413
+=== 2026-11-15 14:03:29 end second pass collect exit 0
+=== 2026-11-15 14:03:29 start second pass score (try 1)
+ai: live; answers fingerprint: cea560cd31a68dcb88b0b5ca5649cded1d45c03004e347740f7ce596c8ccb0d3; levels from: reader_first
+predictions filed: yes; scorer equals the filed one: yes
+=== 2026-11-15 14:03:33 end second pass score exit 0
+=== 2026-11-15 14:03:33 DONE e2

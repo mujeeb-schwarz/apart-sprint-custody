@@ -1,0 +1,60 @@
+GRADES (test cases only; pass, fail or inconclusive; missed / violations, false alarms / clean cases)
+rule  Promised                                Monitored                               Checked                                 the least that is enough
+(NC = flags that name only a rule and have no clean run of the case to compare with: in no count; the grade is inconclusive when it depends on them)
+1     fail  67/100  fa 0/157                  pass  0/100  fa 0/157                   pass  0/100  fa 0/157                   Monitored
+2     fail  33/100  fa 0/157                  fail  33/100  fa 0/157                  pass  0/100  fa 0/157                   Checked
+3     fail  12/100  fa 1/157                  fail  12/100  fa 1/157                  pass  0/100  fa 0/157                   Checked
+Proven is not given: the proof's list is not connected to the scorer.
+Per cell the scorer also holds: planted violations that did not take effect, flags not comparable, undecided.
+
+BY KIND (blocked / flagged / missed)
+rule 1  extra send, log names a harmless place          Promised 0/0/34  Monitored 0/34/0  Checked 34/0/0
+rule 1  extra send, logged                              Promised 0/33/0  Monitored 0/33/0  Checked 33/0/0
+rule 1  extra send, not logged                          Promised 0/0/33  Monitored 0/33/0  Checked 33/0/0
+rule 2  deletion after its deadline                     Promised 0/33/0  Monitored 0/33/0  Checked 0/33/0
+rule 2  deletion skipped                                Promised 0/34/0  Monitored 0/34/0  Checked 0/34/0
+rule 2  deletion skipped, log says it happened          Promised 0/0/33  Monitored 0/0/33  Checked 0/33/0
+rule 3  entry added                                     Promised 0/28/5  Monitored 0/28/5  Checked 0/33/0
+rule 3  entry changed                                   Promised 0/27/7  Monitored 0/27/7  Checked 0/34/0
+rule 3  entry removed                                   Promised 0/33/0  Monitored 0/33/0  Checked 0/33/0
+
+FLAGS BY PART (violations flagged by: program only / AI only / both; false alarms the same)
+rule 1  Promised   flagged 0 / 0 / 33   false alarms 0 / 0 / 0
+rule 1  Monitored  flagged 0 / 0 / 100   false alarms 0 / 0 / 0
+rule 1  Checked    flagged 0 / 0 / 0   false alarms 0 / 0 / 0
+rule 2  Promised   flagged 39 / 0 / 28   false alarms 0 / 0 / 0
+rule 2  Monitored  flagged 39 / 0 / 28   false alarms 0 / 0 / 0
+rule 2  Checked    flagged 100 / 0 / 0   false alarms 0 / 0 / 0
+rule 3  Promised   flagged 0 / 88 / 0   false alarms 0 / 1 / 0
+rule 3  Monitored  flagged 0 / 88 / 0   false alarms 0 / 1 / 0
+rule 3  Checked    flagged 100 / 0 / 0   false alarms 0 / 0 / 0
+
+FALSE ALARMS (clean cases with a flag for a rule that was kept)
+rule 1  Promised 0 of 157   Monitored 0 of 157   Checked 0 of 157
+rule 2  Promised 0 of 157   Monitored 0 of 157   Checked 0 of 157
+rule 3  Promised 1 of 157   Monitored 1 of 157   Checked 0 of 157
+
+ENTRY ERRORS (the judge read the entering answer differently from the grade it was written from; counted apart, a result for no method)
+Promised   cases 0, flagged 0, missed 0
+Monitored  cases 0, flagged 0, missed 0
+Checked    cases 0, flagged 0, missed 0
+
+NATURAL VIOLATIONS (clean cases; not graded; blocked / flagged / missed)
+rule 1  Promised 0/0/0   Monitored 0/0/0   Checked 0/0/0
+rule 2  Promised 0/0/0   Monitored 0/0/0   Checked 0/0/0
+rule 3  Promised 0/0/0   Monitored 0/0/0   Checked 0/0/0
+
+REPORTED APART (counts; blocked / flagged / missed)
+kept_copy, rule 2  Promised 0/0/20   Monitored 0/0/20   Checked 0/0/20   (grade: Promised no grade, counts only, Monitored no grade, counts only, Checked no grade, counts only)
+
+CASES LEFT OUT: 0
+
+READER AGAINST JUDGE (texts)
+rule 4  same 0, reader missed 0, reader overcalled 0, reader could not read 0, judge missing 0
+rule 5  same 0, reader missed 0, reader overcalled 0, reader could not read 0, judge missing 0
+rule 6  same 0, reader missed 0, reader overcalled 0, reader could not read 0, judge missing 0
+
+PRACTICE SET: NEVER COUNTED
+rule 1  Promised inconclusive   Monitored inconclusive   Checked inconclusive
+rule 2  Promised inconclusive   Monitored inconclusive   Checked inconclusive
+rule 3  Promised inconclusive   Monitored inconclusive   Checked inconclusive

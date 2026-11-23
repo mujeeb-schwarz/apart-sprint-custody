@@ -1,0 +1,7 @@
+# Appendix H. Work done before the kickoff
+
+Work began on Thu 12 Nov 2026 at about 22:26 Pacific with the download of the public data sets, and the first project file was written at about 23:01. The sprint's kickoff talk was at 06:15 Pacific (14:15 UTC) on Fri 13 Nov. `PREKICKOFF_MANIFEST.txt` lists every file as it stood at 04:31 Pacific (12:31 UTC) that day, with its fingerprint and time.
+
+**Before the kickoff.** The three data sets as downloaded; the wiring of a visit; the settings file; the first frame of the design (`docs/FRAME.md`); the chain's steps, the gate, the record, the witness, the review, the monitor, the bench and the scorer (`custody/`, 24 files); a first formal model (`model/`); the first prompts; the tests; and runs on stand-in text only. The visit then joined a conversation and a question in one case.
+
+**During the sprint, on Fri 13 Nov.** I locked the first test plan at 14:37 Pacific and changed it at 14:43; version 2 followed at 16:34 and version 3 that evening. The two flows became two experiments, and a program now writes the answer of a graded question in place of an AI step. New code: the complete list and the draw by lot (`custody/planting.py`, `custody/units.py`), the outside model's part (`custody/outside.py`), the night runner and the live call tools, scoring by part, and the prompts `reviewer.v2`, `reminders.v2` and four for the outside model. The predictions were filed at 22:33, the code was frozen at 23:33, and the test set ran from 23:33.

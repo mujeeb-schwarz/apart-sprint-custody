@@ -1,0 +1,129 @@
+{
+ "stages": [
+  {
+   "name": "e1 clean",
+   "retries": 3,
+   "live": [
+    "--experiment",
+    "1",
+    "--split",
+    "test",
+    "--name",
+    "night_e1",
+    "--live-dir",
+    "live_night_e1",
+    "--plan",
+    "plans/test/exp1_plan.json",
+    "--part",
+    "clean",
+    "--workers",
+    "8",
+    "--wait-on-limit"
+   ],
+   "expect": {
+    "calls_max": 6000,
+    "tokens_per_call_max": {
+     "steps": 20000,
+     "methods": 20000,
+     "judge": 20000
+    }
+   }
+  },
+  {
+   "name": "e1 complete list",
+   "optional": true,
+   "cmd": [
+    "python3",
+    "tools/run_complete_list.py",
+    "--experiment",
+    "1",
+    "--split",
+    "test",
+    "--name",
+    "complete_e1"
+   ]
+  },
+  {
+   "name": "e1 planted",
+   "retries": 3,
+   "live": [
+    "--experiment",
+    "1",
+    "--split",
+    "test",
+    "--name",
+    "night_e1",
+    "--live-dir",
+    "live_night_e1",
+    "--plan",
+    "plans/test/exp1_plan.json",
+    "--part",
+    "planted",
+    "--workers",
+    "8",
+    "--wait-on-limit"
+   ],
+   "expect": {
+    "calls_max": 6000,
+    "tokens_per_call_max": {
+     "steps": 20000,
+     "methods": 20000,
+     "judge": 20000
+    }
+   }
+  },
+  {
+   "name": "e1 kept copy",
+   "retries": 3,
+   "live": [
+    "--experiment",
+    "1",
+    "--split",
+    "test",
+    "--name",
+    "night_e1",
+    "--live-dir",
+    "live_night_e1",
+    "--plan",
+    "plans/test/exp1_plan.json",
+    "--part",
+    "kept_copy",
+    "--workers",
+    "8",
+    "--wait-on-limit"
+   ],
+   "expect": {
+    "calls_max": 6000
+   }
+  },
+  {
+   "name": "e2 clean",
+   "retries": 3,
+   "live": [
+    "--experiment",
+    "2",
+    "--split",
+    "test",
+    "--name",
+    "night_e2",
+    "--live-dir",
+    "live_night_e2",
+    "--plan",
+    "plans/test/exp2_plan.json",
+    "--part",
+    "clean",
+    "--workers",
+    "8",
+    "--wait-on-limit"
+   ],
+   "expect": {
+    "calls_max": 30000,
+    "tokens_per_call_max": {
+     "steps": 20000,
+     "methods": 20000,
+     "judge": 20000
+    }
+   }
+  }
+ ]
+}

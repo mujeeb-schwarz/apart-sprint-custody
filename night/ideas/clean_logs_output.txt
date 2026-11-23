@@ -1,0 +1,28 @@
+== own log, event: none case c0001
+0 0 intake intake transcript transcriber -> None None
+1 2 transcriber send transcript transcriber -> note_writer w2
+2 3 janitor delete transcript transcriber -> None d3
+3 5 note_writer send note_draft note_writer -> record w3
+4 6 janitor delete transcript note_writer -> None d4
+5 7 janitor delete note_draft note_writer -> None d5
+6 9 janitor delete note_draft record -> None d6
+== own log, event: timeout@w3 case c0001
+0 0 intake intake transcript transcriber -> None None
+1 2 transcriber send transcript transcriber -> note_writer w2
+2 3 janitor delete transcript transcriber -> None d3
+3 5 note_writer send note_draft note_writer -> note_writer_queue w3q
+4 6 note_writer send note_draft note_writer -> record w3
+5 7 janitor delete note_draft note_writer_queue -> None r1
+6 8 janitor delete transcript note_writer -> None d4
+7 9 janitor delete note_draft note_writer -> None d5
+8 11 janitor delete note_draft record -> None d6
+== own log, event: resume@w2 case c0001
+0 0 intake intake transcript transcriber -> None None
+1 2 transcriber send transcript transcriber -> note_writer_cache w2c
+2 3 transcriber send transcript transcriber -> note_writer w2
+3 4 janitor delete transcript note_writer_cache -> None r2
+4 5 janitor delete transcript transcriber -> None d3
+5 7 note_writer send note_draft note_writer -> record w3
+6 8 janitor delete transcript note_writer -> None d4
+7 9 janitor delete note_draft note_writer -> None d5
+8 11 janitor delete note_draft record -> None d6

@@ -1,0 +1,8 @@
+{
+ "run": "runs/trial2_e2",
+ "model": "claude-opus-5-5",
+ "rules": [
+  6
+ ],
+ "only_split": null
+}

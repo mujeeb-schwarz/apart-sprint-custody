@@ -1,0 +1,16 @@
+2026-11-14 02:07:04 chain G starts: waiting for the clean cases of Experiment 2
+2026-11-14 02:59:35 e2 clean is done; the outside model writes the changed texts
+plan rows 360: already done 0, made now 360, not parsed after a second try 0, no honest text 0, left 0. calls 48, tokens used 396006, failed calls 0
+2026-11-14 03:45:23 make exit 0
+rule 4 source_removed: made 60, confirmed 54, dropped 6
+rule 4 source_wrong: made 60, confirmed 8, dropped 52
+rule 5 less_certain: made 45, confirmed 44, dropped 1
+rule 5 more_certain: made 75, confirmed 73, dropped 2
+rule 6 mark_removed: made 60, confirmed 58, dropped 2
+rule 6 mark_replaced: made 60, confirmed 60, dropped 0
+confirmed texts: outside/test/confirmed.jsonl (297 rows, in the plan's order). calls 15, tokens used 95293, failed calls 0
+2026-11-14 03:46:54 confirm exit 0
+faults for Experiment 2: rule 4 62, rule 5 100, rule 6 100 (confirmed rows read 297)
+2026-11-14 03:46:54 faults-exp2 exit 0
+2026-11-14 03:46:54 the planted units of Experiment 2 are written
+2026-11-14 04:11:54 chain G ends

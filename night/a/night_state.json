@@ -1,0 +1,26 @@
+{
+ "done": {
+  "e1 clean": {
+   "attempts": 1,
+   "finished_at": "2026-11-13T23:39:47-0800"
+  },
+  "e1 complete list": {
+   "attempts": 1,
+   "finished_at": "2026-11-13T23:39:57-0800"
+  },
+  "e1 kept copy": {
+   "attempts": 1,
+   "finished_at": "2026-11-14T02:04:27-0800"
+  },
+  "e1 planted": {
+   "attempts": 1,
+   "finished_at": "2026-11-14T02:04:11-0800"
+  },
+  "e2 clean": {
+   "attempts": 1,
+   "finished_at": "2026-11-14T02:59:24-0800"
+  }
+ },
+ "failed_optional": {},
+ "running": null
+}

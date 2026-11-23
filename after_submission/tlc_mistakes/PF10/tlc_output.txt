@@ -1,0 +1,292 @@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 64 and seed 5683191709339495459 with 1 worker on 10 cores with 6144MB heap and 64MB offheap memory [pid: 47053] (Mac OS X 26.6.2 aarch64, Eclipse Adoptium 25.0.5 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file <repo>/after_submission/tlc_mistakes/PF10/Custody.tla
+Parsing file <temporary folder>/Integers.tla
+Parsing file <temporary folder>/Sequences.tla
+Parsing file <temporary folder>/FiniteSets.tla
+Parsing file <temporary folder>/Naturals.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Custody
+Starting... (2026-11-22 17:16:47)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-22 17:16:47.
+Error: Invariant P2 is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ handed = {}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 0
+/\ pc = 1
+/\ jr = {}
+/\ copies = {}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 2: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {}
+/\ rest = <<[place |-> "transcriber", kind |-> "transcript", t |-> "intake"]>>
+/\ used = {}
+/\ n = 0
+/\ pc = 2
+/\ jr = {}
+/\ copies = {}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 3: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 0
+/\ pc = 2
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 4: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {}
+/\ rest = << [ place |-> "transcriber",
+     t |-> "step",
+     id |-> "transcriber",
+     reads |-> {"transcript"},
+     makes |-> "" ] >>
+/\ used = {}
+/\ n = 0
+/\ pc = 3
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 0
+
+State 5: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {}
+/\ rest = <<>>
+/\ used = {}
+/\ n = 0
+/\ pc = 3
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 1
+
+State 6: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {}
+/\ rest = << [ kind |-> "transcript",
+     t |-> "send",
+     move |-> "w2c",
+     from |-> "transcriber",
+     to |-> "note_writer_cache",
+     gated |-> TRUE,
+     need |-> "" ],
+   [ kind |-> "transcript",
+     t |-> "send",
+     move |-> "w2",
+     from |-> "transcriber",
+     to |-> "note_writer",
+     gated |-> TRUE,
+     need |-> "" ] >>
+/\ used = {"resume@w2"}
+/\ n = 0
+/\ pc = 4
+/\ jr = {}
+/\ copies = {[place |-> "transcriber", kind |-> "transcript", arr |-> 0]}
+/\ ws = {}
+/\ delivered = {}
+/\ clock = 1
+
+State 7: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1]}
+/\ rest = << [ kind |-> "transcript",
+     t |-> "send",
+     move |-> "w2",
+     from |-> "transcriber",
+     to |-> "note_writer",
+     gated |-> TRUE,
+     need |-> "" ] >>
+/\ used = {"resume@w2"}
+/\ n = 1
+/\ pc = 4
+/\ jr = {1}
+/\ copies = { [place |-> "transcriber", kind |-> "transcript", arr |-> 0],
+  [place |-> "note_writer_cache", kind |-> "transcript", arr |-> 2] }
+/\ ws = {1}
+/\ delivered = {"w2c"}
+/\ clock = 2
+
+State 8: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1], [gated |-> TRUE, n |-> 2]}
+/\ rest = <<>>
+/\ used = {"resume@w2"}
+/\ n = 2
+/\ pc = 4
+/\ jr = {1, 2}
+/\ copies = { [place |-> "transcriber", kind |-> "transcript", arr |-> 0],
+  [place |-> "note_writer", kind |-> "transcript", arr |-> 3],
+  [place |-> "note_writer_cache", kind |-> "transcript", arr |-> 2] }
+/\ ws = {1, 2}
+/\ delivered = {"w2", "w2c"}
+/\ clock = 3
+
+State 9: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = {[gated |-> TRUE, n |-> 1], [gated |-> TRUE, n |-> 2]}
+/\ rest = << [ place |-> "transcriber",
+     kind |-> "transcript",
+     t |-> "delete",
+     need |-> "w2" ] >>
+/\ used = {"resume@w2"}
+/\ n = 2
+/\ pc = 5
+/\ jr = {1, 2}
+/\ copies = { [place |-> "transcriber", kind |-> "transcript", arr |-> 0],
+  [place |-> "note_writer", kind |-> "transcript", arr |-> 3],
+  [place |-> "note_writer_cache", kind |-> "transcript", arr |-> 2] }
+/\ ws = {1, 2}
+/\ delivered = {"w2", "w2c"}
+/\ clock = 3
+
+State 10: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3] }
+/\ rest = <<>>
+/\ used = {"resume@w2"}
+/\ n = 3
+/\ pc = 5
+/\ jr = {1, 2, 3}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 3],
+  [place |-> "note_writer_cache", kind |-> "transcript", arr |-> 2] }
+/\ ws = {1, 2, 3}
+/\ delivered = {"w2", "w2c"}
+/\ clock = 4
+
+State 11: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3] }
+/\ rest = << [ place |-> "note_writer",
+     t |-> "step",
+     id |-> "note_writer",
+     reads |-> {"transcript"},
+     makes |-> "note_draft" ] >>
+/\ used = {"resume@w2"}
+/\ n = 3
+/\ pc = 6
+/\ jr = {1, 2, 3}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 3],
+  [place |-> "note_writer_cache", kind |-> "transcript", arr |-> 2] }
+/\ ws = {1, 2, 3}
+/\ delivered = {"w2", "w2c"}
+/\ clock = 4
+
+State 12: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3] }
+/\ rest = <<>>
+/\ used = {"resume@w2"}
+/\ n = 3
+/\ pc = 6
+/\ jr = {1, 2, 3}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 3],
+  [place |-> "note_writer", kind |-> "note_draft", arr |-> 5],
+  [place |-> "note_writer_cache", kind |-> "transcript", arr |-> 2] }
+/\ ws = {1, 2, 3}
+/\ delivered = {"w2", "w2c"}
+/\ clock = 5
+
+State 13: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3] }
+/\ rest = << [ kind |-> "note_draft",
+     t |-> "send",
+     move |-> "w3",
+     from |-> "note_writer",
+     to |-> "record",
+     gated |-> TRUE,
+     need |-> "" ] >>
+/\ used = {"resume@w2"}
+/\ n = 3
+/\ pc = 7
+/\ jr = {1, 2, 3}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 3],
+  [place |-> "note_writer", kind |-> "note_draft", arr |-> 5],
+  [place |-> "note_writer_cache", kind |-> "transcript", arr |-> 2] }
+/\ ws = {1, 2, 3}
+/\ delivered = {"w2", "w2c"}
+/\ clock = 5
+
+State 14: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4] }
+/\ rest = <<>>
+/\ used = {"resume@w2"}
+/\ n = 4
+/\ pc = 7
+/\ jr = {1, 2, 3, 4}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 3],
+  [place |-> "note_writer", kind |-> "note_draft", arr |-> 5],
+  [place |-> "note_writer_cache", kind |-> "transcript", arr |-> 2],
+  [place |-> "record", kind |-> "note_draft", arr |-> 6] }
+/\ ws = {1, 2, 3, 4}
+/\ delivered = {"w2", "w2c", "w3"}
+/\ clock = 6
+
+State 15: <Enter line 144, col 10 to line 150, col 69 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4] }
+/\ rest = << [ place |-> "note_writer",
+     kind |-> "transcript",
+     t |-> "delete",
+     need |-> "w3" ] >>
+/\ used = {"resume@w2"}
+/\ n = 4
+/\ pc = 8
+/\ jr = {1, 2, 3, 4}
+/\ copies = { [place |-> "note_writer", kind |-> "transcript", arr |-> 3],
+  [place |-> "note_writer", kind |-> "note_draft", arr |-> 5],
+  [place |-> "note_writer_cache", kind |-> "transcript", arr |-> 2],
+  [place |-> "record", kind |-> "note_draft", arr |-> 6] }
+/\ ws = {1, 2, 3, 4}
+/\ delivered = {"w2", "w2c", "w3"}
+/\ clock = 6
+
+State 16: <RunOp line 136, col 10 to line 140, col 34 of module Custody>
+/\ handed = { [gated |-> TRUE, n |-> 1],
+  [gated |-> TRUE, n |-> 2],
+  [gated |-> TRUE, n |-> 3],
+  [gated |-> TRUE, n |-> 4],
+  [gated |-> TRUE, n |-> 5] }
+/\ rest = <<>>
+/\ used = {"resume@w2"}
+/\ n = 5
+/\ pc = 8
+/\ jr = {1, 2, 3, 4, 5}
+/\ copies = { [place |-> "note_writer", kind |-> "note_draft", arr |-> 5],
+  [place |-> "note_writer_cache", kind |-> "transcript", arr |-> 2],
+  [place |-> "record", kind |-> "note_draft", arr |-> 6] }
+/\ ws = {1, 2, 3, 4, 5}
+/\ delivered = {"w2", "w2c", "w3"}
+/\ clock = 7
+
+52 states generated, 44 distinct states found, 4 states left on queue.
+The depth of the complete state graph search is 16.
+The average outdegree of the complete state graph is 1 (minimum is 1, the maximum 2 and the 95th percentile is 2).
+Finished in 00s at (2026-11-22 17:16:47)
+Picked up JAVA_TOOL_OPTIONS: -Djava.net.preferIPv4Stack=true

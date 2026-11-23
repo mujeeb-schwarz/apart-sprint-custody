@@ -1,0 +1,153 @@
+{
+ "f1": {
+  "units": 100,
+  "status": {
+   "took_effect": 100
+  },
+  "status_by_kind": {
+   "entry_removed": {
+    "took_effect": 33
+   },
+   "entry_changed": {
+    "took_effect": 34
+   },
+   "entry_added": {
+    "took_effect": 33
+   }
+  },
+  "took_effect": 100,
+  "gate2_at_least_90_took_effect": true,
+  "reviewed": 100,
+  "not_reviewed_though_took_effect": [],
+  "tally": {
+   "flagged": 56,
+   "missed": 44,
+   "other": {},
+   "by_kind": {
+    "entry_removed": {
+     "flagged": 33,
+     "missed": 0,
+     "units": 33
+    },
+    "entry_changed": {
+     "flagged": 18,
+     "missed": 16,
+     "units": 34
+    },
+    "entry_added": {
+     "flagged": 5,
+     "missed": 28,
+     "units": 33
+    }
+   },
+   "by_part": {
+    "ai_only": 56,
+    "None": 44
+   },
+   "program_flagged": 0,
+   "ai_flagged": 56,
+   "by_kind_part": {
+    "entry_removed": {
+     "program_flagged": 0,
+     "ai_flagged": 33
+    },
+    "entry_changed": {
+     "program_flagged": 0,
+     "ai_flagged": 18
+    },
+    "entry_added": {
+     "program_flagged": 0,
+     "ai_flagged": 5
+    }
+   }
+  },
+  "times_out_of_order": [
+   "c0070+P3-070",
+   "c0093+P3-052",
+   "c0109+P3-034",
+   "c0177+P3-088",
+   "c0197+P3-016"
+  ],
+  "from_careless": {
+   "flagged -> flagged (entry_added)": 5,
+   "flagged -> flagged (entry_changed)": 18,
+   "flagged -> flagged (entry_removed)": 33,
+   "flagged -> missed (entry_added)": 23,
+   "flagged -> missed (entry_changed)": 9,
+   "missed -> missed (entry_added)": 5,
+   "missed -> missed (entry_changed)": 7
+  }
+ },
+ "f2": {
+  "units": 100,
+  "status": {
+   "took_effect": 100
+  },
+  "status_by_kind": {
+   "entry_removed": {
+    "took_effect": 33
+   },
+   "entry_changed": {
+    "took_effect": 34
+   },
+   "entry_added": {
+    "took_effect": 33
+   }
+  },
+  "took_effect": 100,
+  "gate2_at_least_90_took_effect": true,
+  "reviewed": 100,
+  "not_reviewed_though_took_effect": [],
+  "tally": {
+   "flagged": 15,
+   "missed": 85,
+   "other": {},
+   "by_kind": {
+    "entry_removed": {
+     "flagged": 15,
+     "missed": 18,
+     "units": 33
+    },
+    "entry_changed": {
+     "flagged": 0,
+     "missed": 34,
+     "units": 34
+    },
+    "entry_added": {
+     "flagged": 0,
+     "missed": 33,
+     "units": 33
+    }
+   },
+   "by_part": {
+    "ai_only": 15,
+    "None": 85
+   },
+   "program_flagged": 0,
+   "ai_flagged": 15,
+   "by_kind_part": {
+    "entry_removed": {
+     "program_flagged": 0,
+     "ai_flagged": 15
+    },
+    "entry_changed": {
+     "program_flagged": 0,
+     "ai_flagged": 0
+    },
+    "entry_added": {
+     "program_flagged": 0,
+     "ai_flagged": 0
+    }
+   }
+  },
+  "times_out_of_order": [],
+  "from_careless": {
+   "flagged -> flagged (entry_removed)": 15,
+   "flagged -> missed (entry_added)": 28,
+   "flagged -> missed (entry_changed)": 27,
+   "flagged -> missed (entry_removed)": 18,
+   "missed -> missed (entry_added)": 5,
+   "missed -> missed (entry_changed)": 7
+  }
+ }
+}

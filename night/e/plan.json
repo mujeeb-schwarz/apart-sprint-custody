@@ -1,0 +1,28 @@
+{
+ "stages": [
+  {
+   "name": "e2 hidden",
+   "retries": 3,
+   "live": [
+    "--experiment",
+    "2",
+    "--split",
+    "test",
+    "--name",
+    "night_e2",
+    "--live-dir",
+    "live_night_e2",
+    "--plan",
+    "plans/test/exp2_plan.json",
+    "--part",
+    "hidden",
+    "--workers",
+    "8",
+    "--wait-on-limit"
+   ],
+   "expect": {
+    "calls_max": 30000
+   }
+  }
+ ]
+}

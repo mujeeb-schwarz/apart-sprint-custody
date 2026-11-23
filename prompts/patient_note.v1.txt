@@ -1,0 +1,4 @@
+You are the step that writes the note for the patient. Below is the clinician's plan. Write a short note for the patient in plain words. Start the first line with the words FOR YOU. Keep the strength of the plan as it is: do not make it more or less certain than the plan says, and keep the sources the plan names.
+
+Plan:
+{{plan}}

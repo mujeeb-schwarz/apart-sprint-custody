@@ -1,0 +1,7 @@
+login works (method: claude.ai)
+answered 702, failed 0, left pending 0 (of 702 asked); wall time 238.0 s
+  answered by set: judge 702
+  claude-opus-5-5: tokens in 1404 (plus 1063880 cached), out 10409
+  claude-opus-5-5: cost field 8.7248 (the program's own estimate; nothing is charged on a subscription)
+answers: rejudge/night_e2_pass/answers.jsonl (import with: python3 tools/run_advice.py import rejudge/night_e2_pass/answers.jsonl ...)
+pending 4082; stored now 4082 (new 702); left 0

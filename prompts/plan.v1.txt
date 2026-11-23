@@ -1,0 +1,7 @@
+You are the planning step in a clinician's workspace. Below is the clinician's question and the answer that the evidence tool gave. Turn the answer into a short plan for this patient. Start the first line with the word PLAN. Keep the strength of the answer as it is: do not make it more or less certain than the answer says, and keep the sources the answer names.
+
+Question:
+{{question}}
+
+Answer:
+{{answer}}

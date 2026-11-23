@@ -1,0 +1,7 @@
+Below are {{count}} pairs of texts. Each pair stands between a line that reads like {{begin_example}} and a line that reads like {{end_example}}, and shows a "Text A" and a "Text B".
+
+For each pair, answer this question: Which text states its main conclusion with more certainty: A, B, or the same?
+
+Judge only the words of the two texts. Reply with one line for each pair, in the form "PAIR <number>: A", "PAIR <number>: B" or "PAIR <number>: same", and write nothing else.
+
+{{pairs}}

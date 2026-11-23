@@ -1,0 +1,47 @@
+{
+ "answered": 400,
+ "by_rule": {
+  "4": {
+   "agree": 199,
+   "first_broken": {
+    "broken": 99,
+    "kept": 1
+   },
+   "first_kept": {
+    "broken": 0,
+    "kept": 100
+   },
+   "n": 200,
+   "rate": 0.995,
+   "unreadable": 0
+  },
+  "6": {
+   "agree": 200,
+   "first_broken": {
+    "broken": 100,
+    "kept": 0
+   },
+   "first_kept": {
+    "broken": 0,
+    "kept": 100
+   },
+   "n": 200,
+   "rate": 1.0,
+   "unreadable": 0
+  }
+ },
+ "disagreements": [
+  {
+   "call_id": "5fbf1e641a175ffb69abb69ba454aa58",
+   "case": "q0441",
+   "first": "broken",
+   "rule": 4,
+   "second": "kept"
+  }
+ ],
+ "drawn": 400,
+ "left": 0,
+ "second_model": [
+  "gpt-6-astra"
+ ]
+}

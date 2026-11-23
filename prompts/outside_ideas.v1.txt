@@ -1,0 +1,11 @@
+You are helping a researcher who tests a privacy design for a doctor's visit. Below is a plain description of how the words of one visit are handled by a chain of services: the steps, the places where a copy can sit, what each place may hold and for how long, the handovers that are allowed and the deletions that must happen. Three rules and a short note about a log come after the description.
+
+Your task: list as many distinct ways as you can think of in which one step of the chain could break one of the three rules. Write each way as one line in this form:
+
+RULE <number> | step: <the step> | what is sent, kept or changed: <a few words> | what the log shows: <a few words>
+
+Two ways are distinct when the rule, the step, the content, the place or what the log shows differs. Cover all three rules. Be concrete: name the step, the kind of content and the place where it applies. Write the lines only, with no introduction, no numbering other than the rule number, and no closing remarks.
+
+------------------------------------------------------------
+{{description}}
+------------------------------------------------------------

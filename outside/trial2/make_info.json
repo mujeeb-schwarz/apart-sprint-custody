@@ -1,0 +1,6 @@
+{
+ "clean_run": "runs/trial2_e2",
+ "plan": "plans/tune/exp2_plan.json",
+ "seed": 20261114,
+ "wiring": null
+}

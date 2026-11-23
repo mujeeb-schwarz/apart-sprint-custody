@@ -1,0 +1,100 @@
+{"run_id":"c0188+P3-001.A.r0","signals":[{"by":"review","handover_id":"c0188+P3-001.A.r0#3","item_ids":["221e3c7e5da5e0f1"],"level":"flag","part":"program","reason":"place record may not hold transcript","rule":1,"run_id":"c0188+P3-001.A.r0","t":23},{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"Handover ka3b3c10d9.X.r0#3 at t5 sends a transcript (item 221e3c7e5da5e0f1) from note_writer to record, but the record may hold only a note or a note_draft, not a transcript.","rule":1,"run_id":"c0188+P3-001.A.r0","t":23}],"visit_id":"c0188+P3-001"}
+{"run_id":"c0052+P3-007.A.r0","signals":[],"visit_id":"c0052+P3-007"}
+{"run_id":"c0075+P3-004.A.r0","signals":[{"by":"review","handover_id":"c0075+P3-004.A.r0#1","item_ids":["c567fd885650d5c9"],"level":"flag","part":"program","reason":"transcript sent to note_writer_cache at tick 2 has no logged delete there within 4 ticks","rule":2,"run_id":"c0075+P3-004.A.r0","t":21},{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The transcript (c567fd885650d5c9) reached note_writer_cache at t2, a place that may hold it only temporarily. The log shows no delete of it from the cache, only a send onward at t4.","rule":2,"run_id":"c0075+P3-004.A.r0","t":21}],"visit_id":"c0075+P3-004"}
+{"run_id":"c0110+P3-005.A.r0","signals":[],"visit_id":"c0110+P3-005"}
+{"run_id":"c0157+P3-002.A.r0","signals":[],"visit_id":"c0157+P3-002"}
+{"run_id":"c0145+P3-006.A.r0","signals":[],"visit_id":"c0145+P3-006"}
+{"run_id":"c0107+P3-008.A.r0","signals":[],"visit_id":"c0107+P3-008"}
+{"run_id":"c0111+P3-009.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The log has no handover of the note draft from note_writer to the record, although a visit note exists. Handover id #3 is also missing from the sequence (#1, #2, #4).","rule":3,"run_id":"c0111+P3-009.A.r0","t":18}],"visit_id":"c0111+P3-009"}
+{"run_id":"c0134+P3-010.A.r0","signals":[{"by":"review","handover_id":"c0134+P3-010.A.r0#3","item_ids":["8f783a723976e0b1"],"level":"flag","part":"program","reason":"note_draft sent to note_writer_queue at tick 5 has no logged delete there within 4 ticks","rule":2,"run_id":"c0134+P3-010.A.r0","t":21},{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The note_draft (8f783a723976e0b1) reached note_writer_queue at t5, a place that may hold it only for a short time. No delete from note_writer_queue appears in the log. The only deletes of this item are from note_writer (t7) and record (t9). The queue still sent the item on at t8, so it was still held there.","rule":2,"run_id":"c0134+P3-010.A.r0","t":21}],"visit_id":"c0134+P3-010"}
+{"run_id":"c0085+P3-011.A.r0","signals":[{"by":"review","handover_id":"c0085+P3-011.A.r0#1","item_ids":["9d8eb2dac8f56102"],"level":"flag","part":"program","reason":"transcript sent to note_writer_cache at tick 1 has no logged delete there within 4 ticks","rule":2,"run_id":"c0085+P3-011.A.r0","t":21}],"visit_id":"c0085+P3-011"}
+{"run_id":"c0144+P3-013.A.r0","signals":[],"visit_id":"c0144+P3-013"}
+{"run_id":"c0080+P3-012.A.r0","signals":[],"visit_id":"c0080+P3-012"}
+{"run_id":"c0184+P3-003.A.r0","signals":[{"by":"review","handover_id":"c0184+P3-003.A.r0#4","item_ids":["d50160754aa44818"],"level":"flag","part":"program","reason":"place transcriber may not hold note_draft","rule":1,"run_id":"c0184+P3-003.A.r0","t":21},{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"At t4 the note_writer sent the note_draft (d50160754aa44818) to the transcriber, which may hold only transcripts, so it may not hold a note draft. The transcriber's onward send to the record at t5 follows from this.","rule":1,"run_id":"c0184+P3-003.A.r0","t":21}],"visit_id":"c0184+P3-003"}
+{"run_id":"c0197+P3-016.A.r0","signals":[],"visit_id":"c0197+P3-016"}
+{"run_id":"c0071+P3-014.A.r0","signals":[],"visit_id":"c0071+P3-014"}
+{"run_id":"c0140+P3-015.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The visit note exists, and the log shows its draft (74eb2d83bc2e9a64) being deleted at note_writer. But the log has no creation of that draft and no send of it to the record or the clinician, so a handover that must have happened is missing.","rule":3,"run_id":"c0140+P3-015.A.r0","t":19}],"visit_id":"c0140+P3-015"}
+{"run_id":"c0089+P3-017.A.r0","signals":[],"visit_id":"c0089+P3-017"}
+{"run_id":"c0077+P3-020.A.r0","signals":[],"visit_id":"c0077+P3-020"}
+{"run_id":"c0117+P3-022.A.r0","signals":[{"by":"review","handover_id":"c0117+P3-022.A.r0#1","item_ids":["c05a9c19f1dbaff1"],"level":"flag","part":"program","reason":"transcript sent to note_writer_cache at tick 2 has no logged delete there within 4 ticks","rule":2,"run_id":"c0117+P3-022.A.r0","t":21}],"visit_id":"c0117+P3-022"}
+{"run_id":"c0096+P3-018.A.r0","signals":[],"visit_id":"c0096+P3-018"}
+{"run_id":"c0191+P3-019.A.r0","signals":[{"by":"review","handover_id":"c0191+P3-019.A.r0#3","item_ids":["4ad26e21177559c2"],"level":"flag","part":"program","reason":"place record may not hold transcript","rule":1,"run_id":"c0191+P3-019.A.r0","t":23},{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"Handover k0ca14f54d.X.r0#3 sends a transcript (item 4ad26e21177559c2) from note_writer to record, and the record may hold only a note or a note draft, not a transcript.","rule":1,"run_id":"c0191+P3-019.A.r0","t":23}],"visit_id":"c0191+P3-019"}
+{"run_id":"c0129+P3-021.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The log deletes note_draft 72a384e6e4f07ec7 at note_writer, but no earlier line shows that draft being created or arriving there. The visit note exists as a final text, yet no handover of it to the record (the chart) is logged, so a handover is missing.","rule":3,"run_id":"c0129+P3-021.A.r0","t":19}],"visit_id":"c0129+P3-021"}
+{"run_id":"c0053+P3-023.A.r0","signals":[],"visit_id":"c0053+P3-023"}
+{"run_id":"c0174+P3-025.A.r0","signals":[],"visit_id":"c0174+P3-025"}
+{"run_id":"c0183+P3-026.A.r0","signals":[],"visit_id":"c0183+P3-026"}
+{"run_id":"c0148+P3-024.A.r0","signals":[],"visit_id":"c0148+P3-024"}
+{"run_id":"c0135+P3-030.A.r0","signals":[],"visit_id":"c0135+P3-030"}
+{"run_id":"c0181+P3-028.A.r0","signals":[],"visit_id":"c0181+P3-028"}
+{"run_id":"c0200+P3-029.A.r0","signals":[{"by":"review","handover_id":"c0200+P3-029.A.r0#1","item_ids":["10af39dca3b55217"],"level":"flag","part":"program","reason":"transcript sent to note_writer_cache at tick 1 has no logged delete there within 4 ticks","rule":2,"run_id":"c0200+P3-029.A.r0","t":22}],"visit_id":"c0200+P3-029"}
+{"run_id":"c0192+P3-031.A.r0","signals":[],"visit_id":"c0192+P3-031"}
+{"run_id":"c0120+P3-032.A.r0","signals":[],"visit_id":"c0120+P3-032"}
+{"run_id":"c0090+P3-027.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The log has no handover #3, and no send of the note draft (e5474fcd1469486b) from note_writer to the record. The visit note exists and that draft is later deleted at note_writer, so the note must have been created and passed on, but the log never shows it.","rule":3,"run_id":"c0090+P3-027.A.r0","t":19}],"visit_id":"c0090+P3-027"}
+{"run_id":"c0109+P3-034.A.r0","signals":[],"visit_id":"c0109+P3-034"}
+{"run_id":"c0086+P3-038.A.r0","signals":[],"visit_id":"c0086+P3-038"}
+{"run_id":"c0055+P3-035.A.r0","signals":[],"visit_id":"c0055+P3-035"}
+{"run_id":"c0168+P3-036.A.r0","signals":[],"visit_id":"c0168+P3-036"}
+{"run_id":"c0207+P3-041.A.r0","signals":[],"visit_id":"c0207+P3-041"}
+{"run_id":"c0167+P3-040.A.r0","signals":[],"visit_id":"c0167+P3-040"}
+{"run_id":"c0097+P3-033.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"Handover #3 is missing from the log. The note draft 7787580b3af0fa27 is deleted from note_writer at t7, but the log never shows it arriving there. It then appears as a raw intake at the record at t8, with no send from note_writer to record, although the draft must have passed between them.","rule":3,"run_id":"c0097+P3-033.A.r0","t":21}],"visit_id":"c0097+P3-033"}
+{"run_id":"c0205+P3-042.A.r0","signals":[],"visit_id":"c0205+P3-042"}
+{"run_id":"c0149+P3-043.A.r0","signals":[],"visit_id":"c0149+P3-043"}
+{"run_id":"c0064+P3-037.A.r0","signals":[{"by":"review","handover_id":"c0064+P3-037.A.r0#3","item_ids":["d2818f58c96d3eb4"],"level":"flag","part":"program","reason":"place record may not hold transcript","rule":1,"run_id":"c0064+P3-037.A.r0","t":23},{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"Handover #3 (t5) sends the transcript from note_writer to record. The record may hold only a note or a note_draft, not a transcript. The later delete of the transcript at record (#6) confirms it was held there.","rule":1,"run_id":"c0064+P3-037.A.r0","t":23}],"visit_id":"c0064+P3-037"}
+{"run_id":"c0198+P3-044.A.r0","signals":[],"visit_id":"c0198+P3-044"}
+{"run_id":"c0062+P3-039.A.r0","signals":[],"visit_id":"c0062+P3-039"}
+{"run_id":"c0169+P3-045.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"Handover ids jump from #2 to #4, so handover #3 is missing from the log. The visit note draft exists and note_draft item bffcc1c7c606e118 is deleted at note_writer, yet no send or creation of that draft is logged (likely a send to the record).","rule":3,"run_id":"c0169+P3-045.A.r0","t":19}],"visit_id":"c0169+P3-045"}
+{"run_id":"c0081+P3-046.A.r0","signals":[],"visit_id":"c0081+P3-046"}
+{"run_id":"c0187+P3-047.A.r0","signals":[{"by":"review","handover_id":"c0187+P3-047.A.r0#1","item_ids":["3717a948684c52ef"],"level":"flag","part":"program","reason":"transcript sent to note_writer_cache at tick 1 has no logged delete there within 4 ticks","rule":2,"run_id":"c0187+P3-047.A.r0","t":21}],"visit_id":"c0187+P3-047"}
+{"run_id":"c0125+P3-048.A.r0","signals":[],"visit_id":"c0125+P3-048"}
+{"run_id":"c0074+P3-049.A.r0","signals":[],"visit_id":"c0074+P3-049"}
+{"run_id":"c0132+P3-050.A.r0","signals":[],"visit_id":"c0132+P3-050"}
+{"run_id":"c0093+P3-052.A.r0","signals":[],"visit_id":"c0093+P3-052"}
+{"run_id":"c0156+P3-053.A.r0","signals":[],"visit_id":"c0156+P3-053"}
+{"run_id":"c0182+P3-054.A.r0","signals":[],"visit_id":"c0182+P3-054"}
+{"run_id":"c0158+P3-056.A.r0","signals":[],"visit_id":"c0158+P3-056"}
+{"run_id":"c0051+P3-051.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The handover ids run #1, #2, #4, #6, so #3 and #5 are missing from the log. The visit note was drafted by note_writer, yet no send of a note_draft from note_writer to the record appears. The only note_draft entry is an intake at the record.","rule":3,"run_id":"c0051+P3-051.A.r0","t":21}],"visit_id":"c0051+P3-051"}
+{"run_id":"c0151+P3-059.A.r0","signals":[],"visit_id":"c0151+P3-059"}
+{"run_id":"c0082+P3-058.A.r0","signals":[{"by":"review","handover_id":"c0082+P3-058.A.r0#1","item_ids":["f4f133b462ba979e"],"level":"flag","part":"program","reason":"transcript sent to note_writer_cache at tick 2 has no logged delete there within 4 ticks","rule":2,"run_id":"c0082+P3-058.A.r0","t":21}],"visit_id":"c0082+P3-058"}
+{"run_id":"c0128+P3-057.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The visit note exists, but the log has no handover of the note draft from note_writer to the record or clinician. The only entry for the draft (item 0432bd1d2aec662c) is a delete at note_writer.","rule":3,"run_id":"c0128+P3-057.A.r0","t":19}],"visit_id":"c0128+P3-057"}
+{"run_id":"c0206+P3-061.A.r0","signals":[],"visit_id":"c0206+P3-061"}
+{"run_id":"c0130+P3-060.A.r0","signals":[],"visit_id":"c0130+P3-060"}
+{"run_id":"c0133+P3-063.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The handover numbering skips #3, and the log shows no handover for the visit note draft (item dea4a454a2fa42bf). The draft is deleted at note_writer at t=7 with no logged creation or send, and the log shows no handover delivering the final visit note to the record.","rule":3,"run_id":"c0133+P3-063.A.r0","t":19}],"visit_id":"c0133+P3-063"}
+{"run_id":"c0121+P3-055.A.r0","signals":[{"by":"review","handover_id":"c0121+P3-055.A.r0#3","item_ids":["8ff42a5bf15a2458"],"level":"flag","part":"program","reason":"place record may not hold transcript","rule":1,"run_id":"c0121+P3-055.A.r0","t":21},{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The transcript was sent from note_writer to record (handover #3), and record may not hold transcripts, only the note and the note draft.","rule":1,"run_id":"c0121+P3-055.A.r0","t":21}],"visit_id":"c0121+P3-055"}
+{"run_id":"c0175+P3-065.A.r0","signals":[{"by":"review","handover_id":"c0175+P3-065.A.r0#1","item_ids":["c4231c759d7446ab"],"level":"flag","part":"program","reason":"transcript sent to note_writer_cache at tick 1 has no logged delete there within 4 ticks","rule":2,"run_id":"c0175+P3-065.A.r0","t":21}],"visit_id":"c0175+P3-065"}
+{"run_id":"c0078+P3-066.A.r0","signals":[],"visit_id":"c0078+P3-066"}
+{"run_id":"c0147+P3-062.A.r0","signals":[],"visit_id":"c0147+P3-062"}
+{"run_id":"c0088+P3-064.A.r0","signals":[],"visit_id":"c0088+P3-064"}
+{"run_id":"c0193+P3-067.A.r0","signals":[],"visit_id":"c0193+P3-067"}
+{"run_id":"c0204+P3-069.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The log deletes note_draft ac49fe5325c67b68 at note_writer, but it never shows that draft arriving there. It also shows no send of the visit note to the record or the clinician, although a final visit note exists. A handover is missing.","rule":3,"run_id":"c0204+P3-069.A.r0","t":19}],"visit_id":"c0204+P3-069"}
+{"run_id":"c0127+P3-068.A.r0","signals":[],"visit_id":"c0127+P3-068"}
+{"run_id":"c0070+P3-070.A.r0","signals":[],"visit_id":"c0070+P3-070"}
+{"run_id":"c0126+P3-072.A.r0","signals":[],"visit_id":"c0126+P3-072"}
+{"run_id":"c0150+P3-071.A.r0","signals":[],"visit_id":"c0150+P3-071"}
+{"run_id":"c0203+P3-074.A.r0","signals":[],"visit_id":"c0203+P3-074"}
+{"run_id":"c0116+P3-075.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The log skips handover #3, and the note draft (d3ba40e5dacfe339) appears at note_writer only in a delete, with no send or intake line. The visit note exists, so the draft must have been created and handed on (for example to the record), but no such handover is logged.","rule":3,"run_id":"c0116+P3-075.A.r0","t":19}],"visit_id":"c0116+P3-075"}
+{"run_id":"c0186+P3-077.A.r0","signals":[],"visit_id":"c0186+P3-077"}
+{"run_id":"c0104+P3-078.A.r0","signals":[],"visit_id":"c0104+P3-078"}
+{"run_id":"c0092+P3-073.A.r0","signals":[{"by":"review","handover_id":"c0092+P3-073.A.r0#3","item_ids":["485493d261e52eb3"],"level":"flag","part":"program","reason":"place record may not hold transcript","rule":1,"run_id":"c0092+P3-073.A.r0","t":23},{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The transcript was sent from note_writer to record at t5, and record may hold only note and note_draft, not a transcript.","rule":1,"run_id":"c0092+P3-073.A.r0","t":23}],"visit_id":"c0092+P3-073"}
+{"run_id":"c0160+P3-076.A.r0","signals":[{"by":"review","handover_id":"c0160+P3-076.A.r0#1","item_ids":["bf76442191d11eb6"],"level":"flag","part":"program","reason":"transcript sent to note_writer_cache at tick 2 has no logged delete there within 4 ticks","rule":2,"run_id":"c0160+P3-076.A.r0","t":21}],"visit_id":"c0160+P3-076"}
+{"run_id":"c0095+P3-079.A.r0","signals":[],"visit_id":"c0095+P3-079"}
+{"run_id":"c0180+P3-081.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The handover ids skip #3, so at least one handover is missing from the log. The note_draft item a7f7ede8e6e4c503 is deleted at note_writer at t7 with no logged creation or arrival. The visit note exists as a draft, but no send of it to the record appears.","rule":3,"run_id":"c0180+P3-081.A.r0","t":19}],"visit_id":"c0180+P3-081"}
+{"run_id":"c0094+P3-083.A.r0","signals":[],"visit_id":"c0094+P3-083"}
+{"run_id":"c0166+P3-082.A.r0","signals":[],"visit_id":"c0166+P3-082"}
+{"run_id":"c0159+P3-080.A.r0","signals":[],"visit_id":"c0159+P3-080"}
+{"run_id":"c0162+P3-085.A.r0","signals":[],"visit_id":"c0162+P3-085"}
+{"run_id":"c0143+P3-086.A.r0","signals":[],"visit_id":"c0143+P3-086"}
+{"run_id":"c0072+P3-084.A.r0","signals":[],"visit_id":"c0072+P3-084"}
+{"run_id":"c0177+P3-088.A.r0","signals":[],"visit_id":"c0177+P3-088"}
+{"run_id":"c0178+P3-089.A.r0","signals":[],"visit_id":"c0178+P3-089"}
+{"run_id":"c0171+P3-090.A.r0","signals":[],"visit_id":"c0171+P3-090"}
+{"run_id":"c0067+P3-092.A.r0","signals":[],"visit_id":"c0067+P3-092"}
+{"run_id":"c0056+P3-087.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The log has no handover of the note draft (80d21007c43b5aa2) to the record or clinician, although the visit note exists as a final text. The draft is deleted at note_writer without ever being logged as arriving or leaving there.","rule":3,"run_id":"c0056+P3-087.A.r0","t":19}],"visit_id":"c0056+P3-087"}
+{"run_id":"c0195+P3-091.A.r0","signals":[{"by":"review","handover_id":"c0195+P3-091.A.r0#3","item_ids":["1d59b7458e48f313"],"level":"flag","part":"program","reason":"place record may not hold transcript","rule":1,"run_id":"c0195+P3-091.A.r0","t":24},{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The transcript item 1d59b7458e48f313 was sent from note_writer to record at t=5, and record may not hold transcripts (it may hold only note and note_draft).","rule":1,"run_id":"c0195+P3-091.A.r0","t":24}],"visit_id":"c0195+P3-091"}
+{"run_id":"c0185+P3-096.A.r0","signals":[],"visit_id":"c0185+P3-096"}
+{"run_id":"c0099+P3-093.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The log deletes note_draft 73e7ed744fc8ca95 at note_writer, but the draft never appears in a send or intake. The visit note exists, so it must have gone from note_writer to the record, and that handover is missing.","rule":3,"run_id":"c0099+P3-093.A.r0","t":19}],"visit_id":"c0099+P3-093"}
+{"run_id":"c0201+P3-094.A.r0","signals":[{"by":"review","handover_id":"c0201+P3-094.A.r0#1","item_ids":["811dc61b82d6200d"],"level":"flag","part":"program","reason":"transcript sent to note_writer_cache at tick 2 has no logged delete there within 4 ticks","rule":2,"run_id":"c0201+P3-094.A.r0","t":21}],"visit_id":"c0201+P3-094"}
+{"run_id":"c0119+P3-095.A.r0","signals":[],"visit_id":"c0119+P3-095"}
+{"run_id":"c0066+P3-097.A.r0","signals":[],"visit_id":"c0066+P3-097"}
+{"run_id":"c0142+P3-098.A.r0","signals":[],"visit_id":"c0142+P3-098"}
+{"run_id":"c0138+P3-099.A.r0","signals":[{"by":"review","handover_id":null,"item_ids":[],"level":"flag","part":"ai","reason":"The handover ids skip #3. The visit note draft exists, but the log has no handover of it from note_writer to the record, and its delete at note_writer (#5) has no matching send.","rule":3,"run_id":"c0138+P3-099.A.r0","t":19}],"visit_id":"c0138+P3-099"}
+{"run_id":"c0123+P3-100.A.r0","signals":[{"by":"review","handover_id":"c0123+P3-100.A.r0#3","item_ids":["558adfdbc51208eb"],"level":"flag","part":"program","reason":"note_draft sent to note_writer_queue at tick 5 has no logged delete there within 4 ticks","rule":2,"run_id":"c0123+P3-100.A.r0","t":22}],"visit_id":"c0123+P3-100"}

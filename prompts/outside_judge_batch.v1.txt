@@ -1,0 +1,5 @@
+Below are {{count}} separate tasks. Each one stands between a line that reads like {{begin_example}} and a line that reads like {{end_example}}; the number changes from task to task.
+
+Do each task exactly as it instructs, on its own: the tasks have nothing to do with each other. Reply with your answer to each task between the same two lines that framed it, with the same number, in the same order, and write nothing outside those lines. Inside the lines, write the answer in the form that task asks for.
+
+{{tasks}}

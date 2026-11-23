@@ -1,0 +1,329 @@
+[
+ {
+  "id": "clean",
+  "source": "clean wiring",
+  "control": true,
+  "rule": null,
+  "says": null,
+  "patch": null,
+  "events": null,
+  "exit": 0,
+  "first_broken": null,
+  "no_error": true,
+  "tlc_error": false,
+  "states": 188
+ },
+ {
+  "id": "F2",
+  "source": "config/design_choices.json",
+  "control": false,
+  "rule": 2,
+  "says": "When the draft send is retried after a timeout, the copy of the draft parked in the retry queue is never deleted.",
+  "patch": [
+   {
+    "op": "remove",
+    "path": "/plumbing/detours/r1/do/2"
+   }
+  ],
+  "events": [
+   {
+    "on": "timeout",
+    "at": "w3"
+   }
+  ],
+  "exit": 12,
+  "first_broken": "P2",
+  "no_error": false,
+  "tlc_error": false,
+  "states": 72
+ },
+ {
+  "id": "F3",
+  "source": "config/design_choices.json",
+  "control": false,
+  "rule": 3,
+  "says": "The note draft reaches the chart by a path that skips the gate, so no record is written for that handover.",
+  "patch": [
+   {
+    "op": "replace",
+    "path": "/plumbing/moves/w3/via_gate",
+    "value": false
+   }
+  ],
+  "events": [],
+  "exit": 12,
+  "first_broken": "P3",
+  "no_error": false,
+  "tlc_error": false,
+  "states": 26
+ },
+ {
+  "id": "PF06",
+  "source": "faults/practice/practice_faults.json",
+  "control": false,
+  "rule": 1,
+  "says": "When the draft send times out, the retry copy of the note draft goes to a troubleshooting store instead of the retry queue.",
+  "patch": [
+   {
+    "op": "replace",
+    "path": "/plumbing/moves/w3q/to",
+    "value": "debug_bucket"
+   }
+  ],
+  "events": [
+   {
+    "on": "timeout",
+    "at": "w3"
+   }
+  ],
+  "exit": 12,
+  "first_broken": "P1",
+  "no_error": false,
+  "tlc_error": false,
+  "states": 27
+ },
+ {
+  "id": "PF07",
+  "source": "faults/practice/practice_faults.json",
+  "control": false,
+  "rule": 1,
+  "says": "When the visit pauses and resumes, the cached transcript goes to a store of training examples by a side road that skips the gate and the log.",
+  "patch": [
+   {
+    "op": "replace",
+    "path": "/plumbing/moves/w2c/to",
+    "value": "training_store"
+   },
+   {
+    "op": "replace",
+    "path": "/plumbing/moves/w2c/via_gate",
+    "value": false
+   }
+  ],
+  "events": [
+   {
+    "on": "resume",
+    "at": "w2"
+   }
+  ],
+  "exit": 12,
+  "first_broken": "P1",
+  "no_error": false,
+  "tlc_error": false,
+  "states": 9
+ },
+ {
+  "id": "PF10",
+  "source": "faults/practice/practice_faults.json",
+  "control": false,
+  "rule": 2,
+  "says": "When the visit pauses and resumes, the transcript parked in the note service's cache is never deleted.",
+  "patch": [
+   {
+    "op": "remove",
+    "path": "/plumbing/detours/r2/do/2"
+   }
+  ],
+  "events": [
+   {
+    "on": "resume",
+    "at": "w2"
+   }
+  ],
+  "exit": 12,
+  "first_broken": "P2",
+  "no_error": false,
+  "tlc_error": false,
+  "states": 44
+ },
+ {
+  "id": "PF11",
+  "source": "faults/practice/practice_faults.json",
+  "control": false,
+  "rule": 2,
+  "says": "When two visits overlap, the note service's deletion of the transcript does nothing at its time and happens only at close.",
+  "patch": [
+   {
+    "op": "remove",
+    "path": "/plumbing/detours/r4/do/0"
+   }
+  ],
+  "events": [
+   {
+    "on": "overlap",
+    "at": "d4"
+   }
+  ],
+  "exit": 12,
+  "first_broken": "P2",
+  "no_error": false,
+  "tlc_error": false,
+  "states": 126
+ },
+ {
+  "id": "PF12",
+  "source": "faults/practice/practice_faults.json",
+  "control": false,
+  "rule": 2,
+  "says": "The duty that deletes the patient note from the summary service's store is removed from the wiring.",
+  "patch": [
+   {
+    "op": "remove",
+    "path": "/plumbing/duties/d10"
+   }
+  ],
+  "events": [],
+  "exit": 12,
+  "first_broken": "P2",
+  "no_error": false,
+  "tlc_error": false,
+  "states": 170
+ },
+ {
+  "id": "PF14",
+  "source": "faults/practice/practice_faults.json",
+  "control": false,
+  "rule": 2,
+  "says": "After a crash, the restart deletes the transcript at the note service's cache, where it never was, instead of at the scribe service, so the scribe service's copy waits until close.",
+  "patch": [
+   {
+    "op": "replace",
+    "path": "/plumbing/detours/r3/do/0",
+    "value": {
+     "delete": [
+      "transcript",
+      "note_writer_cache"
+     ]
+    }
+   }
+  ],
+  "events": [
+   {
+    "on": "crash",
+    "at": "d3"
+   }
+  ],
+  "exit": 12,
+  "first_broken": "P2",
+  "no_error": false,
+  "tlc_error": false,
+  "states": 113
+ },
+ {
+  "id": "PF16",
+  "source": "faults/practice/practice_faults.json",
+  "control": false,
+  "rule": 3,
+  "says": "The transcript reaches the note service by a path that skips the gate, so no record is written for that handover.",
+  "patch": [
+   {
+    "op": "replace",
+    "path": "/plumbing/moves/w2/via_gate",
+    "value": false
+   }
+  ],
+  "events": [],
+  "exit": 12,
+  "first_broken": "P3",
+  "no_error": false,
+  "tlc_error": false,
+  "states": 8
+ },
+ {
+  "id": "PF17",
+  "source": "faults/practice/practice_faults.json",
+  "control": false,
+  "rule": 3,
+  "says": "The note draft reaches the chart by a path that skips the gate, so no record is written for that handover.",
+  "patch": [
+   {
+    "op": "replace",
+    "path": "/plumbing/moves/w3/via_gate",
+    "value": false
+   }
+  ],
+  "events": [],
+  "exit": 12,
+  "first_broken": "P3",
+  "no_error": false,
+  "tlc_error": false,
+  "states": 26
+ },
+ {
+  "id": "PF18",
+  "source": "faults/practice/practice_faults.json",
+  "control": false,
+  "rule": 3,
+  "says": "The plan reaches the summary service by a path that skips the gate, so no record is written for that handover.",
+  "patch": [
+   {
+    "op": "replace",
+    "path": "/plumbing/moves/a3/via_gate",
+    "value": false
+   }
+  ],
+  "events": [],
+  "exit": 12,
+  "first_broken": "P3",
+  "no_error": false,
+  "tlc_error": false,
+  "states": 130
+ },
+ {
+  "id": "PC4",
+  "source": "faults/practice/practice_faults.json (clean_cases)",
+  "control": true,
+  "rule": 2,
+  "says": "The scribe service stops between sending the transcript and deleting its copy, and the restart deletes it.",
+  "patch": [],
+  "events": [
+   {
+    "on": "crash",
+    "at": "d3"
+   }
+  ],
+  "exit": 0,
+  "first_broken": null,
+  "no_error": true,
+  "tlc_error": false,
+  "states": 188
+ },
+ {
+  "id": "PC5",
+  "source": "faults/practice/practice_faults.json (clean_cases)",
+  "control": true,
+  "rule": 2,
+  "says": "The draft send times out, so a copy of the note draft waits in the note service's retry queue and is cleared after the second send.",
+  "patch": [],
+  "events": [
+   {
+    "on": "timeout",
+    "at": "w3"
+   }
+  ],
+  "exit": 0,
+  "first_broken": null,
+  "no_error": true,
+  "tlc_error": false,
+  "states": 188
+ },
+ {
+  "id": "PC6",
+  "source": "faults/practice/practice_faults.json (clean_cases)",
+  "control": true,
+  "rule": 2,
+  "says": "The visit pauses and resumes, so the transcript sits in the note service's cache and is cleared after the send.",
+  "patch": [],
+  "events": [
+   {
+    "on": "resume",
+    "at": "w2"
+   }
+  ],
+  "exit": 0,
+  "first_broken": null,
+  "no_error": true,
+  "tlc_error": false,
+  "states": 188
+ }
+]

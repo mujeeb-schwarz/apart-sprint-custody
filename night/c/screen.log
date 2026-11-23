@@ -1,0 +1,6 @@
+stage 'e1 hidden', attempt 1 of 4
+        line 117: output has the wrong form: the line 'NO FLAGS' is not a line of the form FLAG <rule number> <reason>; the answer must be only such lines, or the single line NO FLAGS
+        and 10 more
+    stopped: a check of the runner failed: pending_not_cleared (34 imported answers are still pending). The stage is stopped; what was answered is saved.
+  exit code 6
+the night stopped at stage 'e1 hidden'. Start the same command again to go on from there.

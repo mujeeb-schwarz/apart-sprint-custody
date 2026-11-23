@@ -1,0 +1,324 @@
+{
+ "cases": {
+  "exp1_total": 207,
+  "exp1_by_split": {
+   "tune": 50,
+   "test": 157
+  },
+  "exp2_total": 499,
+  "exp2_by_kind_and_split": {
+   "graded/tune": 50,
+   "graded/test": 213,
+   "stored/test": 200,
+   "stored/tune": 36
+  },
+  "test_total_both": 570
+ },
+ "aci": {
+  "rows_per_file": {
+   "train.csv": 67,
+   "valid.csv": 20,
+   "clinicalnlp_taskB_test1.csv": 40,
+   "clinicalnlp_taskC_test2.csv": 40,
+   "clef_taskC_test3.csv": 40
+  },
+  "rows_total": 207,
+  "distinct_encounter_ids": 207,
+  "subset_values": {
+   "virtassist": 55,
+   "virtscribe": 40,
+   "aci": 112
+  },
+  "metadata_columns": [
+   "2nd_complaints",
+   "cc",
+   "dataset",
+   "doctor_name",
+   "encounter_id",
+   "id",
+   "patient_age",
+   "patient_familyname",
+   "patient_firstname",
+   "patient_gender"
+  ],
+  "cases_exp1": 207,
+  "practice": 50,
+  "practice_equals_first_50_of_train_by_id": true,
+  "practice_first_last": [
+   "aci:D2N001",
+   "aci:D2N050"
+  ],
+  "test": 157,
+  "test_by_file": {
+   "train.csv": 17,
+   "valid.csv": 20,
+   "clinicalnlp_taskB_test1.csv": 40,
+   "clinicalnlp_taskC_test2.csv": 40,
+   "clef_taskC_test3.csv": 40
+  },
+  "test_by_subset": {
+   "aci": 94,
+   "virtassist": 35,
+   "virtscribe": 28
+  },
+  "left_out": 0,
+  "case_text_equals_raw_dialogue": true,
+  "test_words": {
+   "n": 157,
+   "median": 1239,
+   "min": 693,
+   "max": 2707,
+   "q1": 1004.5,
+   "q3": 1475.0
+  },
+  "test_lines_as_turns": {
+   "n": 157,
+   "median": 48,
+   "min": 7,
+   "max": 136,
+   "q1": 39.0,
+   "q3": 67.0
+  },
+  "test_line_tags": {
+   "doctor": 4375,
+   "patient": 3993,
+   "(untagged)": 8,
+   "patient_guest": 132
+  },
+  "test_non_ascii_char_share": 0.0
+ },
+ "medevidence": {
+  "rows": 284,
+  "columns": [
+   "question_id",
+   "question",
+   "answer",
+   "evidence_certainty",
+   "fulltext_required",
+   "relevant_sources",
+   "original_review",
+   "review_year",
+   "sources",
+   "source_concordance",
+   "medical_specialty"
+  ],
+  "certainty_values_raw": {
+   "high": 43,
+   "moderate": 57,
+   "(empty)": 58,
+   "low": 65,
+   "very low": 61
+  },
+  "answer_values_raw": {
+   "no difference": 94,
+   "higher": 53,
+   "uncertain effect": 43,
+   "insufficient data": 38,
+   "lower": 56
+  },
+  "with_grade": 226,
+  "no_grade_insufficient_data": 37,
+  "usable": 263,
+  "left_out_no_grade_other_answer": 21,
+  "left_out_answers": {
+   "higher": 7,
+   "no difference": 10,
+   "lower": 3,
+   "uncertain effect": 1
+  },
+  "reviews_in_file": 100,
+  "review_year_range": [
+   2014,
+   2024
+  ],
+  "cases_graded": 263,
+  "practice": 50,
+  "practice_equals_first_50_usable_by_number": true,
+  "test": 213,
+  "test_reviews": 74,
+  "practice_test_share_a_review": 1,
+  "test_grade_levels": {
+   "moderate": 37,
+   "low": 51,
+   "very low": 54,
+   "high": 34,
+   "no data": 37
+  },
+  "test_expert_answers": {
+   "lower": 38,
+   "no difference": 67,
+   "uncertain effect": 38,
+   "higher": 33,
+   "insufficient data": 37
+  },
+  "test_studies_per_question": {
+   "n": 213,
+   "median": 2,
+   "min": 1,
+   "max": 10,
+   "q1": 1.0,
+   "q3": 3.0
+  },
+  "test_specialties": {
+   "Surgery": 43,
+   "Public Health, Epidemiology & Health Systems": 42,
+   "Psychiatry & Neurology": 29,
+   "Internal Medicine & Subspecialties": 20,
+   "Pediatrics & Neonatology": 18,
+   "Family Medicine & Preventive Care": 16,
+   "Emergency Medicine & Critical Care": 14,
+   "Obstetrics & Gynecology": 13,
+   "Oncology & Hematology": 12,
+   "Other": 3,
+   "Dentistry & Oral Health": 3
+  },
+  "test_non_ascii_char_share_questions": 0.0026
+ },
+ "pocqi": {
+  "questions": 620,
+  "answer_rows": 2480,
+  "answer_rows_per_provider_count": 4,
+  "answer_rows_per_provider": [
+   620,
+   620,
+   620,
+   620
+  ],
+  "rating_rows": 5780,
+  "rating_rows_per_axis": {
+   "accuracy": 1156,
+   "source_quality": 1156,
+   "clinical_utility": 1156,
+   "completeness": 1156,
+   "verifiability": 1156
+  },
+  "practice_positions_in_ids_sorted_as_text_1based": [
+   102,
+   137
+  ],
+  "answer_rows_not_used_other_systems": 1860,
+  "questions_with_stored_answer_from_used_tool": 620,
+  "empty_stored_answers": 0,
+  "practice": 36,
+  "outside_practice": 584,
+  "draw_seed": 20261119,
+  "draw_size": 200,
+  "test": 200,
+  "test_equals_reproduced_draw": true,
+  "not_drawn_left_out": 384,
+  "case_text_equals_raw_answer": true,
+  "test_answer_words": {
+   "n": 200,
+   "median": 475.5,
+   "min": 162,
+   "max": 887,
+   "q1": 369.5,
+   "q3": 563.0
+  },
+  "test_question_words": {
+   "n": 200,
+   "median": 13.0,
+   "min": 2,
+   "max": 74,
+   "q1": 10.0,
+   "q3": 21.75
+  },
+  "test_specialties_distinct": 29,
+  "test_specialties_top5": [
+   [
+    "Endocrinology",
+    20
+   ],
+   [
+    "Oncology / Hematology",
+    16
+   ],
+   [
+    "OB / GYN",
+    14
+   ],
+   [
+    "Cardiology",
+    13
+   ],
+   [
+    "Dermatology",
+    13
+   ]
+  ],
+  "test_specialties_other": 124,
+  "test_specialties_all": {
+   "Endocrinology": 20,
+   "Oncology / Hematology": 16,
+   "OB / GYN": 14,
+   "Cardiology": 13,
+   "Dermatology": 13,
+   "Neurology": 11,
+   "Rheumatology": 10,
+   "Infectious Disease": 10,
+   "Pediatrics": 9,
+   "Allergy & Immunology": 8,
+   "Surgery": 8,
+   "Gastroenterology": 7,
+   "Nephrology": 6,
+   "Critical Care": 6,
+   "Transplantation": 6,
+   "Pulmonology": 4,
+   "Orthopedics": 4,
+   "Urology": 4,
+   "Family Medicine": 4,
+   "Radiology": 4,
+   "Internal Medicine": 4,
+   "Psychiatry": 4,
+   "Emergency Medicine": 3,
+   "Anesthesiology": 3,
+   "Otolaryngology": 2,
+   "Genetics": 2,
+   "Surgical Oncology": 2,
+   "Hospital-Based Medicine": 2,
+   "Primary Care": 1
+  },
+  "test_non_ascii_char_share_answers": 0.00222
+ },
+ "runs": {
+  "night_e1": {
+   "rows": 652,
+   "rows_by_split": {
+    "test": 652
+   },
+   "rows_clean_runs": 157,
+   "rows_with_planted_or_repeat_suffix": 495,
+   "suffix_prefixes": {
+    "P1": 125,
+    "P2": 125,
+    "P3": 125,
+    "K": 20,
+    "H": 100
+   },
+   "distinct_cases": 157,
+   "test_cases_that_ran": 157,
+   "test_cases_that_did_not_run": 0,
+   "practice_cases_that_ran": 0,
+   "clean_run_test_cases": 157
+  },
+  "night_e2": {
+   "rows": 838,
+   "rows_by_split": {
+    "test": 838
+   },
+   "rows_clean_runs": 413,
+   "rows_with_planted_or_repeat_suffix": 425,
+   "suffix_prefixes": {
+    "P4": 76,
+    "P5": 125,
+    "P6": 124,
+    "H": 100
+   },
+   "distinct_cases": 413,
+   "test_cases_that_ran": 413,
+   "test_cases_that_did_not_run": 0,
+   "practice_cases_that_ran": 0,
+   "clean_run_test_cases": 413
+  }
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "counts": {
+  "asked": 105,
+  "no_honest_text": 0,
+  "rule4_rows": 0,
+  "rule4_source_wrong_dropped_in_round1": 52,
+  "rule5_rows": 120,
+  "skipped": {
+   "no target level above high": 15
+  }
+ },
+ "skipped": [
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-002",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-027",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-031",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-036",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-042",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-048",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-050",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-053",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-077",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-084",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-098",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-102",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-110",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-119",
+   "reason": "no target level above high"
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-120",
+   "reason": "no target level above high"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+second judge, rules 4,6: 400 drawn, 400 answered, 0 left. calls 80, tokens used 546848, failed calls 0
+{"4": {"agree": 199, "first_broken": {"broken": 99, "kept": 1}, "first_kept": {"broken": 0, "kept": 100}, "n": 200, "rate": 0.995, "unreadable": 0}, "6": {"agree": 200, "first_broken": {"broken": 100, "kept": 0}, "first_kept": {"broken": 0, "kept": 100}, "n": 200, "rate": 1.0, "unreadable": 0}}
+report: rejudge/night_e2_pass/second_judge.jsonl.agreement.json
+exit 0

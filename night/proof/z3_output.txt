@@ -1,0 +1,1 @@
+unsat: no property breaks inside the bounds (a result from Z3, not from this file's author)

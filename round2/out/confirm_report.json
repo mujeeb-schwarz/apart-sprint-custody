@@ -1,0 +1,19 @@
+{
+ "counts": {
+  "5": {
+   "less_certain": {
+    "confirmed": 45,
+    "dropped": 0,
+    "made": 45,
+    "not_asked": 0
+   },
+   "more_certain": {
+    "confirmed": 60,
+    "dropped": 0,
+    "made": 60,
+    "not_asked": 0
+   }
+  }
+ },
+ "dropped": []
+}

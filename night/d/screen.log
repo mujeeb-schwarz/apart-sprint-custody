@@ -1,0 +1,17 @@
+stage 'e1 repeat', attempt 1 of 4
+        (cost field: the program's own estimate; nothing is charged on a subscription)
+        failures by reason: other 270
+    stopped: this round answered nothing (135 calls failed). Nothing was imported.
+  exit code 1
+the night stopped at stage 'e1 repeat'. Start the same command again to go on from there.
+stage 'e1 repeat', attempt 1 of 4
+        (cost field: the program's own estimate; nothing is charged on a subscription)
+      refused at import: 0
+    finished after 2 rounds. Nothing is missing. Results: runs/night_e1/scores.json (not shown here)
+  exit code 0
+stage 'e2 repeat', attempt 1 of 4
+        (cost field: the program's own estimate; nothing is charged on a subscription)
+      refused at import: 0
+    finished after 4 rounds. Nothing is missing. Results: runs/night_e2/scores.json (not shown here)
+  exit code 0
+the night is finished: 2 of 2 stages done

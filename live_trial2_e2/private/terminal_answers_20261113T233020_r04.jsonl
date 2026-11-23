@@ -1,0 +1,9 @@
+{"call_id":"ab6112e47aba5c50156dc1e1eb11a5984a69f6f15481a9a1931bd33e080e27bf","output":"LEVEL low","prompt_fp":"2050316ddbc14df2f74a742dab4c979b229e9d24e239e4a5bb1d53a80b5f827e"}
+{"call_id":"730cbbc238116b7859f9a46650c7ad769fbb80b1f9479ca12539e741b54fb3d4","output":"VERDICT broken","prompt_fp":"e3b705e112ecad6d31199c5e83b166530e9d8de342ad0cbaf8d765c6b6f71beb"}
+{"call_id":"8918e13174b9155e903e066ea27940124181aa1e0ad5f44a957749715a88b086","output":"VERDICT broken","prompt_fp":"759b218287edb07973cdee278ca2b2263d73ca558ddf43bc2faf4dbd9652af37"}
+{"call_id":"056f416664d76a6df44458bb3cb91b2be677a308ab0475257f2175f3420a7cc7","output":"LEVEL high","prompt_fp":"93435e5ec24bdeb5c2e0e232f451f03f1d07a3103f2780c1ffe5ac304df314f1"}
+{"call_id":"1262bd8f6e5297f9fc9fcc801027b0ee670f846a568c8179efa04fca3eaabe1d","output":"VERDICT broken","prompt_fp":"715196630d6aa152253093e97c2d4fe4bce4b9d2a198fa0ae7b9fbf0a4808202"}
+{"call_id":"56b9b9a52d7ec3a1a4a36b362b80a29ffa2c838f46924e057b1f4fdb19fb49dd","output":"LEVEL high","prompt_fp":"9da24f404604847eb67266989a59deac9942f9682b99c28b09404f6e3da0ece1"}
+{"call_id":"8d7b3dd9fe4405cbbd6a9e9cbd226c2c264b0155d800150e88fe44f0e1efae92","output":"VERDICT kept","prompt_fp":"2a9ee4a8ad2529f7b542cbd5ff85fe0d4c7bbb8f78074918979352371b2746ad"}
+{"call_id":"53d455acbe3f907f69071c830c9a026dff193a0748704f7e388968ab1e1351b0","output":"VERDICT broken","prompt_fp":"1b4e654cac2003acc041a6e03cecf2795f329aa49d6f1ce0c55fc1933d2d35bb"}
+{"call_id":"b05d385e4a8219dee13c6affb992bddae2fa149b636ad5b0fb25a860b406f38f","output":"VERDICT broken","prompt_fp":"3f97b5174ef79a000e6249adfa66d930160bbc044ec7f11e35adad356735359f"}

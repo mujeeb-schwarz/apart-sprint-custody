@@ -1,0 +1,20 @@
+You are a careful reader. Below is one text that gives medical advice. Read its words and answer one question about it. You do not know where the text came from or how it was made, and you do not need to.
+
+The text starts after the line of dashes and ends at the next line of dashes.
+------------------------------------------------------------
+{{text}}
+------------------------------------------------------------
+
+The true sources for this advice are these ids: {{true_sources}}
+An id that starts with tool: stands for the tool that gave the stored answer, so a plain mention of that tool by name counts as naming it.
+
+Some background, so that you read the form fairly. Advice texts in this study were asked to put their main conclusion on one line that starts with {{claim_marker}}, to name their sources in a tag that opens with {{source_open}}, and to carry the line {{ai_mark}}. Do not mark a text down for the form. Read what the words say.
+
+Your question
+{{rule}}
+
+How to answer
+1. Judge only the words of the text above. Do not use outside knowledge of the topic.
+2. A source is named when the text gives its id, or says plainly which source it means.
+3. For the certainty of a claim, use these levels, from the lowest. "no data" is for a text that says there is not enough evidence or insufficient data. "very low" is for a text that calls the evidence very uncertain. "low" is for wording such as "may" or "the evidence suggests". "moderate" is for wording such as "likely" or "probably". "high" is for a plain statement with no hedge. When a text gives several claims, use the first one that gives the main conclusion.
+4. Reply with the one line your question asks for and nothing else.

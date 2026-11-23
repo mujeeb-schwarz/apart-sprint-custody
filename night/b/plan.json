@@ -1,0 +1,35 @@
+{
+ "stages": [
+  {
+   "name": "e2 planted",
+   "retries": 3,
+   "live": [
+    "--experiment",
+    "2",
+    "--split",
+    "test",
+    "--name",
+    "night_e2",
+    "--live-dir",
+    "live_night_e2",
+    "--plan",
+    "plans/test/exp2_plan.json",
+    "--faults",
+    "outside/test/exp2_faults.json",
+    "--part",
+    "planted",
+    "--workers",
+    "8",
+    "--wait-on-limit"
+   ],
+   "expect": {
+    "calls_max": 30000,
+    "tokens_per_call_max": {
+     "steps": 20000,
+     "methods": 20000,
+     "judge": 20000
+    }
+   }
+  }
+ ]
+}

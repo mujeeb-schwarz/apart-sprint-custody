@@ -1,0 +1,15 @@
+{
+  "auth_method": "claude.ai",
+  "claude_version": "2.1.325 (Claude Code)",
+  "earlier": [],
+  "effort": null,
+  "models": {
+    "judge": "claude-opus-5-5",
+    "methods": "claude-sonnet-5-5",
+    "steps": "claude-haiku-5-5"
+  },
+  "system_prompt": "You are a language model used as one step inside a software system. Follow the instructions in the message and reply with the requested text only.",
+  "timeout_seconds": 300,
+  "workers": 8,
+  "written_at": "2026-11-13T23:22:57-0800"
+}

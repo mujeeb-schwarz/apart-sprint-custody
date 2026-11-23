@@ -1,0 +1,900 @@
+{"call_id":"c2fb9344228015737c68f4b7f4c83c7632d80cbd446f57438175d243b29d85e6","output":"LEVEL no data","prompt_fp":"aee06e8b5ca67b836f159453b8e814534bfe91c80c3c73b4d2bfa8d93a6714e6"}
+{"call_id":"77956c0fad6b9b6f0144cdd88d71b84b3042727d6d83d2318e663d186b6101be","output":"LEVEL moderate","prompt_fp":"50c94397a3492e5fa4949a1556d2771f9ab64769ecb74e3ed335355fd34abfde"}
+{"call_id":"38ade9955cc14cca65618ea667b624b410a0522e98f16b4188277ae36fbabd36","output":"LEVEL no data","prompt_fp":"9045281f5ef8842e4f3bb4cd2f1bf1e944c71c141c768da24f9946900c144019"}
+{"call_id":"faccce903153fc9efc5145b83f7d4a01c61f5cc8bb5853be7867765aec4e1143","output":"LEVEL low","prompt_fp":"67678c211bd1964ce36ef9bf3983566ecbdb255a4f25fb2a07bb7f3f7f57f015"}
+{"call_id":"0189fd98c5e9bbbbe5c5bcae3e0f637dbb963e465d16e0d5c08696e6a1225b9e","output":"LEVEL no data","prompt_fp":"900d06f52b4f4a1096d0e27217ba9706283c88aba1541d48f838fbdada20614e"}
+{"call_id":"327acdd2ed487ca46712745e8d48c8ccd955999a9334e250d8f02f9d9ba1e429","output":"VERDICT broken","prompt_fp":"89060613aa98b2c48f2ea8a337ccaad0c8ac29b2e5ead5ef2a71324f57500974"}
+{"call_id":"fab11f12c481686d854a917eba004e26a67ea44e5485524a7d910287e3791018","output":"VERDICT kept","prompt_fp":"8f739a431fa57295adefa69e663b8417a4364668f7bdbcebbbd0b6def0de619c"}
+{"call_id":"9f9ee6c3201e7c76ae0f0b7a612601f6cb8f811264ad069076cf63385ee52977","output":"VERDICT kept","prompt_fp":"65cec527229a65e28e706cf754250795bd8e0063eac6d88072dc3e8fe807debe"}
+{"call_id":"91ce2bbc72c9a564c43b1934c53eaecbc3611bc769651fdc582b6effbedeb2d2","output":"LEVEL moderate","prompt_fp":"2b561848618a08c977f0eaad3e23ef8871c4f03bf8296a6413fba582d0115808"}
+{"call_id":"3dbbb37f21d1c265f5fb31694d47384a5e33a86517b6a5c7b51e52aa5980893b","output":"LEVEL low","prompt_fp":"31edf6104970240fa2dfc282d4d2f6fe75826728d878d992ca28b1315cc0990f"}
+{"call_id":"4f19e5c0d397cf3bc8bfe3cde71c041eff604b0fe817266f757ee70904e9f168","output":"LEVEL very low","prompt_fp":"b6c92e0358adf121c2e7bfd29bdea79453cda99145e426e144e290e5690c8669"}
+{"call_id":"6dc0049c68d6b5666c64c4ddb2ce7fbf5f25433194ae7d1a7d67917694f16231","output":"VERDICT broken","prompt_fp":"234b38a649e978f84280bbb60882fce57ac952cf06bdbd1cd3cac2326c6bae0b"}
+{"call_id":"662120e28e55b1fe85d43a9e0fb5e7c24e692f3e50813c8468763e3a5d80efa6","output":"LEVEL very low","prompt_fp":"fdeb422553ea3c7c451bd86cf7f888c90ca72faccc75cf1a36984808fe294ffe"}
+{"call_id":"0fc00263f6e00ff7993a1d8f25f20da22b07ccb5d980163b9be331705ed27001","output":"VERDICT broken","prompt_fp":"81daf0c5cfb188fa5f026578d09dc3249c0979f3becc5e88d29fb2df8ca5d978"}
+{"call_id":"63b3bd9168ddf656e79bc2861e4264317e59a37f729b6db16e3bdd239e5082a3","output":"LEVEL very low","prompt_fp":"05fac5f246b6f9556b8234db444068b4f711081022982da3aaef34d919f62db9"}
+{"call_id":"8b9d3b72db0aa3095f089b558fce5894d555368d93d0aba545138d7176fc5afd","output":"LEVEL very low","prompt_fp":"80600ffdd35010c2249be4755e283b6d5698fa79d130ccd6b58a33878f51672f"}
+{"call_id":"4b09b822c3e66b587bd4fe83f5bb89842caceac492bc7ab60c22bb5e3854c5e7","output":"VERDICT kept","prompt_fp":"080445ed5c96ba6aa35ccfce50c907c05b79616e1493e2410ead1446ec4edc72"}
+{"call_id":"bef5350222e792c266f232706601676d01e2d974afd904f68d9a923638d51404","output":"VERDICT kept","prompt_fp":"e408196418ca61009ecb2b7d9844ae67a48bd166b6cdd429c5b90af190cf523c"}
+{"call_id":"3f39f07e2842feffaa3173575da9e49f2142afe4e27bb1c5ba9625296839d790","output":"LEVEL very low","prompt_fp":"808c7f5da8ee19edb5efe069f9c8810e1fb89e8fcea9ef23912a8952d90119d9"}
+{"call_id":"40bf74ebc10bff7950f083667925437fa744ff3cfa9924b2cd4a2e64a3d30813","output":"VERDICT broken","prompt_fp":"95b49a306dbc60cd67b033deab05c05b619ead729e6a983fd5e7987f5e9d7ae2"}
+{"call_id":"cdf0f0961f943d2c11dbd755902709b443b92d296851e7fed435d8466e290c3f","output":"LEVEL very low","prompt_fp":"411af9659ca593357799d76cfd46648e619aef7f0dcf273c668ad97af307b9c3"}
+{"call_id":"84d0d43e61090c69e72de018975b921722ae13b055709500202b12f27f2de958","output":"LEVEL low","prompt_fp":"60c868a988e5d6ea6a788676e4b905899c6334c5035b771384bc106d2867e73b"}
+{"call_id":"54c9ded0fdf41486add48874a8f19efb3306aead5c6dd4c5bd830a391012f9e0","output":"VERDICT kept","prompt_fp":"26c94116aa27a7b45b2d73af5837e1f8a828180391ef44a5f9feab616498ce7f"}
+{"call_id":"bf9d8610b60e09cc929f9f1730b61e0ed0bb778902b742e3da0c7182b8c74bca","output":"VERDICT broken","prompt_fp":"678c15d845eda9034ed81a01d49b718df97aff226ec1c5740275785b0a2aaabe"}
+{"call_id":"536e7c0dc779475efee239176c5109a4ca13dd98e72230cd4aa5bdb9b248b14b","output":"LEVEL low","prompt_fp":"2f288be0475cdaf859a9e553f1656da17917689605a2fdbf908262417bb6a241"}
+{"call_id":"98a83e685478c638e951acb1591fb82ec6616bd48c6c18c453c391a3f3d49b1b","output":"VERDICT kept","prompt_fp":"abc91a196eedf4af9f50fb6a87e5006cc0a46af2f4dda43cb47005553f4ed4f7"}
+{"call_id":"543660635369ffea73df114cb769495f9c2184db4221e17d95d3353276d4eb60","output":"VERDICT broken","prompt_fp":"a8449780de06ddc5c51b6c01c05d66d4e04e1eee02e64f379bf7b31ce85a03a6"}
+{"call_id":"124973d97835ab0837d1210c23e6b74c1ed290a5b06fc6e03db76117250b5783","output":"VERDICT kept","prompt_fp":"71504b6f5e3c4fd7ab202e9bc3f3cbcef209508cf39e64390a505d82b8946383"}
+{"call_id":"8f28bda778e9efe07defcf8154b5f5d9982abf8d58707895f3092355596e0f4f","output":"VERDICT kept","prompt_fp":"e7fd289f0baa6e119693b561da370125b5a062c57cad80f24cf045d24f7a3972"}
+{"call_id":"1637523402230e7531cab729598b6118a78b6d0d3fcee44a1230ee2444737a4f","output":"VERDICT kept","prompt_fp":"668cbffbde4e3e30945dbfc0f2f2c6182524d2674b76af93827403a0d39fc60d"}
+{"call_id":"1a4d89d0bf9c7fcd4579f5c46d9f17ee07eee94f21cf46a8e7606bfa74ff86bb","output":"LEVEL very low","prompt_fp":"00b071e3dff46419b48c9d6a3e834ded10689a6f264beb64d92833998638a515"}
+{"call_id":"94222b096d03f4c3d511af5547291ffddf11fa2dcbdd004267ebd7d8aefcf744","output":"VERDICT kept","prompt_fp":"c44c5eb60ce9ae00a107b784dcc273884b82b513d163263f160ff318a083bc13"}
+{"call_id":"58ea83c3b1b1998ab1e4f7d18091748253f6515855a385e3aeb234e39084f874","output":"VERDICT kept","prompt_fp":"267fcaa22a6d655bb6e0e0f22db2024acd09b4827a39e86b066398697cc4a166"}
+{"call_id":"deedc93561e67a676ae5ba803b732fe794087ed17636e7763b3e6fbfdd653fa3","output":"VERDICT kept","prompt_fp":"5fa433291f23c8077b3b5f360ac4246cddb7168968d4052f0d6564406fb3bf3a"}
+{"call_id":"8567da20149ed6e72da4a8c95c03fc21b539c98a973ef599c476d188815dc080","output":"VERDICT broken","prompt_fp":"adf9aa2fa38046306440330f8b3d92c66c871585038335ebea78aa4684ca0cee"}
+{"call_id":"d3784c171305e64d52a780a2bdd7fa71810e1ea3b9082426f78699a0dacd8ec1","output":"LEVEL low","prompt_fp":"eb7a80ae33df38972d2d0e8706d6d34009e82e2d4a4a04c66eacd98fae0a44db"}
+{"call_id":"8d18346f6bd660d4deb2cd30a2ca76f0d5beeb84a7c24dc4fe5fdc71ddccd955","output":"VERDICT broken","prompt_fp":"d53ae70089d6c2151663076d16b084b296a651687e8100b2af0c62f7098f912e"}
+{"call_id":"18b57b256ffefcdcdeb214af1080a8c1197cb4b70e8e0928f8a0283bedd50e38","output":"LEVEL no data","prompt_fp":"6e615711a005188639b867afe47332eb862e1757139ed7b4501b2a4a00818d51"}
+{"call_id":"5b05fd82d68203d6989d9ffa55f5019fcc7b9edeb79c3271c5935068fcd41aea","output":"LEVEL no data","prompt_fp":"11a74929a465c6c422a7b72170902ee78713864d47ba57e3547d65bb50e0bdad"}
+{"call_id":"4e57b84963aa6d88af2c6962687fff3fb80b4be9323e402ef9d2fa0cbeb7d5c7","output":"VERDICT kept","prompt_fp":"82ce43269e3cea6bd39953c3e846e8c95514f6bb087c57371e70a26fad211548"}
+{"call_id":"ffc2a996902542b080b15c52db8baf865b7f40a01b95a04998d41f5ffb680fd6","output":"VERDICT kept","prompt_fp":"b0d60ce969c358b2bc7ed8e59483428069c6c0a6c2baf92af40693dfdc98bba3"}
+{"call_id":"e5bde586889ab7ea2bb70879c7c085baf19fbb1ade90342d963f566db644fb4d","output":"LEVEL moderate","prompt_fp":"d419bdb99b2dac5667a98d505607607c7aee6963535465b9c1c73ebe02f1bc47"}
+{"call_id":"5a4be3dd33ca197e17a25530359f5d53a182c8094193da3073dde7e73fa79df5","output":"VERDICT kept","prompt_fp":"faaa6502294fa837c57f9737f8bd5af9832018761f860456da8f22b21bd194e8"}
+{"call_id":"b797ca04abbd3fdfd448966915bac1158428a88aab8be695e46a93520793d482","output":"VERDICT kept","prompt_fp":"325237f230c1439432a3ca309aec1a8452998b1f850efc05afa537da3c70061e"}
+{"call_id":"ad158d659a9251234ac1e2996331ec23dcc89b7c95f4b580671dc7aba8b409e5","output":"LEVEL low","prompt_fp":"52b22669a0cad30d61aa2909b8b6a6616be4d4ff2ed0c0c7f0816ada43c8fabd"}
+{"call_id":"67df98cc4690cf0633c05a0787b30688b5700e29b8f15b56b80dea8201a6807c","output":"VERDICT kept","prompt_fp":"f5b47c229a188991b899abc56f58d4a0eba1328ea153fc469162c25102fb1b91"}
+{"call_id":"e3c8e6af843b43f2648ff213df1e9c3b0abfdd0b4c7b6941c2b0c770363404b5","output":"VERDICT kept","prompt_fp":"3438c12e0f11d8e1341197fadfdf6faecbb53acdcff363f9fe56d168aec5532f"}
+{"call_id":"3383fb18a5341c9e2d538d4a00eba2ce2b32c70e629308b97e3041f1a49394ef","output":"VERDICT kept","prompt_fp":"37971e2b130fd782a162adcb81166f8f3b79494aade62f609b0e4f68e1eb2565"}
+{"call_id":"f7aa4c882a7754c3fcf50f43f86fbed6521009a2e19ab6f87568bbd70d2f4345","output":"VERDICT kept","prompt_fp":"66ed0d854f696567cf94b2230bdef4760376a9992cb86088cc14c424034512d9"}
+{"call_id":"0d2f51a366611d16d700383e3a5d8c71ccc381b6428b0fd290251f1f9e11c638","output":"VERDICT kept","prompt_fp":"3b9a466407c28e8322f74cffd802ec15be186c9e9fa57251431b94457371cc10"}
+{"call_id":"43b2b0a4151a44417b36b9514a8690bc536d5393592988c52318fb9fe5fb6cf8","output":"VERDICT kept","prompt_fp":"3013aeb714aa598e1f7129afa98c7315b82dc456b96a42864ef95ba4848ea6f4"}
+{"call_id":"7320c51288700a8d7521aeec0f572440e300a9078c85e4e79031e024c436418f","output":"VERDICT kept","prompt_fp":"1db340a7a86fd8dc93032bbd4474bd08fb5bf0c0e828d671237d9b1a5e244cde"}
+{"call_id":"b0c6afaa871b906ef123c7c3c2d79e91e80757fc51c43ce2a15edcd0541e24a8","output":"LEVEL moderate","prompt_fp":"ad1b15de8b9f61d2d94b7d7f70351e1a608b29b1446bbabf50e6a3935bfb3adc"}
+{"call_id":"8ec8f548dd893ff8e033dbbd664c43350d94ef1e3efb945227af8704c290729f","output":"VERDICT kept","prompt_fp":"f00dd74a3814c87622218d1d39bb79cd3b84269cd2a448435db58c46130fdbae"}
+{"call_id":"36d70a0cb673e71b8375c7099e465085872e6574b849b6ebd2814cc2f4b61be8","output":"LEVEL very low","prompt_fp":"c8495580ff8b18223a192204764f5328b8cfe3291484112833082b63730ed0cc"}
+{"call_id":"77d1bf654442d8e1151ff8c41fa54d239c3fa59149f37a9503d6681d1e97886a","output":"VERDICT broken","prompt_fp":"c3259bfbe442b0ebae0f51d326cb19dcd6660a899bf0eec7ea13a4aa244b411c"}
+{"call_id":"2b179258ca5512aef4ae3f1a70b8f673a9d1f1acaa2fd75547b67ae8b8f09abf","output":"VERDICT kept","prompt_fp":"1e63fdada0e7d92006f0c17f5e73fbe43ee0ccb7f420ea77470e0bd038337614"}
+{"call_id":"33e60db528f1177820a3b36b35925ed88f2df708d2483402ed829439a54796bc","output":"VERDICT broken","prompt_fp":"7361e200a777b39ebe3dfe67374e3dbf548d348dda1fa8068b6d63cc8a34c60d"}
+{"call_id":"394aa0b74fe0181a143cea635b64f3ebb8f4c20488f94c760004fcda1261917a","output":"VERDICT kept","prompt_fp":"dba0ba70c7043f6c7593b0bd7815f04e54ee7f9dc689b1e02e210cba72004bc5"}
+{"call_id":"73f2b29c09fd4752a488431d9767f769a627ea6ae458fe08204b8e7fcd224c6e","output":"VERDICT kept","prompt_fp":"59bc6cd0f91126fdc99468d6e0c68b51c337ded95c8ae5f022a0186f8fd6e237"}
+{"call_id":"f7211ca980d2635989ac79d64c943ed380c3f80f0c8235757b8ef69dc03afa03","output":"LEVEL low","prompt_fp":"5a630bfcf8aaa419ec13ed9221cae54dfa9635bf2d0ab5c6a6a742f4d7077049"}
+{"call_id":"574a374f0e3ff41ab976d545b58c0ffc92e2669094dc67fb6e4c3cd021b56267","output":"VERDICT broken","prompt_fp":"bedf42f5f213944ed5fb34ea121192ae65a7a15bc3166591d5fa3a6a330dda1e"}
+{"call_id":"9383f1272c44f29f0e98d03a6beb586b73cf2a6c90c552e898181d32b2a5f8f8","output":"VERDICT broken","prompt_fp":"4e1d989ed5fcbdf75c2212f4b1983c618072396ac123eca78d8263399e06d842"}
+{"call_id":"c98186ab42886181edfce75380a1ca5b430499a13589c05d339bd20aef751200","output":"LEVEL low","prompt_fp":"c332da8ab387c29b8bf8c757bddd171f04f5d925689939861ef9a52e09fa4a0c"}
+{"call_id":"d3000eca5904bc5b6112e3b183703b8008fcb0a7e48c342aa020aac3ac46ef2f","output":"LEVEL low","prompt_fp":"0e9e333b514a957cc960ada08975caecd48ebb696379ab9d65bda028dbadaa83"}
+{"call_id":"000946333ae8e99027d610a95f1ce0c208f9581dd1a798b9411c05bd2a0fe961","output":"LEVEL no data","prompt_fp":"d4c4d299b8b38a14a74e369afff98d394ae8745fb3acc3bef548a986690586b7"}
+{"call_id":"bb85b141bcc7a12a9df2a4b558cf9488f9b00a6c6da8a888257cde36ccafb4f1","output":"VERDICT broken","prompt_fp":"ca7a2f0dac3e807a462d45d3ed2d78debebd4788d9e9ed9d54c8aa139c759b5b"}
+{"call_id":"931a1016875111efe2d5fe09c39374465fd245ca576fb8759bf7da7868cc4290","output":"LEVEL low","prompt_fp":"553994c9f018bb43241e1b61f32133ca4979780f5704a0031ea9d333e40dc193"}
+{"call_id":"07a39e64727d600becf4acc55646a3f684458baf9322e3a0b33e13d673126c3c","output":"VERDICT broken","prompt_fp":"791e30d9ed1fd95bc092195d2fc80b0887ece6b64e81a4474bd5c177dddfdf38"}
+{"call_id":"dfac84af11facdc9338ba5b4d961fe3bd34227d65fad01c0152a6b29427c4225","output":"LEVEL low","prompt_fp":"21ea68d5897c83ddbcac84ba4599b0150bbf6cabb9e83f7d5a70b1dac7e1a4d2"}
+{"call_id":"32559d55c0d1dfb3d5c883508f9699b8b1e3406843bdf549f9767e0192d2c964","output":"LEVEL low","prompt_fp":"5fa1ddeda3ed184eca33764e724a7b1707c1a49bc7765affffcc4fd861b22c59"}
+{"call_id":"94917fdf26360d68d2f1c5ef13afea59c679bf82a73de73d9dbe47c4512478cc","output":"VERDICT kept","prompt_fp":"23f7afd2f482289c04ba379176be19a3e702acd8a3babfdb51eb66fe432f5e3e"}
+{"call_id":"e8a2dc247e30a71320b14e41f4caee65ff731ef499c91325d13f79bfb4315923","output":"LEVEL no data","prompt_fp":"602c69c4f3c706f56b78f9bd80572f2e88c2052f2a589175854475770bbf4761"}
+{"call_id":"070529863b01cd6364e0e62ed20ee5a1d9780acc3c675e76f87cd396ef701cab","output":"VERDICT broken","prompt_fp":"f05beff4466bed3ad7a5d94fe670c138f31f47f9e722f423dd7bbec6acec3741"}
+{"call_id":"58d1e99521c263449eedd476dd4edc40391752346abbd5baed482d6634df16fe","output":"LEVEL low","prompt_fp":"eef9d0523f58cdfa8a70e2c610b4b421ee825967dba1a708b8a84196d70781b9"}
+{"call_id":"f4ad331fbe102dbfd207c452422d90312c1f230788ecfefe78bb29b9b8d7c467","output":"VERDICT kept","prompt_fp":"ec0e5b4d9a139f815234505b42b2b0b2a85ff4e0be940765b2d5dd6d88b0cb75"}
+{"call_id":"1cded08b90683e17bede5a5e654c7a4ecc12cfc563b91f9cf7d25effb4604efe","output":"VERDICT kept","prompt_fp":"b3bc4f8f5b6c29460132c621c8f138e32851d8a708085440d72e1296376e4ea8"}
+{"call_id":"b6cd2dd1e507b0b376e1ef260b6306f5fff12ccc5485c675436f5874e9dc94ee","output":"VERDICT kept","prompt_fp":"e9efeed40877e9019a77c0809c828a011a38adeff5723987844fcfd0f60000e6"}
+{"call_id":"164487f1f37affbb192d0997c5162b9744121782998c9d2b3ba52f4f7c0c61c9","output":"LEVEL very low","prompt_fp":"3e51ee76f7dad20987bb03562b09b3b83ede0f70b6b46743fe8e609d9384fad7"}
+{"call_id":"79bf0cc2e1b75f0cb6de476f429d472c39a3de119f3144b6b736508603e2696c","output":"VERDICT kept","prompt_fp":"972a7e77d0225333ecbda9657814568064b1016124ba3b92a754eaef73860742"}
+{"call_id":"4cf727eb8be7883db8c8a222f3ce87098752252cece6c856f01aa273f0d0671b","output":"VERDICT kept","prompt_fp":"5c5c56c450b41f4c8a0c8f0ef427267b62646199034737c4c1139fe58418314f"}
+{"call_id":"528e6290c6e7b4e95837f1fa19d9fdc42c51e07c447a47ab700979e62decc86d","output":"LEVEL no data","prompt_fp":"0b983649fe4191309d80e90320d621633be7e1e50df39efd66d0e51a3cec18b5"}
+{"call_id":"e370a767f1e4ae4f9e47b8d2c4155d63f3caa835167c8a90704abd325a377aa1","output":"VERDICT kept","prompt_fp":"d5b0aa4abb6a946d400a1874a97a3525357d52f8be649f357ca9199db74b2433"}
+{"call_id":"c3135f86b8da093ab0fa9bf2064719f9c4422b02203d333bb3127cda3e173c88","output":"VERDICT kept","prompt_fp":"175d9d210deefdcd27db357bbba327c2b2fc143c88e66c70847fcbbaec8218a8"}
+{"call_id":"4307fe5d18d0ab4ad23636f7de3c613be4d4403ef437e45e5093cea3c01922af","output":"LEVEL very low","prompt_fp":"30aa923ed77cc1ca8860e4896b57f1e6b557627d7602dd01d9ef080ead24d7ec"}
+{"call_id":"2ec435505354f257f614d1a3b70c540164719066d3b46cd888d0db627def4d9e","output":"VERDICT broken","prompt_fp":"03380179f331496be8c62b5537873443dd7480885855d0f5180d7673d5341221"}
+{"call_id":"22f2b877f648517d9b7a97e1b14f1990a9070a842db8c5943e776f599f2a611b","output":"LEVEL no data","prompt_fp":"7e815ce052691f143640bb5358eb76fe01526c2a6d080a19e123c094c36378a0"}
+{"call_id":"a2a12e13f8e68f6ea554b09f1245ea66a0e2d4700421d3f16748cfed08978903","output":"LEVEL low","prompt_fp":"afd59ffe9f211fb23562738355e16d5055c2833857d933e7af9c284b8cdba6b8"}
+{"call_id":"33dc3a3637886c50852fc3a68d26f252029ad7abe388f9e70e14c0782a9105f1","output":"VERDICT kept","prompt_fp":"0cb916ff2288c9b0c3987c3b90e1841ae6c269eb12ef42bcf39f3a036f5d060a"}
+{"call_id":"c3a79e3a740bd304e766b2a5d6ab85362c5ea1be03beeeb2035883f714e9ac5c","output":"LEVEL very low","prompt_fp":"94716579fdd1fb53bda544cb086d2bb10277358db0f722c30c9ed8dd3a065f82"}
+{"call_id":"5bd8250d21ccbec3227d3e82793f48af95408c62b2e2deea42337582b1ba57bb","output":"VERDICT kept","prompt_fp":"0e902029cde72d2525baa3a48f7303a871dd3a57d6b627863bbdc9945506c01e"}
+{"call_id":"29df6ad90e844b3a7266c59661dc3669fb80707ff9becc2e31dc26d00f4627b2","output":"LEVEL low","prompt_fp":"08badc3324f618bf0cf1f883f3001a3f0126135bafd22c5e0a35b2bca287acf7"}
+{"call_id":"651d5c9deec269258dda844680cbde002a0df5442a59d30828ff94cb79b121e5","output":"VERDICT broken","prompt_fp":"76af08359f0ec4cb90ed972a45afdd289a0ce5df05e898b8f5f18f84d6883116"}
+{"call_id":"9313f626db914f460db8a16d57c7f9b168ef4d255b1d1eaed8e174d71f8cc25f","output":"LEVEL low","prompt_fp":"423482963e172cd0ad3d4dd269b62f2fd1ebd584348112c234b1d9e8daffa762"}
+{"call_id":"315a606964a9dd9ed1cf5ff8d0cb15fec41e0423fa3e99f29fcf3b93f3b72d52","output":"LEVEL no data","prompt_fp":"b41365c973c82f3cf099339a11a2f5edab03f1feff6513d088d15ee5aa2073c4"}
+{"call_id":"2ec4623848e5db2542a36618485e3ad4685ef52fa96d2a701861c59b94479bb3","output":"VERDICT kept","prompt_fp":"a1b58136665f376146f52c6365f39cdf0e6dd616f2f8a344d7b8af59c05202e4"}
+{"call_id":"aa92efd0baf0ba8c9ecc0b08dbe0eca699251bfb86b34c1f9acd647111d04bdf","output":"LEVEL moderate","prompt_fp":"bea39afc572c5719b1ec20c18745e1ef410f7f6cebfa88e243d5d06933cad60c"}
+{"call_id":"c9f8c12b73f0cd137e7271b8260f3ee27a28bb0edc22a6c6eaf02910e289af09","output":"VERDICT kept","prompt_fp":"03866fd28703aa2a5f4f63e1a12927090f332800a3767dd8f68f38ea7e0b46aa"}
+{"call_id":"f27a294bd357c81da84a94fe2e93d99fb964f86fafab9a403229cbf4201e5c15","output":"VERDICT broken","prompt_fp":"9391e2d9418a622cbfeae7cb866ca31ade531dfedf869b2ffd3c36befead049f"}
+{"call_id":"630687eeda77993b442efe9001b2040c672028a766636198c14587d0439b17c1","output":"LEVEL no data","prompt_fp":"07f2e833cb6db51f7a39cb5a0de8c82420cc2c4ecf4dc78445b00ab0499470d4"}
+{"call_id":"93fafe2684ef0fdf4faf95de3fb0d9889cc4b2e42a1e84a5bd635fd331200d1e","output":"LEVEL low","prompt_fp":"99bb5782145b97e6d27491cbd111aa16d8aa6699b2c62c7d0acf1fed90b489cb"}
+{"call_id":"aee7320691d4de12d009f99e5941ee79439db63055f10beeeff07a925e58c120","output":"LEVEL very low","prompt_fp":"fba8009c78693835e9c8571eed5e87d09f6964e585e4421197edb8a66a30dfb6"}
+{"call_id":"6545d53cea0eb01756f85a0da1c5689a33025e4b6aba7afca497173b9875ed90","output":"VERDICT kept","prompt_fp":"994a9676c0b808a561e601a6dd321845662b7e8e75342579d4ec381cab730412"}
+{"call_id":"98ec2f3564ce0e71b8e9294c7248b28487fa1344d45d9903df6e29bb9cf29c76","output":"VERDICT kept","prompt_fp":"bbc180eff49965c86dfcbcaaaa7a573b9e6665903c9765eb81a177c8176aad99"}
+{"call_id":"ccda2c8e8ae2cc2aec31c79fff4fde3ee9b7c09e549ba6d61ef7f666f0cdb667","output":"LEVEL no data","prompt_fp":"1b92eeba829a709cb9e472dfd4dbc456f49fb0aef6dac2d1c2f5d6eaf0dc6db3"}
+{"call_id":"d51d374b4094ff71a9305f1a55ac75c68bb148281d03f476edfc97780a9baf6e","output":"VERDICT kept","prompt_fp":"d13fd19686f4961b835a9ee17740677888ac5b896aa0ac30f49df24189a7da75"}
+{"call_id":"608960cf2fc2ef0a4f42becc5fe9781ec2ee5b44ed33c3e89ed5d716286be70c","output":"LEVEL low","prompt_fp":"3d65016dda5827212259d8bb2335158a9b050276036a8312a8f9c6102ec3ac65"}
+{"call_id":"a3081ef8c4681a657e83647569f3881625a4ce3c5afcfe30cd89e00e05c885fa","output":"VERDICT broken","prompt_fp":"7546414070b9dfeff51ed9cf0e60e4a239318d1d4b70e80838b712e9feb83cfe"}
+{"call_id":"91abeda5a90f2a1bef23aaba46bc8f8632c07292898bfff67f32e499adb8d4a9","output":"VERDICT kept","prompt_fp":"738db57617e17ce3a66f1014a478ebeba2abc5fa8e87463b5288305261062a02"}
+{"call_id":"2e5d140cb26cd37591bad89f8cb3bcac2992bc759e8b011d1e302ce3bb21d2a5","output":"VERDICT broken","prompt_fp":"69c593c63caab088bf2bb9e0a9686e2cd9e340817cb975e79fc45d929235ea7f"}
+{"call_id":"6635b3935cdd80cbd72f9b5eeffcb34b547c85484e643209e583693b9ca7dc28","output":"VERDICT broken","prompt_fp":"fde7e688a4752ecc31b0bf8f726b68734374294b0e4a6a7ee822e8810e2035c4"}
+{"call_id":"b834642125dc92c44c2331d3c6ab7643c38bac4afe53c90749cb619ae632da57","output":"VERDICT broken","prompt_fp":"2c82d8820f1cbdda8f47f4eac958189dafb12c9dfe4264f0c84cbb9112b85aaf"}
+{"call_id":"8a24994cf767c7d296efd3b84d525f2f34af002652e3aa645cadd30a69a47cb2","output":"VERDICT broken","prompt_fp":"233365cab52c9a1a1b901509b5ae134899dd8426887ffcce05f7fca13d94ff43"}
+{"call_id":"6b2689c3501223ab5614951b374879f5fe88a7f73cd98d0eaedb85520b27c65d","output":"LEVEL low","prompt_fp":"921d89161a926d262ad8a0a0795be200022181415494068fe51b83586a0f4a66"}
+{"call_id":"a1247661dbd6298063be743e1c10132f76db764b4fceb9c5f668e8e9d77a8edf","output":"VERDICT kept","prompt_fp":"51d545b8e8bb48a9be6dd55f749b782b01ddcc6e21953dce382a61b9a2464107"}
+{"call_id":"824dd337512f6b2be72717af14fe6495cafb2ac9e6a5dd1d4a72b962bee8b37e","output":"VERDICT broken","prompt_fp":"4c049a0688af8de6fabab60ab07bb83a040a43a104352243363b14f403ce1055"}
+{"call_id":"25d68cfd1433cd8ab71da998f53ff0f3ed9d336df4c0118f0d8c9a05858b2cb9","output":"VERDICT kept","prompt_fp":"313344719197bf91a60124af3d9aa338909fa1b8603b5f727a4bd13fcb1f801f"}
+{"call_id":"78b26312f8d32d5dd8a64d67893c652ed83f22e71a656cfc299dea37b26878c3","output":"LEVEL moderate","prompt_fp":"367532df0a1278c4849765bf740785a18ff37b3c5250e8682299cd6273904c94"}
+{"call_id":"32ae63d06f8daa48ccb0ac41fe39e79b353f3f0302a908b46dedd9daa11d23e3","output":"VERDICT kept","prompt_fp":"e4a8d5068a9ce1e6f715d1c0579350354dd9316018360b8795b18e57bf5a134f"}
+{"call_id":"a4495a5277a0231da277981b55e9a1f4e8f319ba9a7aa90f3b3ed0d2206da819","output":"VERDICT kept","prompt_fp":"a0a4e56c56bf096af0ef8c4d8dee09f8214b89f9809ae7c0c0d4480b80015640"}
+{"call_id":"a17222cf3902a75ba657b20092b83367a9bdf8f52cc09401367a319e9a2681b6","output":"VERDICT broken","prompt_fp":"51f5e5d83cf0325556452ce904d55911b6480980e6cd926954f3edee8b9c0531"}
+{"call_id":"d50c50d9cb0ad84fd73ac100a8cf1cc5c0f53ef5451e93806d5685482f1e7110","output":"LEVEL low","prompt_fp":"e60166525b658cd5274e7bfbd82fc8e79191c4c82d41272f10a4b33adc2d98b7"}
+{"call_id":"60bd3a9c6ef0548506caef760f9178ee5f3c7eac31292d527280fa9509db11fd","output":"VERDICT kept","prompt_fp":"6e0835f7249becfd9343341cc99c52da49556c80612525b87d3ab25ce7a90f22"}
+{"call_id":"60a0512ee62e9f289f8ce5b962b8c64d0e858b9e45f62316808c53068986a846","output":"VERDICT broken","prompt_fp":"1226d3dfaa6b94f8146c78aa4e776e56b836ad6bf5d0324b37166e0d78cbb81a"}
+{"call_id":"effca6f783c83893f5e598cb27af25aa83f4907b8c9bb0193c82bd8da44c76db","output":"LEVEL very low","prompt_fp":"2bf666c3e426ab2989262975bedebdb791b2bbea2158df11bdf1bae2899b920f"}
+{"call_id":"e0ff7932f5f1d0cc8fd74c712b8a827ad2489a7fdeb01e617afc883648e87fbd","output":"LEVEL low","prompt_fp":"2fc259fb2abc59fe5710e44b88ff6a16ae37f0c41c5da658f51c95e2b5d63e61"}
+{"call_id":"77996ceff7db16caf04d414a69e0c53ec54d1057e21896480712f7f172698ce2","output":"LEVEL low","prompt_fp":"881489fd8175211e5da0b2f60e342c05dbeaff19308c91a2e6ce54271456933e"}
+{"call_id":"13d01e52e1094c5597486ec610d5df5dc3c72a902d96435b87990c8e03769246","output":"VERDICT kept","prompt_fp":"b67d42b8f6a165583b8f013bc4549ad06b96550703f9780ac59e3d1c88b9e255"}
+{"call_id":"f52a92f1aa145e494b5646df957e865ed3c659e7adb0bda1d57e12640b3a5cbe","output":"VERDICT kept","prompt_fp":"d3a5983297eb6a45578dd3d4e2b20c9225de1da89f514d430d95df590cba1ec8"}
+{"call_id":"2825c6ce6c3248801b54ba7052316135b14540d4d9c17931d374059f313172d4","output":"VERDICT broken","prompt_fp":"5b19dccb77036b23582041989d7c8e170b533757275d8e18518b8895fa266364"}
+{"call_id":"b4bb827112ef553c3800b65549caa3f597d07174fdc0dae315766ddcd9531414","output":"VERDICT kept","prompt_fp":"30fd7d2f684ccc13f99fd686a72810955ca44c2e5db07565b4b94ca3a4c53931"}
+{"call_id":"34158c44c3e6d98e28a350fa068c7e23bbcfe564442edcc0bd3e9229db60f885","output":"VERDICT kept","prompt_fp":"e593b18e1a56a4b5f5d34fc80467aaf2f75ee40a5ff1a310528541153c4d9b09"}
+{"call_id":"2e939fc4c0b86cdce40aca5ef1c71206e97c53ab499730a20c85661a4c404101","output":"VERDICT kept","prompt_fp":"388a0916d479e2c0082ef50d30939d547aa707d67f4f8f467055f72817f49ad2"}
+{"call_id":"ed8b2f2279691971724176383e5a23c6faea65bafb8b2434c340db9f464cd3c3","output":"LEVEL no data","prompt_fp":"b991b598a29079861e48d9666eae65a719820db45de24fa5b2705113b4398107"}
+{"call_id":"68ae33e7aea59bed79703730c0cd80bdbc240bd9b0de071441bb894a876a85c5","output":"VERDICT kept","prompt_fp":"ea4e41751b8f4151eb2e802a033ebc99f8747aa0639ab8d1915b52b8b0c36d7c"}
+{"call_id":"0e598e6132982c7e6d21cc2554e9845fde585c4ff3d26f845c3e24ab79792d93","output":"VERDICT broken","prompt_fp":"e6c2b679f9cdc735de3dc31bd38302b74ae5aa00353bcebe419eb3bc4195fc67"}
+{"call_id":"a4cc7d424891ac16276d2d20580d7c105464f51b5cd2df13f381399184db4395","output":"VERDICT broken","prompt_fp":"6f2cdf2799c7b574768164a0fa75b44b8cde71ed62f7870bfd9cd09277a56d39"}
+{"call_id":"05603cb81d106f9e401cc1e118fa35ece5452cc4e6a8dd949766df524511fab4","output":"LEVEL very low","prompt_fp":"bbcafc86786e2143608e07f4d395fa348294dc6972b53f4849c84903c70c332c"}
+{"call_id":"aae73880d1c6eeb54849199e1bb0651aa48e50ad7eb634018cbc8c5570cd0de0","output":"VERDICT kept","prompt_fp":"09d37f133c378713eeb4444c355d84e2f005f14da4fd1733976272e921a73709"}
+{"call_id":"6f5c24a6cf68d61aed0a082d9d7ff2975d14cbf6d2009d351f5ce15ac04f26e5","output":"LEVEL very low","prompt_fp":"5f7bcbbd277bb628f784e3d4425a1e66a52b25ac8418e1b85528a5b5df24727e"}
+{"call_id":"74a0ad8389686ebe429d10c047071f2136149b671ee8ff3b0833f8200bb9808d","output":"VERDICT kept","prompt_fp":"81117a4669f680838791d8c9b8d7d2f902753df1438447024dad8effe818443d"}
+{"call_id":"e1024456099d496a9c770ab3039663aaf8a3e3cf7a4050458d1d9e8c4b34b1a4","output":"VERDICT kept","prompt_fp":"e6ff937803c9859aab1acccdc677baa4235b85426334a2c337b09e253a47b099"}
+{"call_id":"29f67ea686520a0471dfceb6f7f22425772ba3bdb3360ed72424d46d116c7fbf","output":"VERDICT kept","prompt_fp":"18af69321a8a7388bf1048411a11c18453b47da1473bd4dde8d4118294520b2b"}
+{"call_id":"bf60062f2a70c9047b60c1ea67b982bc8446e8ed775018d7d18ee2af9de61204","output":"VERDICT broken","prompt_fp":"1b6512c62167eb3e1e23f574b909ee2579a78e25b7a4c1ee5f5c06dd8a05be15"}
+{"call_id":"7a8f278a2a31a37b8aa32cd59f0cd0d975b4fa324ea398644fa99b3c8f33762e","output":"LEVEL low","prompt_fp":"5526b39a7dba79cf66762abc86b0c0bf8bae919012d18918079ff34350a86faa"}
+{"call_id":"ef859e6590e8a2d81183d6b2199e81624c3e525b3f9a68a914d860a9dcfa861b","output":"VERDICT broken","prompt_fp":"640c1643da6077ef95d1d33c73ecab8aac17a4bc16cb86449bfa6dc9388f1d77"}
+{"call_id":"805bcbf7c2785ae1e114bdc69e394fbfc05f0264688115761d72772e0744b894","output":"VERDICT broken","prompt_fp":"9422c83d0bfe018f9a10f7bbf6f4d044a6e0cfd98c270374643ca5951709256e"}
+{"call_id":"a5578a9aca430332fda342082721daab9fcd4de93c93d2b2f6e35fd214d12701","output":"VERDICT kept","prompt_fp":"69814bc19711fb6f2eb1d578d959d215fe90bb748f3b124122ed5ef66cdd1175"}
+{"call_id":"35959643e89223cb4d818b0d93f1ddebed3a7d5a168c45f129d4e4d52ef45472","output":"LEVEL very low","prompt_fp":"97baea9be2f2492d98eb5394e1fd00405eb0a586bf85b7e8b5fdaffa970586cc"}
+{"call_id":"f38b674eb79f92a72b41adaffd77ecbcd8d48ffe9fa14e20d049a091d4d191af","output":"VERDICT broken","prompt_fp":"fbbd665afaf8108dae60fa911eec3ddb31f369ef2d00c02813d5af46b921614f"}
+{"call_id":"9d9081bb2a31801bc5cd3807ebb54c197c8acec4a7922499434b28771bba60b8","output":"LEVEL low","prompt_fp":"1e51d5ef8c9b914ac9567d26a46b80f4f3209e1ebef50cf822eda17ab2b4a109"}
+{"call_id":"ee50141619ed5f9cddb23fab30bd5f51e719c232701646789ed7c71d9cb79bd7","output":"VERDICT broken","prompt_fp":"a25a9fe906fcf0d1c5e195ce991d67282317a92b2e467747e340e0c9beaa26e1"}
+{"call_id":"402c65e8c852f162f2a967c4c65988c3200cc83feedf349d792594610fdb02c5","output":"VERDICT broken","prompt_fp":"2a7dfa359e5cb84a3b0563a925a800592a78a46f37007800a540be8aecff3077"}
+{"call_id":"f8d4a8547373d407f21d9ec591e9b4617a6ea2c72f59a1576abf463aba909c02","output":"VERDICT broken","prompt_fp":"b7d498b8863343b52b61c1710d263aadceb0d93f19f4fc931a1bc632f093e43e"}
+{"call_id":"36bc160bd8bac4fa657e29bbbaefad9146a52984df2fd43229169aa8cfcf9ec3","output":"VERDICT kept","prompt_fp":"2907079b47a75992e4a0d1250a0efea538c50ad4cb18739ce4e0346559a7d2eb"}
+{"call_id":"1c26af1d5732525edddfb30f0438ad8f8c968ce052b6427f8d7573b5cf977c48","output":"LEVEL very low","prompt_fp":"9bc62994f0d8fe88bb5745498b6613d87337391d226becfc3848329ad92f047c"}
+{"call_id":"03c8e7ba39b845d0e1f559f56ff737bf3043dcee86a148d5836aeef6018e27ca","output":"LEVEL very low","prompt_fp":"5fde40ad11bcb94f7a2eb97332ba7dd4c0536565ff15f234b7772202c2585324"}
+{"call_id":"d79885dd0b874b2a9cb3f752f9d7085f9b748bb53408d651c5a3d3a0a6cf077a","output":"LEVEL no data","prompt_fp":"f9fe2e9102c2c6785f9c990235f17abe8da3d001efd3e32a6bed771e309ab9a5"}
+{"call_id":"1f87a3c1f4cd770d00f91c6854b0d637ea7750183e9df70059a2fb2e848d8262","output":"VERDICT kept","prompt_fp":"3256e78ad4f9e944cd2205e9881dd001ca32e9ecae04cc0c88e5411ec2d5b43f"}
+{"call_id":"cc94dfd7bddaab0198793963ef68909f40fe2e0b31dea9d91d89a79e48e90952","output":"LEVEL low","prompt_fp":"135dac881b63d10b8f216be3b535718688c441be2f634908619a3217f9dfc2d6"}
+{"call_id":"465a441230c1a555ade9bfaa5cb3b53e0a3052a12919f19f4c4b7e18f8043e26","output":"VERDICT kept","prompt_fp":"b4f5b5f04b9901702d487d534a43bd3990b38b69ca62b59c43ff13b75cda6137"}
+{"call_id":"4713318c17a2e7d8492459f57303aeaff00b949140c280cc6be19050649500b9","output":"VERDICT kept","prompt_fp":"22abd5ef84cedbac14874570a9053b7d51f2b67902fe4dee16c9a20c46cd0f88"}
+{"call_id":"ca6180c58deff90a8190900d0a28da4fb9c230384ab55afa73e2537765c5e98e","output":"VERDICT kept","prompt_fp":"f03b715507cb041be928bdd9717131e7a0e868cd8a5d4a8b8ad15fd25478ba21"}
+{"call_id":"e652ac3bd09f155f21620c6a91f2c0c6d8a831f63465c434c3624dbb738f70a1","output":"LEVEL moderate","prompt_fp":"bae84e010c8a9f5b9847ed887db9b350cc4f8931bd20f46749ff8061968b01a9"}
+{"call_id":"e40b1098f7e41163322575d2742a07794101a263337224044d7e10b1a788629f","output":"LEVEL moderate","prompt_fp":"dc6ae90f10b1f758cabe99ba0d616d854e639107fa94b7c600afea3928523869"}
+{"call_id":"83a6e1f5323a39e3a4aa9d6bfb683baa74a3dec13c0527c69443cb4a741a42b2","output":"LEVEL very low","prompt_fp":"3974bdd0abdfefd93241889c368cc3ca8ea2cd8a82ae7aa598ae4d321654ab00"}
+{"call_id":"01a88cb903bd33e257d91df85236e47e10725cc7478d0644a246bac578d61ac0","output":"VERDICT broken","prompt_fp":"5d84936cd6376676e935f4194a23cf49f8d47486ef30fc12c36713d53b7ad034"}
+{"call_id":"291ca6c240e790eb3cdb362d572cc140cabc15ad1f77f83278f646a54d435995","output":"VERDICT kept","prompt_fp":"7f8aa2d6e0db7ade7365cd0ca6d836c00a3e03c6d7cd36ed4b2315e3389818cb"}
+{"call_id":"2a9561870d7be2899ebba9b98c6ea642abb3a5143a935c7e2d27962115be8aac","output":"VERDICT broken","prompt_fp":"d08db824e2ed4cdbae7dacd8d82c37c3f1cfc589496802930475236e2b87c43a"}
+{"call_id":"226ac02668cbee9245bce2190c3b3460f3c13202da7ad2ded581b6e2189b4c36","output":"VERDICT kept","prompt_fp":"283878b21e29c638afec9a4973804d0f313d2631bb74edb9f9d281635122d7b1"}
+{"call_id":"a4e016ce025416d98f93e050df560151020ea9234160ebc7714f31ffbed052cd","output":"VERDICT kept","prompt_fp":"5fe53252948b3fe0639e7fec4ba6362f20c1ab0ef501c56ffb7bae30fa36f689"}
+{"call_id":"63317d05678903d3dcaf523b25c9b613b687002346a7eb0b1298b1d3a1cef03a","output":"VERDICT kept","prompt_fp":"64dd0c7ab54ab3de0dc53bf108ff898fe7b7755939ff511b043806cc9783b677"}
+{"call_id":"d7bc5433c325eb2d113f69c08cc37a373d065316656993adb32d3c4d5f9bea71","output":"LEVEL very low","prompt_fp":"03ebded38211ede91bc245b12f5cab2c873b08b08bd9c18db197ba91544f20de"}
+{"call_id":"369161399844f9368141c3e74a5e4870cabedb0198cb61f3e090769e8469af56","output":"VERDICT kept","prompt_fp":"144a4f0392f0a751d1c53692662c16ce072e354e9d04eac0bdaaea5caedd20c4"}
+{"call_id":"b0ffb6ac08471e5001c1c32123963f73d2b9f19120653cfcbd89b19241977f6e","output":"LEVEL very low","prompt_fp":"10043453ec19fb8543445af6a8b2a85e017294e5dba9a0c35661244ee5182871"}
+{"call_id":"49bb76dddbb99ec858e85f84b7aae53340ce3aa47e654a985ffe32dc994aaf47","output":"VERDICT broken","prompt_fp":"d65b58a0fd6e2d6c02b66ca5a5462046c3bf267a7053bf42fb2afe869afbb0f9"}
+{"call_id":"02f093d78800ac0fd640ea945a62d719b93623373697d8972934cdbf629d2ebd","output":"VERDICT kept","prompt_fp":"de328c74f51d822e8bb83a629e230f9a1772427b766357e7da9574e1866642d2"}
+{"call_id":"99eb1f28b0e3378ce3ea6ac0ad5ed4d2ca98b2903abca2fc4ee6cacc82166b5c","output":"LEVEL low","prompt_fp":"d0055f8713ddc78afbef5db1dcf91cb63a682859464ff4ac99bcb05b2b3aec5f"}
+{"call_id":"d1493c9ade69f475fcbb33fe4282beabe68dbc8535b6be0d2a52a34594733efa","output":"VERDICT kept","prompt_fp":"d2418eceaa5181949dd5c456935e8d14e4eff45bd01164ce8d6dba6955422ca0"}
+{"call_id":"ab0edb34055be762b3c0f96b9633cb485b88a97d8f9fac2ebca79978ea0fdaa1","output":"VERDICT broken","prompt_fp":"9db97d00fb2c2b84e2a79f119a53b8337fd504c149c6d547cdc6203e477f08fc"}
+{"call_id":"9890350f51c62987c7518e0702a9dca7e9c95b57b50f0f7754f4bf84d95431f5","output":"VERDICT kept","prompt_fp":"8b7d1c0c5e4e181475ba273ca2e4168204891f4d52560cf3f6ed212a6db04076"}
+{"call_id":"41b5ba0347dc83e0a01a035c5099ddbcf30e3817b2707e755374a991a2648558","output":"VERDICT kept","prompt_fp":"b8a40aad5fd668d8549d9a08cd90944d40acf83559d4bf4dc051a21ec25d4b6a"}
+{"call_id":"5aeab3c9286a2e7d9ac11e51a2ab8bf289bfd0e0697292b7b6f75d06afee319f","output":"VERDICT kept","prompt_fp":"8d6e925246c586a58e7b25ce4fef00fb86c3518e5a558199f51943b3779e36d4"}
+{"call_id":"775f17ed84a8b906fc4fa8d2bf961ac8ae2107991c41a4cbc28a48258b7797d6","output":"VERDICT kept","prompt_fp":"c588694538abf6350e41baacc7175723462be8be2292c9d1c4ebb53c4f78dd7f"}
+{"call_id":"99dc5b8d9c4fec9e30fb8c802c4894f34035d6d6d08552b9397447deccf7922c","output":"VERDICT kept","prompt_fp":"0f994369a49a9b501703720cffedef33e074118682817045d8cec35c85545366"}
+{"call_id":"eb1215e295954b053a63cbbbeecdbde33286c1bd0e23a19920ce5d5bf695a743","output":"VERDICT kept","prompt_fp":"6058041f34354a20d39acf2779f73e37db018deb5f4d75e321dd25209775e212"}
+{"call_id":"6de289f194eb52d87d5a32ad4e7f4396707f7341b2798d0d1f6c33574f7d20b7","output":"VERDICT kept","prompt_fp":"84e38552e9e4ee03c9f575f1d6d61ad894f2e1504e607e5a4afb335439476c0e"}
+{"call_id":"a4b083b2668662ca179822527d0d6f036bff5ac86b050d891b877df2bdbba84c","output":"LEVEL no data","prompt_fp":"377821809cc7f9b13e6acdfe8100af330bd5ce518595fd26160e763e499128a1"}
+{"call_id":"462d87f814b1b0adf510aa12fcdbdd93790f7367c7939939a54aaf099b48eace","output":"VERDICT kept","prompt_fp":"c7aa57ebe41fb65f09771922e786e4f6eaa9c6876fe2dd664628a4e1442d662c"}
+{"call_id":"cb42c9c2cab822b3bbfd6092dd64bc1173644cb7afa8ce4afe0d7743f88b3eb4","output":"LEVEL low","prompt_fp":"39e783e30639fc73d158068475e5e3fbd7bf8de2b8d503fc0d44afe38cc91a75"}
+{"call_id":"7c73b166638360ae67fdb8c0a237aea1af8cd4e0692e5a64b221d1888107a0b6","output":"VERDICT kept","prompt_fp":"536fab651fe3f6ed8b1f029e8544ae9daad69ce52c42b0d93f4c0fceee80a636"}
+{"call_id":"883ea2d2df6eec42988315dabfa66ed84e77e2d04d0fd3d20e29431c1e2aec59","output":"VERDICT broken","prompt_fp":"af1660adeae8331f32b5dd4d7dbbc3dba04477dd35034dd9aa0cf14b066c013c"}
+{"call_id":"7ae6611568315b8554321cc52f84d0a779a6a47e5198f3ed3abb64cd68beb4db","output":"VERDICT broken","prompt_fp":"19df85f4e64e9c868277a3f0165101fe3a85e74d8ef618e3863b83e241c3dc42"}
+{"call_id":"0cc406c612ead826f51419d9cbdbca63fc34dae5a3b87aa3ab039c16e49f4b8d","output":"LEVEL no data","prompt_fp":"f8a3d709f2ab63541d93b6014439b5db4e5e32d18504d388f5bedc7edbce8d71"}
+{"call_id":"2ac50927629725f21b1d59060c5374de0afe5b8c1a77447f6798dfbb04e14e15","output":"VERDICT kept","prompt_fp":"29f9803fce993a403d5270a9f93a8006dad44cf3709a17e9916f851b40fad1f1"}
+{"call_id":"aa497dddff9c176d4fe3b0fa85b7146d1c7a498ed6d1bb26eb565d5ca02f7129","output":"VERDICT broken","prompt_fp":"8efe20b809f2fb365b7ade97b1d95c3d5f28e9f3c7b4e1296347caf4523f5b7a"}
+{"call_id":"208bb3f997ca3031c263c17114f1fab996ef644d0f766d3f9dfa77d39129ab15","output":"LEVEL very low","prompt_fp":"0fb1a8dc42ce835fe4bf34c1e30a3116c9d5bdbf97a767f312a1cc6e5506a849"}
+{"call_id":"cfea7edd032a88eebb8d12637786ac5b0c14e0321cd339e5d776f6caa4d0479a","output":"VERDICT kept","prompt_fp":"917e42f7806eba6bd66bc34787ed756bff1365dd411facd6c6603667a7008a17"}
+{"call_id":"49d962cff16eef77d75c9344d8a78f672550aeb102fba988ea3967b0187aea81","output":"VERDICT broken","prompt_fp":"a9bed4f02a93b58def4895319b58536b02e0934110691aba5744485d56ef6346"}
+{"call_id":"3207b32ebcae61b6c7b86f649cf1072fa0d221abf3a42f1eae240a8861cafd8a","output":"LEVEL low","prompt_fp":"94e80efa174c6075b7046cb49aec4944742c5ba47ae3c71d75c29f99ee8f9502"}
+{"call_id":"af5fddc8e3119b0be5313bb574ae5dbfda35252aaefe3c153d7c7aeedf1ced17","output":"VERDICT broken","prompt_fp":"67aeade454cbf98043d74fc5db6f8de3ec0e121a01d23de488f25583d7bc9a7a"}
+{"call_id":"7bdf4acdee12b4a97f1af9913bd70ff6eff31cb0defa9fbd447ee57bb443d68f","output":"VERDICT broken","prompt_fp":"e35fd94dba9209c6ba24602751901c3027d51b4591974b0fabb943c7344448ad"}
+{"call_id":"76d4669039d422bef0d9241338f5f19a74989c78dbdb3a8cebe3bd913b47cd67","output":"VERDICT broken","prompt_fp":"264490f3963b47d57d717b6b46a16a22c1753071a156f29a6e3fd897713f5e54"}
+{"call_id":"44eaa6cbca2a2b1e277f6828a87b564d6b60e184773de87bde7102f9b9e4c910","output":"VERDICT kept","prompt_fp":"1f53361358cf723ad151ef2421e3578d19ba55d377ed01094d341a7ebc36f152"}
+{"call_id":"bf8b9967d64eb34ea5749ae4eea18719bbd590207bda62cd9441f0ec0d08541a","output":"LEVEL very low","prompt_fp":"3465918af1a6db587e07f4f5184ae6dedd6dec8624c7eb53d49a54d314214bb3"}
+{"call_id":"a806749f2e2c1de8d6d03599bf40721101d0251122889a65c2acad24cf25792a","output":"VERDICT broken","prompt_fp":"2da56ed65362410b1ae4ad9c19ed5167ee9f45767915c421a5c05c626241c49f"}
+{"call_id":"8199e95a278bd49a361e140f536489c34bcc7ff548403cb8e3c3bbd978d3f640","output":"LEVEL moderate","prompt_fp":"924430e8ee8b665fbec67e8a8fbff4ff199f7df75ce73045c4b4eb8d1d53b510"}
+{"call_id":"816dc772fee4c63d024d266cac162395d2f8df654e6d81c2a351da8bd9f0b04f","output":"VERDICT broken","prompt_fp":"6e6709956c41dce68ea6e5f2f58623269a35db6d7dff3e05ad20221748fab953"}
+{"call_id":"b5be8a9bfa93dc943e09432ed40c5c297b70927a3bbd95daf6947ce324348a30","output":"VERDICT kept","prompt_fp":"d1dd4b13129936ce4b2f3b620aa311ae18f8afe5283e1a6feb57fe876e55d6d8"}
+{"call_id":"3efc4eb2230efd65b85f2c936c05a860c31ebc49f2e2068e8e4eb871dd920c5c","output":"VERDICT broken","prompt_fp":"b32b706d86d220d0cb2cbbc3f258b8bd83c160730a302b1a7b77e20bf5ffc9ba"}
+{"call_id":"febeba00376879151227910b0078e9f8d646152f48b13c932c21d317f26ab8de","output":"LEVEL very low","prompt_fp":"95f177d43238816d2a57336c3de52f977fcef75ff3f26d0ab45daae69d55c6e4"}
+{"call_id":"430ea997dff25e09472669a829488f0927e4bafa8f34169c96a28a62b0b3e82c","output":"VERDICT kept","prompt_fp":"09db873686e4efd49195d8ebdcd2350e42e0f929f1724acc8c167cd80454348d"}
+{"call_id":"b4aee59b2112bcf49a32ce3a55f89d2077133da2932147908005ac4ea92bd99b","output":"LEVEL low","prompt_fp":"7ae1a3c663b5ca1cbf1cbe98cfa9d200704ba73cd3f2483641b77c2d6edc036b"}
+{"call_id":"bad01bf78fdbc58f862f42332449621b60a546f09f0e8b4dcd761652f5a50caf","output":"VERDICT kept","prompt_fp":"de099137fc6f3c28197a1b96b612a3b3e2d983eb56e5c4da25392ab628c702d1"}
+{"call_id":"03d9c71b64c0157597ad1a3928da9cc5067f3ae1bc52a3b35d08f69ff6ee4647","output":"VERDICT broken","prompt_fp":"34fefe98ce7f7a235f4fd86de0910d80c19877ecbb0bcb7baf27ed2000b66240"}
+{"call_id":"eadead4c8e3749123d14b4e82fd7a1b09b2d54c69252495187d9131f9bff45ca","output":"VERDICT broken","prompt_fp":"6d67aa508fa9e1b0df383ae53ab5469d5df4752878ba405e62689ce0290d47fb"}
+{"call_id":"6de9b78784ff87ec07b683a8adfe3ec4ee3c8efd1efaf7df3e12eb7f73b75a43","output":"LEVEL no data","prompt_fp":"8d58c1cea9148a1b3121fc8c4668c8aeb56a4408a8c320188986725722d4ef05"}
+{"call_id":"2dacc2871ff1fa2ecb124155b7fad8f7aa2d7a67eededbdaadab99fff632faec","output":"VERDICT broken","prompt_fp":"c68e9b6a16c307ba43a35a20da7b507413cadac409492b2050914a2304543419"}
+{"call_id":"633c0411a3263dcfa350abacb7ce457195892e97704ec28c7ef7fbb60d1a69b8","output":"VERDICT broken","prompt_fp":"833594c4e3ea860229848ef4c10c7dcbed53b61bd04ba65c25b8bdc7d9baa049"}
+{"call_id":"dec055b384062b786ef48b772b93d89cf1f365e9c876dcc015d021fa39071c9a","output":"LEVEL low","prompt_fp":"fc6b3b5269a542d94790293ce70379a30958199c8aec4146ba3d48ee9c4da86c"}
+{"call_id":"b87049e446426b9dc5ac9720747bb6bcf9c264de93cfaceb7ce45286c4091ea4","output":"VERDICT kept","prompt_fp":"7a7cd435d74cbe7a373cf26752e5311b0a4f41aee318a0b36f8a379bc58ca43c"}
+{"call_id":"2da5db7932232d718ec6d3c1023d712e84861b7b30964d2f8398136b16c61e39","output":"LEVEL low","prompt_fp":"47a98c7e828c71f3233818f1f7657cb1841ed992d8ea94efd0324683ca3f5dae"}
+{"call_id":"ec624c3cf1b6d1c41c2f6d67767d71a63b7aac6676cf818ac720be821675978e","output":"VERDICT kept","prompt_fp":"0b84d409d9a2a98ab742a07665dd98e5e750d973d866acd356f667e3bad0378e"}
+{"call_id":"1793767cf9d680cb24dd5fe80012634e5c8905a86c93143cca64947f13a67cae","output":"VERDICT kept","prompt_fp":"b70f8bbc1e50c14d1cf1c0fa5f5d22ecf52b2d9f3c25182acf10094e7821a64c"}
+{"call_id":"e5c82ad0ba67e463651f1cc7589965c1cbf7158846f6deaebbf2d7f59e6191cd","output":"VERDICT kept","prompt_fp":"c366fb08386bfaae4a97eedb90b36bf3ee2f229249d82b4190368e3750ef80b1"}
+{"call_id":"19f32d439b37eedea72f6bc6663d31a56d20471cad52146cc6e4eacfbea1619c","output":"VERDICT kept","prompt_fp":"2e8462a41018ba6a0393167b047e476c8adf1dc2bd1e8ca9bfd44d2ced796f0f"}
+{"call_id":"7d494bcd59d089935a4759f73b109ebd8cc8f129957fffc310826b0dfda53323","output":"VERDICT kept","prompt_fp":"e994552754d194981efbd081504333ffb8b05ee11b8690a42e59600a7e77fcef"}
+{"call_id":"574c043201959867c9bd5cac2668b2aa4867a083e0c4506c187f0ded4e8e88c9","output":"VERDICT kept","prompt_fp":"ae4185d9846681f95c0685bb4f498fe483003b64c9cd43f55c0aa3ff39d8693e"}
+{"call_id":"9e7e7a271a3c8aa9dabf46206ca92558de4ab263edce307fb4600878b4a55225","output":"VERDICT kept","prompt_fp":"463395ba0e6d37901df3ca8fcdb6b15a3469fb02e6d2542a1055183ef4b7a6db"}
+{"call_id":"059fc39049e753fff0550dec21a7ed04335e485fb05c7133668ef5a956272f79","output":"VERDICT broken","prompt_fp":"0fa01c1291fff6c2e00a72b6635f01319f583fba423fb14b2d121c11ec8ffd63"}
+{"call_id":"30442aac2335a8caed67e40bb06753a41b03fc56617001cc4d355cc22685001a","output":"VERDICT kept","prompt_fp":"31b98da466cea74b1bc7b9ab70525f5bbc1ee8cd0d2e2728bf9455ee501ed17d"}
+{"call_id":"427de434f763a6907555a8a788bac9218c3179be31f934db6a742088b4987e1d","output":"VERDICT kept","prompt_fp":"92f7b0084926a6cc07bad64fdc562a604b32d6d5189e270a685c26ea8549b2f9"}
+{"call_id":"f28ffd95c7de103132b808b961632406bc2803d86bb844cd73620a5ded50d405","output":"VERDICT kept","prompt_fp":"7199cdcbf3c42874cccb03b498bd8f92d7562aff87fa69be7e79cf7cbeac1bbd"}
+{"call_id":"5aa569ce2a4c4684c24904ddb805a2409b1382623205994bd4b01467daac2def","output":"VERDICT broken","prompt_fp":"f916ddf1c25a61c1e87e2da5ad0c14e9826c957f799642d3e334bb2ebddbc3ac"}
+{"call_id":"88067bc272b026cd9bfeb1798f1dd755a69e3b1f0575ee72f986119f28a13d55","output":"LEVEL very low","prompt_fp":"4223a6a8eef3c4f66d2ee37b9b77df7ca180895839a3c9772f66317dca809bcb"}
+{"call_id":"13ae6893825f7ca73bc8b5b16725159cf97cf61a0a4f4b0e9e9916abdc282cfd","output":"VERDICT broken","prompt_fp":"c151eccf55e2fef2e31079dd2219dd0a28efc8f951c9debea037faf47569e5e5"}
+{"call_id":"93e8fde7402c3c7725b52ca0976a70a5ed90bb0b2266a6b032ad77b1536c0bf1","output":"LEVEL no data","prompt_fp":"e776859415266801c4b6b2b8ed4318fbba35ee0ca2dec3df4358c0f5093f09fd"}
+{"call_id":"23f26abb4c1688f85accd6dcc9d524dd54be109e5de2c8661b9b9a89195d307c","output":"LEVEL no data","prompt_fp":"c290466d2d9b89ed738c75cbaa96345ff977ff701899965930d5ba69b02cb9b2"}
+{"call_id":"44eaa3ccfa84c3eceb8c6ae6a81b5e5a5fe03aa2ee9f6d18a2ec74f816bceea3","output":"VERDICT broken","prompt_fp":"9f1cca9a689455b5904c69a9a5697e4b5dbe956002eefdb5cdde04d763a62af4"}
+{"call_id":"a265fd950fd4f3f9542a9afeb00ba4dd7f09e0d1869f8dcb0cf03dcfe9325b28","output":"VERDICT broken","prompt_fp":"a83bb4890897732de89d0290ffef170a2b389d5a5ebcc3d5c0a373ed4ec4d448"}
+{"call_id":"4b63723fbc58cd4d9ad2a10e3e1c1f18e99d6f5bd092e844a459e8c9195ce019","output":"LEVEL moderate","prompt_fp":"9b135717fd6fc2a0f334e331e97dfafd1f0dabbe8380e66a32fa25de57c600bd"}
+{"call_id":"f47103792d379dc9ae5cc85e01f38aad274b681e4b1c1b7a7ec7494ec49f0403","output":"LEVEL no data","prompt_fp":"5b3eedceac298df171b915a763a06c94b18269679128f51d99a617387f0c4180"}
+{"call_id":"07f34607c479da608c8c5e7e42cdf394618d13660ab19dcc900cac622dcf35fe","output":"LEVEL no data","prompt_fp":"7f9fef71d45fa9be9eb19c25251df5327343ce3a62aacb5fbafc8ebfc5eddae5"}
+{"call_id":"374cd18dd4e782f8a81543243cd145891481bc6818645c6a08bdaeb823df5ab9","output":"VERDICT broken","prompt_fp":"e21c8926f7756f6e778f0a00fb44ff05a73d11af0ab9825abd6a6dbbb86ff56d"}
+{"call_id":"cdbbd79a2455314bb81cdacacf8bfcd9e2b8b07c4893a3c38b8b6576b7075b2c","output":"VERDICT kept","prompt_fp":"c3f0ce713c442d6451ba9094d733e14b5bdb131951475a594fa71c91ca63791e"}
+{"call_id":"6169c53c1c9a2068ea2a8de60323dda5913b319249dbb9dbd26c7720f5dc498b","output":"VERDICT kept","prompt_fp":"08eba83a811b3ce8bd27853a9348ce0b4f0d899f1ab9cda405f89fe22bedbdcd"}
+{"call_id":"fe4d8749bbcc67650bca3d92889913f396282df7204b091262687b80463acda1","output":"VERDICT kept","prompt_fp":"2576740f11a0c1a5a44dc4719ec50d063f3834c0f673ad043647bff0546444ba"}
+{"call_id":"65074e0392093b7aae0fa3e43d497239b0ec111f2edb98c015801d697b770fd3","output":"LEVEL low","prompt_fp":"ca8737dcc422fabb9d65ab971abebf93234f5cf43ad1d512986ec30355e49427"}
+{"call_id":"a39ad71ae126354b895aff2211fc4aeda8f97802734d5ce3957081176a72b525","output":"LEVEL moderate","prompt_fp":"33f41d936fbe4c09534c9f8fe19964ea9826d94b460fa816f62ba65367dc29ae"}
+{"call_id":"ffe577d1d5a375d38b886661665391d49620f8fe60ae5f1696577cdbc9bfb5bb","output":"VERDICT kept","prompt_fp":"6768aa49b031929bcecf710d1a34f7a64a2e94d63cd3aecf1d9885d29f24b30d"}
+{"call_id":"45fc5246e6ae6638d0d6e55ee0b4f03c3e81762f8ef053f339f76e8dc7f1ec46","output":"LEVEL moderate","prompt_fp":"617fa79106b364e8b318399dbbc9f1a83bfb4b888e26968d9f23157b9d232b96"}
+{"call_id":"7c82b2a86839585577080c3813f88e0cc604e63c049b3d5aaa03099ad68ae85a","output":"VERDICT kept","prompt_fp":"d2bd0053f5b333138b941ba7d6761b6293107c42b22b5a8a4a7b7e856cb3b645"}
+{"call_id":"ac0ccf4e8539dec44c9809346c64acb175b437954d65b1c39e705d61b36273fd","output":"LEVEL moderate","prompt_fp":"0f73959cc62f4c85951df419c4a3cd71778d27e0a09ca9ed9887f434d9276811"}
+{"call_id":"7b712257ac5c511b661deec8659eef9a6579f420341418c064b65d0bb7df3698","output":"VERDICT kept","prompt_fp":"48a8757b3ae5c5fac312dececfe9badfdc7d6ab1a8564e7b8f24937baa09b8a6"}
+{"call_id":"3e0567f8435b24c83f97df6f352567631a38771cd3bc3fc3feb02b162c964423","output":"LEVEL no data","prompt_fp":"be9e5ef9a321f54023594801024d8697f62073cdb018f1c2c9540eae52a32abd"}
+{"call_id":"3731fd6a83965863111926c24eca15ad17900b6f8f3a2664cba4742c9ea1e2ca","output":"VERDICT kept","prompt_fp":"3fcc1ea015e624762204315d728688b5f6dda63ec6079e431055170eaa9c8f13"}
+{"call_id":"2a51efdab24a46e8ff6ca7be5193fda35c26040f669e92225d4315f1d960acdc","output":"VERDICT kept","prompt_fp":"2ad0d08fd6a661a1c4b51b6bf2b364daf8b35a3e352e28c1471dc7dc9a9b6d76"}
+{"call_id":"271f4f6733ceb3c8b415c079bddc7d3533aee8ec303beff3087c865bfdc1f593","output":"VERDICT broken","prompt_fp":"0e533d2abc2914c04ace31fa8ed5d40106a49719f9896a156e1b04ffdf1b3637"}
+{"call_id":"f890ec1c0fa96a478264499cbd8488f9a1ca3a6d8783f0b42b29c2e88a4a2fad","output":"VERDICT broken","prompt_fp":"ca2f22ef0f9228475f8f0501365c0111560f6867f4d10786125d04bb04a2712d"}
+{"call_id":"3e1e6b41bad46d323a5ff1d492d8652406c18c340feba74a516367de0c4aad90","output":"VERDICT broken","prompt_fp":"69f0e2b4c8c4909cbd611886334b83a501e08c7896f0e267cffff17f227e8a33"}
+{"call_id":"c80d75e30f9c1df72f0d0682a67ccc14063e8ffb1dd3f3f2e39024a8a9f10126","output":"LEVEL low","prompt_fp":"e0f429e4079ecc544a42d6d48d8300692be355b8516d884a6685b70cfb2a3d68"}
+{"call_id":"ac615679d0f35a95be152cb5262a2fdedfd171249bb42d24263d079b74dcaf56","output":"VERDICT broken","prompt_fp":"25bd5323c06cbb55bd7af435511a22da723dacd39cc0b9e00890fe9617288d68"}
+{"call_id":"3d57e97c2260d4df6269522e7a05ab08c2fde88e3d5cc5344ca33aa7b5911ef8","output":"VERDICT broken","prompt_fp":"477106207eda1620dfdf9e3f42442cd3980219b9dae4bbbfaa750e692bc80eb8"}
+{"call_id":"2dfad100f1f87c7dcaa3c767432c18c9e2e4b40af754de32f0be7ff1b00007c4","output":"VERDICT kept","prompt_fp":"075cc13d213cfc30bd903d24c0c3726f9080b5d59e32d2aaa3212a691f3a4da3"}
+{"call_id":"20b21e04b1eef449206cd16af2c72412d6e18b810ece5a7fe22b8bb2bf43f1a3","output":"VERDICT kept","prompt_fp":"6a1242b48d8e66f7b133b4d343abb8e4d7bfac6231962dbce5bb2196bca2d1c1"}
+{"call_id":"e1f61a3e3b90b3de4cba109b2b6cf13c0d8df19b8ae9c53e1bab60a3d80cb30c","output":"LEVEL very low","prompt_fp":"28d79f1ec15ff23541e930989815f643bbc1bd5ef9a65f0c8776005cc8efa4c5"}
+{"call_id":"7108703e603d0d2a5633977dc9a079bbe5bf211806703950571c1527fe633a79","output":"VERDICT broken","prompt_fp":"1a14eb6d95c7d0c4e97499ebaf3b91a016fd42e1117cf8a34853b15bcf277d56"}
+{"call_id":"119ec114f2f05eec8a5829fe731ce8df8a27bd50af0e1dfe2b04160fc95565d8","output":"VERDICT kept","prompt_fp":"133ccd00022d8c2dbf4cee1716d1d95c11ddb0e4be0c27c0c84fb581e3dccf40"}
+{"call_id":"e75e8b85292bfc1c8ac9cc798ecf15900c65e2c7b4fc9bebbaf2ee059b3be23c","output":"VERDICT kept","prompt_fp":"b8a583ff18776d291f73d9f43b7e63dc4253a6f045a2397c1a3c00a34b493072"}
+{"call_id":"a695d45219e3319ea61061f6df8d6d05283c74b79df7b45c3852d2d4717bd505","output":"VERDICT broken","prompt_fp":"cb9cc2bca65cd5e0a61480cb476e223cb9b35f27d7a8374d6f4c21a9068489b2"}
+{"call_id":"dc83213d0e9dd6943f4629b6305343137363cedfaa6516f44b2e83e4fc8e30c7","output":"LEVEL moderate","prompt_fp":"d3b94f3a2db30a7c685075397e6cfc71f0c739770612fd5d9fd0692ed1358b71"}
+{"call_id":"8640d5f5b5a93b8c02b7e446bb6395c231c6373b69738e639d1732432da50645","output":"VERDICT kept","prompt_fp":"55ffe5ae16642716a983bbc0f599428394e2a5a02466a49783e565eede4a2fab"}
+{"call_id":"371b527d054b2d80471ce8a7ed1bfd85a41a33ccf0c1aa54955b2954726e1435","output":"LEVEL very low","prompt_fp":"d244b7847794ac2409dbb011c5933fabb20eb88282d9963976a67f48dab11cd1"}
+{"call_id":"4a30598e0107d96f3474e83198a07e26e50ae850315cbff4b31afdc5111bcb4a","output":"VERDICT broken","prompt_fp":"76beff8ca5362d7a4e3534bb98cd39836728cef91693eecb18c227b7daecbbb4"}
+{"call_id":"61370adfcdc7c3c8e0c659e52c99bd8f9239e0b421fbe79ee483aad39e648d91","output":"LEVEL very low","prompt_fp":"d31030f2866884a10b1bfa89f00597ff0bf904abd32c608906075828cc718b63"}
+{"call_id":"15f4323a7805eabe3982291ea801d2d2ba8ff081a74d65c005a461e61fea3656","output":"LEVEL no data","prompt_fp":"106ead035b70296fe72ab110f606a951411132b2c1d47a159960e6feece7a78e"}
+{"call_id":"2f9fe1bd3d8de7076a1f44c3dba786e3e902e9bf479e231144c57f8aedbea186","output":"LEVEL low","prompt_fp":"c40a286e91254aae21c15e6c0fa127d4ed80a1e2ab72c10b65a9d5757c1af3c8"}
+{"call_id":"3e7ee32d7e65910cae7e5a05810248058dcceeab9a4ed39865dc7f52d394f143","output":"VERDICT kept","prompt_fp":"e7aeff974d2bfc3dbe93e80f1bb811e8584b60decbd95574a89660577ee4b46c"}
+{"call_id":"385f9e9878af09ca1df9c437cfaae74f56f65f8cf452eaca862b03a01360373b","output":"LEVEL low","prompt_fp":"e799f0664ba2ea4c2b2bdee22c1314979ebc5fb4f47691a48655cd80b79aaec4"}
+{"call_id":"1cf01273e60d3bf1f764187ea69d8985a2836906547f6a7895e02ec836d452f5","output":"VERDICT kept","prompt_fp":"9bc3728cc363e0e4484f5c19ecef02b3d9d947a57c1248d040d6b955df3e062c"}
+{"call_id":"aba882d37cd48c3ae36b9e43bc452b7020ff379aca223c199ed754b1c88d6c4b","output":"VERDICT kept","prompt_fp":"522f80e9d0f0eb7bc0293894bd38ae79e89f9afc31a7e0d1e6dec273d705b9d8"}
+{"call_id":"323156be210983671e6da29ca95741b817478298786d10b889d048afd932d2a6","output":"LEVEL no data","prompt_fp":"7c6bdca2dc04a128d8cbc7f2fb36f8328868ad4701f1560ee4d56d140f124417"}
+{"call_id":"04a7b3dbb068abc8bc95d1af129e7d0bc44467e367b2868b6b977a18e6778bfd","output":"VERDICT broken","prompt_fp":"43b11f115971df35c040061b29f05d3a003e200a033435ee72bb5f75a2126549"}
+{"call_id":"7292cdd3f9c96d1733785ab0554551ac3d8e7b7c0740b688df8c4c718f77fb0b","output":"VERDICT broken","prompt_fp":"c4be909263025ff2e3cc2c6fb854b01e10193b966e342fe3687f68d110cfe1ba"}
+{"call_id":"8752fd88899002fa29f7b7d702d3bdbe7b3cd02368c9cdb6c5b66781b76321f2","output":"VERDICT kept","prompt_fp":"7f8c523a32469b1ee0f74cdf072bff4201270b7468d51bd26a2fe46e4e8af142"}
+{"call_id":"4e6c2c401fdb05cbb0405a861f3ac19921ec4261abde101e74eaad9dc1eae902","output":"VERDICT kept","prompt_fp":"266aaf8f4ddc092aea70cf395d40031242133d5059c07302a19bef7b3296cb97"}
+{"call_id":"4cccb4da93453cbe983c88b1b5486fee498b478d6fbcc5317549193096db2773","output":"LEVEL no data","prompt_fp":"eaab23eeb256419478059e4e8a0134be507272869c6a7a1c26b4ec3ac65b456c"}
+{"call_id":"4179ccf9dcb1e33efe36524189f08a2248b40673edec12eb4c129b02aa48b6ec","output":"VERDICT broken","prompt_fp":"9a0f6117cade2ef782ff7786358e7f573ae93dfaddbaea487f47793ba28b0faa"}
+{"call_id":"3e9147ccc5e88e6a6e27245a18fbc9620f47818f98d6657c0b7d932220e6c2f4","output":"VERDICT broken","prompt_fp":"6c11fbb27e08610866c517f7c4a35db1941d4913324bcb94347ad7d9bb31f3e3"}
+{"call_id":"639ba74a91fc00e477893fddd40f2f5251262720b3c5bbc19b681c2ca64f699f","output":"LEVEL no data","prompt_fp":"ed9d00c2112b9762dde4e72945e4b36055e331d446ae61493500f6b786acfa7f"}
+{"call_id":"4f8c46a1ee8dd78b538ef7a8182fbec1a048e8bb5850631c4ea50f886e6eb703","output":"VERDICT kept","prompt_fp":"72b67865ee689aeb802c69e8051f9e979bee97ced30191e517c1025592b7b1e5"}
+{"call_id":"1af1f220be34fb4fef05180563f0e91d212094c8bf0a29001840d7f0da0c4cf3","output":"LEVEL low","prompt_fp":"43519e4e519e79a4fcd658dfb37bbd5206abfe0d4f8d0c78e93ad11555a4518b"}
+{"call_id":"7b8db5267dc27e21e9085c1a0976ab25d003513d8e04033271342a040fcf50c3","output":"VERDICT kept","prompt_fp":"58284225a14d8d15e6911553f164719b83667e95772ad142184376f600b07e95"}
+{"call_id":"5166ef84972d9258e24fe35d2ab612c603944f3e876727f442e0f1dc31259e69","output":"VERDICT kept","prompt_fp":"1855b7b339eda9934c3c04605697fa28b23f6dbe662a2bfb5b7e6db18ec0dd8b"}
+{"call_id":"8549501b0e4b3484f7476505cc741de88d7ae77c103474203b26ad7793d367ee","output":"VERDICT broken","prompt_fp":"b483996dceb22bbf9fd29a6056cce3807899ca5aae4b11b6c2c82706b97412d5"}
+{"call_id":"f4d809a915a71c274d8e53f11c62bc8511e40d6007f5fa438b7bd83e6155526f","output":"LEVEL very low","prompt_fp":"0b524dc5840ad0949c02b78956f26c274e0ab05031e3ebf46deba37d07ef6f57"}
+{"call_id":"3c43a1ad7bef88840fb52592d41788be4d72386f4bd6ecb5b962160da25ad500","output":"VERDICT kept","prompt_fp":"5d1eeee8b8d2f9ce607d9b20b43f9c31fc6e4435ce84b7b288272c26c0c75bdc"}
+{"call_id":"24d38dc44abf484f2537998276422f22eb2bf67083498809566c85bf30cf0273","output":"LEVEL very low","prompt_fp":"17fe469c1d8a08c769a92b40d01a28c1b550aa2bf98075a88ba60a9b00992b23"}
+{"call_id":"eef6f747c8cad640f5703602c5063f8b1301700b6446b7055227519c4bab52ed","output":"VERDICT broken","prompt_fp":"0b8800f7cbb2c8ffed22617707d315f763457cb1dde0edd12e8042975da5b153"}
+{"call_id":"e783e233f3465a4bf14bfa6e6ca9bedb7702fb96f4a8dccc5b13fcae222f0d27","output":"LEVEL low","prompt_fp":"c82f291325d5eed460bf51f45b7db17483990904ee9e5a33ef603830bcac99dd"}
+{"call_id":"9bc4709e1f76d5c14eb479200d861ef64638c1aa0f77faaf10a8d9be3f812cee","output":"VERDICT kept","prompt_fp":"7d823e27d4c94c69d202ed6b8e5a166baa2306873dbdbe1f91402969b402cc66"}
+{"call_id":"f2071ae6532dc75e8cf26d11a82abafbc3e8ef76501f7ced6132c88be63cf9c3","output":"LEVEL moderate","prompt_fp":"59b4e77e6290001b4c13f1c16d794d672fd743d969fad3383e36b8183968c300"}
+{"call_id":"158ffee29a40643ac1314868658b1ebb37a87d86b70e7c547b1f4c9cc34f7d8f","output":"VERDICT broken","prompt_fp":"e838134ced07713165abd07125fc4cb1847a026002f2d310e8cb7f99089c878b"}
+{"call_id":"e2dd475099fc7acf8933f8a88e3b6beaeb4c5a658b7607b395225ba5e40098f4","output":"VERDICT kept","prompt_fp":"b3a425c94333cc39310373cc2f9efd4637335bf78bce7ce69025a2eaac49363b"}
+{"call_id":"89708a9522d20ce1b34a2ac6d4284eea3b2ff5c037d8dced5eeb196429ad701a","output":"LEVEL very low","prompt_fp":"797009d8302f3633c00f5157248296b529440c9195c2d51778d6e5290b3bca94"}
+{"call_id":"6f1c8be287974a3917ea20fbd0bc9292b822443da9d778f501f5395437bd0c8a","output":"VERDICT kept","prompt_fp":"5bc53ffb2d2ffbf1c2dd790d1b240f6aa24d65f35a2d58765deb2f932c1b84b7"}
+{"call_id":"6c137a1a53e2b85e6a82976022b82b4eca1f568429b67306401d202dafa0d7ee","output":"VERDICT kept","prompt_fp":"b94553d69edd32629318622ed87d1b010bf42d5f406f2f8994ae9e253e227f18"}
+{"call_id":"a9e3e175c5a9277d4febdbdee175d2eadd85f5529a00ba112e5c135c6487e9d1","output":"LEVEL low","prompt_fp":"e8337cab16d7dcbb902a60a11d3f5627baf73433740a951420c4802843c42b78"}
+{"call_id":"668bc88f2ab350ec6a085ecfeb675e7d61eaeba5a03b9d39e58b38f0a0a474b1","output":"LEVEL very low","prompt_fp":"fc1d5525624f8bc73cd65beedea56e57183261157182fc071b7959e700f94967"}
+{"call_id":"80fc837f3796c4305b699c468e63c6b57925641e14f5abf367e97d9aa2ef8c23","output":"VERDICT kept","prompt_fp":"0013e8b0bcaae2385d2ed42bb7633282878abab2e1d422ffb4f8b998df67743f"}
+{"call_id":"17911bda441c014f9adba8748f2fc87cf031b18bbbd9a440d2bdaa543795c44d","output":"LEVEL very low","prompt_fp":"6edb604ce88ed5818c1124e7feeb77cf7f3442ddbb6546430debd06dff7765d5"}
+{"call_id":"9cc2c6952b791de8570a40906c6a5de2300b3ad7c7a0c89f80601bc818537be4","output":"VERDICT kept","prompt_fp":"4f2299555853f14e7a83607fcd0172fabf690289cec08c4c927c89b496bf75d7"}
+{"call_id":"e5816415be22934dd64af9d58013a564ef3c116a83c84542ddcb379bb7c523ff","output":"VERDICT broken","prompt_fp":"83eb8635a77af4c90aa3b3fcd237908abc16fa4a69aa16eb66f64f537f5a9a16"}
+{"call_id":"704498d11138498fb1fa79fc580427902d0238ab96a6aca42974b1a91cf74050","output":"LEVEL very low","prompt_fp":"cafdf2234c09a9a249313cb5ab0ca4213baaf806a3096ecbb344a37cf4e2bf98"}
+{"call_id":"816aadb0d97f697af05afb821801f661d78d2d1d16a929235d082eb3dd701aa0","output":"LEVEL no data","prompt_fp":"52de011421c30d79401a7178676e7de612e1df7b04604c7788476f79a14fc4f5"}
+{"call_id":"b1cda577e92af165d1bc3ea78b11bfe4f4277f1c5ba1a8c32f0efa7d2e173b94","output":"VERDICT kept","prompt_fp":"0b12c1524ece287347bcd4439e70a7d597b5090921ca12a3d61e6f6dbefcb9c0"}
+{"call_id":"c890ff589b995d8cab8d0e4e23b06d81b9f23d7face85c517b548112245fb6c8","output":"LEVEL no data","prompt_fp":"534e369f181ec0ebced3d56b6565c55b2765306ddbe838684395bdb3b681c9f0"}
+{"call_id":"c5d06b3d1d9995c0e34c52f3e9acaba09c893cad66002cb669820f75d0e3b568","output":"VERDICT kept","prompt_fp":"8b1d0dd0adfd12e9ca7eb1aee72a8009916e9bb7fcbe173a23431f9fa5e03bee"}
+{"call_id":"321b197352f748aad53795979154dabd219b963ad896f425471d3a62e24c3364","output":"LEVEL very low","prompt_fp":"6dbf4168a02e1801cac4ebdb82abe044e3fed1b1990e76dfa8ce58ba88335e60"}
+{"call_id":"a38216154d13979aa38b0100fff3eb55621ce71817bf03c1bad9272287734b06","output":"VERDICT broken","prompt_fp":"b53406cdb497efc28424300f6f68000478c9ef917d2efb1d94bebb822525fac5"}
+{"call_id":"1ef5072266108d3d1ec786cf27c6b2c196e515ba9bec5b1fdcfcc0048e6bd106","output":"VERDICT kept","prompt_fp":"76c1abe0492205facca6458db2413e2802436aad83be245d77eef7f09f33e5fb"}
+{"call_id":"07f70c5b7bda86a8fa87b932ddc8e4c91cbf2380897bb290d532b910551e4859","output":"VERDICT broken","prompt_fp":"aaa875048e4ed5d6efc5921b8636fa6dbfd00ce6990fb384241e619a3a9f8967"}
+{"call_id":"e94fd04ba51e8383cbfdce92020c007f58179be078ba29b6bf4ac7838849792d","output":"LEVEL moderate","prompt_fp":"8f4b86675c4fb8508b751f75a07d33cf09a74dbf5a0b1120e8728914070f1753"}
+{"call_id":"54aa88cbee9fcee13601031d98f0016184b3347aac3ba9be7d52c1331ae7f9b4","output":"VERDICT kept","prompt_fp":"3c8bb98f88d6d18fc0819e5145e2d351b27194fce486e552b38c9333861bc153"}
+{"call_id":"a08ab901ae97cad48aeed7cb03b7072faca0442c267eb89fd3abc00aa7699402","output":"VERDICT kept","prompt_fp":"4549ab5d1929abf3658af43e52a06bb2f81b5e2dedf0b835c1925327f7a3810c"}
+{"call_id":"9ae1ae84487a40c0cee3c67be67ece7f127ba6fb41572dd1d327fd8362802257","output":"VERDICT kept","prompt_fp":"2d3c1a1038e71859ad6e1983eef86939f40d0a8b6db442a8b290790db991a19a"}
+{"call_id":"74468f19327cce58b019d836a1c3ba3105bf01642c46b8c8b011ec7724d0cc74","output":"LEVEL moderate","prompt_fp":"97a2cd556ef72bb3b9b7180459599a58bff9afedb3df4db4b9d8c86baa5dc33b"}
+{"call_id":"2393a5accd339680b2351604766f4e71d3f131239c0f6509326a94ef292f463c","output":"LEVEL low","prompt_fp":"7bbfd21145d9efd20d8bf841f2c2fbcd88d662712fc75ed8d94a5c13e3a652de"}
+{"call_id":"83a43ca4567dae3aeccbc62fe0adf4320f6751513f336a2928024e7dadc73fc6","output":"VERDICT broken","prompt_fp":"d741ec85b16a24f6d39e8885e54cf4b37a3b109746d909245248609f93804d36"}
+{"call_id":"7f23f6df0d54cbca3ecf86ea35bce8c02a7af503062e44f758ec7fa94089fedc","output":"VERDICT kept","prompt_fp":"9f6dfb3a92aa78ab2322c8e1d8603771be91ff80fa66ddaae8827b44fb246ddc"}
+{"call_id":"61c884746061be801b3b827b9d57b6c439690a847ddadee8e25f39e31bed8f19","output":"LEVEL low","prompt_fp":"b2861f7ab35ce71db86c1dafb30be57a866d2be692a6f5095c42769149382b76"}
+{"call_id":"5ca77401a8779981ecfb82111bf5ad3cfc623e8a6e56bc0915aa9861eebc1b72","output":"LEVEL no data","prompt_fp":"6ed27c0814fe831104a05d4f845528e5aedb6c0eaf179f0d5ec627028cf1a531"}
+{"call_id":"6cc604ff3840f5448603f1ec8faa9e5b5006326a2fd82bee680cb3255836d391","output":"VERDICT broken","prompt_fp":"869c18a6e16f24c1e44a89cd1f654cee8898270589dc316d957d460497823d87"}
+{"call_id":"48043d22e800ae1026b877976ae1fdac663e86e593a6c21ff393564512dedc76","output":"LEVEL very low","prompt_fp":"de92d5869d2984059b5742aca598fda649104ba45ca59ece7f76b8e7266e86e2"}
+{"call_id":"664dfc1eb46fa8b97076a065b593c6ba37a816bc805a62a59402a1d9ceb5b057","output":"VERDICT kept","prompt_fp":"5c0a6b3ec6653a206ec7de43ac7e24601a152503a1c716382f3e1fb5052ebddc"}
+{"call_id":"4d53e6624b7252e1fd7ba7fec24bfcf48df82aa9738e0d286bccef88a0043614","output":"VERDICT kept","prompt_fp":"d1fb8485b0b5348bd8977fc6b680cb3f6cf7f83145edfdee0738a32aadff35a4"}
+{"call_id":"3e7ff1f7e1f5a116acbfab9a81a625bdade0f6e45ab220de25d2c55e9d2aacb0","output":"VERDICT kept","prompt_fp":"4b46c74cc5b653f67a73d12a2ed48f8d2a48deaa2fbea39efe2a89ec4a4097d3"}
+{"call_id":"a13e702631a2bdcef01f578e61ff588f6679800507d72a3b861abd9db3db1d94","output":"LEVEL low","prompt_fp":"c48bbd1af31585a566f3f00dcda17963ac1d8eab8b3822b7ea14b4038b43ed65"}
+{"call_id":"8f6d3d0e2ee58b28805acc54b7dd041ce068b98dfce8c0629fcfeba97d1ecba0","output":"VERDICT kept","prompt_fp":"a0678f4448822c577063a91bb22cecd3345d3338df06c56a97d2b857d244e8fb"}
+{"call_id":"86ff5268668c7dede788dfccd29d2182dd6d09f358e80a73f54282563d2249ba","output":"LEVEL moderate","prompt_fp":"b1a21e213b657749c4cfc9bc06876fec3e41c696709a1361bb042ca2834345ea"}
+{"call_id":"fb017257ae80d0b601ca582ac1ef87e9d2411b5f5e7bb6f34e67c3bcbc2bc0ab","output":"VERDICT kept","prompt_fp":"0323317d66d6b995b83e6dd7002de10eb55fb6bcbacad5d4cf1a9c70f0b30c01"}
+{"call_id":"05f7e1d76e639e3d15782d2213c6a3afffeb574b33caa63bebcdec8a39ad34a0","output":"VERDICT kept","prompt_fp":"eb6860ed62dfc3e5353025f08ad8d21cc584a8d5924f2ec334d48acc5430baac"}
+{"call_id":"f6c367d9e120accade3a3db42059c641b7b0829da1c3b0d8d89f5d4896dbefac","output":"VERDICT kept","prompt_fp":"afe82de7d738015ba55b741db80629bb20558c381506bd823cd92309c37f4314"}
+{"call_id":"69b4f7a8c58a870b8f1f3cda3046182d85c38b205cb03eb4923edd96efee38e5","output":"VERDICT kept","prompt_fp":"c277267c05afb772fcde7e97160764b89bf69be81d78a2f22e2e8e9a2fa35f4c"}
+{"call_id":"2dc4c59bb063e0728dab848108ae8ac3377cb8f548902656276abf7a09851648","output":"VERDICT kept","prompt_fp":"cb2b861e7f93fa18676b4637ee1e146c75ead975efdcc99ce1ffdd7318dfd37d"}
+{"call_id":"ba4303c77ceff7bab24c5cc36f3d3efa8ab3a49b9a814369b3d092269850ab1e","output":"LEVEL low","prompt_fp":"dc3e3de3a20b264d881ff2a3dba2667681dbd35ea1658d666022de13b6c9f01f"}
+{"call_id":"6adc61649bf0c31b2dca70356d542b791433a490ba3cd1281501acb8649be7b1","output":"LEVEL low","prompt_fp":"e8b5983ef47a2a93a8b6955b9623151c65bfd18dd64168e0c827cd6278fa15ed"}
+{"call_id":"42c53864d5990075238704ee3445f6f607926f9af160a6974b70704d9e441473","output":"VERDICT kept","prompt_fp":"1ebb0f9f9afdd3da82b270b85b7861dbab0da9125aa7cd7acdd2ff043fea35e1"}
+{"call_id":"d212c77f7668744cc6ced5e0145867a52f00d79d7bad5e32699d5293d3750994","output":"LEVEL moderate","prompt_fp":"a694184200dfbc19ece9cdb51cc0ec41c26b878e5582136b3070609dbbee884f"}
+{"call_id":"fad3a2c95681c307150a4d061baaa16b49ecf3f5f123aab047146226008dcc28","output":"VERDICT kept","prompt_fp":"78f9acfafc3458483f6109611905afadcd38e59251abc87cea3b78d47b548458"}
+{"call_id":"4d64ea86b9e65e87a530cd4571832bfebe0a1c2366ae777a969769f5b018edff","output":"VERDICT broken","prompt_fp":"ddafb5d4c2f4976b827e25e559331120e3d305a16855bdc559d24c6c13eabd82"}
+{"call_id":"1b46b29537196a62e1076d8336270c60cb9ce2b1afe3275a12d9a379cba70b11","output":"VERDICT kept","prompt_fp":"d61b33e6056c3797764dc9374950c78a18455d730b70622225e8cf1ac59a49a9"}
+{"call_id":"73f91140ed4a2c99b11791e2be7a2bd82e0e0ba96b32f53d31f3227a93352a40","output":"LEVEL low","prompt_fp":"ff82551f434acefd5b91b4e1f031d472169b47d61304c82df2d1aee29dbb55a6"}
+{"call_id":"83d13ac97c96ea238606eaaeb044c54ccbe754b05244abf4958a49753d698878","output":"VERDICT broken","prompt_fp":"2b84c7990aabcccf5fb5a95e8168cc05e9ec061023f99213977f82fbf0893ba7"}
+{"call_id":"dfa154616d0208507788cba2239ec1629c7079610005a7802318c7010851f0a8","output":"VERDICT broken","prompt_fp":"7573d7aa60e7fc354e3448c97aabd12fee70e77b446702ced362f4164c67ccd2"}
+{"call_id":"8089acaada37334ed279a2504a13a2e2abf6db5aab1c7a0b7090782340d5acf5","output":"LEVEL very low","prompt_fp":"f72c525127e488925ac658ac61cb61ef519a0f697df56cc1feaba2107d5c82bb"}
+{"call_id":"950d1484e8ace5261c1c8df22a8ce5c468207d1fe3187d9c690965960ec09f5f","output":"VERDICT kept","prompt_fp":"2644da05034d6d49d3a5e39ecb22b60e812e95ffb4993b781aa887c6a8b9a487"}
+{"call_id":"ac9d428deb12225476b2eaa96fa9f289867647ded6e644a786359b0eba94e3d1","output":"VERDICT kept","prompt_fp":"9031b3dae638166098f1759ce67eefb489112ab93962ed2e4d6995ef3ee331f4"}
+{"call_id":"26bc48ccacca8daf783ada52bf989fe193dee6ce31c9cc5fe05161f91a30283b","output":"VERDICT kept","prompt_fp":"c8bc38b63fbe237cbd54a8216ea9de3f1a7c9ba0cf2e6791e7b928a9c9762388"}
+{"call_id":"12195bc62605cc66ccb2f71f1600d44b411a426ddb01e6cb7d00278229a6769b","output":"VERDICT kept","prompt_fp":"3d46e6f23f65ecbcb9be9a9111877ae295aa50691e39ac9d3fd1d22e8c500e45"}
+{"call_id":"905c17876a517d617314e7658e69e257544c43078bf0c1236b0e5165b2c2c98c","output":"VERDICT kept","prompt_fp":"7ee9431c9bef3b7f1d1b580ba3be441e9117f3ebc6f15c67131ab5a6a9d3e6b7"}
+{"call_id":"49b82865151a0bdc1ef50cb3e50753b7cc8d557015c913e63f5d537bbc645869","output":"VERDICT broken","prompt_fp":"0e13876f744216fcdcc147a85b539b0ab12bf1f188c52da19b3bb2f6217f2f73"}
+{"call_id":"14babd1006beade57c8a13e080a502a5b74d760a3b29bd5ddf558ecae59cb04e","output":"VERDICT broken","prompt_fp":"768b5b31adefd1bd219c92142a849709560cca7ae8ef60ca22aad651947e24fa"}
+{"call_id":"db278ba2cd50cbfaf36eaf88aeb1780a6c79c21ff204a740562bb295cf902a10","output":"VERDICT broken","prompt_fp":"b24ae6776e6ea953c97de44485e097b0688d43f6fb8bea1465f76bf84e651e94"}
+{"call_id":"56e3e8929275b29980abe638190e38fd07a5bff00ca70edd0cc317b2853e146d","output":"LEVEL low","prompt_fp":"3a0d6f433fac8d1cf7293291fbca224aa50474a41b6f9632ae74810b04c02dec"}
+{"call_id":"a15264ef36591a217cd1e30f68244b8bdd280ab7f17dd5aa1a7850535e0d239e","output":"VERDICT kept","prompt_fp":"3e5695145b96cad0fab1ca36a427b699f3cb21a3f451ab8e6cb9878d31af7c7f"}
+{"call_id":"834310728b3f4369f631983632d33588ff926c317989585958de0b0c2b0e542f","output":"VERDICT kept","prompt_fp":"312458fc9cea9f4461df4e027164c2171831f0b1e6a9c10a74f7afde3923a236"}
+{"call_id":"b8be87ac765ce5b77f4fef91947d259f00234dfe48467abeeaf0c55a63d05e4a","output":"LEVEL very low","prompt_fp":"845f4d483937f38d6b78816133e197c932c812229668046a049f92bed754cf7f"}
+{"call_id":"3544bdf2cca5e5e46011f17c895274e617ae09452d0f4fbe68e1a34ecb4b40c4","output":"VERDICT broken","prompt_fp":"96bd8fb32936ccf5bb7768283350e85431ae338e5ea4f6aaa98f6e13efba1884"}
+{"call_id":"c497dbe5fa0359ac101178ebc57ca5f80c20c7ad7c1d1ebbc13c3dc342b2ee25","output":"LEVEL moderate","prompt_fp":"f6ddc779ef8881c3de41510a53f67b3d9f916a555b0f5e88fabe03cec51e6f24"}
+{"call_id":"9fef1b915225b92e22e91e7b2929bde6387d9b44ed9c3242ee8630112d9d9f8d","output":"LEVEL low","prompt_fp":"b12db4649d6712de56cdd7b28de5681e001b17bee971909766ca70cd777e8c36"}
+{"call_id":"4709151bb18d532ebc4930498f674d65a9c9fd01ed411187d4e21d3fc457abc0","output":"VERDICT kept","prompt_fp":"94defc55a2468c1c57388e8751ae87dad9395c9818d254c735326e30bc00f300"}
+{"call_id":"f27f6a08a6e90ca3c6b02fb50401c46826a4b397dbcb9328819d7a373ab49164","output":"VERDICT kept","prompt_fp":"53171e00d019f6f47df580140da4b40cf8442a1def501cda454afbeea2293d6e"}
+{"call_id":"dd144d4d820e16c96a0074b937f281cef9392f7671fcec6872a5a6e17f93eab4","output":"VERDICT kept","prompt_fp":"6e2a8ec7313e8bc3b16a6e2d71197f8e0c5cbecd0f0c7730b374ffde94f2e92c"}
+{"call_id":"67fdccc1a79aa213d50d0d56fa8a779d81b16137c5f9d6493d5b8f2550140f2e","output":"VERDICT kept","prompt_fp":"6808ec6b72c7bcbe1cd7537ec88e3e818d30461aaa5e35ade4714f78d4210479"}
+{"call_id":"d414adf6d7e4266455f6ef1e23e67ec0418a3dc5ceba3305425ca412aede0c6e","output":"VERDICT kept","prompt_fp":"b9bb4e32b99d02db176f8d5c3492e627116c9e9c5b9c0b1b2c25ef88df6e2663"}
+{"call_id":"b9dd5b37478eaf949039bcf52f59a08fed41173c4139bd8fcf42a3bb9dadd325","output":"VERDICT broken","prompt_fp":"0f10d577f56d80fbcf833bc7fdf3ebc215e22b241ccafe4eaef4c4dd6ae154a6"}
+{"call_id":"723f684cfbcf8391ad287660ef380608bd9b6567719f26bffb95df3ca8f4a061","output":"VERDICT broken","prompt_fp":"3d08c2628365b77d86cc1a8c2a8453ee888bddc5b2a4d7df4f12c7d9c2cad530"}
+{"call_id":"8e2ec38298495c889cc7f7ee7d75859e29a98933fb972428f7e2356fea9ed64b","output":"LEVEL low","prompt_fp":"2fd32d3315105198d31ddc621a16d6e4b8da0705f2b0d1882b94f8700a42bbc5"}
+{"call_id":"0f8bef375a2e9d7ef0569562969c5663504316abec4bba8971d0a2712614424f","output":"VERDICT broken","prompt_fp":"a0caa196bafdab22b94272e258350927f3e38209de40a1b71f0b1d4dc598cb9b"}
+{"call_id":"923d2a34753a4ed68bfc73cd5cdae9567aa58cd595d328532b0702a0f423d793","output":"VERDICT broken","prompt_fp":"26c189225208d9d071592eb419fa3ddc2f9bde28c17a1418ecff870e5177b58f"}
+{"call_id":"6b005b835674286959e1551732e2c97197afb6a33d8cabdf3b471b94413fc8f6","output":"LEVEL low","prompt_fp":"2cf9f749725683e6c56358c746e5bce2fdec02fb49a1f7a7925829cf2d358bc9"}
+{"call_id":"4c8468644f89f3b9947f7f0547229e0ad6fd7bcb9f3ede12e50519282f6399b3","output":"VERDICT kept","prompt_fp":"9644c5287423ed288f7e17d6af1867885d452fa669ed50a355a5361aa0e0367b"}
+{"call_id":"388773e0ba4132022975d3272243a56b970231757493f69d9e244f2adf82fd95","output":"LEVEL no data","prompt_fp":"10f542c32d0b8f2a51e58bdc616953552c9ce9a24c9c05b6797339682b774002"}
+{"call_id":"fd3eba975908d1f3b1b0adb079dbc6d527f8169d7fce65b23115ed12d34e78ec","output":"VERDICT kept","prompt_fp":"2415201bc92895db0cd9d11a1c634defb190718af5451d203d8e8bd53bfac19a"}
+{"call_id":"6ecaeb1bb0a0e69dc5361c3f07fd578defe1ae085219f4777e778fec5b2675df","output":"VERDICT kept","prompt_fp":"50200cd2b54410782c383dc09862ee59016c1e2ba495d24e2324b5a6436ca91a"}
+{"call_id":"eaf997e1d66471347224c2863ef736c707f17a353633cfc1a239a75e16d816ae","output":"LEVEL no data","prompt_fp":"b8155f15f1f98b729af0a3be39220c3ff1da91fb585b9948bd70f0208cd485a3"}
+{"call_id":"93c5198bfa99f761ff27a5c3e8df0245adc29035f97a8b04a66ae013783c9e00","output":"LEVEL moderate","prompt_fp":"5ff9aa2102a4ab046bdf5df58b81966204cbfce83884a149caebd89529cfe5e3"}
+{"call_id":"9a84b84e830d3b2fcf0185c359c6a6c4430eae878decf66ed4bfa4ea1f914bf5","output":"VERDICT kept","prompt_fp":"c0c5974b24115ab4ee8cb4f82a7684ad62a23b8866f1052c8cd3b62ecf4afb67"}
+{"call_id":"fc2c67c4691c8f2809319ca37ff21c29ed13dbf45b57e7ca2ff3a2201c9dec0e","output":"VERDICT kept","prompt_fp":"5b016f6679817c8023e25e92635935f5ff7c547e93c12e4b9cdf2da1a5426072"}
+{"call_id":"da2fa7f93dc2ebb619b51595e512daaea793c546f3fcab72f076f428ce43b741","output":"VERDICT kept","prompt_fp":"5e6cf798c73d8c9bc0d7b3e613b65b598a60411ccd6c5699fdcfa883fcd267a1"}
+{"call_id":"23f35dc50a18d567c16b4e1bb8c6b5f7154a324a9d31e050dd14e79c8694ecff","output":"VERDICT broken","prompt_fp":"9eb4442594dd3fd9ce19943956adf1c898de60440867120746a54fab293037f1"}
+{"call_id":"381bf1b22ce05341e2b687ca652872bbd65ac0f5ebf8ab679ac3a94656e74c9a","output":"LEVEL no data","prompt_fp":"6e8e0cca401171102b1370d863fb9090da160293e3bc39c390ce132fb121cf22"}
+{"call_id":"fa4f8377cea2e618ed5c3e799da4949ed47e59199c5d15a1858dc646395b52b5","output":"VERDICT kept","prompt_fp":"70ee8b95b74360d63b98951358f39e57b45447a8389ecc9398c3207e5e3c6c14"}
+{"call_id":"380a5d9133289ccca7bcd91d4e685834bbe850c3fd38d13244d14b8c0627b1cf","output":"LEVEL low","prompt_fp":"f81e087f93b4c71e40443a93881b08d88b9a36b5eef49ccea8f826dfd9b6b4e6"}
+{"call_id":"39e961a2eac6089c7f08f63bc35a7b26b190a8844cd24989540c646a56bae4ad","output":"VERDICT kept","prompt_fp":"0b6fe815d4dfa2164fb4d733660c193418feae45398defca99fdded464fc1dd8"}
+{"call_id":"08238168fa7a5e7f936b4a708fb9e1e87324f472c7cb7fc390d0ae55850742b7","output":"VERDICT kept","prompt_fp":"0c17e8e4ee0b6130a5dfc5a1710b2a919570ddb8da32c36955e343dba2435fc9"}
+{"call_id":"edef150934f3930142ca710d2c228aa82a76b36e9c8478174b3980e3e3896ae7","output":"LEVEL low","prompt_fp":"a205e871b7a850e7276a4d6633e36e74da0d827bd6a80def9605fd86d0e007aa"}
+{"call_id":"7fc469c49843e8a375fa35609bd9a5f718ac37138082747ad50c73b927718dfa","output":"VERDICT broken","prompt_fp":"e1b89fda9a6d6470933d3a642d21f80c48670b265336db3155d4a1cc688f1f81"}
+{"call_id":"f0485912b4a3660de36cc0d4811b35a87f1e9cdc9f1a9920e202be0da860eab5","output":"VERDICT broken","prompt_fp":"edfb447c8db6aa1865d1172ed7dbb71ca41c25daa7075caa2eec6abd6d51025a"}
+{"call_id":"882c876b711e40a47f02b597498821576064a4063b34427025d3a8447fb5c942","output":"VERDICT broken","prompt_fp":"a74461a3f4d09491fe99076f5c60c13a7ad1057341742b7f89d34b820becf888"}
+{"call_id":"e83330dff540a39ab272910d6ada3640fd15e950552a99181c920dc170fcd70d","output":"VERDICT kept","prompt_fp":"8e0f75dbad91cbaa9dac6d08111b2e6cfd0fc2ce13f3c3a2f8f3349bd0106674"}
+{"call_id":"f8e89160120d1e526421ec1d0636da16cc48911dc72754f3ddb0f2c85c41014f","output":"VERDICT broken","prompt_fp":"758f5737b61ffbe35ad4c7b27374b764f261b61a8b1baf150631342740c15509"}
+{"call_id":"59f2ba0a2c7aabe6845ebca689b702c81a527b970be25f956b87eeb82db3ae74","output":"LEVEL no data","prompt_fp":"b72adbf8a0705722cc4564e5005c179f3821ea183c79df63ff601ce0071dbe7d"}
+{"call_id":"228d549b9fb6d991936addab67a481dcd736c55b4a6f2dbf2c0e2865e262c66a","output":"VERDICT kept","prompt_fp":"bd89f6a6e051cb5f993eaf0123a29fdf989e10a5760aac420ad33f217aee1f5b"}
+{"call_id":"99d8f49d2ecb0515ffc0ee218ae238a50638a011f5474a8cffeedcba65d68580","output":"LEVEL moderate","prompt_fp":"2baa77284fd5d1969244bf667fda4b76feaa5648ca4ce1a28d4e28dfd8015fb8"}
+{"call_id":"b768c217374fb3b6503d11d228b6585eb03594f77e5c260c0cae3afdbcfef2aa","output":"LEVEL moderate","prompt_fp":"92c80f67f663ced4c7a5d87d3b198ac665aeef4ed30e06a0a1a018ca46afde0f"}
+{"call_id":"7009e6ba0e530b8ff09e1187fdb146b2ed2ddcd374a8376876085848ae1f10c8","output":"VERDICT kept","prompt_fp":"55b9cc68dad64a3c7a4c6b0277047c7ddc371ac8e68afa8fa90f0cef29773ae5"}
+{"call_id":"b49e4ad8efa28f761bc2b7bdc64948c596b0b906aafdaa8498540808fcce49c9","output":"VERDICT broken","prompt_fp":"d121f81fa374e4e92208013b3fb2902cd6bf7f55631a98962d47fc4012ade2cf"}
+{"call_id":"6389b35fc91cda31b2640d6649ad52a4cf50ef43eb2351054e5a75ea2845cf83","output":"LEVEL very low","prompt_fp":"0946027e17b086018f01f946d95cad4860696fccf86b8ada8a419af75e60d11c"}
+{"call_id":"983cce81ec1896f3e4188ace9a6ab0e36ab4b6b0ebb21bab6fc91a6b321dddf7","output":"VERDICT broken","prompt_fp":"d7fa9a7761640233c90c5394cbc836c0877d119141fbe4e8314b8c84e725e5cb"}
+{"call_id":"ae84b007d7c78ddd6fea5d1163ae217736135fc34aaf568dd6a5e858c9ecf890","output":"VERDICT broken","prompt_fp":"ffc65f454bab3057adb2203dfc4115e88a42d7453f4a54cae8cd1d561b960773"}
+{"call_id":"4aaa74b58ef344d92d6726300bb3e78f1d3ac1d1e57941994e515e0d7396a8b9","output":"VERDICT kept","prompt_fp":"f0ad8c4582ef8ef40fcf3e738964db6af5b35ad712ccfc48df68de85afdfc5cd"}
+{"call_id":"1754246121a92c5613d672c29f3a8c9d90ee32393a0b2db15d372a6f9fc9f017","output":"LEVEL low","prompt_fp":"d9c6fe1c7d0872236e7bc96052657c8f4fc6f03dd936cd293a8268f12ee1a850"}
+{"call_id":"4db4ab8d9cbc2b730735c5344f8c2b5df9e6fbf6573ed7f3e381b8d9132082b7","output":"LEVEL very low","prompt_fp":"0c3c5af041ef0242b3a3cf8f65d090a4786f2a7b4bb079fe1f21fbe1db5aea16"}
+{"call_id":"fefc6d158ca178d0bb2c35fab93c8c648a67b4f48274b84a2e47ac0efb181ead","output":"LEVEL low","prompt_fp":"9da44592f2b1a332b2dbee7058208b2d0bf0ada1d5a21b1b2a5a3ed8850d3abb"}
+{"call_id":"d0d166e99f7f4ab154b6021552b75530038c6810a1d54c9de6b57b49f7fe0f3e","output":"LEVEL moderate","prompt_fp":"378cdf8edec5710d38f107e117d9c84f3165d6391a95d3eb453741abf0a504ea"}
+{"call_id":"b47568912542e86698f4aeb00562f88574f3271fa9a0f905fbc733c77f153288","output":"VERDICT kept","prompt_fp":"af87466aacaa40f94bc4177ed2c09f71c53bf9f66f0759e9252e1fe96e9067e9"}
+{"call_id":"575eb0ec356cb847d9cf5185b13930803dcacbbd093bb43a89756fba453d6400","output":"VERDICT kept","prompt_fp":"35cda33f9414737e0bdeb1af18837b804750ff7bef44d191ffdc35691a1872ab"}
+{"call_id":"ea8ff87c5d1d0ac1e2f203fbf7b721d4c13954aebe66c6e90fe06815a9a15245","output":"VERDICT kept","prompt_fp":"a760bbb43e058139c3c32e05f072b69cc57386241bf46664541df9bd9cd264ef"}
+{"call_id":"ed205687985374b407ae4d6a13dbe019e7903a06aa69d9f912358157ee6eb2ed","output":"VERDICT broken","prompt_fp":"0233471ececfdb744d10bd199095f80122dbc8469e221c7036ef0cf22a53230b"}
+{"call_id":"a86c6c56bc3cdade0b15d3b60bc293eef579578270046c9f7a2da2d3d95c0cb6","output":"LEVEL no data","prompt_fp":"58ec1ccb73370e8c5d4e4475b02a27384bb3ca92f7a9b59773ab48092c6730b7"}
+{"call_id":"5973b8d226740a56d63a55ff3ce4ad8c7a21a5cb7951e1f1f4a6566657a80aab","output":"LEVEL moderate","prompt_fp":"6be6693cb19ca9c0768f89643ba100d7d5b8e11a58950d4143851dd0458ef8a3"}
+{"call_id":"64613fd34338713e46ccf11fde876d4e1c9fd50e4841e46c517291643a3975c2","output":"VERDICT kept","prompt_fp":"94542406de044808ce105a9a44dd2cb17e99245bbcb58d597f26628feada85d9"}
+{"call_id":"7711aa4f9afc83231b9a603d47bbc4cf5d7739e241bdc34592bb0c576e7402a5","output":"VERDICT broken","prompt_fp":"63972b99559285173aed44bd2bb2577b70834b2bd589e473c7e80f4b99df997a"}
+{"call_id":"da0e65fb070ad48bdc5616518aa888150d85cbbe6d35c70373d9d1c4d3eb2956","output":"VERDICT kept","prompt_fp":"3aa37a7d71c524306082aa8b9f4c8862c20767834a822f715fc30fc4026e30a9"}
+{"call_id":"2889b5fccd98b1afe8b4a705ffb9f5008e9fbd26436150a4db81318b0ed01a82","output":"LEVEL no data","prompt_fp":"c21e83606197c1d232194b821623ce3e043bf2ff53b506c9eb7f1ea30557d500"}
+{"call_id":"649aadafcbcb5fec5e65ec20a0cdab5e7fa45326000a5be18c65461da069765f","output":"VERDICT broken","prompt_fp":"099d78792568cee30db09b1b1d6b14f03d1f5dc768058a45dea24e07f97232e8"}
+{"call_id":"6373193e93bda5aa23eddac61f7b470d104a87683ef19a8928cbd204b084263a","output":"LEVEL very low","prompt_fp":"8e691053e9eec776c79278004c1af67866e640aaa6ddd9a6e9399b649a3b6ec0"}
+{"call_id":"0837c45e936af4fc85f7e108abedf72cb5ff372db5457f8c72ad6b2e2e9356ea","output":"VERDICT broken","prompt_fp":"b8863ffff9281a956b4fa31ca22b34038b428b7131ecace9e0d4328c125f0727"}
+{"call_id":"eac5526ed903e025fdc5b4fc140b55a4b8e7cb2af73df3ea09411921ef5bd799","output":"VERDICT kept","prompt_fp":"a59186de283b4c005cde040c8d3653e6ad3d3990d71ea66a3b3f2a31d775a0d0"}
+{"call_id":"f0b169dc44eed6b2ec880f0d4e642902eec9d343c4ac44b507f3edb9e86762ca","output":"LEVEL very low","prompt_fp":"7e7903c7c63389e223ad2be7809fbe8ef8bf52fc23f5a04181e5d488a1b6555a"}
+{"call_id":"b8e4128fb63936941b86ec9a98ccf1b67d6ea9136c3ca58e6a5055d1f1e845ef","output":"VERDICT kept","prompt_fp":"dccc71bb03634c156dc8379b70b0514a5ca7639926a4d1ab8c7df5d82b3b0bc3"}
+{"call_id":"867c7cdb137656aa44bd88f63e90512396006fd3a3118a9bd4cf938024b7c030","output":"VERDICT kept","prompt_fp":"6b6e946a831d209c6656637673449f0700ef9be4c18026be89fb3ca406ef540e"}
+{"call_id":"2cf0335cf395d25ac6243e997e0d638ce44515c5d2886176cd83274b8763c1c6","output":"VERDICT broken","prompt_fp":"4b9bea28cc0a48498f28f08f8d838341950d1e34f9055bed1a5148b91d0c9b2c"}
+{"call_id":"940671aab90ed3f0ee6ea7dc21f0422bbae6da9fab7c6fec305ab712b188020a","output":"VERDICT kept","prompt_fp":"2d95bda335a9b6b12c148537bfb4eecfc0de82b5304560efb8e4c456bacff71d"}
+{"call_id":"646eac17273e660115e6e87bafb74bf20689091f4e09532307b715b95c539e07","output":"VERDICT kept","prompt_fp":"accb5ecbbc2273945b53058796c346170adb3357972f81659563e8634f9726c4"}
+{"call_id":"2a2006aed93ec29f3dd2c9538a48a87403eeae6e1bed599dc3944ebc7659bb26","output":"VERDICT kept","prompt_fp":"92760604b2f94532bfed7009c63e600392b4f0af7b233e5991383523aacd4f9f"}
+{"call_id":"d929c2ec9d7c01d8d7e8fb6a4d0eb0c38173a84bdcc37ece828fe2887fca7f46","output":"LEVEL low","prompt_fp":"784dd05edd56124e3b06867c586d2b3b0b9c58e2c455be4f76b349568cabc64e"}
+{"call_id":"3d720300c54f21e23b55ded76840788a28c0455d7481311e7e135d426720d813","output":"VERDICT broken","prompt_fp":"3e1f6301660e086035165fe5a206f5d713316cb99833d3188b01c876f27c8d3f"}
+{"call_id":"3cafa1cc4dda2e7586b1d2769fc2c31c337055935e79be138cad7d16f8a14d94","output":"LEVEL no data","prompt_fp":"8870759403b7a29353e7bb09f82ebc9a5465e32e8bd0235d8402664d80ee9b28"}
+{"call_id":"28c4772f8d5f3bfb7b9dda56748786ebb867b835df5fa389bc2cb855b70487c9","output":"LEVEL low","prompt_fp":"3377b36eb73be1399b529add4bb6c780eeda60c48163d3e58e1a07cd2f7e8e1a"}
+{"call_id":"e0e394f0b6304759c9ace5e3abba8d1b4c881c73d95f0f1a2882f30938c85900","output":"LEVEL moderate","prompt_fp":"c4d2458f3306468df5ba3f4b55892b1223c359ddb935c65007561ff782f3eb0e"}
+{"call_id":"34b16badfb4ac2dfd5bd82435db40266505b0dfec55d9f5e2d20efa51f645735","output":"VERDICT kept","prompt_fp":"ced35653e55e423e534cdb1d7820a9e3a5a56833ee39b38e3b4cade7fa5a63ba"}
+{"call_id":"251d11f08e4f9c393534ac7c6defd75a1c955addc133bf3b61e15857ff626691","output":"VERDICT kept","prompt_fp":"506afd692b508982d51cb7083ad53d7714cd5341184e0fb15ff2c740a7affa11"}
+{"call_id":"3aa99e28c5c46c618be19afcd3590a5ce18f25439854b5eccd3595a1441f256f","output":"LEVEL no data","prompt_fp":"aae0b8977afad7fce53f6e0ef49e10d823ba8455a9eb87a5a17e0731987f514f"}
+{"call_id":"0fd69d486d972ef0f46c6af42bfe8aa81e2b578177fb92377b7089d70e80178f","output":"VERDICT kept","prompt_fp":"64bc1723160790998f53db5364c12743040d06cd469f2023c68410000a7f9269"}
+{"call_id":"bb04139ab5621ac50a00a7f49349c9925b69907709493d30eac2d969456474d1","output":"VERDICT kept","prompt_fp":"c588956d77b1c5be534e2f6f3a7400d57efe17510a355dc283291f1bc35194ae"}
+{"call_id":"91bfd65d90564e5e840d5992f0b19b55bbef1b8fe10865d4c97e1ea898e5c8e6","output":"VERDICT kept","prompt_fp":"9218dc27417bc0dda20e8275d8aa6d9d9d734a260e95dfff224323c44a348f3f"}
+{"call_id":"7dd6c2671a6fdc34f8555257d56d0b7a00aeb4af78cabd7ba1b506846c30c495","output":"VERDICT kept","prompt_fp":"7eae29657ca0e8da4d7a7e0d234058af553563d39f65af18b20c20bdc39a9300"}
+{"call_id":"e5d03602e8791537db2260f96b4e248bfa81a0d5e84d2d5f59f20af408025967","output":"LEVEL no data","prompt_fp":"e0e35e319ee7b362c458ea7bdcecb2d5cbc6d6a9c4debf3bde4982647a42cda3"}
+{"call_id":"e9f11e24e12e9db25c628f4986e808f158f67381fa1ad6536ef78831fba45a28","output":"VERDICT broken","prompt_fp":"247dcc47540132c64cdbf32836912fc4e8461a87aa7c9d41606b946da9a24776"}
+{"call_id":"7a3ec94428df7892f0e684648bab423e6a6f8afc5ee753511d55ccec37feb229","output":"LEVEL no data","prompt_fp":"0de9239cddde47a84c1d2bc6106cef7efbefd06f21a11ba4dd2e7158e2ccdb2d"}
+{"call_id":"4f4cb76f236ad14d41b083a66496f6288ef1f96616ba6193bdb770f0a3754604","output":"VERDICT broken","prompt_fp":"22d0b08bf2b640efce8b713f89e6ef0dc3f812f2c41faede7fec80740ede4102"}
+{"call_id":"5b710e20e194f6da2213b623df2462150034a6e3b4c18b54599f4033b7016329","output":"VERDICT kept","prompt_fp":"8d92a5faaf5833624dc01974c25e3d1f721274b5e41fd83c195e1d142b5d36a0"}
+{"call_id":"c174b574dead0493784db5642722e354aedf5c7bde24df1dafcebddfde3c762b","output":"VERDICT kept","prompt_fp":"033e00a2a390cdc9475297268415dfbb2faa55248b48aa54f355293de1edf7b8"}
+{"call_id":"507102a729c2184f65a061730f4c4666575e712ad39e41f3ac923f9245c078eb","output":"LEVEL low","prompt_fp":"133deda78423c04018b157b7a87b604ae8138584bc52bca994ef21e0366d850b"}
+{"call_id":"8a1de77f3f753c3b4719acfafa686e4343863d006691ab67dfb2999511e70337","output":"VERDICT kept","prompt_fp":"7219ae88fd64707511287f2e9e83d491495447a6ba08bd86639f98c692a87e54"}
+{"call_id":"f125ff6218dee642b6013de88fb59f075cc79d14a838abce1fbbbcd3a08736a5","output":"VERDICT kept","prompt_fp":"ae0ca4d6bb6e7b41e9cd02130ba1f76fd821981228f13bae9b2dd2a9f4b07f62"}
+{"call_id":"f6b72d0f5e9a2e71a885500295277941d69202ba6986e239be00ed546639306e","output":"VERDICT broken","prompt_fp":"4da45df9c87a66ae084d6ca212da1b28620f52182606c2f78e847f5e52e383b6"}
+{"call_id":"d33dac2cdff38f6f41c1d841eadefa4f22102b5a90bb7558d21ffad85a0a831e","output":"LEVEL low","prompt_fp":"4114cceb630c71c90825a241e104aacc79ba4b412821c36b4e46387568a73320"}
+{"call_id":"86232578326f3c74bc1d5f2c334622b94f8a7309a78872cabd29e96ae2694ffc","output":"VERDICT broken","prompt_fp":"ef5d3d83c04d7fded66be3590dcaeec3e8b333bb16018da068abdac16054be03"}
+{"call_id":"de9225058bfc1c6d8240b7741822f5e878fa7a11c33caa767697c89e5679ec5c","output":"VERDICT broken","prompt_fp":"456ba43ab4459b41afc2ae776ce2a037709163ab091b4d892f6abce457f6b4e5"}
+{"call_id":"d7bcb28eb1692c10c538612eb396779800b81a6051805152cef20c7b7e8d299c","output":"VERDICT kept","prompt_fp":"b92a2685c306902e91c9c77895b62dd952fa81899a9b08abf5cb67afde849a61"}
+{"call_id":"21b032d8d0ddb742e3722069f05de91889b7410f42f0777aee2029c5908dd308","output":"VERDICT kept","prompt_fp":"76e69b2dd8ceecc547c597bb2ad6a9f3a1b143f0064540dc86983c5fe0ad906d"}
+{"call_id":"a7d234079202c8111aefbf4ea84e910bf54ace524e479d2bc77454b186c741e0","output":"LEVEL very low","prompt_fp":"5cd786eee990e5370261d33b14da83ff65b2342889f7204f5d5c9efe1a37cabf"}
+{"call_id":"49fcc7276745541f0aa73bc1f2007f3bff56bd208ae0fdbf512acf7ca02aeb12","output":"VERDICT broken","prompt_fp":"fece3d7fbb8e040bf62047582ac4ffde99a741b0baea8b289647f3bb281ba485"}
+{"call_id":"00f25e43e700bb092f6754b00d799b1bafaee404f45a65ad1cb9ece93e026ecc","output":"VERDICT broken","prompt_fp":"944fbef2e6876e696f096b5d0a2283431d5ec26fa350061c82eaabec1b51bcce"}
+{"call_id":"6f5d24e3141c6300585719b5ff0d788cca958088a663507b8d36aded6c12aa5d","output":"VERDICT kept","prompt_fp":"caab570cae249e0e4412a125ae4613ba43d0fe6887f25d449a949e25e50b996b"}
+{"call_id":"af57dc484300eb7e1915737b634e63ef2a51fa188550d14096b8c4c016ed71c5","output":"VERDICT kept","prompt_fp":"5212777c11cd26a8c01bbcffb73aa7c4170f1e1f651a6dd3dffd1c1b70e277f1"}
+{"call_id":"e510623ae0566b1e9304f6cedf03ab73c0ed4262bd1b55f69a431bd76c6b5f82","output":"VERDICT kept","prompt_fp":"c054e8f8f505f029b1c2aeeb2951d2bab33ce451dba69c1ba5e08772e11dd1ad"}
+{"call_id":"fe54ba472b7e85d10fb48ba24c40f7a1690ae733778d0cf5d1ae9a12ee08d9b6","output":"LEVEL low","prompt_fp":"dd715586a2016005bec14a2bed7d5ccb897fc18125ab3e60517d5322659bf0a5"}
+{"call_id":"984b93f50c272e052d11b5bf947730e9a41122f395b5fc7412944fd200511a78","output":"VERDICT kept","prompt_fp":"448863e5ca80548151d54f204c952618693b33fe535afbfcdad3bbbb588b3f7a"}
+{"call_id":"29a710602694de5a31803a95348aa7f71849691de99da13731d5ef433d019d16","output":"VERDICT kept","prompt_fp":"aed72a75c1f10e46d0eaa21a0ae30688671b83fcaf1a1170492b04bc333cafb5"}
+{"call_id":"0167459ccd9206c8701507e3e82489f02488349ab40cc14e848dd1f0b02ffd14","output":"VERDICT kept","prompt_fp":"2dccc4cbb3e514d156a9d814e6e777090ed9e124a94dbc939798bf76a0e146d8"}
+{"call_id":"a548c25d616c37230ef31382e44116616311a2943a21c97a3356b8cc01922471","output":"LEVEL low","prompt_fp":"e80a75e8850f3bb0fd55a60c5a3ce947d64a6c3123a7b0612feb0a2919784ab4"}
+{"call_id":"c9804cb1b89c72e9d6f2b3e5c8b37412e1ea983b43b4081282735c4b789c445e","output":"VERDICT broken","prompt_fp":"dc774edebdeff670f25412b0fe8f9a7edf0f5628816d0b92589bf96c3b861db0"}
+{"call_id":"dfbd3e5f2bafbd6d237bb03f0c2e61bd30949b0b23913f8b34c437fac550b614","output":"LEVEL no data","prompt_fp":"871c1dfa1274f6ef2fcc19d52ed7b986525e5ddfbb0703bfad47bde286478920"}
+{"call_id":"119fb124e1dc66e7284bc53fbfda5056def75db46d2159f410deb1d0dd84eb87","output":"VERDICT broken","prompt_fp":"bec6dfc740cfb806e2745906bbad34d5dac939af82e15ff4474f81126df950d6"}
+{"call_id":"abb74f880036156d428d40d1712384708aa1779fcf61aa94abbf08fc0e95a5f1","output":"VERDICT kept","prompt_fp":"34b06877c7e2a3a3c4f4bd3d89ee1334de4a86e5725b36cc9c3a4f0592d4fce4"}
+{"call_id":"cb3910f367b0bbb6f02e0d4da3bfedea966750ffe70e508e4950d52aca78e0bd","output":"VERDICT broken","prompt_fp":"f2ce7da247a9b85c6ba7b2ec06dd713c7be94d4335cd3eacb39db3615b4ad16e"}
+{"call_id":"f289eecc92894d88ce0e17df3aa374410d3ca01eaffc09c88036305a29dbb717","output":"VERDICT broken","prompt_fp":"0e2d9d01227e4f72466f4af7ecd6c310d67642d73226d11ca199d21c6c5f9443"}
+{"call_id":"45fd375496a58da3c0a8d75c91d72161e2b878aa446db27ae060069bf7dd13d4","output":"VERDICT kept","prompt_fp":"db60ea2279e9e1611d6b7ad431976d1d772c03a10563b4cd3d59113b6d1be7a5"}
+{"call_id":"1d1a915d3f463d3d8461601f1250147fe551449443553c1a8748198f85427efd","output":"LEVEL no data","prompt_fp":"7281218fbd526c9ba73289dce8c050192687a3101635c8e320f6efc5aac604b5"}
+{"call_id":"c1c1e74927e0e66aaa5d52ea14e7044d04f48df750dd479322d2d16aca58ebc8","output":"VERDICT kept","prompt_fp":"d795b3142c8ed31230202784e2661aef9441b0000bb0ad418da3c66eb07b3c5d"}
+{"call_id":"c83f1a1aea4ace61f8f60c736a43973f9283c36cc7ad2f6b0e48962d67940418","output":"VERDICT kept","prompt_fp":"a4e196244e2bb830ea0690a6e5e0b1b99aff7781166e6987f68363fbdf275706"}
+{"call_id":"ab8a47d67d60781160fe4b0f31fbf10eb5b86ce111dbcb2ef7d6b5e0acc2a47a","output":"VERDICT kept","prompt_fp":"af62abdd747e3db4c11aa312d2f8927e2b72ad9d63c8a66520e355cb07544338"}
+{"call_id":"044aefbdda6261890658198c0217fb68562d17c7948d183d535e1f3f7390ccc7","output":"VERDICT broken","prompt_fp":"b7dcdeb0eb6534eca135f5d4e0eae1c354b9927edb79a24cfc8774ddea030bee"}
+{"call_id":"f461e5f2c9e65289e693c5e07d48a4c8b0f2003ce20a57549215e8e4f5645159","output":"VERDICT kept","prompt_fp":"179f6c8434eb367a1d14bdf2e3253ff57b09a60047825e877a6b0a24c490c3fb"}
+{"call_id":"13c94b8afdc864c09f8d80564bf6892acb9570a76355e92cffc7ce9e881b8204","output":"LEVEL no data","prompt_fp":"3d80bf3d600d065a9c981201cd58dfd1cfbb894caffa9e58a6f2e08fb27615a0"}
+{"call_id":"c4b181c3038e48f5ca2a5e8c81c154cdb2ae29206f969aaa3f1dc9688794bea1","output":"LEVEL very low","prompt_fp":"10a1fc66c860a921ff5e94345076893cd7cca268f4f9033f7f3d394e7adf6683"}
+{"call_id":"97faf5069f3021936e97717365eb28f1d2ba831afa0dda3f8e8295768feef7e6","output":"LEVEL low","prompt_fp":"44f9edae203706290e07faaf148bcb22979903a45fe00d5350249c3af0b5c794"}
+{"call_id":"05eb1e46cbc642c65dbbcb6259d8c2175af6b809c5bd52153a668ccb10407f69","output":"LEVEL no data","prompt_fp":"a656893b8ba923fa08ebd8626d6e012c45b0bfbc0cb054417c81efea53a2f307"}
+{"call_id":"9ae60c0f5eff287c3ede9d029130ee2f8a3ef60c592223b621f70f9ebee2f872","output":"LEVEL no data","prompt_fp":"959d3d51249297d8428398de7fc068de1e7c14335b14b081120ec5ae6d3a85a1"}
+{"call_id":"d9cc300fe645496fc77f889df5b62025047e8eb4ea0ee3f6634ee9f52ffdcc38","output":"VERDICT kept","prompt_fp":"ab15e96ec30efee1f58b626202574e1513b011c04a580b601bb23f646bff8fd4"}
+{"call_id":"13c5068ff9c851209bef1383abc095c109f813ae2b2772b4b0f57bfcf05e7719","output":"LEVEL moderate","prompt_fp":"0579c8f86b6c93477b35221651dbc0f78a12978582daae1b2778c638fa6081af"}
+{"call_id":"a08d2b47d79d970c52e927c5e849bbea4f0cc9f039c43598faac6d3dc9b34ded","output":"VERDICT kept","prompt_fp":"edfa65a0bd3c1652d951a69d0f7dd5a9b13401417b787a39b449eee221e48e53"}
+{"call_id":"63c00cfca5a2669ae14a1933ebacd7b81fb8f937a79f8ef7a59e8486661066f7","output":"LEVEL moderate","prompt_fp":"5d50987be3eb629d03935e1dc69b00431773e8228a0680f762b9a20eae8f55f8"}
+{"call_id":"2f63faafa64580a4ceb94809b23a58f1ca26bc6aa5e5cde54b008f07b55a782b","output":"VERDICT kept","prompt_fp":"33c86110191bd75cb4bcc74c0db94e509ee23953f93c3e50bd18608f2631c806"}
+{"call_id":"f3eba3907308e4e7e389691c456c2f5327ac42b14899d5ce32bad6eed9d662a7","output":"VERDICT broken","prompt_fp":"cbb612710bc12c37c9a029f129a4eaa304f0332a8befdbb311e833f4d0511857"}
+{"call_id":"ff2768fb8f4fbf45f42a81976d049e68f554bbe4d576d0f10fb1838152ab2b29","output":"LEVEL moderate","prompt_fp":"755fb72dc93bad4a012b01c09e056c15d56351da7afea48f54b62f8383e7ae1f"}
+{"call_id":"3139f689a7be098cf29704ccb0799a9af6a9f06ea2c14d0f1160b44a9351c550","output":"VERDICT kept","prompt_fp":"5d5e15861f5a39f099f6f5a512bfa2af43963075565fa737f854562ac2f9dd7a"}
+{"call_id":"9d565b9ab3ff725915200335488479fd9befa6277b42caa4de219a79bae73df7","output":"LEVEL low","prompt_fp":"dbe6b389eb984ac5b7724d94ad44a0bd8e68407d22f23d5524d70aef0ac3daa0"}
+{"call_id":"907738cb12bdaf1b8e693984238d7cd5952b3c628610d7c5d2c18c82fed41ddd","output":"VERDICT broken","prompt_fp":"a7a806afb46c3b34a6134371456de5ba0f3e1408f51ca8b7debb7e8b36a03ce2"}
+{"call_id":"ff3dda859fe6fed6ea1d0ef028190889b9ca54238f58d190259cd9c0ec4c2c5f","output":"VERDICT kept","prompt_fp":"396338a9bb80fff186042c5399332255888705d57e283d0ccac1c73ead02f544"}
+{"call_id":"d7424da06a5c121004a017db8fa4b23d76e0d5e294611b1672e280f7e591a350","output":"VERDICT kept","prompt_fp":"d9a54dec49808a25f82ec83f548263b4794d39b4b9af416fff9b07cb444a1812"}
+{"call_id":"93aa62db18da0627e5965b856a5b96feaec86657009cfca9714ecc1cdba85aba","output":"LEVEL no data","prompt_fp":"0c259928d52418ee6e021781fa6a7b6a2f20e0ad48a87c8a811df4a10f76204c"}
+{"call_id":"95f1c248375fb692bc2c2ecadf19294bd4bf3df2faada5671981160b277ef5bd","output":"VERDICT kept","prompt_fp":"474718457ab37d90c907cd64fb80bee1ff916bfd5ef02cd39f44b2301f2f6cc0"}
+{"call_id":"6219609b674d0152a7fc804b7aec8ca9182121a1cffa0972b022dff9409886bf","output":"VERDICT broken","prompt_fp":"0a1936dd8efacb46ac66daf8fa9cb399fdec1d9c6f8628f49412aaa3f2e60b75"}
+{"call_id":"747a6735961290e2e203c9d2510b8efc5d70aa19025fab874fe325ef0fb678df","output":"VERDICT kept","prompt_fp":"3326f97eb1262182cb967688277274dc7c1330aa47472753b2bd9e83dc3d3c39"}
+{"call_id":"db94baa421039e6f7b5137b41bb1cb53e054422a84a3f719811e8d77979fb51c","output":"VERDICT kept","prompt_fp":"292f194e1222a7a19fae5a558108450f63029f2b57fc64b1692868923d9bf223"}
+{"call_id":"8a5184aea9cd5901abf8195319fcf792f2238ae8a7aaeeffc726db8c3668505b","output":"VERDICT kept","prompt_fp":"c8e69ed8b559888b3c0ef31ac28de088ad2df4396253f807be6ffc29a699b803"}
+{"call_id":"cc4cda87dd31de7e2ce5795ff8157268d863efd4630cdcb058efe9f351cefeb0","output":"VERDICT kept","prompt_fp":"26e2f7a550fbfc6aefbb8d5170fd188a2d04c5752bbe31ab372e3aa48926dfe6"}
+{"call_id":"5c80231a0ff64a9ef468d33f549992b5f21aefe4677089c021d118c8d5dd9f67","output":"VERDICT broken","prompt_fp":"92a606c6d4419a5f6b63486b4933fe6431a3b207ce93f989c88a946167094c17"}
+{"call_id":"774f6d5209825646e7911896e6a5f628b34d05d609052136eafef4ec4a34923d","output":"LEVEL very low","prompt_fp":"f22b81fd7e64ad99255eb0f8044d206ce58bc2a78063a8052c4e72516769f08c"}
+{"call_id":"daa2e16a5d20e82b068d4b067d1adf00e0296bcc1db10954fb888a1d02b3fc20","output":"LEVEL low","prompt_fp":"8475fc563b9c8bc47d8c76f3f0200415c1b89e5a4cad480d5079c71110dc148c"}
+{"call_id":"27562c619d9f99e82d8e052cd66581bf9834d6c0763f58f4deae0d1d11637217","output":"VERDICT kept","prompt_fp":"9105bd52c6c8086b4cd35af8dcf0bf08112db0263c28d8d649b48bddcc7ed960"}
+{"call_id":"002e5ad8912606768c144824affebefef6bdc83bb31006f701dd89d890e598db","output":"LEVEL low","prompt_fp":"2c8162b4a97aa2853a308dc5c0db93991cd041635e79246c57b7c92b49e9d3d6"}
+{"call_id":"7e06d1b08fde8e43745acd61fb950f797a2ac7df615d058321a213c44ae528f6","output":"VERDICT kept","prompt_fp":"de6fd58971746c2ead09ee32ddd81c6dd7d04487a0347b5dcc6dfb860066345a"}
+{"call_id":"1697d9a0d3ce38993ace6a2e543d536f6d5a10eeb0c8565682b781eca065a11c","output":"VERDICT kept","prompt_fp":"868f7ba70e0fadb042408187d7253d7117ba1defbfd63865171daf05d3989ac9"}
+{"call_id":"f1f06d35d12e7eb0162c84a9fdc9a1f5bab497d42fd8a5160f56cf03ce6cbb62","output":"VERDICT broken","prompt_fp":"cc63d518f3c3604a68e91b3edf62726961052a2e59afd443b76108ad9a8fcb85"}
+{"call_id":"b945941c80c605d07bf1eefc2285f714a8bdcc7e9ced1c794d1656350b033a89","output":"VERDICT broken","prompt_fp":"fae7b635f4e6c5b77ec96b0dd11b25f6e7bae810e874ac2020d2eb980f8577a4"}
+{"call_id":"800bd172cd495361d5076ecaa51fe21dd3e93e9f9781a3588c79467ab380d014","output":"LEVEL moderate","prompt_fp":"a7c57a79e55c0e232ae24736866bbc15d808e848abb35ead3719e9e8a7610698"}
+{"call_id":"58fc2bfdbc7c4ab61df4daae016c08ebd8ba2a07784f5d60441e579b3bcff9e4","output":"VERDICT kept","prompt_fp":"ec11ca2668cdb9b3dc9e943437ec8253c597a474ab58b0826ac3dcfc5048f2e1"}
+{"call_id":"efea61fccaf5b7766d9fdae898fe2f66886906c1ead81b6278bf9270d9c8f51f","output":"VERDICT broken","prompt_fp":"3a26511c8fb9ed55f0566596103b95595dee928d0c30727c0cf86df1c5637806"}
+{"call_id":"e2269f7ad8f6b05645ad45b13aa60c32b2bec913aabf19e5e0113bd7417456c5","output":"LEVEL moderate","prompt_fp":"42dc5493a644d33a494d283989be3c5938672c1b0ef0a7f2623e473455688854"}
+{"call_id":"1bc6665ad999e71c36bbf2c939fc16d40eb025ff2e0e1dd62921c8e4868a7bff","output":"LEVEL moderate","prompt_fp":"298047df489a25558d47451afa2a1834b4646a9df907b30aa5d3df358815cb4d"}
+{"call_id":"8ff3a8c6b335a42413fc120d828113ff9e9b46f799046f63f30ec2405bfd2980","output":"LEVEL low","prompt_fp":"8714c6817b91159e5ab6a2adf30617dfc38137422a0af3e08b0b6bf74510bbde"}
+{"call_id":"403d41088453648f3f570b138888b5ccfdc901e8c16fa13bb981a274e0d896ba","output":"VERDICT kept","prompt_fp":"7023974fb83a3aff6133a899e08f4672a44d0972706d2223ba70ce7d36436859"}
+{"call_id":"64df51f0804360c7c6e6367dc98ced144025c42c29b0a73482fb04f243533fec","output":"VERDICT kept","prompt_fp":"404ae39b763f36fbf0a9d0d09922f0eb40c8b220a4caf6e8474df218baa630b9"}
+{"call_id":"b0fe44955ab914a8b53162b8847f337b29f5a18d6b685862ec50b1a9a0795bae","output":"LEVEL very low","prompt_fp":"8b00dd6398e2e3cfde4a1d1658bafe61fb24acc4eaa4b6513b8c9204917a4590"}
+{"call_id":"d96cbb163659c51a486dc52ce560999e97a515aca475a73a3f3fc9bd0f2c1771","output":"LEVEL no data","prompt_fp":"a73393ae0ab1a70cbe640602552fb83ceb891fdfa832d840fde05c51ed3b2645"}
+{"call_id":"466d6d324900404b94d34acf8177a87116913155f459fbf68faa6dcc76f54fac","output":"VERDICT broken","prompt_fp":"98b7e6450116f7186f5e57ce70f796be7fae39a5fa88657426f5d95e4a68d4f6"}
+{"call_id":"4ba89712abf83ea5a05970547454d79056d03de011f3e6f0367df7c95b6d6522","output":"VERDICT kept","prompt_fp":"82deb32d4007e3539355723785c5d8a84704ed498c6668ae39c5ad3386744fe6"}
+{"call_id":"0dedc278fd556c1a8c0b6d4d297a4233dcdab7159ceac8ec9296fa4b9b4f69a4","output":"LEVEL low","prompt_fp":"502d5541207d4bec2b5430c0079d406382b10378e504bfb5a9b4ca201e419e42"}
+{"call_id":"52106e451d1dc833b7f65754302bc912c0fce6b09f30cd229a42ec2bb4ad34cc","output":"VERDICT kept","prompt_fp":"cd8667e098e6f997ebdc3b13121e7f22e9a5d024201bd6d71d291a4d01185e40"}
+{"call_id":"37c22c21ff9dd4550571269037a2aa23d234e7b6874812d00708e2d033b14f7c","output":"VERDICT broken","prompt_fp":"c86829e23a04de462d50798e40e563d24fbe12783f8e61ae83e62602f4270620"}
+{"call_id":"809dc2e72adc81bfb6aa4dd35ad314e4e88a538466225e09ba890b422a05a3aa","output":"VERDICT broken","prompt_fp":"c109da37eb4eb42e8534238e17d4b1db7a182315b882f94cd7cb4116280d1474"}
+{"call_id":"87780c93f3b167f3206f05d510ef0a262994865f83d1ba0fd4fb775ff14f817f","output":"VERDICT broken","prompt_fp":"4f15056a32597451897dd101a590859ea6899a3ec1828befe8782ad3b5cdf5b5"}
+{"call_id":"a4fb1c27908aee24193e31dc3c35b7e8d3d68c8faf2a4432804972effb9b4547","output":"VERDICT kept","prompt_fp":"26119e160529bdcb73953496d383400e30c74be7ad8a2a63f3bd4f7683d71d9a"}
+{"call_id":"2735b4e6c840a93600e56ef5b4825888b4a52580919bf8507cdc8aa34d65c5f6","output":"VERDICT broken","prompt_fp":"f717b0a0daf4db541a4418d65b1427e6dc7a38ad7ea3df2f05d5d0f0e15fe944"}
+{"call_id":"b1a27099ee53eb070050046d52d146d1b7638f54868bd475c3f56d8162b530e6","output":"LEVEL very low","prompt_fp":"2d5265b6dd8997bf25e7031eaa299a9a603ebad09b208f546177abf1dd79a212"}
+{"call_id":"5b862c2e859b59a3cb2210123ed967591a2dd26dfe95e03b73698164caa376c1","output":"LEVEL moderate","prompt_fp":"ade08e93ea822b5a80d40d08c04f63572c8ff176785eb5427f8b9eaa17133f99"}
+{"call_id":"73e4cd0d09eb449f2dd7cc44f4f1f246b15adc4c9abbb4921fed0a08e3883a20","output":"VERDICT kept","prompt_fp":"597b78a422b7b1b71c0c6b60e46ed015508a8927530570bdc7abcc108223ae0c"}
+{"call_id":"52b310f8dd46397e61f1579fb9b65b5a6de71515730889e8ab043189bbde033c","output":"LEVEL no data","prompt_fp":"68d2a6eee5ad52eca855fdd8fada22ee62753813bf8d10efe7cc216e103bedc4"}
+{"call_id":"ebbda473f43475630d51a3fbb4215ab64fd4adfeef72c731e63361f9bb0c8630","output":"VERDICT broken","prompt_fp":"29182993a20aa465db3221689ab839a940a48c2f9c880fc384be721cbaea6a34"}
+{"call_id":"b3c847b20db9969ec041cb5e4b6e4295f54041502b30a4dd38c8aeae08749e6f","output":"VERDICT kept","prompt_fp":"5ebe39723bddcab708e5a89c613d83e14355d7ff8d67074dca4f4bfd0a3a95cd"}
+{"call_id":"0ef690b900fa9fb9ca2d36bc4b04eba53a1facb29519565a13ad4c876a8602ce","output":"VERDICT kept","prompt_fp":"a1f9a2b6a4906b49c78fb3b56f439ffa3c23332ad183271aad5f7f9c879e571e"}
+{"call_id":"0ed3c7f4fa06183a102683015b7112c74f4edeaa3075b202ea585b4031e5efb0","output":"VERDICT kept","prompt_fp":"f3858b737aff880622ab56504e148e331ec3317cc9196813e9c12fc496d3ba7c"}
+{"call_id":"fd875aff368954582ea98401e22b6e61ca66c45061cee8eb71975d127e213ab3","output":"VERDICT kept","prompt_fp":"4dfe614d90b357010a541b11bc612eb58596a4d34d04a8f637ee7caf741dfaba"}
+{"call_id":"1614a0e5d064f623aa3e5c1ed6ca940eea156ed64fd15f5ab1f72106a0267283","output":"VERDICT kept","prompt_fp":"4ad41023fc5734bf3140d2f09c20b268c5e89df9bb8baf764d8d5145a4a1975e"}
+{"call_id":"9f88aec06122c423adad796b1211714ac6ef43b13225ed5aaa06fdfe6ecdd42d","output":"VERDICT kept","prompt_fp":"72439d2b0efbeb68034da641dca3d52cd43006cf5c42a6bc2c1c4e4ee9c2dc8d"}
+{"call_id":"fadb0804906b9200fc7ae5b476e2aa044c6799360d08d38299a090f30069c90c","output":"LEVEL moderate","prompt_fp":"2cf1af9612ba6e5fbaf4432cd9908cbd3fc87ef4507eaea414d7390d1bd7f79b"}
+{"call_id":"6206c2e8870fb4e9b604c3feb5f9096170496b2f4624daac81d13c8dd0b551cc","output":"VERDICT broken","prompt_fp":"e266bd88dd22f698ed24e7689a31640b2827b4c993eef8d77caae783ff277a2c"}
+{"call_id":"d3ee579c6d2b491f5bc147e566acfc9d25628eeb2907ad086b10bb902d5838ac","output":"LEVEL moderate","prompt_fp":"cbe5b4cddd28f0dbb1e4f6b381034c7b84460b2095677b1e694dd841250c65c5"}
+{"call_id":"79dcc14a573e756d3db568f60532fecd185d1c3f363965ab2f31b85bcabfbed4","output":"VERDICT broken","prompt_fp":"18d00bc1f715e07b3a8bc60a15789837a0d9fb94889e21a4943c74e48938596b"}
+{"call_id":"b6dab18a2285c0a4adb751e6e8bac9a1e40110398e6e40015fbf91598ec57c48","output":"VERDICT kept","prompt_fp":"ecef05b2c330ef04226b978b0c27b11b5a817699fd632ff1c0537cf334bc8227"}
+{"call_id":"3e683ff796858dda4c51c07ee49ac044b9056bfb01b1e161d647ddfe712717ed","output":"VERDICT broken","prompt_fp":"523bbf39cf1d2e1e5d9a794b3acbae93a7cd4d61646bc07447b33d81fda7d5ea"}
+{"call_id":"93bd24bcc929ce67c5d4821c8b41f4fd939d906bc048f98348575831801db01a","output":"VERDICT broken","prompt_fp":"61c91bd3dd8c6b2b36ad77da7527b28cb6e13e67e276fef3855e8306f5886e31"}
+{"call_id":"02d0a7cc01191bc5a5a0f5262104720b440b115ac1a2ec608e58343a9c5478b0","output":"VERDICT broken","prompt_fp":"1076dd5df674d04d244bd29e5a0bec1806ca939894b923fc8b98a09aecefa264"}
+{"call_id":"5aa966add053e17a6aa1707b085b9cdfeb9d18771cca2ee18aa2e45154544147","output":"VERDICT kept","prompt_fp":"4195c947e9d4cdb5aacc2fdc43a0fbc3c3e8243ad66c011d827b18991d8f1cf8"}
+{"call_id":"f84f2c5cad0e58c2188c2532b299a8539300c29683f278face707b4d03227570","output":"LEVEL moderate","prompt_fp":"394cba74104208cf55b14f4264185506688d5e918b6a8c39b4a0a222838a511d"}
+{"call_id":"4a80bc3b0ddd13b123e0189e5ed7c6d2be3f5ba94cccd00ff72a1c4f383cebad","output":"VERDICT kept","prompt_fp":"aed246c11f9103776e20e3d09fc8cf8923bff808c059d45b872ff376ec7b67c1"}
+{"call_id":"1ddbc71ae8160660e08ee638cc52ff13adbb9eea16584e26ce437a46277b642e","output":"VERDICT broken","prompt_fp":"c2320d07ee85b502658d3e6208a4685ec311951a6a251a305fa980e9048c79f0"}
+{"call_id":"e1ea039a2833841fa4e3780ec27eb597b0303e78742e604a5c09a5dde77cc05a","output":"VERDICT kept","prompt_fp":"579bb4ba88b793f4deacf7b5575f01fb07590dac3964182fa226ec37915e1997"}
+{"call_id":"04d68017fd595f570badd085525004a9c45973b951d1ead55f9961f854a90431","output":"LEVEL very low","prompt_fp":"66b0858ce20da999efff8c7408e19b47973ae26b3fe626fc45d7a0f5f0804ec9"}
+{"call_id":"1e309eaf9bdc93a6f16993ddcfbe7d18e5eb61e8867db8f31c635982b8666f92","output":"LEVEL very low","prompt_fp":"fd28aa948ce8f10b981b64c00e4e453a75dee1abc3ca54d11f1a46232af82267"}
+{"call_id":"f8c63e7a04ed6cc4f53362f9d810cf4c256781e90822e86628096da32a6f33b9","output":"VERDICT broken","prompt_fp":"806e6dafc9244a40544d9130937085ffe320bc31b472813cee0abc488ffd2a1f"}
+{"call_id":"1a570398c9297c0f74b0247fd6a2b7bb8f2c75dafc96e365e75125950f355c72","output":"VERDICT kept","prompt_fp":"27d8dabfeb7283fc6c0f9979cf3875c918c187a20c0929cf972a18d720efbbeb"}
+{"call_id":"ff90d7174d6fe0a5e613736dec18380a3ed2d56a483a11cc67a433331ed901d1","output":"VERDICT kept","prompt_fp":"331ec3e8ccd04d706d036addd6d40d5ec9cf637e83ff8e4ba96ecdd8bc0d064d"}
+{"call_id":"fb8682118ced2fb3c8c09b578ce7c78d7f2a444779cdf5f4c8f6362de7b6d074","output":"VERDICT broken","prompt_fp":"33a03c722802a6729fc2be1eb2aa0361e7ff2fcb0a473140c1fe6bc808c97e7c"}
+{"call_id":"25fe4c450e150af60e391ae6b36fd65f72e510c5ba5679c6fec87526b60b8f5c","output":"VERDICT kept","prompt_fp":"01e02f629a6cb164daadaa44f801f7476204f0e17d521be935ab226f739213d0"}
+{"call_id":"1f04d1b8cae39bc6ff79352a611fa0b85f9c8f7e65b5d1fd54d4dd8da3940ae2","output":"LEVEL no data","prompt_fp":"926e847a5333f40148ed3d3c01dc0d714206a050f4ca54edbbbc77dad20a83fd"}
+{"call_id":"e7bfc12ff6466382eca68451bdaa447f788a512a47573ecfd8cbb72df81d3440","output":"LEVEL moderate","prompt_fp":"d3be9e83559fd82000cc44d8a92249b7765f6e55daae36ca74bc8fbeb11650f9"}
+{"call_id":"7a46435bc4f993efe2feadb4698ba5011fefacaf30fbea1962ca11b656540466","output":"LEVEL very low","prompt_fp":"34fb4c9d31e567b00f497412c43e23d966ed3cdf0f17fbb8e6101d746535cce6"}
+{"call_id":"b5fef33d2b9a6166bc958c150e15500500f7fa8eb0b23ab75fcb36b27803321a","output":"VERDICT broken","prompt_fp":"0a8334066dd7a2163a4f68ad121ce4fce9bb4aebe7aafd0d61e7233130bc3344"}
+{"call_id":"224a5791430b5b4751fe43db0de91212c7c86bf6383381b36ee0d2b268451ffb","output":"VERDICT kept","prompt_fp":"924844276415e43ae02b6d46a7633635d68803f3ab553ffc3f9c4a7f8e802e39"}
+{"call_id":"10c76e0e6c24fc2779aed38e020b856004201592035fdb931e463eaf4df08f7a","output":"VERDICT broken","prompt_fp":"be66f3976df0012de8b70e3b774c5c0a46b2a7e7d9a8a172abb85332d767bae5"}
+{"call_id":"b697debdacf81cac54d7c63aa69f24c2352b68d3916bdbb792ecba8f08258332","output":"LEVEL low","prompt_fp":"3af31f0c5adc4214f41187e51cf8a8ddcf70e07d8512738fa8f9b78e2a48e8ba"}
+{"call_id":"a3634ab248c44dbfd53ca087e12979e9a5b90d67e3cf7969eb965270594422e7","output":"VERDICT kept","prompt_fp":"93c74e64a63892b850862f20e24ac41417a3376b4734ca5bb15402e824af3d53"}
+{"call_id":"1d56f4df739eaa06574897800ed2a45dd4ed93b6cb2b475f29701b3583a3a093","output":"VERDICT kept","prompt_fp":"89b4d74da30d19ef6088bafb01d4b734ab1590f99c7b0329c4496d8a6aca0b59"}
+{"call_id":"3d23ab861dc2a7443217ea80c9f42a411b9ce022cbe9e2abf4226b59b768a58e","output":"LEVEL moderate","prompt_fp":"491a1a353304799eda454e11d729295ed66f7eeb86fe95a3120389835eaaf95f"}
+{"call_id":"2881693885394667af0135fd18650e745e63b527f456ffecb17f36fba1461772","output":"VERDICT broken","prompt_fp":"ccede86e2b3301a2d40b547e2b81fa8ba3a5eba72b941bc76593def4ee2af62b"}
+{"call_id":"4e8cc4dfcfd919f836a51341ffc77f05a32d63feac9c2bb82185a1c228df2d20","output":"LEVEL no data","prompt_fp":"2a33871d9d710d6d585cf8d7bc01efdfaa58fcfefdd80b533942361fb7fc4e4b"}
+{"call_id":"cf7f8ff9fe82178ea54f347df5cc8dfc0fb664cfc24aa42309c7ed493c49cd28","output":"VERDICT broken","prompt_fp":"0a272f9c28115f789d6c4a5a545b8c9950466a814b5ac4fb415764c059cddd70"}
+{"call_id":"b744073f9bb3a3bf2025d8d5e6555d15821ee8aee61ade0af7121ac13f1a5d2e","output":"VERDICT kept","prompt_fp":"8dd3acfc992b948e2dcc3fe0ee6121a50960da3398f4d9ce26322798997a8afc"}
+{"call_id":"43dbaab2112f3daa3d226c6c3bcd6bb60b999f2ff69ae98f08fd355112a1e851","output":"LEVEL low","prompt_fp":"3a4518b76da541d846396655b73f5362fbeffa7c7bb39bc95717eb9e7c8dd324"}
+{"call_id":"48d384b2da0627f66fae26d33aa258c67cedd987e7e63cee68a8ec7189b2f976","output":"VERDICT broken","prompt_fp":"3197ad362010b6bfe729a8f957763d0d8ff776308eb4af535a7280b4f29a645a"}
+{"call_id":"bfd6b718713aade8c2631de0bcdc4bc135ef22128e3972b8aac30501732accd0","output":"VERDICT kept","prompt_fp":"bc6fe63d4e321b4b1e71d4d35de6af5af7596f0be0ef97d0910f63b5d1e4d6f8"}
+{"call_id":"b10bc9df8dbbfe750537075b7d34840f1d94577219fc9e03fa9040b9f6883cd5","output":"LEVEL no data","prompt_fp":"2e13bfada955f4aaf0419e3a0ea324152fd175ff30a8b59fe3c5e94466489bf4"}
+{"call_id":"1823606cb03f3e0b54f307e52049c2720aef51dca1fa27ddc997d5005effcc0c","output":"LEVEL low","prompt_fp":"96ec5dc6d7623d82b73f1bbf1b4903f173ccca470492cdb1f3d5ad92f86b5af7"}
+{"call_id":"334669f70ffddb9e011860c32cf4b77055a886965b535ebb81bb83438d13aeed","output":"VERDICT kept","prompt_fp":"7468f2857f04fcbf18565833185a2666f31fd3031b45d16498d3a4fec57ce41c"}
+{"call_id":"6f83708689063d5d582332ccbcfe33f83fd1b9e5d2b36edc905304ac2d551198","output":"VERDICT kept","prompt_fp":"d80e1ef0b3699c279e47990cfae6ff9a96fe2292a0d139ceb845ada233604a07"}
+{"call_id":"116344466932372a1f7c0e9ad7f2fd52072c22df90b1ce797f3e56ee16b42c9c","output":"LEVEL very low","prompt_fp":"ee0c9ef91fc3a169c0601024c433dbd281e46875b0313bc26fbf682302a4cdf2"}
+{"call_id":"6a6ce976ef54558b14878b52b53986bc33d8025d580ea2a68b496fd43c1b6e08","output":"VERDICT kept","prompt_fp":"693c48dbbaf79a3a9aacceacfdf2a6650fe0d220f77c34863e43da616350cb06"}
+{"call_id":"ae4976bc08c26469470fd728fe4c681e53f03cd656a7ab7dfbf9dcbb89ffde63","output":"VERDICT kept","prompt_fp":"9f9b67b62af6151b9262494ef5efb963f9a5247db24b6f93de33d0653bdb1189"}
+{"call_id":"183e1b615778fe9ec3b90bca6c6d06cc00843e51c24d96e055fc8f455bfb103f","output":"VERDICT kept","prompt_fp":"57075dc3c5091ec05f555554d7b64012fec0e6e0eb10cb05e4846630eb59b50c"}
+{"call_id":"6b424f0e278d439e69670f8e31d131059388d9c893fa5f2aefaebd8618ccfde7","output":"LEVEL no data","prompt_fp":"12c1d49720ba5edf7f3c0251d46a5a4d4ed01d20e2b06ec2fa2ca76355518f6e"}
+{"call_id":"de4223329ba23933963ca42463394327aa9f086460109402be9e25d0ce323995","output":"VERDICT kept","prompt_fp":"e4216443eb9ff30a7a7f415828b45180e06d9e6fac37aa29d24b43306885305e"}
+{"call_id":"cd50e68be3d19d6f4c586657d280a36e07698a34b5b47552c51a41a1b5f7bbf9","output":"VERDICT kept","prompt_fp":"3428090e0a5119cf56f3fe6362940c020e6606f7ec43ceff19bff2dccae54abd"}
+{"call_id":"6a47ac252e632c9d35b318a6523c431db5be6896c52dc3c651a5fe84dbed7f99","output":"VERDICT kept","prompt_fp":"740c6b7399b8e4d45d687c14370329ad650a461e6b62af386f8c71b31fe7555f"}
+{"call_id":"59a18af39e30fd41f6c90f46dda7f01dbbb9be241349230756cb8cc09fabf113","output":"LEVEL no data","prompt_fp":"9fe19ba1e86474061fbb93bcaa74980e7279ba9c96e6b66bb777a588f85097f2"}
+{"call_id":"da4e63b00e7f253d18068f64d44f6d251963cc03957dd076f46d363d0ec1158c","output":"VERDICT kept","prompt_fp":"3e5a5c4781afabb344c018f5eff3ceb1ff033bc32e71c28bac7a03a6e306161b"}
+{"call_id":"b0a94689c5e77b25549b5d6854989fd899153c8a83cbcd835d7ca23c90e4491a","output":"VERDICT broken","prompt_fp":"0f94f579211562d47bbe6e394ffc86524b8f2c99613735bb18fcb2f5719b25b4"}
+{"call_id":"6709054a55e4913b98df03054541f3b321aedaca54cd4d5e0c1073e74f23f960","output":"VERDICT kept","prompt_fp":"3397d0ddeed2bd57e365a05c2b84df764bbbb448afa73adf4c229c5859b957a8"}
+{"call_id":"074f81cb0bf3f95124a42ab3fc7d6ea8371b0dd84ba87ee4a083935d0a3a6743","output":"VERDICT broken","prompt_fp":"e526a7d0a21dd4555f2f3cf1cbbbd7e50afef6f1265792156a95b9a9a1d24ce9"}
+{"call_id":"ef6728830a447b4f96b55e9f00e3ea86e06bb3b223ca2eb2f979a35f55f2cfbc","output":"VERDICT kept","prompt_fp":"f94f997a4f5ebbd16400046b5ee6457a432fbd9141701f0916139a56a06dea9f"}
+{"call_id":"384f7dbef30b97f5e13f3e34198da41a7d70d7d738f5fba0466c843b110b2cfd","output":"VERDICT broken","prompt_fp":"deff6e3173a22accefc0ada74d91635f63be7a1956fd014a93d06be85006a475"}
+{"call_id":"45797f1d81e592e89ea4c95cc58de037d8f9fe8366b945031fdf0721ed29f669","output":"LEVEL moderate","prompt_fp":"ac3fba015e833e8d48b4ef1a61b598e01be39d7273d45cbeac02783fc4c8d40e"}
+{"call_id":"966f2dd0fdd9cd8389b0fab0b457d8fc02e965c61b70e68bd0c03c7309558c59","output":"VERDICT kept","prompt_fp":"f4f2c05db65be0facfbecccd0836a02fb4a2e1eb8462a0ec8deb7a227d6f8e75"}
+{"call_id":"2430ec24d4fa87f52577134fa08d72cc5b2472822b69071c4f9ddd38e94f1485","output":"LEVEL low","prompt_fp":"192b0e304638e82880d277d6367c37e6467562c224d0e041465479323dc56635"}
+{"call_id":"ec40f5e7781df09f4c2ae0cd91d96378e5b75b69a7eaae5dee439770ac26d34f","output":"VERDICT broken","prompt_fp":"bca39373194c347bf88d7a8a2f957031a16bcdc13f5fe282265f4225df8cdaca"}
+{"call_id":"1a257af2ab6bf6b54205ae20afacb6c4c8d45f56a9c99021862bfcb18050a904","output":"LEVEL very low","prompt_fp":"8150dbfdc56bbe654f9a600abb7276d1a0aa8b95fd7efb347ff61f96d100ce51"}
+{"call_id":"cad6c1384fca66fc358590d96eadb59907b3a5bcc498da6cc682a2a21291d42d","output":"LEVEL no data","prompt_fp":"08603f759f588a8bb45089fe009654bfb07554ba4aab6a8de51ce7d123d36b9e"}
+{"call_id":"d0e7aa8b894a9bce1f71388a85500568b683db036e2dd4eb89611bc983eefaaf","output":"VERDICT broken","prompt_fp":"8a8b03ae1d200a9c411304ce9311f48b17d554f470fc5f2b5f1e455ad2e64204"}
+{"call_id":"f58ebc96f4f8abc37d82b6aa3d8bb3d75ef0e7cf2e90ef4d10d2d9edf270a526","output":"VERDICT kept","prompt_fp":"e69afd2e49e7dbe875e20d0be44e711782e858c7c2f310fa375747847b5cdcc4"}
+{"call_id":"f86fd12281169d013e5e503b753e9db9d45be0e365fc46062612da4da1e0ceac","output":"VERDICT broken","prompt_fp":"416c85b719b5e754104614a58a3d34c67c2776e6e09e74c95114dd601881df0b"}
+{"call_id":"0d731b36f101ca7ba12afa1c017fe0aeb1fbeee6eb22d2e70fc26c528af8eef9","output":"VERDICT kept","prompt_fp":"fe6a70a23f16d4d0d63c3704840757aeed2598f0546d563fa5933461893e077f"}
+{"call_id":"00752377e3aa97c628ddd91a063fc0cebd8f9bd30e02e5a066bf2041ae52a1c0","output":"VERDICT kept","prompt_fp":"1bae20e83d839c9e2adfbfafbe1772c8fd13d44ad04728df3c7f7790338448c2"}
+{"call_id":"c11c75fc9edac6f767a9cb67924b1487139126af5b938890089a58d05166d8d2","output":"VERDICT kept","prompt_fp":"0de4c0c993bcb0d444593a1f21387d523206cc382ccc825fccb6f79f9ad999e5"}
+{"call_id":"b6b56e66513272ba6868e9a5a46062e15adb41524e536ff80032e48ef8a20987","output":"VERDICT kept","prompt_fp":"fb676f37fd5572b89e3d772be36a2e5b7ecb27fe841d6454d77e8ba826398229"}
+{"call_id":"e6e747f80a3da5b368f3e7edccb1702e61f9d659f3040861746329c77eb32f97","output":"LEVEL very low","prompt_fp":"58fc5c7f6b1f389e79b098fccf5c828d67cfd1363d4af27dacfd41681dcd029f"}
+{"call_id":"8479e2d897d7d487184a6b548c7b047de69a5b3e182ad2cd233bdf9cb6fbeaed","output":"VERDICT kept","prompt_fp":"d7880fe48a3095f63bec432d1c162cf5c45672b9b6404bc80cc628b0300def4e"}
+{"call_id":"ca0bb613e9c6559daa6ad0a90eb28c75f74729c96f7d606505d332311d5b2c19","output":"LEVEL very low","prompt_fp":"5afc909eaa46feb87f92001ff1a9c92cf08d8b490373ae5931053977e7d99ea6"}
+{"call_id":"f353c02e3ec74e45c9e98c6a45509a3ed2a4110435f13625737f00343b7a7093","output":"VERDICT kept","prompt_fp":"ad032909136e227a6c0f26dcb6795a9c36e3a295f2f0e746e5c723fc77a9e11e"}
+{"call_id":"553b7b9d14cb2db22a994769058366e9bf184fb2c2d987be237abf557afb4f6d","output":"LEVEL very low","prompt_fp":"ec609a26ba92c982dc1bd0c3d3c1bce90b273a7486831e3c5bd3fde02851e0f9"}
+{"call_id":"7660d62306091624bf4be64c3c7b0da07b5b3ccdaa07066f1e4b6d553b579c1d","output":"LEVEL low","prompt_fp":"55d33467f815d9d232146577377486440fa4e120ec9b5198cc7b9fc9da99d586"}
+{"call_id":"2be66a590b7553ffbd5290b2b886ba69c7b47af8124c5cfcc3f98b2b6870a535","output":"VERDICT kept","prompt_fp":"63677286eebc90a8887abbf565b77dc7f9a2cdde24c02a2df4f2e87acb132535"}
+{"call_id":"aa4ef5682e48391f5450bf8065e8f965555f6fc80fe8d04759e647ca1f011d4a","output":"LEVEL moderate","prompt_fp":"d3a27e7d7527a019db0562d88036da84d60e31ca31959f4d5d838f6790572704"}
+{"call_id":"106ed2c2dbaf0ebf54b0ee87d1ee14c4d1d8c5531b7c3eb1e255e91c1cec7b0e","output":"LEVEL very low","prompt_fp":"b57652cd99c9e20a1be45255457e689d298878a6e22e725ab1ff8ae26ec2ed52"}
+{"call_id":"bbc723153ca8b1a16bc8e79a5ee2b3a229d8542e524963b27c94895dcd2e793d","output":"LEVEL low","prompt_fp":"6242e82ac7802af1f07f520019e40f33936026ee9205487f03df65576bb6762e"}
+{"call_id":"1f1dd114aca891d673529348d1708d9089a697c2846b5584dd4b84a4bd6445f1","output":"VERDICT kept","prompt_fp":"b90849bb8b11324f0909953cc94c456b81a1b846c9583cfad3d7902bd91abbc0"}
+{"call_id":"bfe0b875a5b93914c73ef60f4142e4c9631463f5df34f955ba95afd2d550c50a","output":"VERDICT kept","prompt_fp":"76816e6c694017b633c9bace568591415c086d4dd3e3d9a3f816e7ae467dde2a"}
+{"call_id":"0e2a322eb51c40f94cb727b50daab3d078ceb18e6ea590e0fa7ca97c6493f15d","output":"VERDICT kept","prompt_fp":"c81abc79291bba391e12b0be2a3d65c546e1c964205f851a13b21cb79cfb4337"}
+{"call_id":"8119559cbd72309199c0046c25efedb0e11f7361ff6ed2747b56b5c679c67bc1","output":"VERDICT kept","prompt_fp":"ae43801cdd57994755c111f9fad76571c314541ded6bbdbb62aaee38f2830f7b"}
+{"call_id":"957e255354404668334706b5bfdd60deb91b7e366181366ebe7686f3d9b11cf8","output":"VERDICT kept","prompt_fp":"1cff9fe116d7e392a85b54d62799b141b22aa290b721b40556cf3d887bd015f5"}
+{"call_id":"9030b07f1dee1226ef4f9feaa85a578ec888665c86e931bc3f9dbd5c0bf823bc","output":"VERDICT kept","prompt_fp":"e0d21f10820d6fe10da55ab07d671bdaac0e8b7f3b0b70d5a71ead324f8227c8"}
+{"call_id":"c71624c3510377b6b0e52eae1976e6b0492448229b5f83dfc4bfa4682f74974f","output":"VERDICT kept","prompt_fp":"309cb7cb923ab107cbfb8f037af6b9c3adbf9b0a1e28ed5877fc39a23f5a2429"}
+{"call_id":"2f0b86d7d8d4a75eb0dd9cc8479164aba5117ca2788d72964afa2512112b650b","output":"VERDICT kept","prompt_fp":"39cc05e24144e81082132a29bbd0647022684ce6c9155af5bae10e479d73e2c5"}
+{"call_id":"f9190b1a0b6508577d20210db6f095da8e04a051942ddd837ceb90a06269420f","output":"VERDICT kept","prompt_fp":"b924dbfe535fa4710d026f2a262e8790dc3b0d058281d24e711769401532866f"}
+{"call_id":"9c5e4beacbe6daa52e9797a6650c1f2482b9db9339f0d079bca4920331c347d7","output":"VERDICT kept","prompt_fp":"f5776b0c9f3c64f956fbf484b8c76bfb5646a1eec4ac997123f1cedae69dae7a"}
+{"call_id":"71a99b615f993d56920c8f916ce1b32a365dcf662bafc2b22a34c7125fe0a925","output":"LEVEL very low","prompt_fp":"a15c19faeed0909b08c5810b2eb5e062a498df9759380a90855e54fa167e462b"}
+{"call_id":"2844ba41d4215cd5e51d1bcd7f77796e639484dfd69bbd1aff6f9471bc60fcf3","output":"VERDICT broken","prompt_fp":"ce3b1760e1d072d4221ddf0efaadfe059d00cd5ddcecb6e78bc9e1d49af8f64d"}
+{"call_id":"753a602ccf4ec73b2f851a22ea6382e21193214b36f67cf6b020e38053ee8be9","output":"VERDICT broken","prompt_fp":"c5b1b3263eac1b5437af30910f64628b3e2ddfe0c30681aeee8a5b0893fe8389"}
+{"call_id":"58aeba2564959af01c1703feb985f98a17a591b453b5feef2be1698110db9a69","output":"LEVEL moderate","prompt_fp":"05f2914bbb1bb9179e9c989d5ef12ba35ae79f4c58353e06388f1b27490f5316"}
+{"call_id":"039f027d9bc06af1d54ad954dfbdbca3b5967aef9a045053468742d4348f3735","output":"VERDICT kept","prompt_fp":"c3e1e9a1df9ccae2f6176c53f177bac7086b986f6626c365ebae9023012e1eaf"}
+{"call_id":"8792efaae384eced4e534965ff275241e2471b1721289b213fbaa2c34209d1bb","output":"LEVEL low","prompt_fp":"fae8efe394a9464e7cb16ba13a6ca741feda269808e265ce29da822c176ca586"}
+{"call_id":"44c0fa083715af62ae7fe546c42a6f8a3a9850b3b26ad1f5c896545c9a68adc5","output":"VERDICT kept","prompt_fp":"73b5fc105ab4b7e645282524f705c55a3bf2e75250ce68b417b247d79b0d5ef2"}
+{"call_id":"8900815a42f1e4b300a945f0ffc027de17aeb323ce8855c627b36125a4e0dfb8","output":"LEVEL no data","prompt_fp":"63443c79a3601e7ad314fe9b88750666bf8c5689b5706b5e66721aeff1fee5d1"}
+{"call_id":"96e846563db91c72a5133a75a6b58763697714a2911dabe7fe196625f7503df7","output":"VERDICT broken","prompt_fp":"95e42dca71b0f02d7d8ce07226fe8d342978cfc2984a7e66bff07048278c7c6e"}
+{"call_id":"dd2edac387122213ff5c11493be4ca03a7260e28aa221dfa147a59a8f40501f5","output":"LEVEL no data","prompt_fp":"2e5a9e6a4cc9d743fe8fa64333eee194a3f3562bca7089e237901b4074b16f37"}
+{"call_id":"8d221fb3d442324abd8a5877239559b1a2747f6b2e1fa5f1a97330e555e63ef0","output":"VERDICT broken","prompt_fp":"076b43b2572f6fb86cbc6e64525fcf805092cd4d7cf7f3f74da1c676d3e5f9f2"}
+{"call_id":"4db2c983c21cc41c5efa5ca5886c5eddfce05354c862a085838b5d0308192611","output":"LEVEL low","prompt_fp":"6a135f827ba0cfd6977c9679a288d7fbe859150573fb20de2f7bdcf2be887480"}
+{"call_id":"960171dd4f25b4b08bf6c3d009af062346d842d9f083147f2d0251c3a434f1d4","output":"VERDICT broken","prompt_fp":"c631d77149835f124cfdb45fab05a303865ad2b56fbf73827057f5d6020e1e8c"}
+{"call_id":"009261ef3b70aed2e32f4de726d06cd3480c7800394a27e61433303b8b13c543","output":"LEVEL no data","prompt_fp":"36507a73c47a52f34bd3f432f4d0479b05576e68193f51ba5852156ecb742f38"}
+{"call_id":"068ab327d363687c6d6b30f17a8c85392ae358b4b443cacc43a65faa01a83df1","output":"VERDICT kept","prompt_fp":"91a91db616371545cc55b57f081550dc320903de84b7c5101ffd6649c31ac525"}
+{"call_id":"29f1effc0c3a9b34fe7307f932275d8df5cad2fdbbb4d78907d544cf275e5983","output":"LEVEL moderate","prompt_fp":"98ff18ab84a860350682d45f8cc1b4d960775af100e7c1949196d42e27acf50b"}
+{"call_id":"6e320cf348d6faef14f34733af03de5c38f27cae4f874988dc8b00a2eab7654e","output":"LEVEL moderate","prompt_fp":"9aecd534fd98c637e3b76b0c259724d5bb06685e750a62d3710fb60ee82ab316"}
+{"call_id":"9a9fc5687402ecfce3a8599602cf04b0200573240c499952035b89d8c5544446","output":"VERDICT kept","prompt_fp":"a2eca389e5295b69769dd8090590201a3b9f95e9fe2d740e819b53850e8d4c13"}
+{"call_id":"3d42099dd4ba5495faafa27f958cd74d5a0864bc49095342029b40f33dff2b93","output":"LEVEL no data","prompt_fp":"f1129e8aac368c489928658c322c6d005966dfd1d89c3e500c0d93801e9429e1"}
+{"call_id":"6cae9015cd910ef70dfb3a761aa00e2cc6218cd9f3e060f63271d498a811167c","output":"VERDICT kept","prompt_fp":"bb36806cfc59b15cd0dcc057971ed43eabf0e0212ed12d4e2650091416119b8e"}
+{"call_id":"0e34122ec9511a8cbf4c488b7853ec8808e927eb9e0f1873eaf924b102dc2569","output":"VERDICT broken","prompt_fp":"59ddaaa3f4af1ed5ff99d850ecf2c88f84e8a4966f4b9b534d86b0b7c4efe69a"}
+{"call_id":"f80b7d1efcac13e1cd2fae26125d589e8b833c91ca9e6787fdf4b85a6351eef8","output":"VERDICT broken","prompt_fp":"697fc98d2d99641a5aa68367090c9d0e11ec12301c8cdc1a66a23e3dc6823304"}
+{"call_id":"05597fac5f0ec5337afb06d2f870de6a2bdc293f591bc7937b9ad0d98daba071","output":"VERDICT kept","prompt_fp":"7e7ffbb5503090f7dba41c16b06bdde16da23a5ea123ba68349326017cbf54b4"}
+{"call_id":"f3d18788913279d6798add031fbf81aaaa6159bbe4e8d6be3bc16943390d89b1","output":"VERDICT kept","prompt_fp":"f612e3ee541b948951902539d0554fe40e72d2a784e699735b236580b7dd54ce"}
+{"call_id":"3fecc7aa29d25407a1c102c7a4f7b7cc226ae9a7e450302417c1248ae2c32a57","output":"LEVEL no data","prompt_fp":"2cdadc844b9b1b9c450373c302d6b71e7abdf4eaf7cfc4782f745935c0fc23e4"}
+{"call_id":"eb8acbb6aad8e5dae58095221fbd7714c7c15286d6aeaa6c406c56e0287c25f2","output":"VERDICT kept","prompt_fp":"aa8a176ba87e56dc5bed5da4f0076382690a4d8e425e7c8748bb26c9eb96bded"}
+{"call_id":"cb8b6233c34a4fc05e182bad47f11ab39aa7f77072506f594cb1d277e3e79696","output":"VERDICT broken","prompt_fp":"97ed274d08d9dde1c90b88c4defc736d68253b9fe8fa16ac62a78e3a37eed04f"}
+{"call_id":"6cbe004e0665278d370baf08a9a354c2e6fd3192517c13e85601ed1cd8c3d9cd","output":"VERDICT kept","prompt_fp":"d271cf310ccd4446ba1e0fcccb94c223c198cedca63d932011527ecdda7f0db6"}
+{"call_id":"7af63b1f2f87c4f2ee4db9b023bce1e02ce3773cc1bfd69d8c49008e5565e76d","output":"VERDICT broken","prompt_fp":"4930db8cd391d2dbadb7c18d6b854ffe7326717e6a46df19c4c2fd6dd01628c9"}
+{"call_id":"78dc1ce15c5c110a95f62258e63530dcf59261291d1828d89c665eafaccf1ac1","output":"VERDICT kept","prompt_fp":"e2552111edd1feb11ee591aba6b50f7ec4e33d8b8a95a25a1595955ffd53dbcd"}
+{"call_id":"6e3cb62ae89961af1f0d9bca9b849c13473b67cc3e9617ea6b3675b093cdca84","output":"VERDICT broken","prompt_fp":"8705e06ba6b817ffe5cdf9359963cec61d805d246b6f398cd77733e659ea42d6"}
+{"call_id":"6ee81f1f1a31ec51cdb6a1e02b891b12608b7e69d285d7c60c528c52ede38556","output":"LEVEL no data","prompt_fp":"70cfb974f11a0311609b50af8a627564d5dcdac6ae618143aa923a6e3e8fb57c"}
+{"call_id":"8f9be1b202c7620f169f17beaa484675605e160aed8fcb002e0af656ae426d2b","output":"VERDICT broken","prompt_fp":"a2dd06ad3dbe8f8438522f12d8694207f53587f866221f256ad2a39a4edbeacb"}
+{"call_id":"34110842290cdc2ed6d91074268509f2a7b033cb5b5aa088333950e6f51baa4a","output":"VERDICT kept","prompt_fp":"c61b368b44b4a4c30f94d59d5edbdcc632fa586f6216ff634cbf65115c3c8a48"}
+{"call_id":"314e6c950f8fd3d276c3cfdb3021f891355e424fabe3a2dacea793a60537702c","output":"LEVEL no data","prompt_fp":"2b5f7a7f607fa5ac4631b714081b8d09ea72fce7d59cc2aaea7c057fec0c0d9e"}
+{"call_id":"378aeff36ec5d99bc7430329f7825b891510b6ad56f5b90a0efa2afa0bd90eff","output":"VERDICT kept","prompt_fp":"a73817715cae20d7f204cc0d141966802d68292a7573665191f680cb7994d55a"}
+{"call_id":"9d9af090c00cfddc45bc19c1d27d35f58aabfcd10352c975902473173a97c0ca","output":"LEVEL moderate","prompt_fp":"167fe3993aa19a38d7826f7e2d7faf0bd3c557e48784b5b09ae05673ba515a60"}
+{"call_id":"455743b6776d78d14916a3b98a309491e744ce01c519d891e21bd5eea06ec8a5","output":"VERDICT kept","prompt_fp":"62a60cbbf45c1bd334a3cb2e811e89a7b618b6fa03f85538d0b13cee1a954211"}
+{"call_id":"796d3593a0144ea000300a2180390e0bbc9e0d2622775fec7fbd883ee10fef28","output":"VERDICT kept","prompt_fp":"61ab176c586765ad6fc9aa90d31ead2c72ad008c6cc5a0cfebe92d9e21093b10"}
+{"call_id":"e550a2125cd8567975cfaf22608bc48ce6637dc6e5dba8fc91f5ec21af143c56","output":"VERDICT kept","prompt_fp":"6b2cf62994c671e07071afd32d98ce488eda6810bead85a30c5eef93b18616f0"}
+{"call_id":"f3cb0c339783a2590777d1b14f06079a2c6d69c0f54915a2751d201b0da7207d","output":"VERDICT broken","prompt_fp":"93e434138a1bcfda9c06d40a9a715c9bc73f286498a97b2ce3ca99504cf96277"}
+{"call_id":"b50333c9e3dc31cf015dae6f3e314d2f192694761d7695178e67e51661b10992","output":"VERDICT kept","prompt_fp":"a0155f332511dcd652857c076d599eb05594f3b93c7cadb9c1a1e2003937abb8"}
+{"call_id":"8772bc599e4c14ca23c1be9a36cb7433c0db252ef5b4ec0a3cb5ec620efafb8f","output":"LEVEL no data","prompt_fp":"91758de9d827115691d9383e7e45aac2845ee40f8e0e17bccfd8f660d161ec79"}
+{"call_id":"13ad7e6d25f7fc081a48678a1cc33cec778e3a9364a2cefdfb75f2d97d9103c1","output":"VERDICT kept","prompt_fp":"4c930abe1ab469f1b4a91b8ea0add597ea536b46abdf076e454a4b1b2225644d"}
+{"call_id":"5847934214c6b2951396c00c3444357827f979d1f38a41da423f5e9d3edb7b5b","output":"VERDICT kept","prompt_fp":"72db69493d5fd8fe8566e4d233f23f98a5f4147d48e3435e69536ae3846ae788"}
+{"call_id":"7520d6022529171006c5d5b44c372018b8ee36cf3d02882e4c7fea54be58aa7c","output":"VERDICT kept","prompt_fp":"36853c5229a1381fc21884c4e889e730be8e55f35d90e4f4f61ab765bc267056"}
+{"call_id":"3ac1c8432c7d081d0cc56786335a940b39905eb84cbb9cba71d4b9f64eeb34f1","output":"VERDICT broken","prompt_fp":"a742872789cda666fc592fbff18074c01a18e21549fef9fdd1d875a95cda914d"}
+{"call_id":"bff884a5c665ee82ade22124ecccf58cca51c8d3b384c2c0e3986b84363fb69f","output":"VERDICT kept","prompt_fp":"d1dded27a0bcfa223d9bf3913a88a580dfdcb212914380fc382ae23556b7c1dc"}
+{"call_id":"5792809046e12b4b050e27781a034b6d9b1d94990b4be4a25179bdb2c73bcc34","output":"VERDICT kept","prompt_fp":"1c251bda2371dc97abcb6556aa528460855a7749c7c923aaf2eb2dbe14a8acca"}
+{"call_id":"29e07f1e4452f9d97bf0ef38d1820b93c3fd98128aa5c53559791b67dee36aa5","output":"VERDICT broken","prompt_fp":"a116922b5c66b1d3315c5fbabaddea310deea653535f50df10fcb186eec3d6ef"}
+{"call_id":"afb8e71ba6db7d6307811d34a15c430bdd54f81ac3dbd4493d9b6d49ad3fa093","output":"VERDICT kept","prompt_fp":"1c1ad0c924749a3c1180c3bdc149a67ee5eec155a2f5a54d6aad864d638a41a4"}
+{"call_id":"bd156be0b079bb32a3b31f698c55d09f8eef805ac1a7ecc03f41dc8de56c3f5f","output":"VERDICT kept","prompt_fp":"6b85ce896a2defcedc63ae37553117f4aac8a464740db5d0fc5565f8ef26ea5a"}
+{"call_id":"3b2cc599b3e150b63ac92df25c262d998995a84cf46f548eea06908906708f6b","output":"VERDICT kept","prompt_fp":"36afa6ebfd6cdef75b50ff6b01435b8903e95aa06bfc98cf389f96e3f2c7a94a"}
+{"call_id":"a56aea889345aa1507a95fdf47bf1384138aa5e2775e6a1c31ebb98535cad493","output":"VERDICT kept","prompt_fp":"cde40e29ba3d7cef6e8306b47dd9642932eac7c531071f3ebe7715d58bad3da1"}
+{"call_id":"c2213761ba91191bd6b0dbb680ba470a3b29e55dbd71e0f59b61e30870005355","output":"VERDICT kept","prompt_fp":"c48272bb8398d4a3a46f5a3e74b70921c2481ea2b167b31fb7507161ad1e36b7"}
+{"call_id":"53b9015d3f272ab38dcb1a60dbb1974f5b04d692322c99794f3e78d83f16f79c","output":"VERDICT kept","prompt_fp":"7920c7d470ec73f88d8c1b3866e35435cfc2f6ea1da59ddb0831b179a3e0aaee"}
+{"call_id":"fd679c277db8cf4644181dea009995069e310f9a1c12ae4f4a4641544f2b9111","output":"LEVEL moderate","prompt_fp":"b890077b97364551f4a0a7eacc4b2577d5a852c2a78d359e9d56fcc854770296"}
+{"call_id":"530790fa6344ce75b7c115258be6aa7e367eb519953e65d17a4b6859bdcc4da9","output":"LEVEL no data","prompt_fp":"1a8c47d6857559e2755ddaadca71ebb768cc5957d31cac50106dde5320de900a"}
+{"call_id":"f53e3ac2bf430ab6c35bec9dfc5d9f458065f4144bbf358f0f9a12ee13d96b42","output":"VERDICT broken","prompt_fp":"4ea99e526b67c587942936d3dbaac92752c908bdb306c0dbde16c1ecd1a9042e"}
+{"call_id":"2de1a048027e2b15b7c5aedefc5ebc26e1f9169ac55f537602229e2854c9879a","output":"VERDICT kept","prompt_fp":"372f26e454197ccee21922d16ff1a1a33b4551b911a70c6c7a93045c856cdbc3"}
+{"call_id":"b345080255f1d138f5c291869e9d91cef633c2a8be67509325aea496f407da97","output":"VERDICT broken","prompt_fp":"d6feda3e8182bba440627b377a8cf80fce0397ede7800e31ba84a68459a6adb3"}
+{"call_id":"6f864357651ba18971b3b6848b6cbc8e1273b683b4b5eb6437d79dda46e26f4e","output":"VERDICT kept","prompt_fp":"667f5b8962941ef2e38a797855bce81ecf8498d2eb8661ca6959970d8ca99957"}
+{"call_id":"a1187b4a6a0990c8eb902e23371440cc2e39b872a413434b434b5e0ffe725f05","output":"VERDICT broken","prompt_fp":"b211e53a100f6ee9058b00151e89323b9309c44f6feaf9b2503d636479e6188d"}
+{"call_id":"7f615eeae52bdf7119783cee882593019feeaaaa06c5fd414eca0d25016b91fd","output":"VERDICT kept","prompt_fp":"90d4fb94ea510445d657865462d1b9077ede43e81b3f22d2769b336a096d3e04"}
+{"call_id":"a92908c987cc666ca5f4d1cbbd64000ae01de69a74aa4bc4b533eb50aa3f109f","output":"VERDICT kept","prompt_fp":"50958d173d3883bc5ce656c8b55d9a6b25a21d494582555d28377752f8620cfd"}
+{"call_id":"00c51cc4d3b2cc2ac17a14baad2a74c04763e69d74a5834b5c797e22f58b0905","output":"VERDICT broken","prompt_fp":"a494a5abfac7cd2ca7230d58c85f7069ca521af2852d93b3642429a5039f6c2a"}
+{"call_id":"5049d3e2da29041386954534d7d897f30412de8826f9984657a805be4af5c7db","output":"LEVEL no data","prompt_fp":"9100b498ac9ca17b4d191d2f7c91fb688eb87f16631125bae1a4bde21a234cb9"}
+{"call_id":"3559aafe2806a7bedc075c5ff3ed2cce570e6a5c41920481384b60650ee84b55","output":"VERDICT broken","prompt_fp":"839bd14e591a59e7a8ae40425c0685ba9f4dae05b39ab04dc742631c0743f7cb"}
+{"call_id":"ae6a9fdf95bdc2b8d4d604eb7952a1803eddd8d285ff6f7da07c116ec8b39477","output":"VERDICT kept","prompt_fp":"c725fb16364e721815cbcd83bda609ff41806d0b91009da170bd3252f76f0e33"}
+{"call_id":"0f8499ff29ccb879f48f0b0428e6031fba9eeacf28b9f2dc5a3e9f98ae2c6942","output":"LEVEL no data","prompt_fp":"b95759cb1fd36a534ec0dbdabd854bb5befa0b20e56882c0143734293af8fe70"}
+{"call_id":"f41fe2f67b2f1e2bb789d6795d17c8022181fce81a14cdf4f2182ed95d789dc2","output":"LEVEL moderate","prompt_fp":"3c6c5b626fa4aaa451758c0bebedb9598abf152593d0b32a9871c6a0cb39734e"}
+{"call_id":"967bf859bae726f08733a2104280d93e04e0de9f3b7b75bc4c2b2a70789e5a3d","output":"LEVEL moderate","prompt_fp":"437b061271c92fbfb50f013f0047aa97416eb9a09a0b45a79f0f5ffda5895c29"}
+{"call_id":"e7559193217d324c9430b695d2db48b070ffb9c240d140e1b0b03df4680493fe","output":"VERDICT kept","prompt_fp":"5b73a49fcdfd2998d4ba66fc6fe97c3b4d203398248972e04d9ed65d2b3e2e7a"}
+{"call_id":"643088ca9c67eb17554b90a3ed7b8ce4d2242c9c5705f3fc23ceea5028c65363","output":"VERDICT broken","prompt_fp":"8b018a73517b5943db8b0a048ffcbe6b4ce1eb9fb44533e020966b062153d651"}
+{"call_id":"127852bb503c00ae1bb876a107445287cc1cb95735a9b7c94e693c62376aa58e","output":"LEVEL very low","prompt_fp":"65a5efcba59a44d3129269d287f8e71a36993ed61efc81b6f149fbb84a0cd033"}
+{"call_id":"b1e33af08ddf1f967880f4927cd4d6b6267e2656bac2dfe2e39567b77a5b654c","output":"LEVEL low","prompt_fp":"29b33de59d680ba491f7895069ef027dbc8b4c48fd13203ca14cb5016f98a90e"}
+{"call_id":"284cd2073e6e75edb9a35e535c01f0f0d1b2d39cefaea0fad2907535a2f75381","output":"LEVEL low","prompt_fp":"b19d9298a8de395655a341598edcc91dd3d4183de4993b9e1250e71efbeb6590"}
+{"call_id":"bc1848ec0a5812d452d7771b2cf12c814f632c4429739d840fa6e92c7331b82c","output":"VERDICT broken","prompt_fp":"c92e13a5da3d4df04f166f9157834a3cf3c30eb4557df1a1395d2af0aaa7cd80"}
+{"call_id":"8646935a59b9d6503d51da1e099d2c11e9246c037dfd3081fb1195e4686624df","output":"LEVEL very low","prompt_fp":"5823b427d95a50c087d9eba9f810d98e88d7f1112b9a5f9a29e6efda37d3d5b4"}
+{"call_id":"8036954783dd5402bcb3abb3e0b2fa4eaab2209228ec6ea1dabac7a858625170","output":"LEVEL no data","prompt_fp":"2767f775cd4740ba60850d2a8c515b6c6dd709776550a09760bbbb8d32b869f4"}
+{"call_id":"71947ab5dbe9b05f90c235f47a68779e986618ea4cac514a992e6b4dff6730f9","output":"VERDICT kept","prompt_fp":"71330d4c44eef7a588cbf82dd07571e4e06b70e299732d3aae164ba669c604cb"}
+{"call_id":"2f85c70a879b6eb8b51ec3867025f1eb507600ceca08c151e32e78d07f12512e","output":"VERDICT kept","prompt_fp":"10e54028b73059ec88b270fbda8f62e90b5ed8734b4f260c8a693cfc36ec0aa6"}
+{"call_id":"0a19c2669e02e6a8271ef75883ca85f6b3d11e02148350af12c4088b992e8efb","output":"LEVEL no data","prompt_fp":"cf922a3b4856fcd92facca6640e71865efbc6148ef2c16ec9c00c83c9beff9dd"}
+{"call_id":"cbddb73a27a5e57bdad08e658df45ae1493223371ad84917a8fe94dd043131ef","output":"VERDICT kept","prompt_fp":"21df008f51e6072edbc7e9ed23a9f2fb15ed8533e721b2925cc30f6684d62c31"}
+{"call_id":"0b21e179c94638f7ce6b4a5871304f5ce883eb9b0864342ab8412ca7615b72b7","output":"LEVEL very low","prompt_fp":"56dc89e370e4f43dc75e47314d1ad00849f38a628a4484a4b5a27b27659c8aa5"}
+{"call_id":"7ef6301640e0a217184e43bda4677b0a55aa5f34f196cf7d5e1109c37de42291","output":"VERDICT broken","prompt_fp":"04d2470919df1dfa4b4287fc686d91362549a9dd9472ecde50a301016828a6b1"}
+{"call_id":"399715a9e5ffb06f83085e5decd5d67b160417f9c265c9b9ee097c5217500be9","output":"VERDICT kept","prompt_fp":"a8efdf4915efd33d02d02b3860b283ec1205195190b162e780a139be7f13f3e1"}
+{"call_id":"46d63a49c80bc81897ba3cc226ec718475bf321918db11a17c54d7f9ac0c1d3f","output":"LEVEL no data","prompt_fp":"aa105c1498eba33a94a71586ed03570668b5aebc1e57768d320e3c0e34ccbe0b"}
+{"call_id":"bcc2f856566df7ffcdbd6fc228763fd5cb14a402eb149db52666c9286c3e4209","output":"VERDICT kept","prompt_fp":"e62d87e1bfaa97ce1fc49716fa6c7aa21308bbf3008235457eb5210f02b730fb"}
+{"call_id":"d7d0ed129bc5a69ce5ac245502a47a36a9080b8113b52badfd2b7c3412509d14","output":"VERDICT kept","prompt_fp":"7f37ac0a91c4df5aaf9fd08de524fb30641fc5a7b654afe5cf8c15697ec12630"}
+{"call_id":"bd2d7283ae792a2a3a96a82fc4846caceb868f427462288259c6ed7110094560","output":"LEVEL very low","prompt_fp":"3ce6dd1b2ef0d8d1cd4b937934884b62cdc75b46eaef10f5164d7ef845de59dd"}
+{"call_id":"e7bea086c943601ff6deb2eb0f50fba572c8357393798a3e651670b0edfa6ed2","output":"VERDICT broken","prompt_fp":"83996bbfe79ddec4e3956359754e5a0e4a7f16dae3f749e92ef20f0f2c2c034c"}
+{"call_id":"bb87bf676df7320ca688332291922be27808c812ac3b562c0aa3110262a31778","output":"VERDICT kept","prompt_fp":"dd0188e26abc64f0d47cff36aab92bc76e4f69555cb1eab2636d5c9ad48f887c"}
+{"call_id":"6b2c23adb6b3b293b5700bd44f45bb034110b0c3aea6768c0c53bb54a93525b2","output":"VERDICT broken","prompt_fp":"b0f62eb8be7ccc24c96cd016ebe0ae5b47f9fc560da203abc4339944fe497b85"}
+{"call_id":"a0be39eba7153cdc6bdff880fad426ccafeb36251860d2c87d81f0c52eca28ca","output":"VERDICT kept","prompt_fp":"a27da5b7b9c9a5838f38c42fc67618842c8ffddd8b302630d34f9fe012472563"}
+{"call_id":"888963e15de11cbb5aefde0158b42724558987f70a7d4c101d9fe4493f160d84","output":"VERDICT kept","prompt_fp":"5963e473d056f2e427a8f5f005e7571342bec08c8646ae46b91042fcdbe8f4ba"}
+{"call_id":"9d1149facf4e02baeac16707eff16c406e3c0921f9f00b7e060f6f25f3e30da2","output":"VERDICT kept","prompt_fp":"266b841a6f890194f124d112505b193bf557ea6642caee0c5868ac26885265c7"}
+{"call_id":"cfd55a8647e2f42d08510ad9121a1beada74c70be5da7563503428d12cf28eb7","output":"VERDICT broken","prompt_fp":"2fe4bd8a72fb3b5403c7a08657f42422fd6c8ed6d4825f1488310a89fdd4e80c"}
+{"call_id":"ae38842510f9aa89b2b2ef6d66b6655bcddac6679e4fc72ee1cd7d1251a21c05","output":"VERDICT kept","prompt_fp":"420137da799dc85c208635a133c4f8ed385e30e1f72c4a7ae048cce63801ef9a"}
+{"call_id":"a23aed89abb3fe64d53ce5c834109f662c8f600f13fc70745e1180eccc512992","output":"LEVEL moderate","prompt_fp":"833fa6c17bb99bfe2602fd603f2561c586106352106cd1db91d5baa11955c703"}
+{"call_id":"a8ff79621edeba00af96232815760f642cee1ff875b38f5eb361f471951316d9","output":"VERDICT broken","prompt_fp":"424ab009006208e494e3bdc15aaaa8c2e26e0eb3eb440c8d5bcb68476232efbb"}
+{"call_id":"70ad7500ba724978294ae06e3f4b856fe5018ff490ea8b351dda1c016f103c08","output":"VERDICT broken","prompt_fp":"72b81164081428205d5914cca1893b7ab41ad23b410d7e6205f0931bb9deae86"}
+{"call_id":"24051cfbc77de2274351a8d38253ab82a40a53df7c124e3d3a57d7d95f331fcd","output":"VERDICT kept","prompt_fp":"c92bccd34ea25a96184a0de9bfdff5de161864fb10d055ecf04a672ed0b5d22f"}
+{"call_id":"379fea3fccd4ec529841c42c03659426e94da37cabd505c3fb7fa3ed6c0f242b","output":"VERDICT kept","prompt_fp":"cf0e82b00269227b74fca20609a8f5e7405ca895bc2f101b23f9551c2ae9042b"}
+{"call_id":"105dbbe3cfd834a0f9fa9f834f6ceda56e577777bd415d91314fb801c2ccde74","output":"VERDICT broken","prompt_fp":"7c714e8019d81d009b586ee029f76201aa2f26efdb27d5a90f00c5955662be0e"}
+{"call_id":"31cb5ee8660423f7a706b402845dadd99672a009e52ece30bdef4bf4f220f520","output":"VERDICT kept","prompt_fp":"1c903dfe6fd925a199e9b2bff6d07be101e5457bcd3b3c4bef04504a3bc5d12f"}
+{"call_id":"f4bc37483a0bda2f4d0eb2da5fdbd37532a5a10f7ddfdcb0ab4db9603546943c","output":"VERDICT broken","prompt_fp":"f62f835f4bcb4d2f088b31f265d5c42b8022cd7ed6d966737897560c0299ef74"}
+{"call_id":"d7fe953399cc5412f1bff1f315ce47f87535495717cf5249f334d30616eeb821","output":"VERDICT kept","prompt_fp":"183f6e0b6092f16dd18daa3c2587e7d39bdb73bb29162884d3246d1eb0424f8e"}
+{"call_id":"a4cf50c883211e2fdf550d87a41b51bc809c6f6c83757b01f94421123463d208","output":"LEVEL moderate","prompt_fp":"e4e59d0d965fc1506b0fa47198c8de461e376dff46f9c02d255f445c8bc2e2bd"}
+{"call_id":"2f30d95ae41ca0fb5ac8fd6cd2ef6bb9cf3340fda18f8b7eb50b2a8fc87cbda3","output":"VERDICT broken","prompt_fp":"7bb52da58bef7aea407b56c190259f449e36250f0ddb4370fc3fdbc0e977133d"}
+{"call_id":"74a340d63089d326ac2667e10bf1e647c34e1a5061abb3dfe66c927da042b7a9","output":"VERDICT kept","prompt_fp":"87e40e7e274978413954b520b3a052286db625a52b8084bc104408f7cb65e6cf"}
+{"call_id":"1c74ad11f638fed4913ca0f5f1957da6e1bd3039f7a5209e911526eb5f779928","output":"VERDICT kept","prompt_fp":"c6565ae832a1a6c2c385e2bed880b027c8b7529ec228c29899945d7eb8642883"}
+{"call_id":"dab4af5a72d8fcb021ac83962096c3823aec5f6203c5c0d5ec38a9e9f1870811","output":"LEVEL low","prompt_fp":"0b1e82a7c7abb2c6bd4d0b0f24a83b78e6856e858fc381da611f85cb703ae87b"}
+{"call_id":"085f55a74551fa85db9bec650f618d38efb7ee84f5cc65224afe44f5d67ffbc1","output":"VERDICT broken","prompt_fp":"14a31637994a739109ad4fd0f41aa9d94d1491f8cd4655bf3151edfa6e99afbb"}
+{"call_id":"dabf6f773131bcef5536f8d94d9fc4c3dcdc3c66825b2eaeec5277251dd67c8f","output":"VERDICT kept","prompt_fp":"af4769ba60d4bcd7b277d652b33726faa7ed60116dea1b43c50c23fe4746597b"}
+{"call_id":"db5f5de7fac0b71d65dcef3ae1c26d04f4fb1744015d3986044d9513a0144858","output":"VERDICT kept","prompt_fp":"eae747344f8426643cd3e27461c9464ff5b40e042db83665e75155501db0ac64"}
+{"call_id":"33fe3363fce05d1cc9d3bd35bbe33eeac5483fc34bf9cea8dcf99de22cb96045","output":"LEVEL very low","prompt_fp":"f7dc49078175fc8f00053b0df4240065045a94a87b2abd1bc2fcbf159d2755b7"}
+{"call_id":"6efc6ff2d0acbd198eb7a58501f92a3210fa36180c2c5d7c79754729b8104d26","output":"VERDICT broken","prompt_fp":"7d9c480d341a1c5ae19389075c0d67513c9f66ad78bf5b2f131a281317c8352b"}
+{"call_id":"46a6d0b9b8ec588b50ed61bfb1532834b6e3086066a7d7512e0ac5ed506df3e6","output":"VERDICT broken","prompt_fp":"29214337dd59def680947e09461265f3656c4f963ac2376322e59a7dba3e7868"}
+{"call_id":"f81216451b1e13352fd119ce74cb29a98f69c7b215a0d5b2724ab47d9f517998","output":"LEVEL no data","prompt_fp":"c29579ee5f00cdfde05f28e460542d82f143dfeaf5fbf902e1189e24b41add60"}
+{"call_id":"00329fa6da8fa456fc0e7982c6caff859411331efa95edeff9b7d526d4888eec","output":"LEVEL moderate","prompt_fp":"ba3da3ba27d5ee014cecbac4c267fc984125e548635d1c094194bd1cf2c2cdbd"}
+{"call_id":"c491f2d13a1287bde468d61c9eb737769cb68ff616d80fd752e240864d72775b","output":"LEVEL no data","prompt_fp":"c6c7d5c78e0043a96ac1895beac8f3daa60177902bf925011ae13c45a50ed73e"}
+{"call_id":"9b6fe4f171019753cd3935ed57a02bb8ad7b4e17114bd9adf584d3727f162861","output":"LEVEL very low","prompt_fp":"b85b95858460f9b85fb1f46c592e3ff5ec5c389125c54033028d320e0166f8e3"}
+{"call_id":"5fecc51c50c019fba49ab63fcea514b7c75935b91bc5fe02583e8ed4a0ed089c","output":"LEVEL moderate","prompt_fp":"2bc1e42729273ff2b781049db7c4a4fee6f3450df35393957c7bcad654f304ce"}
+{"call_id":"c8b0aedcf86649210dd7ed00cda6cc8334c264b61a0d200b8ef572bfc11aabd0","output":"VERDICT broken","prompt_fp":"a1d591f40248bdc1ef919ceb5e78dd21801bcef4c3d17a16533aa0f113a591bd"}
+{"call_id":"59617bd1236ff1a71d9cd5d55d1f27ec46f4159b4b5357e4715d31d24f793f74","output":"VERDICT kept","prompt_fp":"3a9caec00fa8c88bf579d5d3d9cdafb6eb21749e960ce56cce9b0de7968ca145"}
+{"call_id":"9a5047f4614b4aec0f227cfdd2a7b8b598fbeae6e14868b2e6bd88afe19789bd","output":"VERDICT kept","prompt_fp":"f77cfa7fe26d799cf4a6ee15592c87deceb056cc5051546940bf152b57023b0e"}
+{"call_id":"ba7b76fc6895f5522db478c24b81534af7cd928213261fb053e1a08ad3ee287a","output":"VERDICT broken","prompt_fp":"a80bd7933760af86868a3046a1344b457c44454f2f5bbec6a596edde772386be"}
+{"call_id":"eb7ae4eefb253aefa60f58398f1313a44f50f1ec3266d188dfdbbf56c5ff00cf","output":"VERDICT kept","prompt_fp":"e8db300746e4ea357bc660e55eef2a6482624792d1bfecdda448b3aa868f1de5"}
+{"call_id":"29c079eef112faa21d7d3d320126a3d34107457b7faaa9840f6c8245b9352073","output":"VERDICT kept","prompt_fp":"123c844a7968b4fc9c82de7ab3c705f4ab3caac824700c5396dbb51c9b8c2a4b"}
+{"call_id":"1bd4a3d38953a2a0424127c11cc4bf48d8eead3a6e52b3d525c899e503a65ae9","output":"VERDICT kept","prompt_fp":"c3e7f738a18b11ca3a6ae15e1dc862f151e750fd3b1942ae4b86ef9e8452fe98"}
+{"call_id":"85e4930f520135d57ce80f640383665eb9a8b502cfd4dfd4fef499b3a4beda6e","output":"LEVEL moderate","prompt_fp":"b4b5ddb5f34b8b873aabebd9c2b3951b705d1374b09935fa0e63a047b4103118"}
+{"call_id":"b753d5b5c629c066b14aca560d4c388203b09226791a019eff45eeb1386da926","output":"VERDICT kept","prompt_fp":"5e2cd0f12b769f3b0300bac4967ac73a9794a05c770516be99b363c030eb52ff"}
+{"call_id":"380ec69b6d58eb4ba7d968c4b8af9b75a071e98e868ce93f330c4ae7a62dc179","output":"VERDICT broken","prompt_fp":"4e53d95aaeb67ccccea83c355b128d16d951c3ce84eae83a3beb0bf28b8e86f8"}
+{"call_id":"beae984d3841d6ddb695a24017e050893b329f92dad265edece00fe403135826","output":"LEVEL low","prompt_fp":"515878698077b0050cb8df66191ef211ea2e3daaba57dca3bd1d28bb565fbb17"}
+{"call_id":"64073492fa86c7a5fc664e8f5f82e333dfa8cc9905b4f6502a92c7dc2f6a22d2","output":"VERDICT kept","prompt_fp":"5ca2717d7adba4a88d3251cd08119265e9ab93ae2ac1ba90d0a361de2bb90e78"}
+{"call_id":"87db2475d6d9c7833956b1b9463e96591a6b374973ef0c6bdb1c2d8e4d3bb4a8","output":"VERDICT broken","prompt_fp":"f35947e4a562eea727fb83125b9c07c0151fa7036fc31232aa55da3bfa2e9d46"}
+{"call_id":"1396389d578bc4b60a9fe861d8d182b463efdc7a7764c45160bc5633a4346d62","output":"VERDICT kept","prompt_fp":"7af3725a999b3ed782607e176547959ac294d0152885d5a5b11f8814d395fa6f"}
+{"call_id":"e6127d2b62e5ac25ecdde747073686f75158e72f1d3fb03736da29343d9be240","output":"VERDICT broken","prompt_fp":"3567b1d1c2645073500399f5ce387d037ae62801988b0bda36f48ffedbec5905"}
+{"call_id":"c13b979f176686aecbaf2000cc53b4f34569550b7a0700279aaa6c0f6d26f2eb","output":"VERDICT kept","prompt_fp":"dcfc110608309acfcfc608db805204f5c718679eeb35d59151c620321ca58672"}
+{"call_id":"ae28e04adcf4cb06f643c2135bb3922a5ac90484504786f88322d963ba1eabda","output":"LEVEL very low","prompt_fp":"0ba7b564e8269167c5fa6a4484ae2ade7d8cd3c27fb3dfcdd2ceb11bdd245e5f"}
+{"call_id":"e5fa59a7be3dc9fb65fd7f6b4e8d113f5579d9730b3b3087d7401e6f6b1b1c47","output":"LEVEL very low","prompt_fp":"7f5a8587cc40394913d9ded4ec3bf546cc4e5224f45157e4be3e4aedbde2a2d7"}
+{"call_id":"e5c82ad62dad77865f6d3fa7825c05b9ce85183acc2b7d475334db9d74bb6725","output":"VERDICT broken","prompt_fp":"f6416c36b1757e8d14ad3c62aeee1454d55ccb76566a978117c1322c45f93c98"}
+{"call_id":"610762f49485507a0b56733e69101a6dbcbaa8539089d90cd9cc431f9c92dd58","output":"LEVEL no data","prompt_fp":"2200c484c0a5eaa16434fd4d29a97fe5215b1f6f47e072c6d2fa9cca10c03203"}
+{"call_id":"5e5a1e462e37d6920698c7a606f5eef8e810c1681aa03f4d8f50cc329093da3a","output":"VERDICT broken","prompt_fp":"7b7f365d1384459d87c9b9fdc2e41159e17038e6ae96d8e6409517437272b83f"}
+{"call_id":"99600a96b075a31290cf07f6570dad6efc5181b6ed391cd2179e7f4bfcbdf8e1","output":"LEVEL low","prompt_fp":"bbfa08395eeb7b4cae3e3eb26abe6f0f5b265ccd72a1d4e4cfb504604ccfa449"}
+{"call_id":"15275ebe45949ebf0f5a8968a7b8ca098eec36a978a57b5c0d93a1298908d120","output":"VERDICT broken","prompt_fp":"8bc69bc6126bea4fe416cd85e386e0984a950ba07746f2ba060df8ca79d37fa0"}
+{"call_id":"bc4d029f53f82b8883a8e8d9db645d5c6421af17c3397a959303708045c41dc2","output":"VERDICT kept","prompt_fp":"07f94f8848446a3310448791bc7220616ec4d49fad41d923d8f5780dbb7e724f"}
+{"call_id":"a0562803e9a0ebfb247f3005f89f517060700791b3acb353826dccb08b08e3f4","output":"LEVEL moderate","prompt_fp":"e32a995475c9747d1d520d4f1e0cd228ba818e3f544e5e7aab2d20352a2321aa"}
+{"call_id":"bf3aa0677df3275657ffe2ebbef69e0f6241cc36ead3795627dfdcd30a7dbde0","output":"LEVEL low","prompt_fp":"f06ccbf6cb443f8a063536b282f9eadfca20b876e3641beb19f1a23235611527"}
+{"call_id":"555d418bd94fc5d71c887284d66aff28b53f8cf4e51559293b749e0c2bdf62eb","output":"LEVEL low","prompt_fp":"25eac6adb32ea85af984efcc224ed47e2254dbfae6d8eb7e003bfcf51a6f108a"}
+{"call_id":"cc3b7de18d5d9512c77f7e47c3602f5c13cbe9164b3146555e2f14887c359aab","output":"VERDICT kept","prompt_fp":"75eac74928b21a72c713d6ce4bc997a651083e4875d8a7ed1431de40c3a26329"}
+{"call_id":"75d800b6367aa2db9e5ae9749ef64334501d75630c48365b35d827d21f9cfebf","output":"VERDICT broken","prompt_fp":"bd2a82ba0316ac14761f7c6b6c353213a4ed0fd9896dd0bb4188ffda18ef45b6"}
+{"call_id":"2ff69fa2f66eebbb5219f8ea1147b8e37576ec1a7575fac1f92d59dc826f9c48","output":"VERDICT kept","prompt_fp":"afe48fbba6d65f791b6ac65f86dc6fc5eeb1a248004446f8d0ef5e3e9f0f1528"}
+{"call_id":"8f6fdcd82d378f35c4eaa52a608d281c6ba143bf398c5229e549198f2f585291","output":"VERDICT kept","prompt_fp":"0411051ddcf82c855479426781a01d072a6e43c2c3ce916e660be25e272ccc3b"}
+{"call_id":"8710d47958d2d0459a53fc56c0886e318514b408363310b5f1dca203d04c8b97","output":"VERDICT kept","prompt_fp":"1b4959b3fdf214281480e5659fc99a862efcba35086f88be735bd7e1fb24d754"}
+{"call_id":"4610105d0c0e0b656557e409df65342665cd9a4d5f945701380e3ac933d4c793","output":"VERDICT kept","prompt_fp":"145d515587f948288fc8d7a4bfe6237ca4b5aedcbbcfb1b0caa80c94000e045a"}
+{"call_id":"a404208d79b51ab2b9c174d37c6fe860894b3db2687b853455ff6360e4ad04f9","output":"VERDICT broken","prompt_fp":"5c1a1ae03fea45d4726a9e343904b172c6cc9873a4af7225b47018f40a37f9df"}
+{"call_id":"453fa04967518ed2186362ace24812c3c2c7d390865ececd5185119fd9e5af19","output":"LEVEL very low","prompt_fp":"ca34d6371cc659d0d33eb240692299b066155118408e3c0310f7503394a97c67"}
+{"call_id":"d35e54f89ae454e0ed223a77fc157f17a5ba7f71951815d2988b18598a86bd7e","output":"LEVEL very low","prompt_fp":"27eaa6b5b8c57e665afdf174e9bf1f9275c36bccd2e5f47bbacdb6edb617dea3"}
+{"call_id":"ade558c898052c35bffee2c8a62d29843bcba74fae91fc2402121d4658f69065","output":"LEVEL no data","prompt_fp":"9dbe4caf68dcc904ac0f66a55fa81be0d478a5b85c47d738c8c3588f037aec44"}
+{"call_id":"c6ca59beaa4050d2d5321e6ad7b9d00127dd1d65efc4d1d4cddfc7f7923ac6df","output":"LEVEL moderate","prompt_fp":"d86a46b13f91bae04571b456c7aa7e33e6340efa6b997714f558500cd938a718"}
+{"call_id":"8d3e3a47f4050e1bb81ae14cf1c540df765d1e137afb2b86324019dbb0850dd0","output":"VERDICT kept","prompt_fp":"75923176bc194838ab003fef640e25f41ee14e5ce58b6b8addee7ed27d557665"}
+{"call_id":"47b950c53f7f75974bb0f4fa11f578c2815fdabf187002d22efa028cf13ab8bb","output":"VERDICT broken","prompt_fp":"16870c17246198b9d5cec852471fe3a287c7d8e60d6f6c4ff163eb82eec5d52e"}
+{"call_id":"e2b20c710de4d43efc209a7eb168eac9706fbba7b1aa8fe063c0a00e7778c9fe","output":"VERDICT kept","prompt_fp":"93a1af748c2a1ba3ec844235c9eb7035b432a62539d57889f31e8d73beb9f047"}
+{"call_id":"cefb80c7c0ebc372d67b9bfee6d309ddd27f64b7dd66b9cfd3dda0b042c51a28","output":"LEVEL low","prompt_fp":"5f696236bbfa386cf1ab5962ede9d30dc6880721764676985763cfb0c41cb5f7"}
+{"call_id":"045fcbda7a18f0d184822438add4655845616e5cfb65abf2589d55dd19447e61","output":"VERDICT broken","prompt_fp":"b736fee1b4f801c20b4e96c4d5af0a62f2777beb253df97e96eea710d2cf0005"}
+{"call_id":"19885220e8a5ae338308422176a92be8b8c7bc79f252856a2d7ed296cb3b6a26","output":"LEVEL low","prompt_fp":"ed1516e9e0d351a3be6d08a6727772cfa54982f44bc883db09919bdfa75402eb"}
+{"call_id":"131d852b69f4787c10d4258232cbc94614b71850f7169a18ea811de579491afe","output":"LEVEL no data","prompt_fp":"f4ad5bf0f8e674044e18d8a1a91088ece571a341942dc254eb2e65db26a12867"}
+{"call_id":"f133d754529bff2683c3df2cf578a5eafdb5583b9f65205ede56c8faf40eb6d5","output":"LEVEL very low","prompt_fp":"1eeb3a6796f5a006723445c4d41ae57c6d0cd0b5bb2fea550c82633b3cc36725"}
+{"call_id":"1d2301bf65437d55a002a349d59f91207281fe8947d51cc9922c80a3afd64c12","output":"LEVEL very low","prompt_fp":"cc4afb4c90361ae0dbb4434bf2ac9943988a0f0fec2fd2d582d2ef85fc3aef2a"}
+{"call_id":"e0040290ca204b213d24d1b85a99ff6bd95f3799d216562b2874c9c337666132","output":"VERDICT kept","prompt_fp":"16ac97190c8a52e79c55b41107c91c6c4fcdc01c2ce13eba42b27072b394ffa4"}
+{"call_id":"2acd94c5b567cbc21a5e08ddd679548baa11ec6593cc656d940bd730e6f6182b","output":"VERDICT broken","prompt_fp":"f0b8ce1ea2d042022287484173dfe8dc12834586c6a315db515e37a34bcc5166"}
+{"call_id":"7646aac5e3467daa00e9b824636ed0f9d18b0b01ca7cbe2665efe3ec087fc894","output":"VERDICT broken","prompt_fp":"3d38e94cc707109727046b20796c902e3dbc77c91fb462c4bdfb5b81863ac52b"}
+{"call_id":"6e9540fce2c0789c0a7156d156bc7d98d8bed50fe536972ac4ff2ff6212f8ff8","output":"VERDICT broken","prompt_fp":"92c0c41c5c03cbc2e97416f762fcd38c20aed00cf2b51aca7a13b1676e95f493"}
+{"call_id":"6a9cbd63465536806fa65a01f1df80257325575a4db716e5aec8cf33f20e8f03","output":"VERDICT kept","prompt_fp":"547f59c462479ba569b81d4f424047aed75f56d18e58501f97ddc29cecfb3966"}
+{"call_id":"343456b37f8a70b9ec123c3dcfeb20cc8979027d1753fc443c9f68c94abe7e7e","output":"LEVEL moderate","prompt_fp":"42549f620fdc8cd74c63aec8d1c93a108a4f8246a1ecd49c9c024d0b41fc93bd"}
+{"call_id":"ed4a9ef0bbd5a5b32d5d92c6d5639d352c6db879f2e3a02882fccfc89fe28aa0","output":"VERDICT kept","prompt_fp":"4faafa3c6bb42e87ded4399a1b59def0e887b9537c8161d8a0752e946317a562"}
+{"call_id":"deba8277d900bf072bcd21016fcc79195d35902369d7d62df5224e6e6b53575f","output":"VERDICT broken","prompt_fp":"7e7907745ff14b2beeaecc033a812d62e82ee5c4774bce1889cf28d1f7851ee8"}
+{"call_id":"26adfe01dd841804dc641ccd859ebacb81f4290799b637bfdf7ca76b46c40907","output":"VERDICT kept","prompt_fp":"ef22f67afc086744955292b58db68539a457ffdedbc1d20adfaa0a2f82dd8651"}
+{"call_id":"2836a6ace2692d656ed0c9392842f4d886f2b5551a58d203628dd5a4ad49e6be","output":"VERDICT kept","prompt_fp":"b74896a4f4f59226b703e92d5cf1005d6d76f3cf12416a3b6ad14b9e5919d38b"}
+{"call_id":"bde479c1ef2b1fcdf976c31e7855d8af469c292b6c8bb0945f444c41f7cba348","output":"VERDICT kept","prompt_fp":"cb15714c6caa022a75cc2dca9b032821b0e9013c025771b0c42296c89f63d47a"}
+{"call_id":"55547b3bdc5e00966308d2cc7c7b424899a278ca64a0e04e7ea36d46294a9eec","output":"LEVEL low","prompt_fp":"87dee6a2acc975df5954bf96ec5b500c0d5884de51d02321de90c86e2f1234e7"}
+{"call_id":"32d7fbfbadeed9dadfa847d482443f29271be13dacbd9a0f0c8e523bb83556b1","output":"VERDICT kept","prompt_fp":"ee0e2654a5b4fa814b6d0719943e282d3170a7a7164bdb138e6a71b4a3f21f29"}
+{"call_id":"6d014605f738ef619fde6f248caf063f7aebb10b8f81d113775a4df71a7f8387","output":"VERDICT kept","prompt_fp":"abd9707bf171ea43c00b8b5ef546fc19874e07c9d9b3246956b3e6c58a9d9a5a"}
+{"call_id":"674287a81e2e795773b931c6c1be1f894d42b7ace3fba8464e9cbfdfb619d987","output":"VERDICT broken","prompt_fp":"2901d49434ca5ebadc3b7b48823b2bdb36b30957367fc80565dc6ebe82627379"}
+{"call_id":"83460a66839b1dd238bc3bf386ffdb16f36d596a4977203245b366a9dc5dc9bd","output":"LEVEL low","prompt_fp":"5b326e481f8c80749dac10c47968be7d9cbe006277a9920607c35efc06648330"}
+{"call_id":"36daea7f5b6d850c3fa66b6cec715cb3fe4fe15ccee786b7857bb2b5cf0a1932","output":"LEVEL no data","prompt_fp":"0943d7f3b96153220f90c7250a102d3133f41143da13169b179ff6232ed37376"}
+{"call_id":"627a98ad2d7944c3d06ef781ab55e641fb967c1ce9e6870660867723e34fdb4c","output":"VERDICT broken","prompt_fp":"f03f2998d891f4d54650ec3cb8ec0d2095b4b3a3f06c07a849682f91fe99db2b"}
+{"call_id":"3eda370c89d3c1cdeb5e87427ab0ac9940e06dfc8c60b0932e1cfe2d7f42b858","output":"LEVEL moderate","prompt_fp":"a613c4c1765e7f289aa72596c8437e6ce912733565cb2de14901e3d92a02124e"}
+{"call_id":"56d4ae71ed2d8e3f42fb5e24d5e4297fd5db59aad2266f006710e63372792bea","output":"LEVEL low","prompt_fp":"52059f0d9713e93873db7d6a22d32675f4187d1c5e9e775fb4462426ad67e605"}
+{"call_id":"91055ce96d713afaf41d911b25fef338c5dcef406d10aba88c89080d41303d7b","output":"VERDICT kept","prompt_fp":"6594605793d3b12fcbc2a457d0f623b77f0a716a4f808c977cd0b6649feccfec"}
+{"call_id":"2f53f7d7c1ebd2a438b9d09a3bf3e89d230ecc67687483155ef1a2cf9acf1bb5","output":"LEVEL no data","prompt_fp":"c586480aa4121a868e2b90c9b3a370b544eb9df8d9666d56a4f717ba226da56f"}
+{"call_id":"e210bd85d07e8c1f28a088498bf3f87df8324dfc3436cf5286a27cda32927384","output":"LEVEL low","prompt_fp":"dd358e455dde4c4124a25e3bf8a7fc8f628305b2084acdfbcc062a843c4a5d96"}
+{"call_id":"1a6fa473942c88f80c4f3c895821191fd5b512cbcf4863c13b59ca374cf9b7dd","output":"VERDICT kept","prompt_fp":"806cd20c471f0824af553d9b111508ef0955d7b8056580cadc98aeecc067302a"}
+{"call_id":"52049150a406513f96619346f25e67d6a20964e41cd8af16f1315bb9c6e39017","output":"VERDICT kept","prompt_fp":"23ac81e6fc52a371b0683aba39fe61c88c08ee8a68255743a1e2b7fdaf78dd47"}
+{"call_id":"32367aa2a8d84d24d6fb7412e68adfc49d0dcb921dd602fcb0efb74e14264373","output":"VERDICT kept","prompt_fp":"a0e4a8e01617d0274c0983fb6c420d0d4f36003ad54de01b06efc08a9cbee88c"}
+{"call_id":"265082cb6c19e44296e0b2bb6a8f20d67f29b815dc674ab41892870c5bd1585c","output":"VERDICT kept","prompt_fp":"02e084becfcbd45eca9efbc2a4fe41b030e3e64373e5bcfe2a5f8f359ab53941"}
+{"call_id":"db5fe92a598501c6e18df904ed3464d0dc5f242e85a580716364c3fa64e85ecb","output":"VERDICT kept","prompt_fp":"039d282bfada2a9f8b492fdf0d9d9d3cb3e92973a27d92b390ff8a343da5675b"}
+{"call_id":"28ade8518a2706943a17478d1133e7991839a6ebbbdb60249962b0e504d2706f","output":"LEVEL no data","prompt_fp":"2ed9181ec337bf107293143d6d74910d41131af573e5a3134070e9e1d900d580"}
+{"call_id":"319f01514b7ce7fa7aa65967b4ab58f963b3654d22954fcb0d38210cf0ca4594","output":"VERDICT kept","prompt_fp":"8519c62d06593789ebd645265b8ba9b37591812ffe48b2a57b5a792f0fac3260"}
+{"call_id":"fea78d63bf419018d2155a500fc1fe7736265a0f8e92c3129bb3088497ac7fc5","output":"VERDICT broken","prompt_fp":"0aae673d19daa403a724386de5bedfce07fce3be313bc31e66cba8c147c912c8"}
+{"call_id":"995ec0fce1e1f8a0450dbc72bbc14e35c2dc9406d0500721adc5a0ba85d99d22","output":"LEVEL very low","prompt_fp":"cec4c52e1bce2eb1f24628c67421be26cb69ee62d5b5d45f1474723c634e3aec"}
+{"call_id":"714e06680748e93b70e55989b3ff8bc6dedf9468a0c342b9f348dbbbfefd1838","output":"VERDICT broken","prompt_fp":"072351d0dcfd918557ce33ed42f10c394f119dd3a3036a59cbb4f5d9bfe5267a"}
+{"call_id":"b97f15261bd3553f94ebe5a9e5cd3de01010486c849e00ce71458e308701ec78","output":"VERDICT kept","prompt_fp":"0d91bcc0c0ff9c9d7ab37e2d8f7baad2fa175a31682d7b4182c5facc34e86060"}
+{"call_id":"c697886827b98e2a26b62680130c3a87d9c4b37db68309dcf210916649ead74d","output":"VERDICT kept","prompt_fp":"e9c84f8b0f48521c6184add69c79d9f2841f9369bd7901b6c26f78cee1e21699"}
+{"call_id":"c5f33bfc060b257b38da7084c4ed423071ca1e02dea09ee8dfca7cdb3b9960b9","output":"VERDICT kept","prompt_fp":"a11e690e1bcf53e3b3fb320b9e54c71ba387ed2cba6f72869d579d099e504f54"}
+{"call_id":"d8999c77066840a44ab1102b56a42c7b11403069337f4fbc944bc035f75d69b4","output":"VERDICT broken","prompt_fp":"d9b781bb9c19a59c7675fbcdcb033f0c1c0bcbd77783550ac20c073188114f02"}
+{"call_id":"30175532454bc12fe3b274b8a7575e56f7e53cb9341150aef30d22191f6483ed","output":"VERDICT kept","prompt_fp":"fdea74357b93b29f9d8126d450ebbb85fa535b172272654d2fd9c40adc148460"}
+{"call_id":"bd213b692181659cd697711f161d6b521e3dbc95e0b565de31fe0e41faabcba6","output":"VERDICT kept","prompt_fp":"4f2946c95df11ac4041644cdb095a6c9fbd6bd3883dd7b58bb1644a6a4dafe04"}
+{"call_id":"55c6068577c439aa1496cce4940970ac98606cd2efd7df10a21853670f4b5bd9","output":"VERDICT kept","prompt_fp":"251ba1e5716669c8b506108aa7909934e6873063fdacca13d8bd745146b6da0a"}
+{"call_id":"b1eadb0e7150636564e4dc06c6f655ca86cbc6812263972fcfb03be43cab5cda","output":"VERDICT kept","prompt_fp":"6bde08789554a95feb8d5ca86f0bc142e0f705736a581b9e8ec67c346415eae9"}
+{"call_id":"884a9f1f7000a166ead3465b027bfac5cadfc0f4f8a032ceb33c14297a1d5c4e","output":"LEVEL low","prompt_fp":"e240582295d45cd659125ef7ac0a09888c8aabe1ece75f2d25b4fd9231498421"}
+{"call_id":"0a3ee12d1ea349f7ad22d94a27e439a0f6e8c2853e947ed33404b5283a12ff7b","output":"LEVEL very low","prompt_fp":"17da37a9ec0b925f2da7e963f31327a95b1fea4666c1b4ff87f15d897f6412e9"}
+{"call_id":"28e37859d46699620de3887de5feea9af6b253b8255e2b4e5d7ea3d111b63b70","output":"VERDICT kept","prompt_fp":"b768f270b5cc1b00080f1bd8ee922beb4c81f52b2d5faa61e07bbec59953a703"}
+{"call_id":"c38e3c14f5cb572f3d0fe3aff6ebdee8876ef0a2a4103c1a7ce52ae1c59ee98d","output":"VERDICT broken","prompt_fp":"006cf6f38753f3c33986c3893ed1f92f12989409a3430384c60d8814ccaf6872"}
+{"call_id":"dcc2070b6e849cddceef70df98f8ac93b697995b5e39c58626afb24012640752","output":"VERDICT kept","prompt_fp":"ab581b3d7159b2c60d0e02124f710ae669c6eccfe73db7c044b01f8a618617ff"}
+{"call_id":"dc89f7192a26f65f3fbc5fd0d8d553dd0fb4bdc194005123ad3221f34da41ddf","output":"LEVEL low","prompt_fp":"c8febebd1b409c19d48ac503bf6373c71a292f2a9115f4f8ac5ab408236754e5"}
+{"call_id":"37f535686d0c63a0ea101e323e419941a6f8eafc047e35d76462dd74cee931fa","output":"VERDICT kept","prompt_fp":"02b3adae94f365cdd300a193626f502df9e72f9cf3a5935ba8d96b60386c1e36"}
+{"call_id":"6d9a5782faad8e997df3362d6e6790270b6c5bb7969253ce1d1eacb18a6cf62c","output":"LEVEL no data","prompt_fp":"4d836cac8e41909f658453bcaea4b3a38396d9f418e9b949ef5b98aa0e1b35b1"}
+{"call_id":"a6e284897acabe16e9b7fb6ca6d8e3d4075870702d6f9b36e86a9b16723e1a85","output":"LEVEL moderate","prompt_fp":"333a9e6dc443123b2b8d4a29dbc8acf8eba8c2da9c3b4dc7c4fad12e1e832361"}
+{"call_id":"47f486e169247bc42821568c295ff5292e4f9cf71cf624eb1964b681291f6bc5","output":"VERDICT broken","prompt_fp":"7162ac1417d5b5288ebe97320c624f73e2b57714fed533e7f2013cf344e6e065"}
+{"call_id":"2f72d0a2c9a278bdb64975cddc611fcaff6d94814e2e272d0fe1c03e4086b151","output":"VERDICT kept","prompt_fp":"de6ba134e96fa1674c2adafacae628e843a648093f04fd1fd632a12ee59d2f8b"}
+{"call_id":"74b631af91a65dccde74a0905fd9437e54826e67ddd049b87aafd013d1064434","output":"VERDICT kept","prompt_fp":"24ded5e3478553b761036d95157167a2c85e7346c4607e344f7d88b3295821da"}
+{"call_id":"6c1b4e1e40caa0c0486bd6414e0c4a04074098ce0d7e8df718ba22d95d42ba93","output":"VERDICT kept","prompt_fp":"bd8d3fd6a7059803b3a33ad65fb623d97fd05726720cba54d82f43ae235b2c2f"}
+{"call_id":"a9855f7ce4ca40501a85bc551ff5db2592b0aa53cb0bf8102955da916f141545","output":"VERDICT kept","prompt_fp":"b519462512b45bc5f38fc093edd902fc770fb63b36bcf1ac11b0a13f1c299658"}
+{"call_id":"a36745e5459d0cf78b81e76dde72cdef727398b4612865c2c128557d17c52d15","output":"LEVEL no data","prompt_fp":"642f3003449aa007788a213082ea30d6f85c8d61603af599690f9a75c40c5f44"}
+{"call_id":"3ffe07cad15cc498d4084040207fb23cc6df6caf30afd1866a38fe6d7f3d9e9f","output":"VERDICT kept","prompt_fp":"61a5b5da45d2b8b12291d134c5e6566323cc6392b7376aaf174bb1662e779cbb"}
+{"call_id":"9e9e157d88464a5479bc226fd4e226b36a0fbb626c3ed1b7730265f6306ffb2e","output":"VERDICT kept","prompt_fp":"2f59ba35aa993bef3c8840e2e31d55593f583991c624fc3e7bf27c7a0458af68"}
+{"call_id":"43a9022be8c0ee61c1e93f291bbbc2f6b4b4ba42ad611fa522e7b01eb886e918","output":"LEVEL low","prompt_fp":"9b433f55d84eb2351a25c1d1f68483999b58c9c0e736a70c5ce93d3c998fe971"}
+{"call_id":"fc4fcb15dd760b4990f543a195bf6b88b6c5d2dc7014d5e47bb5132373b1af43","output":"LEVEL very low","prompt_fp":"36d90151e3e6290ccbab289aa919376a2ce249b8b569b591b88aa1c46c028275"}
+{"call_id":"6fd666aad681c701de10f864ea2ecfb45acf15b2bf9598b54c022139732ebb7e","output":"VERDICT broken","prompt_fp":"15880792ef9dda8a2e1d7498e028389155a54f111ce96bb7db9bdf4c26536cee"}
+{"call_id":"c778a7f0b7cdfa613f1abfffea7f7aa259e41ab75bef047758eddccecebb259e","output":"VERDICT broken","prompt_fp":"193b0244bbd75016dcb4dbdf524dff2d6c573e1db0cc4185ff8f1d396286c7b5"}
+{"call_id":"2efd9880ac23cfb38d4c89ca3b3cca7654e6e2fc717a87d0d944625444d66c06","output":"VERDICT kept","prompt_fp":"17ec315c310c0516d33a664887220616919eb46f708af64d584759dc036bf68c"}
+{"call_id":"475364fa83fff64f94ae62db99edb9a4ae9161bfbc992718a05a978c5900d74f","output":"VERDICT kept","prompt_fp":"cb4bd3b0357929d56d491b9e65bb780b74a10431259ed90cdc7dbd61201d9c03"}
+{"call_id":"dc96a61ad5891f86d9521e32a4d88c92bc0f1e746f6f0a5d5d95bdba11b556c3","output":"VERDICT broken","prompt_fp":"19760d5198b9dcc311ec79c7b2dc4993130b2a08fd388db719aeed849e448167"}
+{"call_id":"00569dc403038808045847fb5a2544c0ff4427aa44da3b74c1e3bc32cafaa7a7","output":"LEVEL no data","prompt_fp":"a47c7575bdf27d3f1d8b836f6bb79fe07f657eb0402d8187d83f303140df7242"}
+{"call_id":"8e51a7277e7535ab560970433a43882c259d1278ebcb35c2aff1e1fc1cc93c91","output":"VERDICT kept","prompt_fp":"c115720f5a62eb4d1cf1bb153619f2e6acd3d81399101b2b94a97c5700113dac"}
+{"call_id":"418a1f741dceee93066cb14b918e31dce71230cc011cba3c77263716fa2afbc1","output":"LEVEL very low","prompt_fp":"9b1602bf800df0c9299af33f110a19ac042d7418f5cd9cd39a4c8371d0712072"}
+{"call_id":"182b602d6fc25c4176d1f32be253f94502744702a54926404d17896b9c1bd2fe","output":"VERDICT kept","prompt_fp":"4bbc9025381cf721e63109b194dc55137adbb49dba170ad3c56d28a6797392de"}
+{"call_id":"20dd353c052e1e59eed4b394455059fa90e6f902b69e79f7509ef70a9994086e","output":"VERDICT kept","prompt_fp":"62e99b858baa5112e708aae8a7ddea7292a487a8d444bef1acfb8a7db3c0ea6e"}
+{"call_id":"c555a6a6562bebdfd2c97824b6efddac7f0ffa8fe721acab42fdf4cc4093e866","output":"LEVEL low","prompt_fp":"e10aa705b425f8ebb32722eb6b72030ea6f0aaeed562c96a6f711383ad26bcfe"}
+{"call_id":"579e3e4bda4d1b1a5da14b789d5c87d500fd9a81b93e4e84598d7746567f9766","output":"VERDICT broken","prompt_fp":"c1fcf54756565a8ab3cba671b1b14d3c5e3dd50dfdd9f2821f5441735a179424"}
+{"call_id":"042de0c514e2ef078f499c71593a762c7d554be289b90b3d0ca1c204e0c9fdf0","output":"VERDICT broken","prompt_fp":"f3632777fff49e442519db5bcefbae2dfcc6305b4cc8e2276697ac83bf87222a"}
+{"call_id":"679fd32e4b92e46b20bf2b0205c44e6ec07dc406aef4d2fe4fe29cda1755d57e","output":"LEVEL low","prompt_fp":"0cb2874ee2006c02c3807cfda3e547a73faf2d2e3ffeccc1bd4e86a624b2e0d0"}
+{"call_id":"8f98e7d0c301961e05546f6b35b2a028435f3216518fee278e4613b42dab6780","output":"VERDICT broken","prompt_fp":"43106a6765152dbf846156b231afa77903bb2ffb21850d4610ea2b09f370c35d"}
+{"call_id":"0e8acb324292dd26181f884b0a6487c90cf7f4ef95ec320a52e553eb4ab37db9","output":"VERDICT broken","prompt_fp":"6f13a248c416cc1d1eecbef620bd73958bb8dd640d12c4e5a2f85394a799513a"}
+{"call_id":"7b6ffa1029b68c1e076cabd87e28733ebe614fe9c4f353870f112bdbc8646984","output":"VERDICT broken","prompt_fp":"8403d50dbab91f3597f0dfef6bf03da0ffb442c542461adb9f0142f1e405f311"}
+{"call_id":"d8b0fe7324a833608150786c82e85691418ae6ffe9c3e7b9e4897a58e2c8939f","output":"VERDICT kept","prompt_fp":"1a316ac243cfb7c0982e88745e95ce51df60c509cb0eec59a1ffe0ad86fff564"}
+{"call_id":"66e2eba7d31e117567165d366c8a7c801fab6b211abc8303784f5179a9d8d3e2","output":"VERDICT kept","prompt_fp":"a5a945f9cd9854c1f27dff9f1b3f3ae23be43e217280ea9157660546db62e468"}
+{"call_id":"e8f1516a53b564c9940121e9ed1a93df2373f54c12d167d44e1450f5dd5419c9","output":"VERDICT kept","prompt_fp":"adf6a573e191171aaa7365bb3d2c0909d847871e000294409147c817b3755263"}
+{"call_id":"e20be9821281f761dc4f3384ad8cc5012113a9e8615d91182e6e508af91b7162","output":"VERDICT kept","prompt_fp":"187614bba6cd4ec671eb33142542ae671b92260c5e8f90a360ef5d477c9071b5"}
+{"call_id":"089dcde8974971c0e3fb76782d4aeadcd5755eb8ebb1bc591f04742bdd71bad9","output":"VERDICT broken","prompt_fp":"9795cd3a0f5a67bfe0f1c22f602a83306ee018df90845133326762b2743a22f3"}
+{"call_id":"110e3bb70e6a928e05b50d5c69351b327cfd4be96c5a6b4d4979f7199e68fac4","output":"LEVEL very low","prompt_fp":"13a5484bf4df51fb7dcfcb3bd961d4042278bb914a5b134b00c36b38993bbc71"}
+{"call_id":"f8ef089f3f0dadcbfeddd7ba5f2171396befc47140598d29b0f98c590d9ec0a3","output":"VERDICT kept","prompt_fp":"b2cb3ba10a6370bc5942aaa98013068274ce49e6d2fef2178159d3dbb9344b1e"}
+{"call_id":"db65d428b952fca44f4058b0eebdc13ad879790121ed2ec321c98cd8199f7a50","output":"VERDICT kept","prompt_fp":"f0cbb00c440c0ef4e37ac15ce2f0d38ae7c2ffc72a46df456b4d0026b0244a13"}
+{"call_id":"51823b43bec4416b839a1a5251626a0f92e926c751a082b5c1fc6269dd02ce4a","output":"VERDICT kept","prompt_fp":"d3e59783bafe7cca8443985d033da0b9e6200692df4c6b3b0f17e26f690cb943"}
+{"call_id":"3521c70396651fcc8608bcbe872ff2e7e12fd6ca14b0049ac3f6b9832ee4492a","output":"LEVEL very low","prompt_fp":"dcf0200b938a10370ddfc322838786e72cd2ff9528caa1365f036eac1ab60856"}
+{"call_id":"86fe6b01603907f7206423600f0b041fa97c90a4ebada4a0454f49bc9de645be","output":"VERDICT kept","prompt_fp":"bc96b35250f4d13b3c6ea794fc6cb527afea2bea45b0e570fb0094afb57df404"}

@@ -1,0 +1,13 @@
+=== 2026-11-15 13:39:58 start exp1 hidden part (try 1)
+round 1: pending steps 0, methods 323, judge 0
+  answered 323 (methods 323), failed 0; tokens in 646 (plus 1115932 cached), out 133150
+    claude-sonnet-5-5: in 646, cached 1115932, out 133150; cost field 5.7965
+    (cost field: the program's own estimate; nothing is charged on a subscription)
+  refused at import: 0
+finished after 1 rounds. Nothing is missing. Results: runs/night_e1/scores.json (not shown here)
+=== 2026-11-15 13:42:56 end exp1 hidden part exit 0
+=== 2026-11-15 13:42:56 start exp1 score (try 1)
+ai: live; answers fingerprint: fb09b20f8839146353a3891f3caa81b1d59d6fd6c60897a6bf707cc1f6f897d6; levels from: reader_first
+predictions filed: yes; scorer equals the filed one: yes
+=== 2026-11-15 13:42:57 end exp1 score exit 0
+=== 2026-11-15 13:42:57 DONE e1

@@ -1,0 +1,90 @@
+{"item_id":"0ad3797dec654c47","level":"high","rule":4,"verdict":"kept","visit_id":"q0001"}
+{"item_id":"0ad3797dec654c47","level":"high","rule":5,"verdict":"kept","visit_id":"q0001"}
+{"item_id":"0ad3797dec654c47","level":"high","rule":6,"verdict":"kept","visit_id":"q0001"}
+{"item_id":"f98eaebb291df326","level":"high","rule":4,"verdict":"kept","visit_id":"q0001"}
+{"item_id":"f98eaebb291df326","level":"high","rule":5,"verdict":"kept","visit_id":"q0001"}
+{"item_id":"f98eaebb291df326","level":"high","rule":6,"verdict":"kept","visit_id":"q0001"}
+{"item_id":"84e3a848c2776956","level":"high","rule":4,"verdict":"kept","visit_id":"q0001"}
+{"item_id":"84e3a848c2776956","level":"high","rule":5,"verdict":"kept","visit_id":"q0001"}
+{"item_id":"84e3a848c2776956","level":"high","rule":6,"verdict":"kept","visit_id":"q0001"}
+{"item_id":"6d090de50d059e01","level":"very low","rule":4,"verdict":"kept","visit_id":"q0016"}
+{"item_id":"6d090de50d059e01","level":"very low","rule":5,"verdict":"kept","visit_id":"q0016"}
+{"item_id":"6d090de50d059e01","level":"very low","rule":6,"verdict":"kept","visit_id":"q0016"}
+{"item_id":"aece0463ee5c39e1","level":"very low","rule":4,"verdict":"kept","visit_id":"q0016"}
+{"item_id":"aece0463ee5c39e1","level":"very low","rule":5,"verdict":"kept","visit_id":"q0016"}
+{"item_id":"aece0463ee5c39e1","level":"very low","rule":6,"verdict":"kept","visit_id":"q0016"}
+{"item_id":"30dc13d7ad244aac","level":"very low","rule":4,"verdict":"kept","visit_id":"q0016"}
+{"item_id":"30dc13d7ad244aac","level":"very low","rule":5,"verdict":"kept","visit_id":"q0016"}
+{"item_id":"30dc13d7ad244aac","level":"very low","rule":6,"verdict":"kept","visit_id":"q0016"}
+{"item_id":"e3f1e22d2079670f","level":"low","rule":4,"verdict":"kept","visit_id":"q0021"}
+{"item_id":"e3f1e22d2079670f","level":"low","rule":5,"verdict":"kept","visit_id":"q0021"}
+{"item_id":"e3f1e22d2079670f","level":"low","rule":6,"verdict":"kept","visit_id":"q0021"}
+{"item_id":"eef0499453e9a432","level":"low","rule":4,"verdict":"kept","visit_id":"q0021"}
+{"item_id":"eef0499453e9a432","level":"low","rule":5,"verdict":"kept","visit_id":"q0021"}
+{"item_id":"eef0499453e9a432","level":"low","rule":6,"verdict":"kept","visit_id":"q0021"}
+{"item_id":"89fcf98f0b8cdb4f","level":"high","rule":4,"verdict":"kept","visit_id":"q0021"}
+{"item_id":"89fcf98f0b8cdb4f","level":"high","rule":5,"verdict":"broken","visit_id":"q0021"}
+{"item_id":"89fcf98f0b8cdb4f","level":"high","rule":6,"verdict":"kept","visit_id":"q0021"}
+{"item_id":"8d45d9e51719a90a","level":"low","rule":4,"verdict":"kept","visit_id":"q0025"}
+{"item_id":"8d45d9e51719a90a","level":"low","rule":5,"verdict":"kept","visit_id":"q0025"}
+{"item_id":"8d45d9e51719a90a","level":"low","rule":6,"verdict":"kept","visit_id":"q0025"}
+{"item_id":"0a5045f38f1663b3","level":"low","rule":4,"verdict":"kept","visit_id":"q0025"}
+{"item_id":"0a5045f38f1663b3","level":"low","rule":5,"verdict":"kept","visit_id":"q0025"}
+{"item_id":"0a5045f38f1663b3","level":"low","rule":6,"verdict":"kept","visit_id":"q0025"}
+{"item_id":"61dbbb564904bcd0","level":"low","rule":4,"verdict":"kept","visit_id":"q0025"}
+{"item_id":"61dbbb564904bcd0","level":"low","rule":5,"verdict":"kept","visit_id":"q0025"}
+{"item_id":"61dbbb564904bcd0","level":"low","rule":6,"verdict":"kept","visit_id":"q0025"}
+{"item_id":"deb97313fa126623","level":"moderate","rule":4,"verdict":"kept","visit_id":"q0033"}
+{"item_id":"deb97313fa126623","level":"moderate","rule":5,"verdict":"kept","visit_id":"q0033"}
+{"item_id":"deb97313fa126623","level":"moderate","rule":6,"verdict":"kept","visit_id":"q0033"}
+{"item_id":"962b081f88857de6","level":"moderate","rule":4,"verdict":"broken","visit_id":"q0033"}
+{"item_id":"962b081f88857de6","level":"moderate","rule":5,"verdict":"kept","visit_id":"q0033"}
+{"item_id":"962b081f88857de6","level":"moderate","rule":6,"verdict":"kept","visit_id":"q0033"}
+{"item_id":"6475864bcc8b02ca","level":"moderate","rule":4,"verdict":"broken","visit_id":"q0033"}
+{"item_id":"6475864bcc8b02ca","level":"moderate","rule":5,"verdict":"kept","visit_id":"q0033"}
+{"item_id":"6475864bcc8b02ca","level":"moderate","rule":6,"verdict":"kept","visit_id":"q0033"}
+{"item_id":"04091e3f81e53b9b","level":"none","rule":4,"verdict":"kept","visit_id":"q0301"}
+{"item_id":"04091e3f81e53b9b","level":"none","rule":5,"verdict":"kept","visit_id":"q0301"}
+{"item_id":"04091e3f81e53b9b","level":"none","rule":6,"verdict":"kept","visit_id":"q0301"}
+{"item_id":"719d3644481f2d11","level":"high","rule":4,"verdict":"kept","visit_id":"q0301"}
+{"item_id":"719d3644481f2d11","level":"high","rule":5,"verdict":"broken","visit_id":"q0301"}
+{"item_id":"719d3644481f2d11","level":"high","rule":6,"verdict":"kept","visit_id":"q0301"}
+{"item_id":"ed8f02808f067537","level":"high","rule":4,"verdict":"kept","visit_id":"q0301"}
+{"item_id":"ed8f02808f067537","level":"high","rule":5,"verdict":"broken","visit_id":"q0301"}
+{"item_id":"ed8f02808f067537","level":"high","rule":6,"verdict":"broken","visit_id":"q0301"}
+{"item_id":"5cbc7629c7f3f2c7","level":"none","rule":4,"verdict":"kept","visit_id":"q0317"}
+{"item_id":"5cbc7629c7f3f2c7","level":"none","rule":5,"verdict":"kept","visit_id":"q0317"}
+{"item_id":"5cbc7629c7f3f2c7","level":"none","rule":6,"verdict":"kept","visit_id":"q0317"}
+{"item_id":"fe5e619bc3fd0bc2","level":"high","rule":4,"verdict":"kept","visit_id":"q0317"}
+{"item_id":"fe5e619bc3fd0bc2","level":"high","rule":5,"verdict":"broken","visit_id":"q0317"}
+{"item_id":"fe5e619bc3fd0bc2","level":"high","rule":6,"verdict":"kept","visit_id":"q0317"}
+{"item_id":"53101c57ac5d88e2","level":"high","rule":4,"verdict":"kept","visit_id":"q0317"}
+{"item_id":"53101c57ac5d88e2","level":"high","rule":5,"verdict":"broken","visit_id":"q0317"}
+{"item_id":"53101c57ac5d88e2","level":"high","rule":6,"verdict":"kept","visit_id":"q0317"}
+{"item_id":"073c18b5443ed94c","level":"none","rule":4,"verdict":"kept","visit_id":"q0322"}
+{"item_id":"073c18b5443ed94c","level":"none","rule":5,"verdict":"kept","visit_id":"q0322"}
+{"item_id":"073c18b5443ed94c","level":"none","rule":6,"verdict":"kept","visit_id":"q0322"}
+{"item_id":"6bf3dc53516cb7ec","level":"high","rule":4,"verdict":"kept","visit_id":"q0322"}
+{"item_id":"6bf3dc53516cb7ec","level":"high","rule":5,"verdict":"broken","visit_id":"q0322"}
+{"item_id":"6bf3dc53516cb7ec","level":"high","rule":6,"verdict":"kept","visit_id":"q0322"}
+{"item_id":"ea16740855f96969","level":"high","rule":4,"verdict":"kept","visit_id":"q0322"}
+{"item_id":"ea16740855f96969","level":"high","rule":5,"verdict":"broken","visit_id":"q0322"}
+{"item_id":"ea16740855f96969","level":"high","rule":6,"verdict":"kept","visit_id":"q0322"}
+{"item_id":"82169675a16afa88","level":"low","rule":4,"verdict":"kept","visit_id":"q0025+twin"}
+{"item_id":"82169675a16afa88","level":"low","rule":5,"verdict":"kept","visit_id":"q0025+twin"}
+{"item_id":"82169675a16afa88","level":"low","rule":6,"verdict":"kept","visit_id":"q0025+twin"}
+{"item_id":"13cfa9778d263ea6","level":"low","rule":4,"verdict":"kept","visit_id":"q0025+twin"}
+{"item_id":"13cfa9778d263ea6","level":"low","rule":5,"verdict":"kept","visit_id":"q0025+twin"}
+{"item_id":"13cfa9778d263ea6","level":"low","rule":6,"verdict":"kept","visit_id":"q0025+twin"}
+{"item_id":"1303d2ed9834521b","level":"low","rule":4,"verdict":"kept","visit_id":"q0025+twin"}
+{"item_id":"1303d2ed9834521b","level":"low","rule":5,"verdict":"kept","visit_id":"q0025+twin"}
+{"item_id":"1303d2ed9834521b","level":"low","rule":6,"verdict":"kept","visit_id":"q0025+twin"}
+{"item_id":"8979700975a11507","level":"none","rule":4,"verdict":"kept","visit_id":"q0301+twin"}
+{"item_id":"8979700975a11507","level":"none","rule":5,"verdict":"kept","visit_id":"q0301+twin"}
+{"item_id":"8979700975a11507","level":"none","rule":6,"verdict":"kept","visit_id":"q0301+twin"}
+{"item_id":"0dd72abefe97d529","level":"high","rule":4,"verdict":"kept","visit_id":"q0301+twin"}
+{"item_id":"0dd72abefe97d529","level":"high","rule":5,"verdict":"broken","visit_id":"q0301+twin"}
+{"item_id":"0dd72abefe97d529","level":"high","rule":6,"verdict":"kept","visit_id":"q0301+twin"}
+{"item_id":"28e25020608867bf","level":"high","rule":4,"verdict":"kept","visit_id":"q0301+twin"}
+{"item_id":"28e25020608867bf","level":"high","rule":5,"verdict":"broken","visit_id":"q0301+twin"}
+{"item_id":"28e25020608867bf","level":"high","rule":6,"verdict":"kept","visit_id":"q0301+twin"}

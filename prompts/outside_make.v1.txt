@@ -1,0 +1,7 @@
+Below are {{count}} separate texts. Each one stands between a line that reads like {{begin_example}} and a line that reads like {{end_example}}; the number changes from text to text.
+
+{{instruction}}
+
+Treat the texts one by one; they have nothing to do with each other. Reply with the rewritten texts only. Put each rewritten text between the same two lines that framed the original, with the same number, in the same order. Write nothing outside those lines.
+
+{{texts}}

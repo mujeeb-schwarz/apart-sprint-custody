@@ -1,0 +1,40 @@
+Fri Nov 13 23:33:04 PST 2026
+stage 'e1 clean', attempt 1 of 4
+        (cost field: the program's own estimate; nothing is charged on a subscription)
+      refused at import: 0
+    finished after 2 rounds. Nothing is missing. Results: runs/night_e1/scores.json (not shown here)
+  exit code 0
+stage 'e1 complete list', attempt 1 of 1
+    complete list: 82 variants, 3 cases each, 246 planted units and 124 clean twins under 3 methods, into runs/complete_e1
+    kinds by method: 27 cells, 0 of them that no violation reached; written to runs/complete_e1/complete_list.json
+  exit code 0
+stage 'e1 planted', attempt 1 of 4
+        (cost field: the program's own estimate; nothing is charged on a subscription)
+        failures by reason: other 4
+    stopped: this round answered nothing (2 calls failed). Nothing was imported.
+  exit code 1
+the night stopped at stage 'e1 planted'. Start the same command again to go on from there.
+Sat Nov 14 02:03:42 PST 2026
+stage 'e1 clean': done earlier, skipped
+stage 'e1 complete list': done earlier, skipped
+stage 'e1 planted', attempt 1 of 4
+        (cost field: the program's own estimate; nothing is charged on a subscription)
+      refused at import: 0
+    finished after 1 rounds. Nothing is missing. Results: runs/night_e1/scores.json (not shown here)
+  exit code 0
+stage 'e1 kept copy', attempt 1 of 4
+        (cost field: the program's own estimate; nothing is charged on a subscription)
+      refused at import: 0
+    finished after 1 rounds. Nothing is missing. Results: runs/night_e1/scores.json (not shown here)
+  exit code 0
+stage 'e2 clean', attempt 1 of 4
+stage 'e1 clean': done earlier, skipped
+stage 'e1 complete list': done earlier, skipped
+stage 'e1 planted': done earlier, skipped
+stage 'e1 kept copy': done earlier, skipped
+stage 'e2 clean', attempt 1 of 4
+        failures by reason: other 1
+      refused at import: 0
+    finished after 4 rounds. Nothing is missing. Results: runs/night_e2/scores.json (not shown here)
+  exit code 0
+the night is finished: 5 of 5 stages done

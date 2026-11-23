@@ -1,0 +1,426 @@
+{
+ "counts": {
+  "4": {
+   "source_removed": {
+    "confirmed": 54,
+    "dropped": 6,
+    "made": 60,
+    "not_asked": 0
+   },
+   "source_wrong": {
+    "confirmed": 8,
+    "dropped": 52,
+    "made": 60,
+    "not_asked": 0
+   }
+  },
+  "5": {
+   "less_certain": {
+    "confirmed": 44,
+    "dropped": 1,
+    "made": 45,
+    "not_asked": 0
+   },
+   "more_certain": {
+    "confirmed": 73,
+    "dropped": 2,
+    "made": 75,
+    "not_asked": 0
+   }
+  },
+  "6": {
+   "mark_removed": {
+    "confirmed": 58,
+    "dropped": 2,
+    "made": 60,
+    "not_asked": 0
+   },
+   "mark_replaced": {
+    "confirmed": 60,
+    "dropped": 0,
+    "made": 60,
+    "not_asked": 0
+   }
+  }
+ },
+ "dropped": [
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-002",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-004",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-006",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_removed",
+   "plant_id": "P4-007",
+   "reason": "the rest of the text changed too much (0.73 alike)",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-008",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-010",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-012",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-014",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-016",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-018",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-020",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-022",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-024",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-026",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-028",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-030",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-032",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-034",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-036",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_removed",
+   "plant_id": "P4-037",
+   "reason": "the rest of the text changed too much (0.74 alike)",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-038",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-040",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-042",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-044",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-046",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-048",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_removed",
+   "plant_id": "P4-053",
+   "reason": "the rest of the text changed too much (0.78 alike)",
+   "rule": 4
+  },
+  {
+   "kind": "source_removed",
+   "plant_id": "P4-063",
+   "reason": "the rest of the text changed too much (0.72 alike)",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-066",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-068",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-070",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-072",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-074",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-076",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-078",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-080",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-082",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-084",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-086",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-088",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_removed",
+   "plant_id": "P4-089",
+   "reason": "the rest of the text changed too much (0.69 alike)",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-090",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-092",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-094",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-096",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_removed",
+   "plant_id": "P4-097",
+   "reason": "the rest of the text changed too much (0.62 alike)",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-098",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-100",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-102",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-104",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-106",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-108",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-110",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-112",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-114",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-116",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-118",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "source_wrong",
+   "plant_id": "P4-120",
+   "reason": "no source-like id is named",
+   "rule": 4
+  },
+  {
+   "kind": "less_certain",
+   "plant_id": "P5-006",
+   "reason": "the outside model did not read the direction asked",
+   "rule": 5
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-074",
+   "reason": "the outside model did not read the direction asked",
+   "rule": 5
+  },
+  {
+   "kind": "more_certain",
+   "plant_id": "P5-112",
+   "reason": "the outside model did not read the direction asked",
+   "rule": 5
+  },
+  {
+   "kind": "mark_removed",
+   "plant_id": "P6-011",
+   "reason": "the rest of the text changed too much (0.54 alike)",
+   "rule": 6
+  },
+  {
+   "kind": "mark_removed",
+   "plant_id": "P6-013",
+   "reason": "the rest of the text changed too much (0.48 alike)",
+   "rule": 6
+  }
+ ]
+}
